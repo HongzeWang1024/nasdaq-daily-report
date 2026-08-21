@@ -1,6 +1,1119 @@
 {
- "updated": "2026-08-21",
+ "updated": "2026-08-22",
  "articles": [
+  {
+   "date": "2026-08-22",
+   "title": "量化 | 多资产 ETF 轮动策略：固收+视角下动态组合管理的构建与实践",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/ovQQHSCyrnvsjLO23PDCdQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "ETF轮动",
+    "固收+",
+    "量化策略"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.22
+   },
+   "summary": "固收+视角多资产ETF轮动策略：趋势质量识别+市场状态划分+HRP风险平价，2019-2026年化20.74%/回撤10.13%，信号T日收盘生成、T+1开盘执行，相位错峰+迟滞换仓+防守仓承接机制可与CTA体系互鉴。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "机构行为 | 交易盘不退场，债牛不散场",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/7gHXcErRS6yPulDkTXmNJg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "超长债",
+    "机构行为",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.02
+   },
+   "summary": "7月超长债行情机构图谱：券商是第一驱动力（连续3月净买30Y）、基金第二，保险向50Y延伸、对20-30Y承接有限；8月核心观察基金券商净买入延续性，30Y仍有向2.15%试探条件但交易盘止盈是非线性风险。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收·利率】中外PMI分化下的债券利率背离",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/QRAjsNzYMYewAfVTTAz1JA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "全球宏观",
+    "资本开支"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.88
+   },
+   "summary": "全球资本开支分化（美+47%/日+43%/欧+13%/中-6%）主导中外利率背离：AI资本开支推升美欧日利率，中国融资需求偏弱+货币放松或加快，建议配置中国长端利率债、30-10利差压缩。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "A股去杠杆到哪一步？| 建投宏观 · 周君芝团队",
+   "author": "中信建投宏观",
+   "url": "https://mp.weixin.qq.com/s/7uRx7vpiGQGNqTKaSK6iMA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "A股流动性",
+    "杠杆资金"
+   ],
+   "etf_sentiment": {
+    "510300": "中性",
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 3.78
+   },
+   "summary": "本轮调整是全球科技交易共振逆转下的拥挤度再平衡而非资产负债表全面收缩；显性杠杆去化压力最大时期已过（两融3万亿→2.7万亿、占比8.7%），去杠杆进入后半程、风险可控，观察融资卖出收敛与海外AI企稳两点。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "迎接美元流动性宽松叙事 | 建投宏观 · 周君芝团队",
+   "author": "中信建投宏观",
+   "url": "https://mp.weixin.qq.com/s/XE25SQfp6qrJKPvy5e5YcA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美元流动性",
+    "美联储",
+    "大类资产"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "518880": "多",
+    "512400": "中性",
+    "513100": "多"
+   },
+   "scores": {
+    "total": 3.75
+   },
+   "summary": "非农-2.3万挑破联储困境、加息定价退坡，全球迎宽松流动性定价；中长期主线科技博弈当下联储易松难紧，10Y美债年底看4.4%，A股聚焦AI上游半导体设备/工业金属/出海高端制造，黄金上行空间待CPI确认。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收·债市调查】股市回调后，债券利率会下行突破么？——中金债券市场调查2026年7月期",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/lmF18kcBGLNSoHXgYyJh6Q",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "债市调查",
+    "机构行为",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "42份问卷显示避险升温、久期偏好明显回暖（延长久期成首选29%），降息预期10-20bp增强；货币宽松落地后或迎踏空回补行情、利率下行提速，但多空分歧同步加大。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "六张网的政策深意：科技和民生 | 中信建投宏观·周君芝团队",
+   "author": "中信建投宏观",
+   "url": "https://mp.weixin.qq.com/s/yRtrb7ECI66FOw_Kda_jRA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "政策解读",
+    "AI基建"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.48
+   },
+   "summary": "六张网十五五投资或达25万亿（2026年超7万亿），AI相关三网超11万亿、算力网4万亿，映射科技竞争与民生兜底双重政策主线，算力网为民间投资核心赛道。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "美债为什么跌？",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/ETi6cHSEHYpXNIp10yJ7Wg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美债",
+    "全球宏观"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.45
+   },
+   "summary": "美债长端承压三因素：油价冲高推升通胀预期+AI驱动发债放量（7月2440亿美元vs去年全年1080亿）+日元贬值潜在抛压（FIMA工具部分切断）；中债定价独立、海外扰动偏短期。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "关键点位突破后，做多是高胜率方向",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/w7sY11yoPtpgFKD7qNn8Uw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "机构行为"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.45
+   },
+   "summary": "10Y破1.70关口确认趋势行情、资产荒是最核心支撑，保险净买600亿vs大行转卖341亿，第一目标位30Y 2.15%（与昨日日报详读同系列前篇，此后已兑现）。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "买方观点：债市看多者大幅提升至六成",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/-5FMlzsPTk8YveziXMwgqg",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "债市情绪",
+    "机构观点"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 3.45
+   },
+   "summary": "22家买方14家看多（64%）、情绪明显回暖，债市从单边做多转向区间震荡+票息波段；A股底部托底明确、中长期偏积极，黄金中性偏多。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "配置 | 市场或进入相对平稳期",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/EOkGk38TQ_0MMSmNm2IjJQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "大类资产",
+    "美联储"
+   ],
+   "etf_sentiment": {
+    "518880": "中性",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 3.35
+   },
+   "summary": "中期选举前特朗普有抑制美债收益率走高的内在动机、沃什明鹰实鸽遭质疑，市场或迎平稳期：权益或企稳修复、债市仍乐观、黄金短线追高有风险。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "信用 | 8月核心关注哪些方面？",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/JWy-TcFhmmWsE6Ixu4Fa7Q",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债",
+    "城投"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.32
+   },
+   "summary": "8月是配置小月、信用整体中性偏谨慎：增配金融平配普信，城投发行收紧下协会债余额限制或压降约4000亿、2年内品种稀缺性提升。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收】通胀回落，货币政策趋于放松——7月通胀数据点评",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/tSznzpZ21napADLdNhHvdw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "通胀",
+    "货币政策"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "PPI同比6月4.1%见顶回落、10月后下行加快，通胀对货币政策约束减弱，央行放松可能加快、债券收益率有望进一步下行。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "港股是反弹还是反转？| 建投宏观 · 周君芝团队",
+   "author": "中信建投宏观",
+   "url": "https://mp.weixin.qq.com/s/D0XgfpkLipxpFA-OkWYpDg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "港股",
+    "美元流动性"
+   ],
+   "etf_sentiment": {
+    "513050": "中性"
+   },
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "港股反弹是全球AI硬件行情镜像+极致压抑因素缓和，跨过盈利改善与美元流动性松弛两大门槛前仍是超跌估值修复而非趋势反转。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "当前债市情绪面怎么看？",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/N8mM0j8UD3GAhixeX2W5uQ",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "债市情绪",
+    "利率债",
+    "机构行为"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.18
+   },
+   "summary": "政治局会议适时调整被解读为预留降准降息空间、利空出尽逻辑主导，50Y亮眼、大行回补长端577亿；7月PMI 49.2%重回荣枯线下验证弱现实。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "金融债 | 二永债的“交易化”变局",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/0RW-d5JV5fb9XlxDLH5KRQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "二永债",
+    "金融债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.17
+   },
+   "summary": "二永债交易化加深：7-10年成交易盘新宠、成交久期4.04年创近年新高，拥挤交易反转概率上升，建议从进攻拉久期转向防御性降久期。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "透视26Q2固收+：增含权、拉久期",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/38UfTF6ITOtn0bBjFExn0w",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "固收+",
+    "基金持仓"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.15
+   },
+   "summary": "Q2固收+规模4.8万亿（+6519亿）、久期2.3年为去年Q2后首次拉久期，大幅增持国债（17%→21%）、减持政金债与信用债。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "科技之外可以关注什么 | 建投宏观 · 周君芝团队",
+   "author": "中信建投宏观",
+   "url": "https://mp.weixin.qq.com/s/7SfN1f6qXkaRNGmhG2Zexw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "资源品",
+    "大类资产"
+   ],
+   "etf_sentiment": {
+    "512400": "多"
+   },
+   "scores": {
+    "total": 3.12
+   },
+   "summary": "全球处供给侧主导的超级周期、科技之外关注资源品；内需因财政克制以稳为主、难有大行情（与昨日日报详读《科技之外哪些板块值得关注》同系列前篇）。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "美联储议息会议解析：让市场自己加息",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/CkG8nJxbuNxq6BvT93C2nQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "美债"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 3.12
+   },
+   "summary": "沃什以鹰派口头引导实现市场自己加息（2Y美债+81bp而政策未动），三名2026年轮值票委投加息反对票、明年即失投票权故敢言。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "量化 | 海外因素驱动增强，利率多头结构稳定",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/QzBM81Wa48gse5lwzGCpdw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "量化"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.05
+   },
+   "summary": "PCA显示曲线定价进一步向海外因素集中（能源与黄金解释力上升），利率择时维持入场但短期动能放缓，三十债趋势信号强于十债，行情偏向震荡整固。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "回升期，转债如何配",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/dDMzT-ErXJViz07CidGVXw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "转债",
+    "小盘风格"
+   ],
+   "etf_sentiment": {
+    "512100": "多"
+   },
+   "scores": {
+    "total": 3.05
+   },
+   "summary": "大盘领先小盘幅度接近20%极限、小盘相对回暖是转债主要矛盾，仓位保持克制、在中平价层寻找折衷选项。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "量化 | 曲线定价分化：中枢看海外，斜率看流动性",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/DVMFPNGOWRNfBJ7xRm3eAA",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "量化"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.05
+   },
+   "summary": "曲线中枢受海外锚约束、斜率重新由国内流动性驱动（M1/M2进入高相关区），十债三十债日频复合策略升至6/8、多头跨期限共振。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收】财政落实存量政策，货币推动增量政策，债牛加速——2026年7月政治局经济会议点评",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/ZCOnR6u-9f7XTLmzoOX_3A",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "政策解读",
+    "利率债",
+    "货币政策"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.05
+   },
+   "summary": "政治局会议政策定调积极：财政重在存量执行、下半年增量在货币，放松节奏或加快、债牛加速。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "流动性 | 同业存单一级市场放量见顶的规律失效了吗",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/WT_tLSWAZd0tz71lGme6RQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "流动性",
+    "同业存单"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.02
+   },
+   "summary": "同业存单一级募集放量是收益率见顶信号（供给方逻辑），大行重启5年期大额存单印证核心超储偏低，降准前或延续温和提价放量。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收·信用】短期理财规模增长或受限",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/WbSB3BnZbW9kwxtw49l1pA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债",
+    "理财"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.02
+   },
+   "summary": "监管整改或抑制理财规模增长、摊余债基开放期规模下降，短期信用债需求边际减弱，信用利差低位或边际走扩，建议3年非金融信用债+二永适度跟随利率。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "从光芯片、光模块个股涨幅看资金的思路",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/2tpPeN5QYa1OXLDt_5M6nA",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "光模块",
+    "半导体"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 2.93
+   },
+   "summary": "FCC禁令传闻压制模块权重股，资金转向光芯片上游卡脖子环节（高纯铟镓锗/电子特气/MOCVD），仕佳光子等上游个股涨幅居前。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收】出口增速及顺差高位边际回落，传统商品出口仍待提振——7月贸易数据分析",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/XOkTn75rAxCymkpKzHFNyw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "外贸",
+    "宏观经济"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.88
+   },
+   "summary": "7月出口+23.9%高位回落、顺差1125亿美元，半导体链领跑而一般商品出口明显放缓，6月一般贸易高增或系地缘缓和期的短暂现象。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收·信用】二季度理财和债基规模均高增，理财增持基金，债基信用债持仓占比下降久期拉长",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/75JiWJDLxT4PioL-vQklSQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "理财",
+    "基金持仓"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.88
+   },
+   "summary": "Q2理财和债基规模均高增，理财增持基金、债基信用债持仓占比下降而久期拉长，机构配置行为季度画像。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "科技产业变革如何推进？| 建投宏观 · 周君芝团队",
+   "author": "中信建投宏观",
+   "url": "https://mp.weixin.qq.com/s/3f_8SIPXqaPS_McPhIvzGQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "AI产业",
+    "科技周期"
+   ],
+   "etf_sentiment": {
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 2.77
+   },
+   "summary": "对照信息技术革命三阶段（PC/互联网/移动互联），AI尚处基建与应用探索并行的早期阶段，关键看普及率/使用频次/单位成本/付费意愿能否上台阶。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "重要会议后市场怎么看",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/bkuTk6GG8ABjDLdga-_0fQ",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "超长债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 2.77
+   },
+   "summary": "FOMC与政治局双会议重在后续做了什么，债市氛围乐观下更看好超长债利差进一步压降。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "辩证看待债基久期升高",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/hHv_GoxI8U4C0yBeAETm1Q",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "基金持仓",
+    "利率债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.75
+   },
+   "summary": "债基久期升高但结构分化，交易盘主导下需区分配置型与工具型产品的久期含义。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收·利率】港交所中国国债期货上线，衍生品对外开放再下一城",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/Q8g949hjFPBoXgjmU41MBw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "利率衍生品",
+    "债市开放"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.75
+   },
+   "summary": "港交所8月3日时隔9年重启5年期中国国债期货（现金交割），境外利率对冲工具箱补全、助力人民币国际化与境外资金扩容。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "问卷点评 | 8月债市怎么看？",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/T_R3a3_ue4yAis0ep98UiQ",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "债市调查",
+    "利率债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.62
+   },
+   "summary": "债市问卷情绪偏多但分歧加大（与中金7月债市调查同题，样本与口径不同）。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收·信用】城投债券融资监管或加强——7月城投债券月报",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/U4QlfS7ay7jaqHWyem5OyQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "城投",
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.6
+   },
+   "summary": "城投发行审核趋严、净融资收缩，名单主体协会债余额限制落地，强弱资质城投进一步分化。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "利空对通信的压力测试已经结束",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/KoZh2AP2APH3Cy83Lf-58Q",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "光模块"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.35
+   },
+   "summary": "用AR过程PACF框架解读利空影响当日衰减，光模块利空压力测试已结束（判断已被后续行情消化）。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "流动性 | 关注同业存单的投资价值",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/_b6Yy_ks4RsUNXGwFpoD2Q",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "流动性",
+    "同业存单"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.33
+   },
+   "summary": "存单性价比提升的前期观察（与8/9同业存单一级放量篇同系列前篇，观点已被覆盖）。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "机构观点：特朗普政府加速推进关税政策“重建”",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/yAQ05FvXNX989NRwnnalpA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "关税",
+    "贸易政策"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.18
+   },
+   "summary": "特朗普关税政策观察，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "日本央行按息不动，美日联手支持日元，但长期看没啥卵用",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/E7KjbpveprAQb4yl5shpgg",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "日元",
+    "汇率"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.05
+   },
+   "summary": "日央行议息与汇率干预评论，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "日本财政部出手干预汇率，无法扭转长期贬值趋势",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/aworV6DCiURvSbuolyHAsQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "日元",
+    "汇率"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.05
+   },
+   "summary": "日本汇率干预评论，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收·信用】中国短期融资券及中期票据信用分析周报260812",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/BL29NlXhQHzGanU9rkFhjA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.02
+   },
+   "summary": "短融中票信用分析常规周报，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金·REITs】多方努力夯实投资价值——REITs 周报（8.3-8.7）",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/mMMn23qZabWTaZh_yswWIg",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "REITs"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.02
+   },
+   "summary": "REITs常规周报，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收·信用】中国信用债评级调整周报260810",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/4l68VSN2E7y4uTtMqjHYnw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.02
+   },
+   "summary": "评级调整常规周报，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收·信用】中国公司债及企业债信用分析周报260806",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/qIPBfHOw4Seuxm_AybiyYw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.02
+   },
+   "summary": "公司债企业债信用分析常规周报，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金·ABS】资产边界重新划线——ABS 7月月报",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/MxfvKps01HWKJYbTBLaEGw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "ABS"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.02
+   },
+   "summary": "ABS月报，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收·信用】利差低位震荡，聚焦票息价值——2026年7月行业利差跟踪",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/-aVGxWNA4w0zJSDTX3PbfA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.02
+   },
+   "summary": "行业利差月度跟踪，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收·信用】7月境外债月报：美伊冲突反复、美联储暂不加息",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/wM5Kd_zrZSTm7Km0lr0gew",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "境外债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.02
+   },
+   "summary": "境外债月报，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收·信用】中国短期融资券及中期票据信用分析周报260805",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/v6Kd6Iqsk0uVOfzTfqPZkg",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.02
+   },
+   "summary": "短融中票信用分析常规周报，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金·REITs】估值比价压力缓解，优化结构静待催化——公募REITs月报（2026-7）",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/ZnxUZM5j2G8juN_VgIGtoA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "REITs"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.02
+   },
+   "summary": "REITs月报，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收·信用】中国信用债评级调整周报260803",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/e5q8oYjK_bAcBgH3dfxWZA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.02
+   },
+   "summary": "评级调整常规周报，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收·信用】信用债延续震荡，等待交易机会",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/OCYQgWTdFzoOGssK17ppfQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.02
+   },
+   "summary": "信用债周度观察，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "哪些区域及发行人利差明显走阔？",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/CxQTgXvzpteIXa6n127qyg",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债",
+    "城投"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.02
+   },
+   "summary": "区域利差跟踪，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【中金固收·信用】中国公司债及企业债信用分析周报",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/NOKQ_1DQwlZ1dVb81vAwjQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.02
+   },
+   "summary": "公司债企业债信用分析常规周报，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "日本人应该赶紧抛弃日元！",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/aO4V7YjfY1To18HuCqwLKw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "日元",
+    "汇率"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.93
+   },
+   "summary": "日元贬值趋势个人评论，时效已过。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "8月债市怎么看？| 市场调查问卷20260730",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/twANdH90D9Qhji-WPGHCIA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "债市调查"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.93
+   },
+   "summary": "市场调查问卷发布预告（与后续问卷点评同题更早篇）。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "有人为了反制造谣者，故意造了个“利好谣言”",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/X52A5DJ0jQqW2SPJJ9yHDA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "市场情绪"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.72
+   },
+   "summary": "对市场中谣言现象的个人评论，无增量信息。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "谣言已经成了股市的公害",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/bbHjiG71WBUx6l2hMxzqhQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "市场情绪"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.72
+   },
+   "summary": "市场谣言现象评论，无操作价值。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "某些量化真是股市的搅屎棍.........",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/c-lwdHE9_8GMaKYjlWuR0g",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "市场情绪"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.72
+   },
+   "summary": "量化交易情绪化评论，无操作价值。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "2026浙商固收大讲堂21讲即将开讲",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/nFzwG6RrkzwZno-32AeoJw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.15
+   },
+   "summary": "活动预告，无研报内容。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "会议邀请 | 新形势下信评变革 · 北京（8月7日）",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/E09oSuXkbZRKTww501GBLg",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.08
+   },
+   "summary": "会议邀请，无研报内容。",
+   "page": "research_20260822.html"
+  },
+  {
+   "date": "2026-08-22",
+   "title": "【方正固收】评级行业交流会 | 北京线下邀请（8月7日）",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/Svt6awotEifNH6X0YVjCRQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.08
+   },
+   "summary": "会议邀请，无研报内容。",
+   "page": "research_20260822.html"
+  },
   {
    "date": "2026-08-21",
    "title": "科技之外哪些板块值得关注 | 建投宏观",
