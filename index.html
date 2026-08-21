@@ -3,40 +3,49 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>纳斯达克量化日报 - 历史报告</title>
+<title>量化交易日报</title>
 <style>
-body { font-family: -apple-system, "Microsoft YaHei", sans-serif; max-width: 800px; margin: 0 auto; padding: 30px; background: #f5f5f5; }
-h1 { color: #d62728; border-bottom: 3px solid #d62728; padding-bottom: 10px; }
-ul { list-style: none; padding: 0; }
-li { background: white; margin: 8px 0; padding: 15px 20px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: transform 0.2s; }
-li:hover { transform: translateX(5px); }
-a { color: #d62728; text-decoration: none; font-size: 1.1em; font-weight: bold; }
-a:hover { text-decoration: underline; }
-.today { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
-.today a { color: white; }
-.info { color: #666; font-size: 0.9em; margin-top: 20px; }
+body { font-family: -apple-system, "Microsoft YaHei", sans-serif; max-width: 900px; margin: 0 auto; padding: 40px 20px; background: #f5f5f5; }
+h1 { color: #333; border-bottom: 3px solid #333; padding-bottom: 12px; margin-bottom: 8px; }
+.subtitle { color: #666; font-size: 0.95em; margin-bottom: 30px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 20px; }
+.card { background: white; padding: 28px; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); transition: transform 0.2s, box-shadow 0.2s; }
+.card:hover { transform: translateY(-3px); box-shadow: 0 6px 16px rgba(0,0,0,0.12); }
+.card.nasdaq { border-top: 5px solid #d62728; }
+.card.research { border-top: 5px solid #6f42c1; }
+.card h2 { margin-top: 0; font-size: 1.4em; }
+.card.nasdaq h2 { color: #d62728; }
+.card.research h2 { color: #6f42c1; }
+.card .desc { color: #555; line-height: 1.65; font-size: 0.95em; min-height: 60px; }
+.card .meta { color: #888; font-size: 0.85em; margin-top: 14px; padding-top: 14px; border-top: 1px dashed #eee; }
+.card .btn { display: inline-block; margin-top: 16px; padding: 8px 18px; border-radius: 6px; color: white; text-decoration: none; font-weight: bold; }
+.card.nasdaq .btn { background: #d62728; }
+.card.research .btn { background: #6f42c1; }
+.card .btn:hover { opacity: 0.88; }
+.info { color: #666; font-size: 0.9em; margin-top: 30px; line-height: 1.7; }
 </style>
 </head>
 <body>
-<h1>纳斯达克量化日报</h1>
-<p>共 10 份历史报告</p>
-<ul>
-<li><a href="report_2026-08-20.html">2026-08-20</a> </li>
-<li><a href="report_2026-08-19.html">2026-08-19</a> </li>
-<li><a href="report_2026-08-18.html">2026-08-18</a> </li>
-<li><a href="report_2026-08-17.html">2026-08-17</a> </li>
-<li><a href="report_2026-08-14.html">2026-08-14</a> </li>
-<li><a href="report_2026-08-13.html">2026-08-13</a> </li>
-<li><a href="report_2026-08-12.html">2026-08-12</a> </li>
-<li><a href="report_2026-08-11.html">2026-08-11</a> </li>
-<li><a href="report_2026-08-10.html">2026-08-10</a> （今日）</li>
-<li><a href="report_2026-08-07.html">2026-08-07</a> </li>
-</ul>
+<h1>量化交易日报</h1>
+<p class="subtitle">美股纳指策略 + 公众号研报观点 · 每日自动更新</p>
+<div class="cards">
+<div class="card nasdaq">
+<h2>📊 纳斯达克量化日报</h2>
+<div class="desc">基于 NDX.GI 指数的择时策略实盘日报，包含主策略（融合1保守min）仓位信号、影子策略对比、实盘持仓、ETF/IOPV 溢价率与策略×范式热力图。</div>
+<div class="meta">已发布 11 份历史报告 · 北京时间 08:00 更新 · 周一至周五</div>
+<a class="btn" href="nasdaq.html">查看历史报告 →</a>
+</div>
+<div class="card research">
+<h2>📑 研报观点</h2>
+<div class="desc">18 个微信公众号研报的 AI 智能总结（券商固收/宏观团队为主），按 1-5 分重要性打分，4-5 分详读关联境内 ETF。</div>
+<div class="meta">已发布 1 期研报日报 · 每日 07:30 更新</div>
+<a class="btn" href="research/index.html">查看研报日报 →</a>
+</div>
+</div>
 <div class="info">
-<p>📌 点击日期查看当日完整报告（含净值曲线、三策略对比、近90日超额、年度热力图、实盘持仓饼图）</p>
-<p>📌 每日 08:00 自动更新（北京时间 周一至周五）</p>
-<p>📌 主策略：融合1保守min = min(M1仓位, M3仓位) | 影子监控：S46 / 融合2 / regime动态加权</p>
-<p>📌 2024-2026回测: 融合1超额+29.06% Sharpe1.51 DD20.53% 月胜率56.2% WF正4/5</p>
+<p>📌 数据源：NDX.GI指数（信号源）+ 513100.SH ETF（执行）+ CBOE-VIX + Choice/AkShare/BaoStock</p>
+<p>📌 推送：每日方糖微信推送（纳指日报 08:00 / 研报日报 07:30）</p>
+<p>📌 项目主页：<a href="https://github.com/hongzewang1024/nasdaq-daily-report" style="color:#666;">GitHub</a></p>
 </div>
 </body>
 </html>
