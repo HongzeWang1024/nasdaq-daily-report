@@ -3,32 +3,174 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>研报观点 - 历史日报</title>
+<title>研报观点 - 检索</title>
 <style>
-body { font-family: -apple-system, "Microsoft YaHei", sans-serif; max-width: 800px; margin: 0 auto; padding: 30px; background: #f5f5f5; }
+body { font-family: -apple-system, "Microsoft YaHei", sans-serif; max-width: 1100px; margin: 0 auto; padding: 30px 20px; background: #f5f5f5; }
 h1 { color: #6f42c1; border-bottom: 3px solid #6f42c1; padding-bottom: 10px; }
-ul { list-style: none; padding: 0; }
-li { background: white; margin: 8px 0; padding: 15px 20px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transition: transform 0.2s; }
-li:hover { transform: translateX(5px); }
-a { color: #6f42c1; text-decoration: none; font-size: 1.1em; font-weight: bold; }
+h2 { color: #333; border-left: 5px solid #6f42c1; padding-left: 10px; margin-top: 34px; }
+.filters { background: white; padding: 18px 20px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.filters input, .filters select { padding: 8px 10px; border: 1px solid #d0d0d0; border-radius: 6px; font-size: 0.95em; }
+.filters input[type=text] { flex: 1; min-width: 180px; }
+table.res { width: 100%; border-collapse: collapse; margin-top: 16px; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+table.res th { background: #6f42c1; color: white; padding: 10px 8px; font-size: 0.9em; }
+table.res td { padding: 9px 8px; border-bottom: 1px solid #eee; font-size: 0.92em; text-align: center; }
+table.res td.t { text-align: left; }
+table.res tr:hover td { background: #faf5ff; }
+a { color: #6f42c1; text-decoration: none; }
 a:hover { text-decoration: underline; }
-.info { color: #666; font-size: 0.9em; margin-top: 20px; }
-.back { margin-bottom: 20px; }
+.score { font-weight: bold; color: #d6336c; }
+.lv-detail { background: #ffeaa7; padding: 1px 8px; border-radius: 10px; font-size: 0.85em; }
+.lv-brief { background: #eee; padding: 1px 8px; border-radius: 10px; font-size: 0.85em; }
+.lv-archived { background: #f5f5f5; color: #999; padding: 1px 8px; border-radius: 10px; font-size: 0.85em; }
+table.cat { width: 100%; border-collapse: collapse; margin-top: 12px; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+table.cat th { background: #6f42c1; color: white; padding: 9px; }
+table.cat td { padding: 8px 10px; border-bottom: 1px solid #eee; font-size: 0.92em; text-align: center; }
+ul.days { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+ul.days li { background: white; padding: 8px 14px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); font-weight: bold; }
+.back { margin-bottom: 16px; }
 .back a { color: #6f42c1; text-decoration: none; font-weight: bold; }
+#count { color: #666; font-size: 0.9em; margin: 10px 2px; }
 </style>
 </head>
 <body>
 <p class="back"><a href="../index.html">← 返回主页</a></p>
-<h1>研报观点</h1>
-<p>共 2 期研报日报（公众号研报 AI 总结）</p>
-<ul>
-<li><a href="research_20260821.html">研报日报 2026-08-21</a></li>
-<li><a href="research_20260820.html">研报日报 2026-08-20（联调测试）</a></li>
-</ul>
-<div class="info">
-<p>📌 来源：18 个微信公众号研报（券商固收/宏观团队为主）</p>
-<p>📌 由 TRAE AI 按 SUMMARIZE_GUIDE.md 总结并打分（1-5，4-5 分详读）</p>
-<p>📌 每日 07:30 自动更新</p>
+<h1>研报观点 · 检索</h1>
+<p style="color:#666;">已入库 30 篇研报 · 1 期日报 ·
+<a href="indicators.html">📈 指标追踪</a> · <a href="authors.html">🏛 机构观点轨迹</a></p>
+
+<div class="filters">
+<input type="text" id="q" placeholder="关键词：标题 / 摘要 / 机构…">
+<select id="f-inst"><option value="">全部机构</option></select>
+<select id="f-theme"><option value="">全部主题</option></select>
+<select id="f-etf"><option value="">全部ETF</option></select>
+<input type="date" id="f-from" title="开始日期">
+<input type="date" id="f-to" title="结束日期">
+<select id="f-level">
+<option value="">全部级别</option><option value="detail">详读</option>
+<option value="brief">速览</option><option value="archived">归档</option>
+</select>
 </div>
+<p id="count"></p>
+<table class="res">
+<thead><tr><th>日期</th><th>标题</th><th>机构</th><th>主题</th><th>评分</th><th>观点</th><th>ETF</th><th>级别</th><th>原文</th></tr></thead>
+<tbody id="tbody"></tbody>
+</table>
+
+<h2>未来催化日历（未来 4 周）</h2>
+<table class="cat">
+<thead><tr><th style="width:110px">日期</th><th>事件</th><th style="width:130px">关联标的</th></tr></thead>
+<tbody><tr><td>2026-08-21</td><td style='text-align:left'>欧元区PMI</td><td>510300</td></tr>
+<tr><td>2026-08-27</td><td style='text-align:left'>杰克逊霍尔央行年会（8/27-29）</td><td>513100/518880</td></tr>
+<tr><td>2026-08-31</td><td style='text-align:left'>8月底政府债供给高峰+央行对冲力度验证</td><td>511090</td></tr>
+<tr><td>2026-09-15</td><td style='text-align:left'>国内金九旺季需求验证（铜）</td><td>512400</td></tr>
+<tr><td>2026-09-30</td><td style='text-align:left'>日本央行可能加息（最快9月）</td><td>513100</td></tr></tbody>
+</table>
+
+<h2>历史日报</h2>
+<ul class="days">
+<li><a href="research_20260821.html">2026-08-21</a></li>
+</ul>
+
+<script>
+let ARTS = [];
+fetch('articles.json').then(r => r.json()).then(d => {
+  ARTS = d.articles || [];
+  initFilters();
+  render();
+}).catch(e => { document.getElementById('count').textContent = '加载索引失败（本地 file:// 打开时正常，线上可用）: ' + e; });
+
+function initFilters() {
+  const fill = (id, vals) => {
+    const sel = document.getElementById(id);
+    [...vals].sort().forEach(v => {
+      const o = document.createElement('option');
+      o.value = o.textContent = v; sel.appendChild(o);
+    });
+  };
+  fill('f-inst', ARTS.map(a => a.author));
+  fill('f-theme', ARTS.flatMap(a => a.themes));
+  fill('f-etf', ARTS.flatMap(a => Object.keys(a.etf_sentiment || {})));
+  ['q','f-inst','f-theme','f-etf','f-from','f-to','f-level'].forEach(id =>
+    document.getElementById(id).addEventListener('input', render));
+}
+
+function render() {
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const inst = document.getElementById('f-inst').value;
+  const theme = document.getElementById('f-theme').value;
+  const etf = document.getElementById('f-etf').value;
+  const from = document.getElementById('f-from').value;
+  const to = document.getElementById('f-to').value;
+  const level = document.getElementById('f-level').value;
+  const rows = ARTS.filter(a => {
+    if (inst && a.author !== inst) return false;
+    if (theme && !(a.themes || []).includes(theme)) return false;
+    if (etf && !(a.etf_sentiment || {})[etf]) return false;
+    if (level && a.level !== level) return false;
+    if (from && a.date < from) return false;
+    if (to && a.date > to) return false;
+    if (q) {
+      const hay = (a.title + a.summary + a.author + (a.themes||[]).join()).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+  document.getElementById('count').textContent = '命中 ' + rows.length + ' / ' + ARTS.length + ' 篇';
+  const tb = document.getElementById('tbody');
+  tb.innerHTML = rows.slice().sort((x, y) => y.date.localeCompare(x.date) || y.scores.total - x.scores.total).map(a => {
+    const etfs = Object.entries(a.etf_sentiment || {}).map(([k, v]) => k + (v === '多' ? '↑' : v === '空' ? '↓' : '·')).join(' ') || '-';
+    const s = a.scores ? a.scores.total.toFixed(1) : '-';
+    return '<tr><td>' + a.date + '</td>'
+      + '<td class="t"><a href="' + a.page + '">' + a.title + '</a></td>'
+      + '<td>' + a.author + '</td>'
+      + '<td>' + (a.themes || []).join('、') + '</td>'
+      + '<td><span class="score">' + s + '</span></td>'
+      + '<td>' + (a.viewpoint || '-') + '</td>'
+      + '<td>' + etfs + '</td>'
+      + '<td><span class="lv-' + a.level + '">' + ({detail:'详读',brief:'速览',archived:'归档'}[a.level] || a.level) + '</span></td>'
+      + '<td>' + (a.url ? '<a href="' + a.url + '" target="_blank">原文</a>' : '-') + '</td></tr>';
+  }).join('') || '<tr><td colspan=9 style="color:#999;padding:20px">无匹配结果</td></tr>';
+}
+</script>
+<style>
+.term { border-bottom: 1px dashed #b08fd0; cursor: help; position: relative; }
+.term:hover::after { content: attr(data-tip); position: absolute; left: 0; bottom: 130%; z-index: 99;
+  background: #333; color: #fff; padding: 6px 10px; border-radius: 6px; font-size: 12px; line-height: 1.5;
+  max-width: 340px; width: max-content; white-space: normal; box-shadow: 0 2px 8px rgba(0,0,0,.3); }
+</style>
+<script>
+(function(){
+  const G = {"DR001": "银行间存款类机构隔夜质押式回购加权利率，资金面松紧的核心观测指标", "DR007": "银行间存款类机构7天质押式回购加利率，央行重点关注的市场利率", "社融": "社会融资规模：实体经济从金融体系获得的融资总额，衡量信用扩张力度", "M2": "广义货币供应量，反映全社会货币总量", "M1": "狭义货币供应量（现金+单位活期存款），反映资金活化程度", "PMI": "采购经理指数，50为荣枯线，高于50代表景气扩张", "荣枯线": "PMI 的 50 分界线，之上扩张、之下收缩", "CPI": "居民消费价格指数，衡量通胀水平", "PPI": "工业生产者出厂价格指数，衡量上游工业品价格", "摊余成本法": "按买入成本+应计利息计价的估值方法，净值波动小，与市值法相对", "二永债": "二级资本债与永续债的合称，银行补充资本的信用债品种", "买断式逆回购": "央行买入债券并约定日后卖回的操作，向市场投放中长期流动性", "逆回购": "央行向一级交易商买入债券并约定未来卖回，向市场投放短期流动性", "久期": "债券价格对利率变动的敏感度，久期越长利率风险越大", "资产荒": "优质高收益资产稀缺、资金追逐有限资产的格局", "K型分化": "总量平稳但内部一部分向上、另一部分向下的分化形态", "城投债": "地方政府融资平台发行的债券", "ARR": "年度经常性收入（Annual Recurring Income），SaaS/AI 公司核心景气指标", "REITs": "不动产投资信托基金，以租金等稳定现金流为收益来源", "可转债": "可按约定价格转股的债券，兼具债性与股性", "转债": "可转换债券的简称，可按约定转股，兼具债性与股性", "活跃券": "某期限中成交最活跃、定价基准性最强的国债个券", "MLF": "中期借贷便利，央行向银行投放中期资金的工具，政策利率之一", "LPR": "贷款市场报价利率，银行贷款定价基准", "利差压缩": "信用利差或期限利差缩小，债券相对性价比下降", "利差": "两类债券收益率的差值，常用作估值/风险补偿的度量", "挤仓": "期货近月合约因可交割现货不足导致的逼空行情", "净融资": "新发规模减去到期偿还后的净增量", "止盈": "达到目标收益后卖出锁定利润", "TL": "30年期国债期货合约", "银行间杠杆率": "质押式回购余额/可质押债券托管量，衡量债市杠杆水平", "一致预期": "市场参与者预期的中位数/主流看法，实际偏离时常引发交易", "预期差": "实际情况与市场预期的偏离，超额收益的主要来源", "净值化管理": "资管产品按市价估值、不再刚性兑付的监管要求", "标普500": "美国500家大盘股指数，美股核心宽基", "纳指": "纳斯达克指数，美股科技股代表指数"};
+  const terms = Object.keys(G).sort((a, b) => b.length - a.length);
+  const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const parts = terms.map(t => /^[A-Za-z0-9]+$/.test(t)
+    ? '(?<![A-Za-z0-9])' + esc(t) + '(?![A-Za-z0-9])' : esc(t));
+  const re = new RegExp(parts.join('|'), 'g');
+  function walk(node){
+    if (node.nodeType === 3){
+      const s = node.textContent;
+      re.lastIndex = 0;
+      if (!re.test(s)) return;
+      re.lastIndex = 0;
+      const frag = document.createDocumentFragment();
+      let last = 0, m;
+      while ((m = re.exec(s))){
+        if (m.index > last) frag.appendChild(document.createTextNode(s.slice(last, m.index)));
+        const sp = document.createElement('span');
+        sp.className = 'term'; sp.textContent = m[0];
+        sp.setAttribute('data-tip', G[m[0]] || '');
+        frag.appendChild(sp);
+        last = m.index + m[0].length;
+      }
+      if (last < s.length) frag.appendChild(document.createTextNode(s.slice(last)));
+      node.parentNode.replaceChild(frag, node);
+    } else if (node.nodeType === 1 && !/^(SCRIPT|STYLE|CODE|A|TEXTAREA|INPUT|SELECT|BUTTON)$/.test(node.tagName)){
+      Array.from(node.childNodes).forEach(walk);
+    }
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function(){ walk(document.body); });
+  else walk(document.body);
+})();
+</script>
 </body>
 </html>
