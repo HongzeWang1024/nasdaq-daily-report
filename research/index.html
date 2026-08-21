@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>研报观点 - 检索</title>
 <style>
-body { font-family: -apple-system, "Microsoft YaHei", sans-serif; max-width: 1100px; margin: 0 auto; padding: 30px 20px; background: #f5f5f5; }
+body { font-family: -apple-system, "Microsoft YaHei", sans-serif; padding: 30px 40px; background: #f5f5f5; }
 h1 { color: #6f42c1; border-bottom: 3px solid #6f42c1; padding-bottom: 10px; }
 h2 { color: #333; border-left: 5px solid #6f42c1; padding-left: 10px; margin-top: 34px; }
 .filters { background: white; padding: 18px 20px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
@@ -36,6 +36,14 @@ ul.days li { background: white; padding: 8px 14px; border-radius: 6px; box-shado
 .back { margin-bottom: 16px; }
 .back a { color: #6f42c1; text-decoration: none; font-weight: bold; }
 #count { color: #666; font-size: 0.9em; margin: 10px 2px; }
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+@media (max-width: 760px) {
+  body { padding: 12px 10px; }
+  .filters input[type=text] { min-width: 100%; }
+  .filters input, .filters select { flex: 1 1 44%; }
+  table.res th, table.res td { font-size: 0.82em; padding: 6px 5px; white-space: nowrap; }
+  table.cat th, table.cat td { font-size: 0.85em; padding: 6px 6px; }
+}
 </style>
 </head>
 <body>
@@ -65,19 +73,23 @@ ul.days li { background: white; padding: 8px 14px; border-radius: 6px; box-shado
 <input type="date" id="f-to" title="结束日期">
 </div>
 <p id="count"></p>
+<div class="table-wrap">
 <table class="res">
 <thead><tr><th>日期</th><th>标题</th><th>机构</th><th>主题</th><th>评分</th><th>观点</th><th>ETF</th><th>级别</th><th>原文</th></tr></thead>
 <tbody id="tbody"></tbody>
 </table>
+</div>
 
 <h2>催化日历（近 1 周已发生 + 未来 4 周）</h2>
+<div class="table-wrap">
 <table class="cat">
 <thead><tr><th style="width:110px">日期</th><th>事件</th><th style="width:130px">关联标的</th><th style="width:130px">状态</th></tr></thead>
-<tbody><tr><td>2026-08-21</td><td style='text-align:left'>欧元区PMI</td><td>510300</td><td><span style="background:#fff3cd;color:#856404;padding:1px 8px;border-radius:10px;font-size:.82em">⏳ 已发生·待验证</span></td></tr>
+<tbody><tr><td>2026-08-21</td><td style='text-align:left'>欧元区PMI</td><td>510300 沪深300</td><td><span style="background:#fff3cd;color:#856404;padding:1px 8px;border-radius:10px;font-size:.82em">⏳ 已发生·待验证</span></td></tr>
 <tr><td>2026-08-27</td><td style='text-align:left'>杰克逊霍尔央行年会（8/27-29）</td><td>513100/518880</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-08-31</td><td style='text-align:left'>8月底政府债供给高峰+央行对冲力度验证</td><td>511090</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-09-15</td><td style='text-align:left'>国内金九旺季需求验证（铜）</td><td>512400</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr></tbody>
+<tr><td>2026-08-31</td><td style='text-align:left'>8月底政府债供给高峰+央行对冲力度验证</td><td>511090 30年国债</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
+<tr><td>2026-09-15</td><td style='text-align:left'>国内金九旺季需求验证（铜）</td><td>512400 有色/铜</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr></tbody>
 </table>
+</div>
 
 <h2>历史日报</h2>
 <ul class="days">
@@ -87,6 +99,7 @@ ul.days li { background: white; padding: 8px 14px; border-radius: 6px; box-shado
 <script>
 let ARTS = [];
 const THEME_SLUG = {"科技股": "ff46804f", "市场情绪": "d56e9e72", "信用债": "4e382717", "宏观经济": "9043c47f", "利率债": "95635520", "金融科技": "bd593ebe", "海外利率": "40fdac59", "地缘政治": "4865f02b", "AI产业链": "f4dd1c74", "可转债": "234a92ef", "理财": "a5b437b1", "产品创新": "fbb56f78", "REITs": "a7507b75", "量化": "03860b39", "超长债": "d15af0b4", "资产配置": "f2d95807", "大宗商品": "81d09717", "港股": "d82e5038", "美债": "224ae603", "流动性": "ef086e44", "公募基金": "144d7ddc"};
+const NAMES = {"510300": "沪深300", "510500": "中证500", "512100": "中证1000", "588000": "科创50", "512480": "半导体", "512660": "军工", "512690": "酒", "512170": "医疗", "512800": "银行", "512400": "有色/铜", "515790": "光伏", "518880": "黄金", "513100": "纳指", "511090": "30年国债", "501018": "油气", "515220": "煤炭", "513050": "中概互联", "511010": "国债ETF", "511260": "十年国债", "512880": "证券", "515180": "红利ETF", "159915": "创业板", "512000": "券商", "512760": "芯片", "515000": "科技", "512980": "传媒", "512010": "医药", "159928": "消费", "513500": "标普500", "513180": "恒生科技", "159920": "恒生", "513520": "日经", "159985": "豆粕", "510880": "红利", "511380": "可转债", "159949": "创业板50", "516160": "新能源"};
 fetch('articles.json').then(r => r.json()).then(d => {
   ARTS = d.articles || [];
   initFilters();
@@ -104,7 +117,11 @@ function initFilters() {
   };
   fill('f-inst', ARTS.map(a => a.author));
   fill('f-theme', ARTS.flatMap(a => a.themes));
-  fill('f-etf', ARTS.flatMap(a => Object.keys(a.etf_sentiment || {})));
+  [...new Set(ARTS.flatMap(a => Object.keys(a.etf_sentiment || {})))].sort().forEach(c => {
+    const o = document.createElement('option');
+    o.value = c; o.textContent = c + (NAMES[c] ? ' ' + NAMES[c] : '');
+    document.getElementById('f-etf').appendChild(o);
+  });
   ['q','f-inst','f-theme','f-etf','f-view','f-level','f-min','f-max','f-from','f-to'].forEach(id =>
     document.getElementById(id).addEventListener('input', render));
 }
@@ -142,7 +159,8 @@ function render() {
     if (sc < min || sc > max) return false;
     if (q) {
       const hay = (a.title + a.summary + a.author + (a.themes||[]).join()
-        + Object.keys(a.etf_sentiment || {}).join()).toLowerCase();
+        + Object.keys(a.etf_sentiment || {})
+            .map(k => k + ' ' + (NAMES[k] || '')).join()).toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -152,6 +170,7 @@ function render() {
   tb.innerHTML = rows.slice().sort((x, y) => y.date.localeCompare(x.date) || y.scores.total - x.scores.total).map(a => {
     const etfs = Object.entries(a.etf_sentiment || {}).map(([k, v]) =>
       '<a href="index.html?etf=' + k + '">' + k + '</a>' +
+      (NAMES[k] ? '<span class="dim" style="font-size:.82em"> ' + NAMES[k] + '</span>' : '') +
       (v === '多' ? '<span style="color:#d6336c">↑</span>' : v === '空' ? '<span style="color:#2e8b57">↓</span>' : '·')
     ).join(' ') || '-';
     const s = a.scores ? a.scores.total.toFixed(1) : '-';
