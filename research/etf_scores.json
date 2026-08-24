@@ -1,56 +1,56 @@
 {
- "updated": "2026-08-22",
- "date": "2026-08-22",
+ "updated": "2026-08-24",
+ "date": "2026-08-24",
  "sentiment_index": 76.0,
  "risk_level": {
   "level": "高",
   "score": 100,
   "cats": {
-   "宏观流动性": 14.6,
-   "地缘政治": 7.2,
-   "板块情绪": 7.0,
-   "估值水平": 15.6
+   "宏观流动性": 27.0,
+   "地缘政治": 3.0,
+   "板块情绪": 7.5,
+   "估值水平": 20.2
   },
   "advice": "⚠ 风险等级偏高，防御关注：511090（30年国债）、518880（黄金）"
  },
  "scores": [
   {
-   "code": "511090",
-   "name": "30年国债",
+   "code": "513060",
+   "name": "",
    "grade": "关注",
-   "score": 77,
-   "delta": -3,
-   "bull": 11,
-   "bear": 0,
-   "neutral": 0
-  },
-  {
-   "code": "518880",
-   "name": "黄金",
-   "grade": "关注",
-   "score": 66,
-   "delta": -12,
-   "bull": 2,
-   "bear": 0,
-   "neutral": 3
-  },
-  {
-   "code": "512100",
-   "name": "中证1000",
-   "grade": "关注",
-   "score": 66,
+   "score": 84,
    "delta": null,
    "bull": 1,
    "bear": 0,
    "neutral": 0
   },
   {
+   "code": "518880",
+   "name": "黄金",
+   "grade": "强推",
+   "score": 82,
+   "delta": 16,
+   "bull": 8,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
    "code": "512480",
    "name": "半导体",
-   "grade": "关注",
-   "score": 62,
-   "delta": -10,
+   "grade": "强推",
+   "score": 80,
+   "delta": 18,
    "bull": 3,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "513100",
+   "name": "纳指",
+   "grade": "关注",
+   "score": 72,
+   "delta": 15,
+   "bull": 2,
    "bear": 0,
    "neutral": 2
   },
@@ -58,38 +58,48 @@
    "code": "512400",
    "name": "有色/铜",
    "grade": "关注",
-   "score": 61,
-   "delta": -17,
+   "score": 72,
+   "delta": 11,
    "bull": 1,
    "bear": 0,
-   "neutral": 1
+   "neutral": 0
   },
   {
-   "code": "513100",
-   "name": "纳指",
+   "code": "512100",
+   "name": "中证1000",
    "grade": "关注",
-   "score": 57,
-   "delta": -18,
+   "score": 70,
+   "delta": 4,
    "bull": 1,
    "bear": 0,
-   "neutral": 2
+   "neutral": 0
+  },
+  {
+   "code": "511090",
+   "name": "30年国债",
+   "grade": "强推",
+   "score": 67,
+   "delta": -10,
+   "bull": 4,
+   "bear": 0,
+   "neutral": 7
   },
   {
    "code": "510300",
    "name": "沪深300",
-   "grade": "观望",
-   "score": 52,
-   "delta": -30,
-   "bull": 0,
+   "grade": "关注",
+   "score": 66,
+   "delta": 14,
+   "bull": 1,
    "bear": 0,
-   "neutral": 2
+   "neutral": 3
   },
   {
    "code": "513050",
    "name": "中概互联",
    "grade": "观望",
-   "score": 48,
-   "delta": -10,
+   "score": 54,
+   "delta": 6,
    "bull": 0,
    "bear": 0,
    "neutral": 1
