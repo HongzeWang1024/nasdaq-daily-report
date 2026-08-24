@@ -13,22 +13,37 @@ h1 { color: #333; border-bottom: 3px solid #333; padding-bottom: 12px; margin-bo
 .card:hover { transform: translateY(-3px); box-shadow: 0 6px 16px rgba(0,0,0,0.12); }
 .card.nasdaq { border-top: 5px solid #d62728; }
 .card.research { border-top: 5px solid #6f42c1; }
+.card.gjd { border-top: 5px solid #1a7f37; }
 .card h2 { margin-top: 0; font-size: 1.4em; }
 .card.nasdaq h2 { color: #d62728; }
 .card.research h2 { color: #6f42c1; }
+.card.gjd h2 { color: #1a7f37; }
 .card .desc { color: #555; line-height: 1.65; font-size: 0.95em; min-height: 60px; }
 .card .meta { color: #888; font-size: 0.85em; margin-top: 14px; padding-top: 14px; border-top: 1px dashed #eee; }
 .card .btn { display: inline-block; margin-top: 16px; padding: 8px 18px; border-radius: 6px; color: white; text-decoration: none; font-weight: bold; }
 .card.nasdaq .btn { background: #d62728; }
 .card.research .btn { background: #6f42c1; }
+.card.gjd .btn { background: #1a7f37; }
 .card .btn:hover { opacity: 0.88; }
 .info { color: #666; font-size: 0.9em; margin-top: 30px; line-height: 1.7; }
 </style>
 </head>
 <body>
 <h1>量化交易日报</h1>
-<p class="subtitle">美股纳指策略 + 公众号研报观点 · 每日自动更新</p>
+<p class="subtitle">境内ETF策略 + 美股纳指策略 + 公众号研报观点 · 每日自动更新</p>
 <div class="cards">
+<div class="card gjd">
+<h2>🛡️ 国家队ETF追踪策略</h2>
+<div class="desc">基于上交所ETF份额披露的国家队资金流护盘跟踪（c20信号）。三线架构：激进轨（实盘，510500+512100差异化阈值）+ 主轨（纸面后备）+ 影子70/30混合，含命题失效砍仓规则与15%硬止损。</div>
+<div class="meta">卫星仓位≤总权益20% · 每交易日更新（T-1收盘数据 → T日开盘执行）</div>
+<a class="btn" href="gjd.html">查看策略页 →</a>
+</div>
+<div class="card gjd">
+<h2>📡 国家队ETF动向追踪</h2>
+<div class="desc">16只国家队重仓宽基ETF的份额与估算净申赎全景：每日净流入/累计走势、单只ETF明细、股指期货席位持仓、官方持仓基准（汇金/国新/诚通）。</div>
+<div class="meta">沪深交易所份额披露 + 中金所持仓 · 每交易日随策略信号同步更新</div>
+<a class="btn" href="gjd_tracker/index.html">查看动向页 →</a>
+</div>
 <div class="card nasdaq">
 <h2>📊 纳斯达克量化日报</h2>
 <div class="desc">基于 NDX.GI 指数的择时策略实盘日报，包含主策略（融合1保守min）仓位信号、影子策略对比、实盘持仓、ETF/IOPV 溢价率与策略×范式热力图。</div>
@@ -43,8 +58,8 @@ h1 { color: #333; border-bottom: 3px solid #333; padding-bottom: 12px; margin-bo
 </div>
 </div>
 <div class="info">
-<p>📌 数据源：NDX.GI指数（信号源）+ 513100.SH ETF（执行）+ CBOE-VIX + Choice/AkShare/BaoStock</p>
-<p>📌 推送：每日方糖微信推送（纳指日报 08:00 / 研报日报 07:30）</p>
+<p>📌 数据源：SSE份额披露+中金所持仓（国家队）/ NDX.GI指数+513100.SH+CBOE-VIX（纳指）/ Choice/AkShare/BaoStock</p>
+<p>📌 推送：每日方糖微信推送（研报日报 07:30 / 纳指日报 08:00 / 境内ETF信号与国家队ETF 08:00+）</p>
 <p>📌 项目主页：<a href="https://github.com/hongzewang1024/nasdaq-daily-report" style="color:#666;">GitHub</a></p>
 </div>
 </body>
