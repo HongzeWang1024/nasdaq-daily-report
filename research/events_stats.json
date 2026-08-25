@@ -1,4 +1,22 @@
 {
- "updated": "2026-08-24",
- "events": []
+ "updated": "2026-08-25",
+ "events": [
+  {
+   "event": "欧元区PMI",
+   "target": "510300",
+   "name": "沪深300",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-08-21",
+     "r1": -0.0113,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0113,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  }
+ ]
 }
