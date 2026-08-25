@@ -14,29 +14,50 @@ h1 { color: #333; border-bottom: 3px solid #333; padding-bottom: 12px; margin-bo
 .card.nasdaq { border-top: 5px solid #d62728; }
 .card.research { border-top: 5px solid #6f42c1; }
 .card.gjd { border-top: 5px solid #1a7f37; }
+.card.cta { border-top: 5px solid #e8830c; }
 .card h2 { margin-top: 0; font-size: 1.4em; }
 .card.nasdaq h2 { color: #d62728; }
 .card.research h2 { color: #6f42c1; }
 .card.gjd h2 { color: #1a7f37; }
+.card.cta h2 { color: #e8830c; }
 .card .desc { color: #555; line-height: 1.65; font-size: 0.95em; min-height: 60px; }
 .card .meta { color: #888; font-size: 0.85em; margin-top: 14px; padding-top: 14px; border-top: 1px dashed #eee; }
 .card .btn { display: inline-block; margin-top: 16px; padding: 8px 18px; border-radius: 6px; color: white; text-decoration: none; font-weight: bold; }
 .card.nasdaq .btn { background: #d62728; }
 .card.research .btn { background: #6f42c1; }
 .card.gjd .btn { background: #1a7f37; }
+.card.cta .btn { background: #e8830c; }
 .card .btn:hover { opacity: 0.88; }
 .info { color: #666; font-size: 0.9em; margin-top: 30px; line-height: 1.7; }
 </style>
 </head>
 <body>
 <h1>量化交易日报</h1>
-<p class="subtitle">境内ETF策略 + 美股纳指策略 + 公众号研报观点 · 每日自动更新</p>
+<p class="subtitle">美股纳指策略 + 境内A股CTA + 国家队ETF追踪 + 公众号研报观点 · 每日自动更新</p>
 <div class="cards">
+<div class="card nasdaq">
+<h2>📊 纳斯达克量化日报</h2>
+<div class="desc">基于 NDX.GI 指数的择时策略实盘日报，包含主策略（融合1保守min）仓位信号、影子策略对比、实盘持仓、ETF/IOPV 溢价率与策略×范式热力图。</div>
+<div class="meta">已发布 13 份历史报告 · 北京时间 08:00 更新 · 周一至周五</div>
+<a class="btn" href="nasdaq.html">查看历史报告 →</a>
+</div>
+<div class="card cta">
+<h2>📈 A股CTA量化策略</h2>
+<div class="desc">CTA V12-P2 实盘（10万）：85只ETF池多周期动量 + 波动率目标12% + 双周调仓 + 大类分散。含今日操作、持仓浮盈亏、净值曲线与实际成交回填表单。</div>
+<div class="meta">回测年化+8.94% / 夏普1.137 / 回撤-9.76% · 每交易日更新（T-1收盘数据 → T日开盘执行）</div>
+<a class="btn" href="cta.html">查看策略页 →</a>
+</div>
 <div class="card gjd">
 <h2>🛡️ 国家队ETF追踪策略</h2>
 <div class="desc">基于上交所ETF份额披露的国家队资金流护盘跟踪（c20信号）。三线架构：激进轨（实盘，510500+512100差异化阈值）+ 主轨（纸面后备）+ 影子70/30混合，含命题失效砍仓规则与15%硬止损。</div>
 <div class="meta">卫星仓位≤总权益20% · 每交易日更新（T-1收盘数据 → T日开盘执行）</div>
 <a class="btn" href="gjd.html">查看策略页 →</a>
+</div>
+<div class="card research">
+<h2>📑 研报观点</h2>
+<div class="desc">18 个微信公众号研报的 AI 智能总结（券商固收/宏观团队为主），按 1-5 分重要性打分，4-5 分详读关联境内 ETF。</div>
+<div class="meta">已发布 4 期研报日报 · 每日 07:30 更新</div>
+<a class="btn" href="research/index.html">查看研报日报 →</a>
 </div>
 <div class="card gjd">
 <h2>📡 国家队ETF动向追踪</h2>
@@ -44,22 +65,10 @@ h1 { color: #333; border-bottom: 3px solid #333; padding-bottom: 12px; margin-bo
 <div class="meta">沪深交易所份额披露 + 中金所持仓 · 每交易日随策略信号同步更新</div>
 <a class="btn" href="gjd_tracker/index.html">查看动向页 →</a>
 </div>
-<div class="card nasdaq">
-<h2>📊 纳斯达克量化日报</h2>
-<div class="desc">基于 NDX.GI 指数的择时策略实盘日报，包含主策略（融合1保守min）仓位信号、影子策略对比、实盘持仓、ETF/IOPV 溢价率与策略×范式热力图。</div>
-<div class="meta">已发布 13 份历史报告 · 北京时间 08:00 更新 · 周一至周五</div>
-<a class="btn" href="nasdaq.html">查看历史报告 →</a>
-</div>
-<div class="card research">
-<h2>📑 研报观点</h2>
-<div class="desc">18 个微信公众号研报的 AI 智能总结（券商固收/宏观团队为主），按 1-5 分重要性打分，4-5 分详读关联境内 ETF。</div>
-<div class="meta">已发布 3 期研报日报 · 每日 07:30 更新</div>
-<a class="btn" href="research/index.html">查看研报日报 →</a>
-</div>
 </div>
 <div class="info">
-<p>📌 数据源：SSE份额披露+中金所持仓（国家队）/ NDX.GI指数+513100.SH+CBOE-VIX（纳指）/ Choice/AkShare/BaoStock</p>
-<p>📌 推送：每日方糖微信推送（研报日报 07:30 / 纳指日报 08:00 / 境内ETF信号与国家队ETF 08:00+）</p>
+<p>📌 数据源：NDX.GI指数+513100.SH+CBOE-VIX（纳指）/ Choice/AkShare/BaoStock（A股CTA）/ SSE份额披露+中金所持仓（国家队）</p>
+<p>📌 推送：每日方糖微信推送（研报日报 07:30 / 纳指日报 08:00 / A股CTA+国家队ETF合并 08:00+）</p>
 <p>📌 项目主页：<a href="https://github.com/hongzewang1024/nasdaq-daily-report" style="color:#666;">GitHub</a></p>
 </div>
 </body>
