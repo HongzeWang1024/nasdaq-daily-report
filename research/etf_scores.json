@@ -1,76 +1,26 @@
 {
- "updated": "2026-08-24",
- "date": "2026-08-24",
- "sentiment_index": 76.0,
+ "updated": "2026-08-25",
+ "date": "2026-08-25",
+ "sentiment_index": 74.0,
  "risk_level": {
-  "level": "高",
-  "score": 100,
+  "level": "低",
+  "score": 0,
   "cats": {
-   "宏观流动性": 27.0,
-   "地缘政治": 3.0,
-   "板块情绪": 7.5,
-   "估值水平": 20.2
+   "宏观流动性": 0.0,
+   "地缘政治": 0.0,
+   "板块情绪": 0.0,
+   "估值水平": 0.0
   },
-  "advice": "⚠ 风险等级偏高，防御关注：511090（30年国债）、518880（黄金）"
+  "advice": ""
  },
  "scores": [
   {
-   "code": "513060",
-   "name": "",
-   "grade": "关注",
-   "score": 84,
-   "delta": null,
-   "bull": 1,
-   "bear": 0,
-   "neutral": 0
-  },
-  {
    "code": "518880",
    "name": "黄金",
-   "grade": "强推",
-   "score": 82,
-   "delta": 16,
-   "bull": 8,
-   "bear": 0,
-   "neutral": 0
-  },
-  {
-   "code": "512480",
-   "name": "半导体",
-   "grade": "强推",
-   "score": 80,
-   "delta": 18,
-   "bull": 3,
-   "bear": 0,
-   "neutral": 0
-  },
-  {
-   "code": "513100",
-   "name": "纳指",
    "grade": "关注",
-   "score": 72,
-   "delta": 15,
+   "score": 84,
+   "delta": 2,
    "bull": 2,
-   "bear": 0,
-   "neutral": 2
-  },
-  {
-   "code": "512400",
-   "name": "有色/铜",
-   "grade": "关注",
-   "score": 72,
-   "delta": 11,
-   "bull": 1,
-   "bear": 0,
-   "neutral": 0
-  },
-  {
-   "code": "512100",
-   "name": "中证1000",
-   "grade": "关注",
-   "score": 70,
-   "delta": 4,
-   "bull": 1,
    "bear": 0,
    "neutral": 0
   },
@@ -78,31 +28,101 @@
    "code": "511090",
    "name": "30年国债",
    "grade": "强推",
-   "score": 67,
-   "delta": -10,
-   "bull": 4,
+   "score": 81,
+   "delta": 14,
+   "bull": 3,
    "bear": 0,
-   "neutral": 7
+   "neutral": 0
   },
   {
-   "code": "510300",
-   "name": "沪深300",
+   "code": "511010",
+   "name": "国债ETF",
    "grade": "关注",
-   "score": 66,
-   "delta": 14,
+   "score": 81,
+   "delta": null,
    "bull": 1,
    "bear": 0,
-   "neutral": 3
+   "neutral": 0
   },
   {
-   "code": "513050",
-   "name": "中概互联",
+   "code": "512800",
+   "name": "银行",
+   "grade": "关注",
+   "score": 80,
+   "delta": null,
+   "bull": 2,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "512690",
+   "name": "酒",
+   "grade": "关注",
+   "score": 80,
+   "delta": null,
+   "bull": 1,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "515220",
+   "name": "煤炭",
+   "grade": "关注",
+   "score": 74,
+   "delta": null,
+   "bull": 2,
+   "bear": 0,
+   "neutral": 1
+  },
+  {
+   "code": "512480",
+   "name": "半导体",
    "grade": "观望",
-   "score": 54,
-   "delta": 6,
+   "score": 62,
+   "delta": -18,
    "bull": 0,
    "bear": 0,
    "neutral": 1
+  },
+  {
+   "code": "515880",
+   "name": "",
+   "grade": "观望",
+   "score": 62,
+   "delta": null,
+   "bull": 0,
+   "bear": 0,
+   "neutral": 1
+  },
+  {
+   "code": "501018",
+   "name": "油气",
+   "grade": "观望",
+   "score": 62,
+   "delta": null,
+   "bull": 0,
+   "bear": 0,
+   "neutral": 1
+  },
+  {
+   "code": "512170",
+   "name": "医疗",
+   "grade": "规避",
+   "score": 40,
+   "delta": null,
+   "bull": 0,
+   "bear": 1,
+   "neutral": 0
+  },
+  {
+   "code": "588000",
+   "name": "科创50",
+   "grade": "规避",
+   "score": 39,
+   "delta": null,
+   "bull": 0,
+   "bear": 1,
+   "neutral": 0
   }
  ]
 }
