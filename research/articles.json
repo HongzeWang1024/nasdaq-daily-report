@@ -1,6 +1,379 @@
 {
- "updated": "2026-08-24",
+ "updated": "2026-08-25",
  "articles": [
+  {
+   "date": "2026-08-25",
+   "title": "20260825早评分享（利率债、外围市场、国债期货技术面）",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/Ab2s0JpiUrCHHmeNR0xrTA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "央行流动性",
+    "黄金"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "央行三招呵护资金面（3400亿逆回购+MLF缩量续作+预告8/27-9/1隔夜逆回购），债市重回向上通道，TL2612回调116.46即买、现券强阻力2.1630-2.1680即上车机会；黄金趋势已成。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "ETF | 通信与半导体设备重获青睐",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/Xpiof_hR3-lzpGicw9NaTQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "ETF资金流",
+    "科技成长",
+    "红利防御"
+   ],
+   "etf_sentiment": {
+    "512480": "中性",
+    "515880": "中性",
+    "515220": "中性",
+    "501018": "中性"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "上周ETF资金由大幅流出转持平，回流集中于周三大跌日（宽基单日+382.67亿稳市承接）；半导体设备/通信急跌获承接但拥挤度97.6%/88.4%高波动；创新药电池上涨兑现下跌承接属短博弈；煤炭石油领涨缺资金确认。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "美国增加长债回购，信号大于实质",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/QfzFNnLB88WFwD6bwSVSjQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美债",
+    "美元",
+    "黄金"
+   ],
+   "etf_sentiment": {
+    "518880": "多"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "美财政部长债回购20→40亿美元信号大于实质（40万亿存量杯水车薪），财政部角色=刚性供给方，供需失衡僵局难破；30Y或高位震荡甚至挑战5.5%；系统性回落需基本面走弱/科技营收不及预期/赤字削减三条件。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "信用 | 关注中高评级5年结构性机会",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/vHhbIsgBnu037TM6Zw2ymQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "信用债",
+    "机构行为",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511010": "多"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "二永债止盈引发调整、买盘向3-5年集中；15只63个月摊余债基申报或带来约1400亿信用债增量（观察窗9月中旬-10月初）；策略控制久期杠杆，优先5年中高评级信用债/政金债、TLAC与券商债（利差分位52-74%有防御性）。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "红利避险",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/pMKxz9STtwqK9MM53_PmDw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "红利防御",
+    "科技成长",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "512800": "多",
+    "515220": "多",
+    "512690": "多",
+    "512170": "空"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "8-24权益放量下跌：科技全线回调（海外利率+光模块受限余波+筹码拥挤），煤炭银行食品饮料防御占优；债市重新走强，超长端利差仍具压缩空间、5-7年维持高弹性；短期波动仍大，控仓位等右侧确认。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "债市｜多头趋势未变",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/mzPhT6MTDJC2oaU2pua1Qg",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "科技调整风偏回落+经济弱宽松预期两大支撑未破，多头趋势不改调整仍是买机；10年国债是监管变量定价趋谨慎，30年是更好博弈工具，2.20%为第一加仓目标位。与《红利避险》同团队同题。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "类权益 | 再平衡，攻守兼备",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/lX9QhY3LJ0myRyWzM88qeg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "科技成长",
+    "红利防御",
+    "AI应用"
+   ],
+   "etf_sentiment": {
+    "512800": "多",
+    "515220": "多"
+   },
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "AI商业化回报担忧是算力行情瓶颈，美股已率先切AI应用叙事（Palantir/Salesforce/ServiceNow超额）；A股应用端/具身智能有望承接但题材属性波动大；银行煤炭公用事业降波打底；转债估值压缩概率不高不必再减仓。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "REITs I 关注土地续期政策的积极意义",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/ISEtOq6nPTNr4WyicfdFfA",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "REITs",
+    "红利防御"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "REITs周涨1.18%产权利差300bp处98%分位赔率高；上海继广州后落地工商业用地续期政策，短剩余年限项目估值重估（亦庄/首农/物美/百联）；保险资产负债管理办法提升红利资产配置需求。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "【瞎扯】上层给了债市大枣子，给了股市大棒子",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/n-i7iE4nru60ml4pAfGyjQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "央行流动性",
+    "科技成长",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "588000": "空"
+   },
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "3400亿逆回购是央行态度转向（1.45%或为合意资金利率上限），MLF缩量续作破降准传言；周末交易所收紧科技IPO受理（只要头部+革命性技术+盈利路径），科技短期阵痛长期利好，精选标的逢低配置。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "欧元：还能涨多少？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/DEutSHbwcKJJIRou6nEZZA",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "外汇",
+    "欧央行"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "欧美经济预期差+2年德美利差走阔30bp+美元信用担忧支撑欧元中期，短期利好消化建议等回调1.16-1.1630布局多头；关注8-28 Jackson Hole与9月德国州选举。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "美债迷局的思考：这是风险还是机遇？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/-pJS8USAcTo5xXK_yn8_WQ",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "美债",
+    "美元",
+    "美联储"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "本轮美债利率上行（1Y-10Y普遍+5-7bp）本质是风险溢价推动而非加息预期；美联储不会加息（沃什名鹰实鸽），历史降息周期开始时通胀都偏高；美元走弱是年内主线，中期选举前后不确定性达峰。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "流动性 | 月末近8000亿政府债缴款，资金面临考验",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/ZnEZGBvk-5qvKYUJlB0IpA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "央行流动性",
+    "利率债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "8/24-28政府债净缴款7986亿创2025年以来单周新高+6000亿MLF到期+跨月三重扰动；央行削峰填谷思路明确大概率重启隔夜逆回购，投放足量则平稳跨月；8月中上旬超储已降1.76万亿。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "如何理解近期的美元与美债？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/zvF_d-f5MZ0UwWj7DziCaQ",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "美元",
+    "美债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.1
+   },
+   "summary": "美债回购非新政策且实际效果有限，今年私营资本流入大幅放缓使回购杯水车薪；美元情绪已从多头回归中性偏空头，进一步回落需Real Money流向支持。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "解读：7月结售汇数据的信号",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/oGYT3wagKiquRO3VJeuSCQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "外汇"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.8
+   },
+   "summary": "7月结汇率跌至57%、远期签约差额转负，但套保未到期额与期权delta净敞口均处历史高位，结汇降温是节奏转变（高位保持）而非人民币升值观点反转。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "医药领涨",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/TlG1ECPAh9t391dNC7Nwgw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "医药"
+   ],
+   "etf_sentiment": {
+    "512170": "多"
+   },
+   "scores": {
+    "total": 2.5
+   },
+   "summary": "8-20缩量反弹医药+3.18%领涨（Moderna个性化mRNA疫苗三期积极），科技恐慌盘出清但做多合力未成。积压日度复盘。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "抛压释放",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/CMkaud9toZ_jHMtWNCRzqA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "科技成长",
+    "红利防御"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.5
+   },
+   "summary": "8-19放量下跌：30Y美债5.32%创2007年新高冲击AI融资成本，电子-7.77%/通信-7.95%，仅银行石油石化煤炭收涨；关注30Y企稳与光通信缩量两大信号。积压日度复盘。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "冷热交织",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/en_B7yUMpN7Q4Jw0Ft0FDQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "科技成长",
+    "利率债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.4
+   },
+   "summary": "8-18复盘：光通信权重缩量（中际0.62/新易盛0.67/天孚0.87）、农业+5.58%厄尔尼诺、10年国债下破1.67%、公积金条例修订利好政金债。积压日度复盘。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "高企不确定性与低迷波动率",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/Hlfy9FI3WSYQvo6I7ouFTQ",
+   "level": "archived",
+   "viewpoint": "观望",
+   "themes": [
+    "外汇",
+    "波动率"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.3
+   },
+   "summary": "8月汇率波动率回谷底（G7货币1Y隐含波动率<6.5%），三大不确定性悬而未决但缺交投价值，赚钱效应差资金不愿下重注。",
+   "page": "research_20260825.html"
+  },
+  {
+   "date": "2026-08-25",
+   "title": "2026银行宝典，新鲜出炉",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/xSDL7P0G5EbKAry1FozrKw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "银行"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.0
+   },
+   "summary": "资料领取贴：199家银行45指标宝典；背景数据K型分化（高技术产业增加值14% vs 工业5%，电子出口价格+54%）。",
+   "page": "research_20260825.html"
+  },
   {
    "date": "2026-08-24",
    "title": "流动性 | 关注“大行净融出”异常下降的持续性",
