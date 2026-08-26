@@ -1,6 +1,332 @@
 {
- "updated": "2026-08-25",
+ "updated": "2026-08-26",
  "articles": [
+  {
+   "date": "2026-08-26",
+   "title": "中美板块映射的新特征",
+   "author": "华泰资产配置",
+   "url": "https://mp.weixin.qq.com/s/kJtgjCRirF_cPt4U6WAZaA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "中美板块映射",
+    "黄金",
+    "国产算力",
+    "创新药"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "512480": "多",
+    "512170": "多",
+    "515220": "多"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "中美板块映射从“股价跟随”转向“共同因子驱动的跨市场共振”，配置应依据中美比较优势选环节：中美资本开支周期错位下国产算力相对占优；创新药沿CXO订单与License-out双通道联动具备β机会；有色弹性集中于矿端（A股0.71 vs 美股1.59）；油价高位下A股能源凭高股息更优；黄金仍是长期对冲美债利率上行优选。",
+   "page": "research_20260826.html"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "AI融资：从现金机器到资本机器——智能经济系列专题",
+   "author": "华泰固收",
+   "url": "https://mp.weixin.qq.com/s/FO2mLTWC6riHXbP6jkld7g",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI融资债务化",
+    "美债长端利率",
+    "科创债"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "海外AI巨头融资已由内源覆盖走向债务放量与资本栈多层化，风险从资产负债表转移到合同、担保和结构；超长科技债与国债直接争夺久期资金是长端美债利率上行主因；国内尚处内源覆盖阶段，测算26-30年境内债年均供给仅183-522亿，债市承接无忧，影响在科创债/点心债/REITs等品种结构。",
+   "page": "research_20260826.html"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "《保险公司资产负债管理办法》对债市的影响",
+   "author": "华泰固收",
+   "url": "https://mp.weixin.qq.com/s/vpHoTW4LI4nihXuPp11AlA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "保险资负新规",
+    "利率债",
+    "红利防御"
+   ],
+   "etf_sentiment": {
+    "512800": "多",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "新规正式稿以利率风险对冲率（50%-150%）取代有效久期缺口为首条监管指标、三年过渡期，长久期利率债仍是刚需但匹配压力边际下降，中期影响在品种结构而非交易层面；净投资收益覆盖率分母刚性下高票息品种与高股息OCI股票严格优于低票息利率债，利率衍生品计入久期分子对TL/IRS是边际利好。",
+   "page": "research_20260826.html"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "保险资负新规，超长债或“短多长空”",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/A0Df0t94MKVwhi1uRBrxGw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "保险资负新规",
+    "利率债",
+    "机构行为"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "新规正式稿对多数寿险公司监管尺度放松，对超长债“短期利多、长期利空”：短期机构无集中减持诉求、也难现加速配债；长期分红险占比提升降低负债久期要求；降准降息预期未散+年末保险抢配效应或助30年国债走出独立利差压缩行情。",
+   "page": "research_20260826.html"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "“泾渭分明”的中外长端利率",
+   "author": "华泰固收",
+   "url": "https://mp.weixin.qq.com/s/gmRXKkzIuJ0shXcVGoGSaw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "美债长端利率",
+    "资产荒"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511010": "多",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "海外长端上行是AI融资挤出国债需求、主权财政扩张、机构需求收缩、通胀尾部风险四股力量共振；中债定价由内需偏弱+资金面偏松+资产荒主导，海外利率约束下行空间而非扭转趋势；10年国债1.7%下方不追涨、30-10年利差仍是曲线上阻力较小方向，10Y美债4.7%附近适度博弈做多。",
+   "page": "research_20260826.html"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "新老摊余债基对比与投资机会",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/TV3xYofyRRGtz5wVrj9GJw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "信用债",
+    "机构行为",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511010": "多"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "新一批15只63个月摊余债基预计9月中下旬-10月募集，按上限80%测算至少带来960亿增量资金（含杠杆最高1632亿），建仓需求集中于5Y高等级普信债/券商债，公募已提前囤积，未来1-2个月5Y普信债行情仍有支撑；城投推荐3Y AA/AA(2)。",
+   "page": "research_20260826.html"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "汇添富基金李安：高波环境下的低波固收+策略",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/OmiHE5_d-rn_qND3IZhymw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "固收+",
+    "AI应用",
+    "创新药"
+   ],
+   "etf_sentiment": {
+    "512170": "多",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "2026年流动性收紧仅单一主线，低仓位集中优于分散；6月起大幅减仓AI（“AI叙事由谁买单”），当前上涨定性为磨底反弹而非趋势反转；中期看好创新药/CXO。",
+   "page": "research_20260826.html"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "如何看债基高频久期创新高？",
+   "author": "华泰固收",
+   "url": "https://mp.weixin.qq.com/s/fuoN2a2ryO3bHDJQC0eqjQ",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "机构行为"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "债基久期创新高但极致久期本身非反转因子、需外部强利空触发；分歧度与绩优基金久期两大前瞻指标当前均未现拐点信号，交易盘止盈踩踏风险可控。",
+   "page": "research_20260826.html"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "转债：四大关切因素交织",
+   "author": "华泰固收",
+   "url": "https://mp.weixin.qq.com/s/XepfoO9sjTkyMOusx6c1QQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "转债",
+    "科技成长",
+    "红利防御"
+   ],
+   "etf_sentiment": {
+    "512170": "多",
+    "512480": "多",
+    "512800": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "股市“跌不深也涨不高”，中美大型IPO/Jackson Hole/中报二阶导定价/英伟达财报四大关切交织；AI链高低切+独立景气+红利低波三主线，进攻布局功率半导体/创新药/资源品；转债偏中性仓位，低价券仍是首选，提防9-10月高价券赎回冷却期集中结束。",
+   "page": "research_20260826.html"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "美债后续该关注什么？",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/SWEcsQdgXxcA1Ro84YMp1Q",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美债长端利率",
+    "美联储"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "长端波动主线是财政供给与外储买盘，短端利好向长端传递弱化；联储“抗加息”概率大，长端高位震荡至Q4后利空逐步出尽；关键节点8/27-29 Jackson Hole、8月末7月PCE、9/15-16 FOMC、11/4再融资公告。",
+   "page": "research_20260826.html"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "财政支出仍待提速——7月财政数据点评",
+   "author": "华泰固收",
+   "url": "https://mp.weixin.qq.com/s/YWPfew_jEg32q09SQVG3WA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "财政",
+    "利率债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "7月财政收入高增（+11.7%）但支出仅+0.5%、地方转负，土地出让-27.1%拖累；1-7月一般预算资金余量1.10万亿高于往年，支出提速资金条件充足，后五个月支出增速需明显高于前七个月。",
+   "page": "research_20260826.html"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "为什么对“厄尔尼诺”不必担忧，不必参与？",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/IzgM5rB_jntBagx-Ay13Rw",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "农产品",
+    "通胀"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.1
+   },
+   "summary": "即使超强厄尔尼诺（峰值或超2.5℃）也仅结构性推涨棕榈油/白糖/鱼粉，大豆玉米反而受益；中国粮价受储备与政策缓冲几乎不受影响，农业主题不值得参与。",
+   "page": "research_20260826.html"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "《货币的秩序》｜第九章 黄金能否替代美元？",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/kcrisI8G2X27zu1e1w2Nkw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "黄金",
+    "美元"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.0
+   },
+   "summary": "书摘：黄金被重新定价（央行购金+美元信用弱化）但无法替代信用货币，多极货币体系雏形显现；书摘性质、无交易含义。",
+   "page": "research_20260826.html"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "《货币的秩序》｜第八章 “这次不一样”：国际货币秩序变迁的慢与快",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/abSnqvCswy9NFaKRonze_Q",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "美元",
+    "国际货币体系"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.7
+   },
+   "summary": "书摘：美元松动呈“慢积累、快触发”规律，货币秩序变迁的节奏与时点判断框架；书摘性质、无交易含义。",
+   "page": "research_20260826.html"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "《货币的秩序》｜第七章 美元陷阱：形成与突破",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/oqrsgoEaR16g35AjBq3jvA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "美元",
+    "国际货币体系"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.7
+   },
+   "summary": "书摘：美元陷阱三支点（网络效应/深度市场/制度信用）正在动摇但替代路径漫长；书摘性质、无交易含义。",
+   "page": "research_20260826.html"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "《货币的秩序》｜第十章 欧元的政治困局",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/KzRfYzIVbmQ65PrGgL94Og",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "欧元",
+    "国际货币体系"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.4
+   },
+   "summary": "书摘：缺乏统一财政是欧元先天缺陷，政治一体化滞后制约货币地位；书摘性质、无交易含义。",
+   "page": "research_20260826.html"
+  },
   {
    "date": "2026-08-25",
    "title": "20260825早评分享（利率债、外围市场、国债期货技术面）",
