@@ -48,18 +48,18 @@ border-radius: 10px; padding: 12px 16px; margin: 14px 0; font-size: 0.93em; line
 <h1>📈 A股CTA量化策略</h1>
 <div class="sub">
 <span class="mode">CTA V12-P2 · 实盘</span>
-资金 ¥100,000 · 数据日期 2026-08-24（T-1收盘）·
-2026-08-25 开盘执行 · 生成于 2026-08-25 16:39
+资金 ¥100,000 · 数据日期 2026-08-25（T-1收盘）·
+2026-08-26 开盘执行 · 生成于 2026-08-26 08:12
 </div>
 
 <div class="card">
-<h2>今日操作（2026-08-25 开盘）</h2>
-<table><tr><th>代码</th><th>名称</th><th>方向</th><th>股数</th><th>预估价</th><th>金额(¥)</th><th>原因</th></tr><tr><td><b>159980</b></td><td>有色ETF大成</td><td><span class="tag buy">买入</span></td><td>1200</td><td>2.1540</td><td>2,585</td><td style="color:#777">新建仓</td></tr><tr><td><b>159509</b></td><td>纳指科技ETF景顺</td><td><span class="tag buy">买入</span></td><td>800</td><td>2.7220</td><td>2,178</td><td style="color:#777">新建仓</td></tr></table><p class="note">预估价=T-1收盘±滑点估计，实际以开盘成交为准。成交后请在下方"实际成交回填"填写。</p>
+<h2>今日操作（2026-08-26 开盘）</h2>
+<table><tr><th>代码</th><th>名称</th><th>方向</th><th>股数</th><th>预估价</th><th>金额(¥)</th><th>原因</th></tr><tr><td><b>159980</b></td><td>有色ETF大成</td><td><span class="tag buy">买入</span></td><td>1200</td><td>2.1510</td><td>2,581</td><td style="color:#777">新建仓</td></tr><tr><td><b>159509</b></td><td>纳指科技ETF景顺</td><td><span class="tag buy">买入</span></td><td>700</td><td>2.7760</td><td>1,943</td><td style="color:#777">新建仓</td></tr></table><p class="note">预估价=T-1收盘±滑点估计，实际以开盘成交为准。成交后请在下方"实际成交回填"填写。</p>
 </div>
 
 <div class="card">
 <h2>实际成交回填</h2>
-<div class="banner">📋 <b>2 笔交易待回填实际成交</b>：填写实际成交价与数量 → 点击按钮生成JSON并复制 → 粘贴保存为 <b>境内\live\fills\pending.json</b>（或直接粘贴给TRAE说"回填"）。次日早8点信号生成时自动按实际成交入账（重算现金/成本/股数）。</div><table><tr><th>代码</th><th>名称</th><th>方向</th><th>信号股数</th><th>预估价</th><th>实际股数</th><th>实际成交价</th></tr><tr data-fill-date="2026-08-25" data-fill-code="159980" data-fill-side="buy"><td><b>159980</b></td><td>有色ETF大成</td><td><span class="tag buy">买入</span></td><td>1200</td><td>2.1540</td><td><input class="f-shares" type="number" value="1200" min="0" step="100"></td><td><input class="f-price" type="number" step="0.001" placeholder="实际价"></td></tr><tr data-fill-date="2026-08-25" data-fill-code="159509" data-fill-side="buy"><td><b>159509</b></td><td>纳指科技ETF景顺</td><td><span class="tag buy">买入</span></td><td>800</td><td>2.7220</td><td><input class="f-shares" type="number" value="800" min="0" step="100"></td><td><input class="f-price" type="number" step="0.001" placeholder="实际价"></td></tr></table><button class="btn-x" id="copy-btn" onclick="genFill()">生成回填JSON并复制</button><textarea id="fill-out" readonly placeholder="点击按钮后这里显示回填JSON"></textarea>
+<div class="banner">📋 <b>2 笔交易待回填实际成交</b>：填写实际成交价与数量 → 点击按钮生成JSON并复制 → 粘贴保存为 <b>境内\live\fills\pending.json</b>（或直接粘贴给TRAE说"回填"）。次日早8点信号生成时自动按实际成交入账（重算现金/成本/股数）。</div><table><tr><th>代码</th><th>名称</th><th>方向</th><th>信号股数</th><th>预估价</th><th>实际股数</th><th>实际成交价</th></tr><tr data-fill-date="2026-08-26" data-fill-code="159980" data-fill-side="buy"><td><b>159980</b></td><td>有色ETF大成</td><td><span class="tag buy">买入</span></td><td>1200</td><td>2.1510</td><td><input class="f-shares" type="number" value="1200" min="0" step="100"></td><td><input class="f-price" type="number" step="0.001" placeholder="实际价"></td></tr><tr data-fill-date="2026-08-26" data-fill-code="159509" data-fill-side="buy"><td><b>159509</b></td><td>纳指科技ETF景顺</td><td><span class="tag buy">买入</span></td><td>700</td><td>2.7760</td><td><input class="f-shares" type="number" value="700" min="0" step="100"></td><td><input class="f-price" type="number" step="0.001" placeholder="实际价"></td></tr></table><button class="btn-x" id="copy-btn" onclick="genFill()">生成回填JSON并复制</button><textarea id="fill-out" readonly placeholder="点击按钮后这里显示回填JSON"></textarea>
 </div>
 
 <div class="card">
@@ -80,18 +80,35 @@ border-radius: 10px; padding: 12px 16px; margin: 14px 0; font-size: 0.93em; line
 <div class="num">16%</div></div>
 <div class="stat"><div class="lbl">下次调仓</div>
 <div class="num" style="font-size:1.1em">2026-09-07</div>
-<div class="lbl">9个交易日后</div></div>
+<div class="lbl">8个交易日后</div></div>
 </div>
 </div>
 
 <div class="card">
 <h2>实盘净值曲线</h2>
-<p class="note">净值曲线将在运行数日后生成（当前数据点不足）。</p>
+<svg viewBox="0 0 860 260" style="width:100%;height:auto;">
+<line x1="54" y1="230.0" x2="798" y2="230.0" stroke="#eee" stroke-width="1"/>
+<text x="48" y="234.0" text-anchor="end" font-size="11" fill="#999">0.988</text>
+<line x1="54" y1="177.0" x2="798" y2="177.0" stroke="#eee" stroke-width="1"/>
+<text x="48" y="181.0" text-anchor="end" font-size="11" fill="#999">0.994</text>
+<line x1="54" y1="124.0" x2="798" y2="124.0" stroke="#eee" stroke-width="1"/>
+<text x="48" y="128.0" text-anchor="end" font-size="11" fill="#999">1.000</text>
+<line x1="54" y1="71.0" x2="798" y2="71.0" stroke="#eee" stroke-width="1"/>
+<text x="48" y="75.0" text-anchor="end" font-size="11" fill="#999">1.006</text>
+<line x1="54" y1="18.0" x2="798" y2="18.0" stroke="#eee" stroke-width="1"/>
+<text x="48" y="22.0" text-anchor="end" font-size="11" fill="#999">1.012</text>
+<line x1="54" y1="124.0" x2="798" y2="124.0" stroke="#bbb" stroke-dasharray="4,3" stroke-width="1"/>
+<text x="54" y="252" font-size="11" fill="#999">2026-08-25</text>
+<text x="798" y="252" text-anchor="end" font-size="11" fill="#999">2026-08-26</text>
+<polyline points="54.0,124.0 798.0,124.0" fill="none" stroke="#e8830c" stroke-width="2"/>
+<text x="804" y="128.0" font-size="11" fill="#e8830c" font-weight="bold">1.0000</text>
+</svg>
+<div class="legend">橙线 实盘净值（基准1.0=初始资金）· 当前 1.0000（+0.00%）</div>
 </div>
 
 <div class="card">
 <h2>交易历史（最近20笔）</h2>
-<table><tr><th>日期</th><th>代码</th><th>名称</th><th>方向</th><th>股数</th><th>成交价</th></tr><tr><td>2026-08-25</td><td><b>159509</b></td><td>纳指科技ETF景顺</td><td><span class="tag buy">买</span></td><td>800</td><td><span class="warn">2.7220（待回填）</span></td></tr><tr><td>2026-08-25</td><td><b>159980</b></td><td>有色ETF大成</td><td><span class="tag buy">买</span></td><td>1200</td><td><span class="warn">2.1540（待回填）</span></td></tr></table><p class="note">绿色=已按实际成交回填；橙色=仍为估计价（网站上方表单待回填）。</p>
+<table><tr><th>日期</th><th>代码</th><th>名称</th><th>方向</th><th>股数</th><th>成交价</th></tr><tr><td>2026-08-26</td><td><b>159509</b></td><td>纳指科技ETF景顺</td><td><span class="tag buy">买</span></td><td>700</td><td><span class="warn">2.7760（待回填）</span></td></tr><tr><td>2026-08-26</td><td><b>159980</b></td><td>有色ETF大成</td><td><span class="tag buy">买</span></td><td>1200</td><td><span class="warn">2.1510（待回填）</span></td></tr></table><p class="note">绿色=已按实际成交回填；橙色=仍为估计价（网站上方表单待回填）。</p>
 </div>
 
 <div class="card">
