@@ -665,12 +665,12 @@ function _renderTable() {
       const cls=themeCategory(t); return '<a class="theme-chip '+cls+'" href="'+(THEME_SLUG[t]?'themes.html#t-'+THEME_SLUG[t]:'#')+'">'+t+'</a>';
     }).join(' ')||'-';
     const vpCls=a.viewpoint==='多'?'vp-multi':a.viewpoint==='空'?'vp-bear':a.viewpoint==='中性'?'vp-neutral':'vp-ignore';
-    const scoreCls=scoreCls(score); const starsHtml=stars(score);
+    const scCls=scoreCls(score); const starsHtml=stars(score);
     const levelCls=a.level==='detail'?'lv-detail':a.level==='brief'?'lv-brief':'lv-archived';
     const levelText=a.level==='detail'?'详读':a.level==='brief'?'速览':'归档';
     body+='<tr class="'+(isArch?'archived-row':'')+'" data-art="'+a.page+'">'
       +'<td class="col-date" data-title="'+a.date+'">'+dateShort+'</td>'
-      +'<td class="col-score '+scoreCls+'">'+score.toFixed(1)+'<span class="stars">'+starsHtml+'</span></td>'
+      +'<td class="col-score '+scCls+'">'+score.toFixed(1)+'<span class="stars">'+starsHtml+'</span></td>'
       +'<td class="col-title"><a class="'+(isHi?'title-highlight':'')+'" href="'+a.page+'">'+a.title+'</a></td>'
       +'<td class="col-author">'+a.author+'</td>'
       +'<td class="col-themes">'+themesChip+'</td>'
