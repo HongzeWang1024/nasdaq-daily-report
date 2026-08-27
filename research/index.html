@@ -37,12 +37,31 @@ ul.days li { background: white; padding: 8px 14px; border-radius: 6px; box-shado
 .back a { color: #6f42c1; text-decoration: none; font-weight: bold; }
 #count { color: #666; font-size: 0.9em; margin: 10px 2px; }
 .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+/* 月历视图 */
+.cal-month { background:white;border-radius:8px;padding:12px 14px;margin:10px 0;box-shadow:0 1px 3px rgba(0,0,0,0.08); }
+.cal-nav { display:flex;justify-content:space-between;align-items:center;font-weight:bold;margin-bottom:8px;color:#6f42c1; }
+.cal-nav a { color:#6f42c1;text-decoration:none;padding:4px 10px;border-radius:4px; }
+.cal-nav a:hover { background:#f3eefa; }
+.cal-title { font-size:1.05em; }
+.cal-grid { display:grid;grid-template-columns:repeat(7,1fr);gap:3px; }
+.cal-wd { text-align:center;padding:4px;font-weight:bold;color:#888;font-size:.85em; }
+.cal-cell { min-height:64px;background:#fafafa;border-radius:4px;padding:3px 4px;font-size:.8em; }
+.cal-empty { background:transparent; }
+.cal-day { background:#fafafa; }
+.cal-date { color:#666;font-weight:bold;margin-bottom:2px; }
+.cal-ev { color:white;border-radius:3px;padding:1px 5px;margin:1px 0;font-size:.78em;
+  line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:help; }
+.cal-legend { margin:8px 0;font-size:.9em;color:#666; }
+.cal-legend .dot { display:inline-block;width:10px;height:10px;border-radius:50%;margin:0 4px 0 12px;vertical-align:middle; }
+.cal-legend .dot:first-of-type { margin-left:0; }
 @media (max-width: 760px) {
   body { padding: 12px 10px; }
   .filters input[type=text] { min-width: 100%; }
   .filters input, .filters select { flex: 1 1 44%; }
   table.res th, table.res td { font-size: 0.82em; padding: 6px 5px; white-space: nowrap; }
   table.cat th, table.cat td { font-size: 0.85em; padding: 6px 6px; }
+  .cal-cell { min-height:46px;font-size:.7em; }
+  .cal-ev { font-size:.7em;padding:1px 2px; }
 }
 </style>
 </head>
@@ -73,42 +92,11 @@ ul.days li { background: white; padding: 8px 14px; border-radius: 6px; box-shado
 <input type="date" id="f-to" title="结束日期">
 </div>
 <p id="count"></p>
+<input type="checkbox" id="show-all" style="display:none">
 <div class="table-wrap">
 <table class="res">
 <thead><tr><th>日期</th><th>标题</th><th>机构</th><th>主题</th><th>评分</th><th>观点</th><th>ETF</th><th>级别</th><th>原文</th></tr></thead>
 <tbody id="tbody"></tbody>
-</table>
-</div>
-
-<h2>催化日历（近 1 周已发生 + 未来 4 周）</h2>
-<div class="table-wrap">
-<table class="cat">
-<thead><tr><th style="width:110px">日期</th><th>事件</th><th style="width:130px">关联标的</th><th style="width:130px">状态</th></tr></thead>
-<tbody><tr><td>2026-08-21</td><td style='text-align:left'>欧元区PMI</td><td>510300 沪深300</td><td><span style="background:#fff3cd;color:#856404;padding:1px 8px;border-radius:10px;font-size:.82em">⏳ 已发生·待验证</span></td></tr>
-<tr><td>2026-08-24</td><td style='text-align:left'>美国财长贝森特新闻发布会（美债问题回应）</td><td>518880/513100</td><td><span style="background:#fff3cd;color:#856404;padding:1px 8px;border-radius:10px;font-size:.82em">⏳ 已发生·待验证</span></td></tr>
-<tr><td>2026-08-27</td><td style='text-align:left'>Jackson Hole年会开幕（至8-29，沃什讲话前瞻指引）</td><td>513100/518880</td><td><span style="background:#fff3cd;color:#856404;padding:1px 8px;border-radius:10px;font-size:.82em">⏳ 已发生·待验证</span></td></tr>
-<tr><td>2026-08-27</td><td style='text-align:left'>杰克逊霍尔央行年会（8/27-29）</td><td>513100/518880</td><td><span style="background:#fff3cd;color:#856404;padding:1px 8px;border-radius:10px;font-size:.82em">⏳ 已发生·待验证</span></td></tr>
-<tr><td>2026-08-28</td><td style='text-align:left'>Jackson Hole全球央行年会持续</td><td>513100/511090</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-08-28</td><td style='text-align:left'>美国7月PCE物价指数</td><td>513100 纳指</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-08-28</td><td style='text-align:left'>英伟达财报（财报季末焦点，算力供需验证）</td><td>512480/513100</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-08-28</td><td style='text-align:left'>跨月资金面大考：本周近8000亿政府债缴款+6000亿MLF到期+6400亿存单到期</td><td>511090 30年国债</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-08-29</td><td style='text-align:left'>十四届全国人大常委会闭幕（政策表态）</td><td>510300 沪深300</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-08-30</td><td style='text-align:left'>中国8月PMI数据</td><td>510300/512480</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-08-31</td><td style='text-align:left'>A股中报季收官</td><td>510300/512480</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-08-31</td><td style='text-align:left'>A股中报季收官、港股科网中报验证盈利拐点</td><td>510300/512480/513050</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-08-31</td><td style='text-align:left'>8月底政府债供给高峰+央行对冲力度验证</td><td>511090 30年国债</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-09-05</td><td style='text-align:left'>港股通调整交易窗口（8月下旬-9月初）</td><td>513050 中概互联</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-09-08</td><td style='text-align:left'>恒生系列指数季度调整生效（约9月上旬；华虹宏力/潍柴动力纳入恒指，天数智芯纳入恒生科技）</td><td>513050 中概互联</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-09-09</td><td style='text-align:left'>美国财政部长债回购新上限40亿美元生效</td><td>518880/513100</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-09-15</td><td style='text-align:left'>苹果发布会/华为Mate新品</td><td>512480 半导体</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-09-15</td><td style='text-align:left'>美联储FOMC会议（至9-16）</td><td>513100 纳指</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-09-15</td><td style='text-align:left'>超长债止盈压力窗口+政府债供给高峰尾声</td><td>511090 30年国债</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-09-15</td><td style='text-align:left'>国内金九旺季需求验证（铜）</td><td>512400 有色/铜</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-09-17</td><td style='text-align:left'>美联储9月FOMC议息</td><td>513100/518880</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-09-18</td><td style='text-align:left'>Anthropic/OpenAI新模型发布预期</td><td>513100/512480</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-09-20</td><td style='text-align:left'>公积金条例修订施行</td><td>地产链</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-09-20</td><td style='text-align:left'>15只摊余债基预计开启募集（9月中下旬-10月，审核1-2个月）</td><td>511010 国债ETF</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr>
-<tr><td>2026-09-23</td><td style='text-align:left'>美联储9月议息会议</td><td>513100/511090</td><td><span style="background:#e3f2fd;color:#1565c0;padding:1px 8px;border-radius:10px;font-size:.82em">待发生</span></td></tr></tbody>
 </table>
 </div>
 
@@ -121,6 +109,9 @@ ul.days li { background: white; padding: 8px 14px; border-radius: 6px; box-shado
 <li><a href="research_20260822.html">2026-08-22</a></li>
 <li><a href="research_20260821.html">2026-08-21</a></li>
 </ul>
+
+<h2>催化日历（近 1 周已发生 + 未来 4 周）</h2>
+<div class="cal-legend"><span class="dot" style="background:#1565c0"></span>待发生 <span class="dot" style="background:#856404"></span>已发生·待验证 <span class="dot" style="background:#2e7d32"></span>已验证 <span class="dim" style="font-size:.85em;margin-left:8px">事件标题悬停查看完整内容</span></div><div class="cal-month" id="cal-2026-08"><div class="cal-nav"><span class="dim">← 上一月</span><span class="cal-title">2026 年 8 月</span><a href="#cal-2026-09">下一月 →</a></div><div class="cal-grid"><div class="cal-wd">一</div><div class="cal-wd">二</div><div class="cal-wd">三</div><div class="cal-wd">四</div><div class="cal-wd">五</div><div class="cal-wd">六</div><div class="cal-wd">日</div><div class="cal-cell cal-empty"></div><div class="cal-cell cal-empty"></div><div class="cal-cell cal-empty"></div><div class="cal-cell cal-empty"></div><div class="cal-cell cal-empty"></div><div class="cal-cell cal-day" id="cal-2026-08-01"><div class="cal-date">1</div></div><div class="cal-cell cal-day" id="cal-2026-08-02"><div class="cal-date">2</div></div><div class="cal-cell cal-day" id="cal-2026-08-03"><div class="cal-date">3</div></div><div class="cal-cell cal-day" id="cal-2026-08-04"><div class="cal-date">4</div></div><div class="cal-cell cal-day" id="cal-2026-08-05"><div class="cal-date">5</div></div><div class="cal-cell cal-day" id="cal-2026-08-06"><div class="cal-date">6</div></div><div class="cal-cell cal-day" id="cal-2026-08-07"><div class="cal-date">7</div></div><div class="cal-cell cal-day" id="cal-2026-08-08"><div class="cal-date">8</div></div><div class="cal-cell cal-day" id="cal-2026-08-09"><div class="cal-date">9</div></div><div class="cal-cell cal-day" id="cal-2026-08-10"><div class="cal-date">10</div></div><div class="cal-cell cal-day" id="cal-2026-08-11"><div class="cal-date">11</div></div><div class="cal-cell cal-day" id="cal-2026-08-12"><div class="cal-date">12</div></div><div class="cal-cell cal-day" id="cal-2026-08-13"><div class="cal-date">13</div></div><div class="cal-cell cal-day" id="cal-2026-08-14"><div class="cal-date">14</div></div><div class="cal-cell cal-day" id="cal-2026-08-15"><div class="cal-date">15</div></div><div class="cal-cell cal-day" id="cal-2026-08-16"><div class="cal-date">16</div></div><div class="cal-cell cal-day" id="cal-2026-08-17"><div class="cal-date">17</div></div><div class="cal-cell cal-day" id="cal-2026-08-18"><div class="cal-date">18</div></div><div class="cal-cell cal-day" id="cal-2026-08-19"><div class="cal-date">19</div></div><div class="cal-cell cal-day" id="cal-2026-08-20"><div class="cal-date">20</div></div><div class="cal-cell cal-day" id="cal-2026-08-21"><div class="cal-date">21</div><div class="cal-ev" style="background:#856404" title="欧元区PMI | 510300">欧元区PMI</div></div><div class="cal-cell cal-day" id="cal-2026-08-22"><div class="cal-date">22</div></div><div class="cal-cell cal-day" id="cal-2026-08-23"><div class="cal-date">23</div></div><div class="cal-cell cal-day" id="cal-2026-08-24"><div class="cal-date">24</div><div class="cal-ev" style="background:#856404" title="美国财长贝森特新闻发布会（美债问题回应） | 518880/513100">美国财长贝森特新闻发布会（美</div></div><div class="cal-cell cal-day" id="cal-2026-08-25"><div class="cal-date">25</div></div><div class="cal-cell cal-day" id="cal-2026-08-26"><div class="cal-date">26</div></div><div class="cal-cell cal-day" id="cal-2026-08-27"><div class="cal-date">27</div><div class="cal-ev" style="background:#856404" title="Jackson Hole年会开幕（至8-29，沃什讲话前瞻指引） | 513100/518880">Jackson Hole年会</div><div class="cal-ev" style="background:#856404" title="杰克逊霍尔央行年会（8/27-29） | 513100/518880">杰克逊霍尔央行年会（8/27</div></div><div class="cal-cell cal-day" id="cal-2026-08-28"><div class="cal-date">28</div><div class="cal-ev" style="background:#1565c0" title="Jackson Hole全球央行年会持续 | 513100/511090">Jackson Hole全球</div><div class="cal-ev" style="background:#1565c0" title="美国7月PCE物价指数 | 513100">美国7月PCE物价指数</div><div class="cal-ev" style="background:#1565c0" title="英伟达财报（财报季末焦点，算力供需验证） | 512480/513100">英伟达财报（财报季末焦点，算</div><div class="cal-ev" style="background:#1565c0" title="跨月资金面大考：本周近8000亿政府债缴款+6000亿MLF到期+6400亿存单到期 | 511090">跨月资金面大考：本周近800</div></div><div class="cal-cell cal-day" id="cal-2026-08-29"><div class="cal-date">29</div><div class="cal-ev" style="background:#1565c0" title="十四届全国人大常委会闭幕（政策表态） | 510300">十四届全国人大常委会闭幕（政</div></div><div class="cal-cell cal-day" id="cal-2026-08-30"><div class="cal-date">30</div><div class="cal-ev" style="background:#1565c0" title="中国8月PMI数据 | 510300/512480">中国8月PMI数据</div></div><div class="cal-cell cal-day" id="cal-2026-08-31"><div class="cal-date">31</div><div class="cal-ev" style="background:#1565c0" title="A股中报季收官 | 510300/512480">A股中报季收官</div><div class="cal-ev" style="background:#1565c0" title="A股中报季收官、港股科网中报验证盈利拐点 | 510300/512480/513050">A股中报季收官、港股科网中报</div><div class="cal-ev" style="background:#1565c0" title="8月底政府债供给高峰+央行对冲力度验证 | 511090">8月底政府债供给高峰+央行对</div></div><div class="cal-cell cal-empty"></div><div class="cal-cell cal-empty"></div><div class="cal-cell cal-empty"></div><div class="cal-cell cal-empty"></div><div class="cal-cell cal-empty"></div><div class="cal-cell cal-empty"></div></div></div><div class="cal-month" id="cal-2026-09"><div class="cal-nav"><a href="#cal-2026-08">← 上一月</a><span class="cal-title">2026 年 9 月</span><a href="#cal-2026-10">下一月 →</a></div><div class="cal-grid"><div class="cal-wd">一</div><div class="cal-wd">二</div><div class="cal-wd">三</div><div class="cal-wd">四</div><div class="cal-wd">五</div><div class="cal-wd">六</div><div class="cal-wd">日</div><div class="cal-cell cal-empty"></div><div class="cal-cell cal-day" id="cal-2026-09-01"><div class="cal-date">1</div></div><div class="cal-cell cal-day" id="cal-2026-09-02"><div class="cal-date">2</div></div><div class="cal-cell cal-day" id="cal-2026-09-03"><div class="cal-date">3</div></div><div class="cal-cell cal-day" id="cal-2026-09-04"><div class="cal-date">4</div></div><div class="cal-cell cal-day" id="cal-2026-09-05"><div class="cal-date">5</div><div class="cal-ev" style="background:#1565c0" title="港股通调整交易窗口（8月下旬-9月初） | 513050">港股通调整交易窗口（8月下旬</div></div><div class="cal-cell cal-day" id="cal-2026-09-06"><div class="cal-date">6</div></div><div class="cal-cell cal-day" id="cal-2026-09-07"><div class="cal-date">7</div></div><div class="cal-cell cal-day" id="cal-2026-09-08"><div class="cal-date">8</div><div class="cal-ev" style="background:#1565c0" title="恒生系列指数季度调整生效（约9月上旬；华虹宏力/潍柴动力纳入恒指，天数智芯纳入恒生科技） | 513050">恒生系列指数季度调整生效（约</div></div><div class="cal-cell cal-day" id="cal-2026-09-09"><div class="cal-date">9</div><div class="cal-ev" style="background:#1565c0" title="美国财政部长债回购新上限40亿美元生效 | 518880/513100">美国财政部长债回购新上限40</div></div><div class="cal-cell cal-day" id="cal-2026-09-10"><div class="cal-date">10</div></div><div class="cal-cell cal-day" id="cal-2026-09-11"><div class="cal-date">11</div></div><div class="cal-cell cal-day" id="cal-2026-09-12"><div class="cal-date">12</div></div><div class="cal-cell cal-day" id="cal-2026-09-13"><div class="cal-date">13</div></div><div class="cal-cell cal-day" id="cal-2026-09-14"><div class="cal-date">14</div></div><div class="cal-cell cal-day" id="cal-2026-09-15"><div class="cal-date">15</div><div class="cal-ev" style="background:#1565c0" title="苹果发布会/华为Mate新品 | 512480">苹果发布会/华为Mate新品</div><div class="cal-ev" style="background:#1565c0" title="美联储FOMC会议（至9-16） | 513100">美联储FOMC会议（至9-1</div><div class="cal-ev" style="background:#1565c0" title="超长债止盈压力窗口+政府债供给高峰尾声 | 511090">超长债止盈压力窗口+政府债供</div><div class="cal-ev" style="background:#1565c0" title="国内金九旺季需求验证（铜） | 512400">国内金九旺季需求验证（铜）</div></div><div class="cal-cell cal-day" id="cal-2026-09-16"><div class="cal-date">16</div></div><div class="cal-cell cal-day" id="cal-2026-09-17"><div class="cal-date">17</div><div class="cal-ev" style="background:#1565c0" title="美联储9月FOMC议息 | 513100/518880">美联储9月FOMC议息</div></div><div class="cal-cell cal-day" id="cal-2026-09-18"><div class="cal-date">18</div><div class="cal-ev" style="background:#1565c0" title="Anthropic/OpenAI新模型发布预期 | 513100/512480">Anthropic/Open</div></div><div class="cal-cell cal-day" id="cal-2026-09-19"><div class="cal-date">19</div></div><div class="cal-cell cal-day" id="cal-2026-09-20"><div class="cal-date">20</div><div class="cal-ev" style="background:#1565c0" title="公积金条例修订施行 | 地产链">公积金条例修订施行</div><div class="cal-ev" style="background:#1565c0" title="15只摊余债基预计开启募集（9月中下旬-10月，审核1-2个月） | 511010">15只摊余债基预计开启募集（</div></div><div class="cal-cell cal-day" id="cal-2026-09-21"><div class="cal-date">21</div></div><div class="cal-cell cal-day" id="cal-2026-09-22"><div class="cal-date">22</div></div><div class="cal-cell cal-day" id="cal-2026-09-23"><div class="cal-date">23</div><div class="cal-ev" style="background:#1565c0" title="美联储9月议息会议 | 513100/511090">美联储9月议息会议</div></div><div class="cal-cell cal-day" id="cal-2026-09-24"><div class="cal-date">24</div></div><div class="cal-cell cal-day" id="cal-2026-09-25"><div class="cal-date">25</div></div><div class="cal-cell cal-day" id="cal-2026-09-26"><div class="cal-date">26</div></div><div class="cal-cell cal-day" id="cal-2026-09-27"><div class="cal-date">27</div></div><div class="cal-cell cal-day" id="cal-2026-09-28"><div class="cal-date">28</div></div><div class="cal-cell cal-day" id="cal-2026-09-29"><div class="cal-date">29</div></div><div class="cal-cell cal-day" id="cal-2026-09-30"><div class="cal-date">30</div></div><div class="cal-cell cal-empty"></div><div class="cal-cell cal-empty"></div><div class="cal-cell cal-empty"></div><div class="cal-cell cal-empty"></div></div></div>
 
 <script>
 let ARTS = [];
@@ -193,7 +184,11 @@ function render() {
   });
   document.getElementById('count').textContent = '命中 ' + rows.length + ' / ' + ARTS.length + ' 篇';
   const tb = document.getElementById('tbody');
-  tb.innerHTML = rows.slice().sort((x, y) => y.date.localeCompare(x.date) || y.scores.total - x.scores.total).map(a => {
+  const sorted = rows.slice().sort((x, y) => y.date.localeCompare(x.date) || y.scores.total - x.scores.total);
+  const pageSize = 10;
+  const showAll = document.getElementById('show-all')?.checked;
+  const shown = showAll ? sorted : sorted.slice(0, pageSize);
+  tb.innerHTML = shown.map(a => {
     const etfs = Object.entries(a.etf_sentiment || {}).map(([k, v]) =>
       '<a href="index.html?etf=' + k + '">' + k + '</a>' +
       (NAMES[k] ? '<span class="dim" style="font-size:.82em"> ' + NAMES[k] + '</span>' : '') +
@@ -215,6 +210,18 @@ function render() {
       + '<td><span class="lv-' + a.level + '">' + ({detail:'详读',brief:'速览',archived:'归档'}[a.level] || a.level) + '</span></td>'
       + '<td>' + (a.url ? '<a href="' + a.url + '" target="_blank">原文</a>' : '-') + '</td></tr>';
   }).join('') || '<tr><td colspan=9 style="color:#999;padding:20px">无匹配结果</td></tr>';
+  // 加载更多行
+  const more = document.getElementById('more-row');
+  if (more) more.remove();
+  if (!showAll && sorted.length > pageSize) {
+    const tr = document.createElement('tr');
+    tr.id = 'more-row';
+    tr.innerHTML = '<td colspan=9 style="text-align:center;padding:14px">'
+      + '<button onclick="document.getElementById(\'show-all\').checked=true;render();" '
+      + 'style="background:#6f42c1;color:white;border:none;padding:8px 22px;border-radius:6px;cursor:pointer">'
+      + '加载更多（剩余 ' + (sorted.length - pageSize) + ' 篇）</button></td>';
+    tb.appendChild(tr);
+  }
 }
 </script>
 <style>
