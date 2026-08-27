@@ -3,131 +3,245 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>研报观点 - 检索</title>
+<title>研报观点 · 检索</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
 <style>
-body { font-family: -apple-system, "Microsoft YaHei", sans-serif; padding: 30px 40px; background: #f5f5f5; }
-h1 { color: #6f42c1; border-bottom: 3px solid #6f42c1; padding-bottom: 10px; }
-h2 { color: #333; border-left: 5px solid #6f42c1; padding-left: 10px; margin-top: 34px; }
-.filters { background: white; padding: 18px 20px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
-.filters input, .filters select { padding: 8px 10px; border: 1px solid #d0d0d0; border-radius: 6px; font-size: 0.95em; }
-.filters input[type=text] { flex: 1; min-width: 180px; }
-.filters input[type=number] { width: 72px; }
-table.res { width: 100%; border-collapse: collapse; margin-top: 16px; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
-table.res th { background: #6f42c1; color: white; padding: 10px 8px; font-size: 0.9em; }
-table.res td { padding: 9px 8px; border-bottom: 1px solid #eee; font-size: 0.92em; text-align: center; }
-table.res td.t { text-align: left; }
-table.res tr:hover td { background: #faf5ff; }
-a { color: #6f42c1; text-decoration: none; }
-a:hover { text-decoration: underline; }
-.score { font-weight: bold; color: #d6336c; }
-.lv-detail { background: #ffeaa7; padding: 1px 8px; border-radius: 10px; font-size: 0.85em; }
-.lv-brief { background: #eee; padding: 1px 8px; border-radius: 10px; font-size: 0.85em; }
-.lv-archived { background: #f5f5f5; color: #999; padding: 1px 8px; border-radius: 10px; font-size: 0.85em; }
-.vp-多 { color: #d6336c; font-weight: bold; }
-.vp-空 { color: #2e8b57; font-weight: bold; }
-.theme-chip { background: #f3eefa; color: #6f42c1; border-radius: 10px; padding: 1px 8px;
-  font-size: .88em; text-decoration: none; margin: 1px; display: inline-block; }
-.theme-chip:hover { background: #e7dbf5; }
-table.cat { width: 100%; border-collapse: collapse; margin-top: 12px; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
-table.cat th { background: #6f42c1; color: white; padding: 9px; }
-table.cat td { padding: 8px 10px; border-bottom: 1px solid #eee; font-size: 0.92em; text-align: center; }
-ul.days { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
-ul.days li { background: white; padding: 8px 14px; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); font-weight: bold; }
-.back { margin-bottom: 16px; }
-.back a { color: #6f42c1; text-decoration: none; font-weight: bold; }
-#count { color: #666; font-size: 0.9em; margin: 10px 2px; }
-.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-/* 月历视图 */
-.cal-month { background:white;border-radius:8px;padding:12px 14px;margin:10px 0;box-shadow:0 1px 3px rgba(0,0,0,0.08); }
-.cal-nav { display:flex;justify-content:space-between;align-items:center;font-weight:bold;margin-bottom:8px;color:#6f42c1; }
-.cal-nav .pg-btn { background:white; border:1px solid #d0d0d0; color:#6f42c1; padding:5px 12px;
-  border-radius:5px; cursor:pointer; font-size:.9em; }
-.cal-nav .pg-btn:disabled { opacity:0.35; cursor:not-allowed; }
-.cal-nav .pg-btn:not(:disabled):hover { background:#f3eefa; }
-.cal-title { font-size:1.1em; }
-.cal-grid { display:grid;grid-template-columns:repeat(7,1fr);gap:3px; }
-.cal-wd { text-align:center;padding:4px;font-weight:bold;color:#888;font-size:.85em; }
-.cal-cell { min-height:72px;background:#fafafa;border-radius:4px;padding:3px 5px;font-size:.8em;
-  border-left:3px solid transparent; transition: background .15s; }
-.cal-cell:hover { background:#f3eefa; }
-.cal-empty { background:transparent; }
-.cal-day.past { background:#f0f0f0;opacity:0.6; }
-.cal-day.future { background:#fafafa; }
-.cal-date { color:#666;font-weight:bold;margin-bottom:2px; }
-.cal-day.past .cal-date { color:#aaa; }
-.cal-ev { color:white;border-radius:3px;padding:1px 5px;margin:1px 0;font-size:.78em;
-  line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:help;
-  transition: filter .15s; }
-.cal-ev:hover { filter: brightness(1.15); }
-.cal-legend { margin:8px 0;font-size:.9em;color:#666; }
-.cal-legend .dot { display:inline-block;width:10px;height:10px;border-radius:50%;margin:0 4px 0 12px;vertical-align:middle; }
-.cal-legend .dot:first-of-type { margin-left:0; }
-@media (max-width: 760px) {
-  body { padding: 12px 10px; }
-  .filters input[type=text] { min-width: 100%; }
-  .filters input, .filters select { flex: 1 1 44%; }
-  table.res th, table.res td { font-size: 0.82em; padding: 6px 5px; white-space: nowrap; }
-  table.cat th, table.cat td { font-size: 0.85em; padding: 6px 6px; }
-  .cal-cell { min-height:52px;font-size:.7em;padding:2px 3px; }
-  .cal-ev { font-size:.7em;padding:1px 2px; }
-  .cal-title { font-size:.95em; }
-}
+* { box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; background: #f5f6f8; color: #333; margin: 0; padding: 0; line-height: 1.6; }
+.mono { font-family: "SF Mono", Consolas, "Liberation Mono", Menlo, monospace; }
+.topbar { position: sticky; top: 0; z-index: 100; background: linear-gradient(135deg, #6f42c1, #5a36a3); color: white; box-shadow: 0 2px 12px rgba(111,66,193,.3); }
+.topbar-inner { max-width: 1400px; margin: 0 auto; padding: 12px 24px; display: flex; align-items: center; gap: 24px; }
+.topbar-title { font-size: 1.25em; font-weight: bold; letter-spacing: .5px; display: flex; align-items: center; gap: 8px; }
+.topbar-nav { display: flex; gap: 4px; margin-left: auto; }
+.topbar-nav a { color: rgba(255,255,255,.8); text-decoration: none; padding: 6px 14px; border-radius: 6px; font-size: .9em; transition: all .15s; }
+.topbar-nav a:hover { background: rgba(255,255,255,.15); color: white; }
+.topbar-nav a.active { background: rgba(255,255,255,.25); color: white; font-weight: bold; }
+.topbar-today a { background: rgba(255,255,255,.2); color: white; padding: 6px 14px; border-radius: 6px; text-decoration: none; font-size: .9em; font-weight: 500; }
+.topbar-today a:hover { background: rgba(255,255,255,.3); }
+.main { max-width: 1400px; margin: 0 auto; padding: 20px 24px; }
+.section-title { font-size: 1.15em; font-weight: bold; color: #333; margin: 28px 0 14px; padding-left: 12px; border-left: 4px solid #6f42c1; }
+.ov-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
+.ov-card { background: white; border-radius: 10px; padding: 18px 20px; box-shadow: 0 1px 4px rgba(0,0,0,.06); border-top: 3px solid #6f42c1; transition: transform .15s, box-shadow .15s; }
+.ov-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.1); }
+.ov-card.alt1 { border-top-color: #e67e22; }
+.ov-card.alt2 { border-top-color: #2e7d32; }
+.ov-card.alt3 { border-top-color: #d6336c; }
+.ov-label { font-size: .85em; color: #888; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+.ov-num { font-size: 1.8em; font-weight: bold; color: #333; font-family: "SF Mono", Consolas, monospace; }
+.ov-delta { font-size: .85em; margin-left: 8px; }
+.ov-sub { font-size: .82em; color: #999; margin-top: 6px; }
+.ov-sub span { margin-right: 10px; }
+.etf-top3-item { display: flex; align-items: center; gap: 6px; margin: 4px 0; font-size: .9em; }
+.etf-code { font-family: "SF Mono", Consolas, monospace; color: #333; font-weight: bold; }
+.etf-name { color: #666; flex: 1; font-size: .85em; }
+.etf-ratio { color: #d6336c; font-weight: bold; font-size: .85em; }
+.risk-item { display: flex; align-items: center; gap: 8px; margin: 6px 0; padding: 6px 10px; border-radius: 6px; font-size: .88em; }
+.risk-warn { background: #fff5f5; border-left: 3px solid #d6336c; }
+.risk-mid { background: #fef9e7; border-left: 3px solid #f39c12; }
+.risk-cal { background: #eaf7ec; border-left: 3px solid #2e7d32; }
+.risk-name { color: #333; flex: 1; }
+.risk-count { background: #6f42c1; color: white; padding: 1px 7px; border-radius: 10px; font-size: .78em; }
+.risk-trend { font-size: .78em; color: #888; }
+.filters-card { background: white; border-radius: 10px; padding: 16px 20px; box-shadow: 0 1px 4px rgba(0,0,0,.06); margin-bottom: 16px; }
+.filters-top { display: flex; gap: 12px; margin-bottom: 14px; }
+.search-wrap { flex: 1; position: relative; }
+.search-wrap input { width: 100%; padding: 10px 14px 10px 36px; border: 1.5px solid #e0e0e0; border-radius: 8px; font-size: .95em; transition: border-color .15s; }
+.search-wrap input:focus { outline: none; border-color: #6f42c1; }
+.search-wrap .fa-search { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: #aaa; }
+.reset-btn { padding: 10px 18px; background: white; border: 1.5px solid #e0e0e0; border-radius: 8px; cursor: pointer; color: #666; font-size: .9em; transition: all .15s; white-space: nowrap; }
+.reset-btn:hover { border-color: #d6336c; color: #d6336c; }
+.filters-row { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+.filter-group { display: flex; align-items: center; gap: 6px; }
+.filter-label { font-size: .82em; color: #888; min-width: 42px; white-space: nowrap; }
+.filter-select { padding: 6px 10px; border: 1.5px solid #e0e0e0; border-radius: 6px; font-size: .88em; background: white; cursor: pointer; max-width: 200px; }
+.filter-btn { padding: 5px 12px; border: 1.5px solid #e0e0e0; border-radius: 14px; background: white; cursor: pointer; font-size: .85em; color: #666; transition: all .12s; user-select: none; }
+.filter-btn:hover { border-color: #6f42c1; color: #6f42c1; }
+.filter-btn.active { background: #6f42c1; color: white; border-color: #6f42c1; }
+.filter-btn.vp-multi.active { background: #d6336c; border-color: #d6336c; }
+.filter-btn.vp-neutral.active { background: #888; border-color: #888; }
+.filter-btn.vp-bear.active { background: #2e8b57; border-color: #2e8b57; }
+.filter-btn.vp-ignore.active { background: #bbb; border-color: #bbb; }
+.filter-btn.lv-detail.active { background: #1565c0; border-color: #1565c0; }
+.filter-btn.lv-brief.active { background: #90a4ae; border-color: #90a4ae; }
+.filter-btn.lv-arch.active { background: #cfd8dc; border-color: #cfd8dc; color: #555; }
+.date-input { padding: 6px 8px; border: 1.5px solid #e0e0e0; border-radius: 6px; font-size: .88em; }
+.slider-wrap { display: flex; align-items: center; gap: 8px; font-size: .88em; color: #666; }
+.slider-wrap input[type=range] { accent-color: #6f42c1; width: 120px; }
+.slider-val { font-family: "SF Mono", Consolas, monospace; color: #6f42c1; font-weight: bold; }
+.table-wrap { background: white; border-radius: 10px; box-shadow: 0 1px 4px rgba(0,0,0,.06); overflow-x: auto; }
+table.arts { width: 100%; border-collapse: collapse; font-size: .9em; }
+table.arts thead { background: #faf7fe; }
+table.arts th { padding: 10px 12px; text-align: left; font-weight: 600; color: #555; border-bottom: 2px solid #e9e3f5; font-size: .85em; cursor: pointer; user-select: none; white-space: nowrap; }
+table.arts th:hover { background: #f3eefa; color: #6f42c1; }
+table.arts th.sorted-asc::after { content: " ▲"; font-size: .7em; color: #6f42c1; }
+table.arts th.sorted-desc::after { content: " ▼"; font-size: .7em; color: #6f42c1; }
+table.arts td { padding: 10px 12px; border-bottom: 1px solid #f0f0f0; vertical-align: top; }
+table.arts tbody tr:hover { background: #faf7fe; }
+table.arts tbody tr.archived-row { opacity: .45; }
+.col-date { white-space: nowrap; font-family: "SF Mono", Consolas, monospace; color: #666; font-size: .88em; }
+.col-title { min-width: 280px; }
+.col-title a { color: #333; text-decoration: none; display: block; }
+.col-title a:hover { color: #6f42c1; }
+.title-highlight { font-weight: bold; color: #1a1a1a; }
+.theme-chip { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: .78em; color: white; cursor: pointer; text-decoration: none; margin: 1px; }
+.theme-macro { background: #3498db; }
+.theme-bond { background: #27ae60; }
+.theme-tech { background: #e67e22; }
+.theme-commodity { background: #f1c40f; color: #7d6608; }
+.theme-equity { background: #9b59b6; }
+.theme-hk { background: #1abc9c; }
+.theme-other { background: #95a5a6; }
+.col-score { font-family: "SF Mono", Consolas, monospace; font-weight: bold; white-space: nowrap; }
+.score-4plus { color: #1e8449; }
+.score-3to4 { color: #58d68d; }
+.score-2to3 { color: #999; }
+.score-low { color: #e74c3c; }
+.stars { font-size: .7em; color: #f39c12; margin-left: 4px; letter-spacing: 1px; }
+.vp-badge { display: inline-block; padding: 2px 10px; border-radius: 10px; font-size: .8em; font-weight: bold; color: white; }
+.vp-multi { background: #d6336c; }
+.vp-bear { background: #2e8b57; }
+.vp-neutral { background: #888; }
+.vp-ignore { background: #bbb; color: #666; }
+.etf-inline { font-family: "SF Mono", Consolas, monospace; font-size: .85em; text-decoration: none; margin-right: 4px; }
+.lv-badge { display: inline-block; padding: 2px 10px; border-radius: 4px; font-size: .78em; font-weight: 500; }
+.lv-detail { background: #e3f2fd; color: #1565c0; border: 1px solid #bbdefb; }
+.lv-brief { background: #f5f5f5; color: #666; border: 1px solid #e0e0e0; }
+.lv-archived { background: #eee; color: #aaa; border: 1px solid #ddd; }
+.ops-btn { padding: 3px 10px; border: 1px solid #e0e0e0; border-radius: 4px; background: white; cursor: pointer; font-size: .82em; color: #666; text-decoration: none; margin-right: 4px; transition: all .12s; }
+.ops-btn:hover { border-color: #6f42c1; color: #6f42c1; }
+.expand-row td { padding: 0; border: none; }
+.expand-inner { background: #faf7fe; padding: 14px 20px; border-top: 1px solid #e9e3f5; font-size: .88em; }
+.expand-inner b { color: #6f42c1; }
+.pg-bar { display: flex; justify-content: space-between; align-items: center; padding: 12px 16px; background: white; border-radius: 0 0 10px 10px; box-shadow: 0 1px 4px rgba(0,0,0,.06); border-top: 1px solid #f0f0f0; font-size: .9em; color: #666; flex-wrap: wrap; gap: 6px; }
+.pg-bar .pg-btn { background: white; border: 1px solid #d0d0d0; padding: 5px 12px; margin: 0 2px; border-radius: 5px; cursor: pointer; color: #6f42c1; font-size: .88em; }
+.pg-bar .pg-btn:disabled { background: #6f42c1; color: white; border-color: #6f42c1; cursor: default; }
+.pg-bar .pg-btn:not(:disabled):hover { background: #f3eefa; }
+.empty-state { text-align: center; padding: 40px; color: #999; }
+.empty-state .fa-search { font-size: 2em; margin-bottom: 12px; color: #ccc; }
+.empty-state button { margin-top: 14px; padding: 8px 20px; background: #6f42c1; color: white; border: none; border-radius: 6px; cursor: pointer; }
+.days-list { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.days-list a { padding: 4px 12px; background: white; border: 1px solid #e0e0e0; border-radius: 14px; text-decoration: none; color: #555; font-size: .85em; transition: all .12s; }
+.days-list a:hover { background: #6f42c1; color: white; border-color: #6f42c1; }
+.cat-tabs { display: flex; gap: 4px; margin-bottom: 12px; }
+.cat-tab { padding: 6px 16px; border: none; background: #eee; border-radius: 6px; cursor: pointer; font-size: .88em; color: #666; transition: all .12s; }
+.cat-tab.active { background: #6f42c1; color: white; }
+.cat-section { display: none; }
+.cat-section.active { display: block; }
+.cat-card { background: white; border-radius: 10px; padding: 14px 18px; box-shadow: 0 1px 4px rgba(0,0,0,.06); margin-bottom: 8px; display: flex; align-items: flex-start; gap: 12px; }
+.cat-date { font-family: "SF Mono", Consolas, monospace; color: #666; min-width: 110px; font-size: .9em; padding-top: 2px; }
+.cat-body { flex: 1; }
+.cat-event { font-weight: 500; color: #333; margin-bottom: 4px; }
+.cat-event.critical { font-weight: bold; }
+.cat-meta { display: flex; gap: 12px; font-size: .82em; color: #888; flex-wrap: wrap; }
+.cat-target a { color: #6f42c1; text-decoration: none; font-family: "SF Mono", Consolas, monospace; }
+.cat-badge { padding: 2px 8px; border-radius: 10px; font-size: .78em; font-weight: 500; }
+.cat-badge.pending { background: #e3f2fd; color: #1565c0; }
+.cat-badge.occurred { background: #fff8e1; color: #856404; }
+.cat-badge.verified { background: #e8f5e9; color: #2e7d32; }
+@media (max-width: 1100px) { .ov-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 700px) { .ov-grid { grid-template-columns: 1fr; } .filters-row { flex-direction: column; align-items: stretch; } table.arts th, table.arts td { font-size: .82em; padding: 6px 5px; } }
 </style>
 </head>
 <body>
-<p class="back"><a href="../index.html">← 返回主页</a></p>
-<h1>研报观点 · 检索</h1>
-<p style="color:#666;">已入库 218 篇研报 · 6 期日报 ·
-<a href="indicators.html">📈 指标追踪</a> · <a href="authors.html">🏛 机构观点</a> ·
-<a href="themes.html">🗂 主题专题</a></p>
-
-<div class="filters">
-<input type="text" id="q" placeholder="关键词：标题 / 摘要 / 机构 / ETF代码…">
-<select id="f-inst"><option value="">全部机构</option></select>
-<select id="f-theme"><option value="">全部主题</option></select>
-<select id="f-etf"><option value="">全部ETF</option></select>
-<select id="f-view">
-<option value="">全部观点</option><option value="多">看多</option>
-<option value="空">看空</option><option value="中性">中性</option><option value="观望">观望</option>
-</select>
-<select id="f-level">
-<option value="">全部级别</option><option value="detail">详读</option>
-<option value="brief">速览</option><option value="archived">归档</option>
-</select>
-<input type="number" id="f-min" placeholder="评分≥" min="1" max="5" step="0.1" title="最低评分">
-<span style="color:#999">~</span>
-<input type="number" id="f-max" placeholder="≤" min="1" max="5" step="0.1" title="最高评分">
-<input type="date" id="f-from" title="开始日期">
-<input type="date" id="f-to" title="结束日期">
-</div>
-<p id="count"></p>
-<div class="pg-bar" id="search-pg" style="display:none">
-  <span id="pg-info">第 1/1 页</span>
-  <button class="pg-btn" id="pg-first" disabled>« 首页</button>
-  <button class="pg-btn" id="pg-prev" disabled>‹ 上一页</button>
-  <span id="pg-pages"></span>
-  <button class="pg-btn" id="pg-next" disabled>下一页 ›</button>
-  <button class="pg-btn" id="pg-last" disabled>末页 »</button>
-</div>
-<div class="table-wrap">
-<table class="res">
-<thead><tr><th>日期</th><th>标题</th><th>机构</th><th>主题</th><th>评分</th><th>观点</th><th>ETF</th><th>级别</th><th>原文</th></tr></thead>
-<tbody id="tbody"></tbody>
-</table>
-</div>
-
-<h2>历史日报</h2>
-<ul class="days">
-<li><a href="research_20260827.html">2026-08-27</a></li>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="topbar-title"><i class="fa-solid fa-chart-line"></i>研报观点 · 检索</div>
+    <nav class="topbar-nav">
+      <a href="index.html" class="active"><i class="fa-solid fa-table"></i> 检索列表</a>
+      <a href="indicators.html"><i class="fa-solid fa-chart-simple"></i> 指标追踪</a>
+      <a href="authors.html"><i class="fa-solid fa-user-group"></i> 机构观点</a>
+      <a href="themes.html"><i class="fa-solid fa-tags"></i> 主题专题</a>
+    </nav>
+    <div class="topbar-today">
+      <a href="research_20260827.html" title="跳转至最新日报"><i class="fa-solid fa-newspaper"></i> 今日日报</a>
+    </div>
+  </div>
+</header>
+<div class="main">
+<section class="ov-grid" id="overview">
+  <div class="ov-card">
+    <div class="ov-label"><i class="fa-solid fa-database"></i> 入库统计（2026-08-27）</div>
+    <div class="ov-num mono">19<span class="ov-delta" style="color:#d6336c">▲ 3</span></div>
+    <div class="ov-sub"><span>详读 <b style="color:#1565c0">6</b></span><span>速览 <b style="color:#666">13</b></span><span>归档 <b style="color:#bbb">0</b></span></div>
+    <div class="ov-sub">覆盖 <b>8</b> 家机构</div>
+  </div>
+  <div class="ov-card alt1">
+    <div class="ov-label"><i class="fa-solid fa-gauge-high"></i> 卖方情绪指数</div>
+    <div class="ov-num">70<span class="ov-delta" style="color:#d6336c">▲ 1.0</span></div>
+    <div class="ov-sub">0-100，>60 看多占比主导</div>
+  </div>
+  <div class="ov-card alt2">
+    <div class="ov-label"><i class="fa-solid fa-arrow-trend-up"></i> ETF 共识 Top3</div>
+    <div class="etf-top3-item"><span class="etf-code">512480</span><span class="etf-name">半导体</span><span class="etf-ratio">↑ 100%</span></div><div class="etf-top3-item"><span class="etf-code">511090</span><span class="etf-name">30年国债</span><span class="etf-ratio">↑ 100%</span></div><div class="etf-top3-item"><span class="etf-code">515880</span><span class="etf-name">通信</span><span class="etf-ratio">↑ 100%</span></div>
+  </div>
+  <div class="ov-card alt3">
+    <div class="ov-label"><i class="fa-solid fa-triangle-exclamation"></i> 核心风险 Top2</div>
+    <div class="risk-item risk-warn"><span class="risk-name">AI泡沫压力指数极端化</span><span class="risk-count">×3</span><span class="risk-trend">升温</span></div><div class="risk-item risk-warn"><span class="risk-name">房贷贴息刺激效果有限</span><span class="risk-count">×2</span><span class="risk-trend">升温</span></div>
+  </div>
+</section>
+<section>
+  <div class="filters-card">
+    <div class="filters-top">
+      <div class="search-wrap" style="flex:1">
+        <i class="fa-solid fa-search"></i>
+        <input type="text" id="q" placeholder="搜索 标题 / 机构 / 主题 / ETF代码 / 关键词  （按 / 快速聚焦）">
+      </div>
+      <button class="reset-btn" onclick="_resetFilters()"><i class="fa-solid fa-rotate-left"></i> 重置</button>
+    </div>
+    <div class="filters-row">
+      <div class="filter-group"><span class="filter-label">机构</span><select id="f-inst" class="filter-select" multiple size="2"><option value="">全部（Ctrl 多选）</option><option value="CSC研究 宏观团队">CSC研究 宏观团队</option><option value="DeepVan的逃生地牢">DeepVan的逃生地牢</option><option value="Kevin策略研究">Kevin策略研究</option><option value="一瑜中的">一瑜中的</option><option value="中信建投宏观">中信建投宏观</option><option value="中金固定收益研究">中金固定收益研究</option><option value="中金固收">中金固收</option><option value="中金点睛">中金点睛</option><option value="丹湖渔翁">丹湖渔翁</option><option value="华泰固收">华泰固收</option><option value="华泰资产配置">华泰资产配置</option><option value="吐槽吖">吐槽吖</option><option value="固收亮话">固收亮话</option><option value="固收荷语">固收荷语</option><option value="川阅全球宏观">川阅全球宏观</option><option value="早安汇市">早安汇市</option><option value="泽平宏观">泽平宏观</option><option value="虎投虎脑Tips">虎投虎脑Tips</option><option value="覃汉研究笔记">覃汉研究笔记</option><option value="郁见投资">郁见投资</option><option value="郁言债市">郁言债市</option></select></div>
+      <div class="filter-group"><span class="filter-label">主题</span><select id="f-theme" class="filter-select" multiple size="2"><option value="">全部（Ctrl 多选）</option><option value="ABS">ABS</option><option value="AI产业">AI产业</option><option value="AI产业链">AI产业链</option><option value="AI基建">AI基建</option><option value="AI应用">AI应用</option><option value="AI融资">AI融资</option><option value="AI融资债务化">AI融资债务化</option><option value="A股">A股</option><option value="A股流动性">A股流动性</option><option value="A股策略">A股策略</option><option value="ETF资金流">ETF资金流</option><option value="ETF轮动">ETF轮动</option><option value="Jackson Hole">Jackson Hole</option><option value="REITs">REITs</option><option value="中游制造">中游制造</option><option value="中美板块映射">中美板块映射</option><option value="二永债">二永债</option><option value="产品创新">产品创新</option><option value="人口">人口</option><option value="传媒">传媒</option><option value="保险资负新规">保险资负新规</option><option value="信用债">信用债</option><option value="债市">债市</option><option value="债市开放">债市开放</option><option value="债市情绪">债市情绪</option><option value="债市策略">债市策略</option><option value="债市调查">债市调查</option><option value="光模块">光模块</option><option value="全球宏观">全球宏观</option><option value="全球权益">全球权益</option><option value="公募基金">公募基金</option><option value="关税">关税</option><option value="农产品">农产品</option><option value="创新药">创新药</option><option value="利率债">利率债</option><option value="利率衍生品">利率衍生品</option><option value="医药">医药</option><option value="半导体">半导体</option><option value="可转债">可转债</option><option value="同业存单">同业存单</option><option value="固收+">固收+</option><option value="国产算力">国产算力</option><option value="国债期货">国债期货</option><option value="国际货币体系">国际货币体系</option><option value="地产政策">地产政策</option><option value="地方债">地方债</option><option value="地缘政治">地缘政治</option><option value="城投">城投</option><option value="基金持仓">基金持仓</option><option value="境外债">境外债</option><option value="外汇">外汇</option><option value="外贸">外贸</option><option value="大宗商品">大宗商品</option><option value="大类资产">大类资产</option><option value="央行流动性">央行流动性</option><option value="套息交易">套息交易</option><option value="宏观经济">宏观经济</option><option value="小盘风格">小盘风格</option><option value="就业">就业</option><option value="市场情绪">市场情绪</option><option value="微观结构">微观结构</option><option value="投资框架">投资框架</option><option value="指数调整">指数调整</option><option value="政策解读">政策解读</option><option value="日元">日元</option><option value="机构持仓">机构持仓</option><option value="机构行为">机构行为</option><option value="机构观点">机构观点</option><option value="权益市场">权益市场</option><option value="杠杆资金">杠杆资金</option><option value="欧元">欧元</option><option value="欧央行">欧央行</option><option value="汇率">汇率</option><option value="油价">油价</option><option value="波动率">波动率</option><option value="流动性">流动性</option><option value="海外利率">海外利率</option><option value="海外宏观">海外宏观</option><option value="海外研究">海外研究</option><option value="海外财报">海外财报</option><option value="消费">消费</option><option value="消费刺激">消费刺激</option><option value="液冷">液冷</option><option value="港股">港股</option><option value="理财">理财</option><option value="电力设备">电力设备</option><option value="瞎扯系列">瞎扯系列</option><option value="科创债">科创债</option><option value="科技周期">科技周期</option><option value="科技成长">科技成长</option><option value="科技股">科技股</option><option value="算力">算力</option><option value="红利防御">红利防御</option><option value="经济观察">经济观察</option><option value="美债">美债</option><option value="美债利率">美债利率</option><option value="美债长端利率">美债长端利率</option><option value="美元">美元</option><option value="美元信用">美元信用</option><option value="美元流动性">美元流动性</option><option value="美国K型分化">美国K型分化</option><option value="美联储">美联储</option><option value="美股">美股</option><option value="股东回报">股东回报</option><option value="股债联动">股债联动</option><option value="财政">财政</option><option value="财政政策">财政政策</option><option value="货币政策">货币政策</option><option value="贸易政策">贸易政策</option><option value="资产荒">资产荒</option><option value="资产配置">资产配置</option><option value="资本开支">资本开支</option><option value="资源品">资源品</option><option value="资金流向">资金流向</option><option value="资金面">资金面</option><option value="超长债">超长债</option><option value="转债">转债</option><option value="通胀">通胀</option><option value="重大工程">重大工程</option><option value="量化">量化</option><option value="量化方法">量化方法</option><option value="量化策略">量化策略</option><option value="金融债">金融债</option><option value="金融科技">金融科技</option><option value="银行">银行</option><option value="风险偏好">风险偏好</option><option value="黄金">黄金</option></select></div>
+      <div class="filter-group"><span class="filter-label">观点</span>
+        <div class="filter-btn-group" id="vp-group">
+          <button class="filter-btn vp-multi" data-v="多">多</button>
+          <button class="filter-btn vp-neutral" data-v="中性">中性</button>
+          <button class="filter-btn vp-bear" data-v="空">空</button>
+          <button class="filter-btn vp-ignore" data-v="观望">观望</button>
+        </div>
+      </div>
+      <div class="filter-group"><span class="filter-label">级别</span>
+        <div class="filter-btn-group" id="lv-group">
+          <button class="filter-btn lv-detail" data-v="detail">详读</button>
+          <button class="filter-btn lv-brief" data-v="brief">速览</button>
+          <button class="filter-btn lv-arch" data-v="archived">归档</button>
+        </div>
+      </div>
+      <div class="filter-group"><span class="filter-label">评分 ≥</span>
+        <div class="slider-wrap">
+          <input type="range" id="f-min" min="1" max="5" step="0.1" value="0">
+          <span class="slider-val" id="f-min-v">0.0</span>
+        </div>
+      </div>
+      <div class="filter-group"><span class="filter-label">日期</span>
+        <input type="date" id="f-from" class="date-input"><span style="color:#bbb">~</span><input type="date" id="f-to" class="date-input">
+      </div>
+      <div class="filter-group" style="margin-left:auto">
+        <label style="font-size:.85em;color:#666;cursor:pointer"><input type="checkbox" id="show-arch" checked> 显示归档</label>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="section-title"><i class="fa-solid fa-book-open"></i> 研报列表 <span class="dim" style="font-size:.75em;font-weight:normal;margin-left:6px" id="count">—</span></div>
+  <div id="art-table-area"></div>
+</section>
+<section>
+  <div class="section-title"><i class="fa-solid fa-clock-rotate-left"></i> 历史日报</div>
+  <div class="days-list"><li><a href="research_20260827.html">2026-08-27</a></li>
 <li><a href="research_20260826.html">2026-08-26</a></li>
 <li><a href="research_20260825.html">2026-08-25</a></li>
 <li><a href="research_20260824.html">2026-08-24</a></li>
 <li><a href="research_20260822.html">2026-08-22</a></li>
-<li><a href="research_20260821.html">2026-08-21</a></li>
-</ul>
-
-<h2>催化日历（近 1 周已发生 + 未来 4 周）</h2>
-<div class="cal-legend"><span class="dot" style="background:#1565c0"></span>待发生 <span class="dot" style="background:#856404"></span>已发生·待验证 <span class="dot" style="background:#2e7d32"></span>已验证 <span class="dim" style="font-size:.85em;margin-left:8px">悬停事件查看预期/实际/验证详情</span></div>
+<li><a href="research_20260821.html">2026-08-21</a></li></div>
+</section>
+<section>
+  <div class="section-title"><i class="fa-solid fa-calendar-days"></i> 催化日历</div>
+  <div class="cat-tabs">
+    <button class="cat-tab active" onclick="_switchCatTab('list', this)">列表视图</button>
+    <button class="cat-tab" onclick="_switchCatTab('cal', this)">月历视图</button>
+  </div>
+  <div id="cat-list" class="cat-section active"><div id="cat-list-body" style="margin-top:8px"></div></div>
+  <div id="cat-cal" class="cat-section"><div class="cal-container"><div class="cal-legend"><span class="dot" style="background:#1565c0"></span>待发生 <span class="dot" style="background:#856404"></span>已发生·待验证 <span class="dot" style="background:#2e7d32"></span>已验证 <span class="dim" style="font-size:.85em;margin-left:8px">悬停事件查看预期/实际/验证详情</span></div>
 <div class="cal-month">
   <div class="cal-nav">
     <button class="pg-btn" id="cal-prev">← 上一月</button>
@@ -264,145 +378,200 @@ window.CAL_CUR = "2026-08";
   render();
 })();
 </script>
-
-
+</div></div>
+</section>
+</div>
 <script>
 let ARTS = [];
 const THEME_SLUG = {"科技股": "ff46804f", "市场情绪": "d56e9e72", "信用债": "4e382717", "宏观经济": "9043c47f", "利率债": "95635520", "金融科技": "bd593ebe", "海外利率": "40fdac59", "地缘政治": "4865f02b", "AI产业链": "f4dd1c74", "可转债": "234a92ef", "理财": "a5b437b1", "产品创新": "fbb56f78", "REITs": "a7507b75", "量化": "03860b39", "超长债": "d15af0b4", "资产配置": "f2d95807", "大宗商品": "81d09717", "港股": "d82e5038", "美债": "224ae603", "流动性": "ef086e44", "公募基金": "144d7ddc", "ETF轮动": "e1804533", "固收+": "d3bb9daa", "量化策略": "29af4295", "政策解读": "e1d77fc1", "AI基建": "a75decec", "同业存单": "bc505f22", "全球宏观": "2e66b146", "大类资产": "ab37b7fb", "美联储": "0658b81a", "通胀": "a39c288a", "货币政策": "5adbd54f", "城投": "cca7e477", "基金持仓": "cc7e9a53", "美元流动性": "7844791d", "ABS": "7d8a220d", "光模块": "a4d17adb", "半导体": "1e39751b", "机构行为": "56a5d2e5", "外贸": "2f2b0277", "资本开支": "b359815f", "转债": "d4dcdd7c", "小盘风格": "8dd1ba53", "二永债": "57cdaf3c", "金融债": "8f603cdd", "境外债": "a9b6e3f2", "日元": "9229ee96", "汇率": "d3bc58b6", "债市情绪": "feee303c", "机构观点": "1dd49e41", "债市调查": "011135b6", "AI产业": "ef02e0e6", "科技周期": "34ae19fc", "利率衍生品": "2cf607f9", "债市开放": "c4376866", "资源品": "6b072e5c", "A股流动性": "fbfc6c02", "杠杆资金": "0eae227b", "关税": "3adb9acc", "贸易政策": "e6599284", "黄金": "11289a9c", "美元": "4727e7e1", "美股": "d0df6156", "美元信用": "2cddf2c7", "套息交易": "144d8abc", "指数调整": "d09e6007", "地方债": "290ec0ab", "A股": "9e7cece8", "风险偏好": "70bbccef", "A股策略": "b3be0c80", "量化方法": "20a1b3c4", "资金面": "31e6f1e3", "电力设备": "85bb1173", "算力": "7798d341", "投资框架": "66980fa1", "液冷": "eab5f470", "股债联动": "680182e6", "油价": "795ccd75", "国债期货": "d0699768", "全球权益": "bf8f3132", "股东回报": "969c11cd", "就业": "34a965f2", "机构持仓": "2e7e5903", "消费": "85f42dcd", "AI应用": "b8ff4f01", "传媒": "1a3b222c", "海外研究": "cfb2809d", "人口": "4e1e6675", "央行流动性": "42837ed6", "ETF资金流": "d9c9aa89", "科技成长": "02971ad8", "红利防御": "4ca29a90", "外汇": "f00a8c66", "欧央行": "80870e81", "银行": "f14b4f28", "医药": "13b7cefe", "波动率": "d813b2ed", "中美板块映射": "6ab9408b", "国产算力": "bb9b2f8b", "创新药": "2934ea0c", "AI融资债务化": "d1c08c44", "美债长端利率": "ca39ef8d", "科创债": "5d116abe", "保险资负新规": "a75e0d25", "资产荒": "ddd066d6", "财政": "ae1c81e9", "农产品": "ca2c2960", "国际货币体系": "1ad64233", "欧元": "5e1e50ac", "海外财报": "97338962", "海外宏观": "0105e8d7", "美债利率": "1be985ab", "AI融资": "c31baa7e", "美国K型分化": "27fd4607", "中游制造": "2e5b9e7b", "债市策略": "c40c9cd0", "微观结构": "8ded1ea6", "财政政策": "0f0fb51e", "债市": "1f5db759", "重大工程": "3494b39f", "经济观察": "cde7f140", "资金流向": "eab10498", "Jackson Hole": "775ba5bc", "权益市场": "1ecf332a", "地产政策": "23b3edf8", "消费刺激": "4942eca1", "瞎扯系列": "69520890"};
 const NAMES = {"510300": "沪深300", "510500": "中证500", "512100": "中证1000", "588000": "科创50", "512480": "半导体", "512660": "军工", "512690": "酒", "512170": "医疗", "512800": "银行", "512400": "有色/铜", "515790": "光伏", "518880": "黄金", "513100": "纳指", "511090": "30年国债", "501018": "油气", "515220": "煤炭", "513050": "中概互联", "511010": "国债ETF", "511260": "十年国债", "512880": "证券", "515180": "红利ETF", "159915": "创业板", "512000": "券商", "512760": "芯片", "515000": "科技", "512980": "传媒", "512010": "医药", "159928": "消费", "513500": "标普500", "513180": "恒生科技", "159920": "恒生", "513520": "日经", "159985": "豆粕", "510880": "红利", "511380": "可转债", "159949": "创业板50", "516160": "新能源", "513060": "恒生医疗", "515880": "通信ETF"};
-fetch('articles.json').then(r => r.json()).then(d => {
-  ARTS = d.articles || [];
-  initFilters();
-  applyUrlParams();
+function themeCategory(t) {
+  const macro=['宏观','财政','货币政策','PMI','消费','土地','地方债'];
+  const bond=['债市','利率债','国债','央行','MLF','逆回购'];
+  const tech=['AI','半导体','科技','光伏','新能源','算力','通信','芯片'];
+  const comm=['大宗','黄金','铜','油气','煤炭','农业','油价'];
+  const equity=['A股','股指','宽基','ETF配置','红利'];
+  const hk=['港股','纳指','美股','海外'];
+  if (macro.some(k=>t.includes(k))) return 'theme-macro';
+  if (bond.some(k=>t.includes(k))) return 'theme-bond';
+  if (tech.some(k=>t.includes(k))) return 'theme-tech';
+  if (comm.some(k=>t.includes(k))) return 'theme-commodity';
+  if (equity.some(k=>t.includes(k))) return 'theme-equity';
+  if (hk.some(k=>t.includes(k))) return 'theme-hk';
+  return 'theme-other';
+}
+function stars(n) { const f=Math.floor(Math.round(n)); let s=''; for(let i=0;i<f;i++) s+='★'; if(Math.round(n)-f>=0.5) s+='☆'; return s; }
+function scoreCls(n) { if(n>=4) return 'score-4plus'; if(n>=3) return 'score-3to4'; if(n>=2) return 'score-2to3'; return 'score-low'; }
+function _filterMulti(id) { return Array.from(document.getElementById(id).selectedOptions).map(o=>o.value).filter(v=>v); }
+function _activeBtns(gid) { return Array.from(document.querySelectorAll('#'+gid+' .filter-btn.active')).map(b=>b.dataset.v); }
+function _resetFilters() {
+  document.getElementById('q').value='';
+  document.getElementById('f-inst').selectedIndex=0;
+  document.getElementById('f-theme').selectedIndex=0;
+  document.querySelectorAll('#vp-group .filter-btn,#lv-group .filter-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('f-min').value=0; document.getElementById('f-min-v').textContent='0.0';
+  document.getElementById('f-from').value=''; document.getElementById('f-to').value='';
+  document.getElementById('show-arch').checked=true;
+  history.replaceState(null,'',window.location.pathname);
   render();
-}).catch(e => { document.getElementById('count').textContent = '加载索引失败（本地 file:// 打开时正常，线上可用）: ' + e; });
-
-function initFilters() {
-  const fill = (id, vals) => {
-    const sel = document.getElementById(id);
-    [...new Set(vals)].sort().forEach(v => {
-      const o = document.createElement('option');
-      o.value = o.textContent = v; sel.appendChild(o);
-    });
-  };
-  fill('f-inst', ARTS.map(a => a.author));
-  fill('f-theme', ARTS.flatMap(a => a.themes));
-  [...new Set(ARTS.flatMap(a => Object.keys(a.etf_sentiment || {})))].sort().forEach(c => {
-    const o = document.createElement('option');
-    o.value = c; o.textContent = c + (NAMES[c] ? ' ' + NAMES[c] : '');
-    document.getElementById('f-etf').appendChild(o);
-  });
-  ['q','f-inst','f-theme','f-etf','f-view','f-level','f-min','f-max','f-from','f-to'].forEach(id =>
-    document.getElementById(id).addEventListener('input', render));
+  window.scrollTo({top:0,behavior:'smooth'});
 }
-
-function applyUrlParams() {
-  const p = new URLSearchParams(location.search);
-  const map = {q:'q', inst:'f-inst', theme:'f-theme', etf:'f-etf', view:'f-view',
-                level:'f-level', min:'f-min', max:'f-max', from:'f-from', to:'f-to'};
-  for (const [k, id] of Object.entries(map)) {
-    const v = p.get(k);
-    if (v !== null && v !== '') document.getElementById(id).value = v;
-  }
+function _syncURL() {
+  const u=new URL(window.location.href);
+  const q=document.getElementById('q').value.trim(); q?u.searchParams.set('q',q):u.searchParams.delete('q');
+  const inst=_filterMulti('f-inst').join(','); inst?u.searchParams.set('inst',inst):u.searchParams.delete('inst');
+  const th=_filterMulti('f-theme').join(','); th?u.searchParams.set('theme',th):u.searchParams.delete('theme');
+  const vp=_activeBtns('vp-group').join(','); vp?u.searchParams.set('vp',vp):u.searchParams.delete('vp');
+  const lv=_activeBtns('lv-group').join(','); lv?u.searchParams.set('level',lv):u.searchParams.delete('level');
+  const m=parseFloat(document.getElementById('f-min').value); m>0?u.searchParams.set('m',m):u.searchParams.delete('m');
+  document.getElementById('f-from').value?u.searchParams.set('from',document.getElementById('f-from').value):u.searchParams.delete('from');
+  document.getElementById('f-to').value?u.searchParams.set('to',document.getElementById('f-to').value):u.searchParams.delete('to');
+  !document.getElementById('show-arch').checked?u.searchParams.set('arch','0'):u.searchParams.delete('arch');
+  history.replaceState(null,'',u);
 }
-
+function _updateFromURL() {
+  const p=new URLSearchParams(window.location.search);
+  document.getElementById('q').value=p.get('q')||'';
+  const setMulti=(id,key)=>{const el=document.getElementById(id); for(const opt of el.options){if(opt.value) opt.selected=(p.get(key)||'').split(',').includes(opt.value);}};
+  setMulti('f-inst','inst'); setMulti('f-theme','theme');
+  document.querySelectorAll('#vp-group .filter-btn').forEach(b=>b.classList.toggle('active',(p.get('vp')||'').split(',').includes(b.dataset.v)));
+  document.querySelectorAll('#lv-group .filter-btn').forEach(b=>b.classList.toggle('active',(p.get('level')||'').split(',').includes(b.dataset.v)));
+  const m=parseFloat(p.get('m')||p.get('min')||'0'); document.getElementById('f-min').value=m; document.getElementById('f-min-v').textContent=m.toFixed(1);
+  document.getElementById('f-from').value=p.get('from')||''; document.getElementById('f-to').value=p.get('to')||'';
+  document.getElementById('show-arch').checked=p.get('arch')!=='0';
+}
 function render() {
-  const q = document.getElementById('q').value.trim().toLowerCase();
-  const inst = document.getElementById('f-inst').value;
-  const theme = document.getElementById('f-theme').value;
-  const etf = document.getElementById('f-etf').value;
-  const view = document.getElementById('f-view').value;
-  const level = document.getElementById('f-level').value;
-  const min = parseFloat(document.getElementById('f-min').value) || 0;
-  const max = parseFloat(document.getElementById('f-max').value) || 99;
-  const from = document.getElementById('f-from').value;
-  const to = document.getElementById('f-to').value;
-  const rows = ARTS.filter(a => {
-    if (inst && a.author !== inst) return false;
-    if (theme && !(a.themes || []).includes(theme)) return false;
-    if (etf && !(a.etf_sentiment || {})[etf]) return false;
-    if (view && a.viewpoint !== view) return false;
-    if (level && a.level !== level) return false;
-    if (from && a.date < from) return false;
-    if (to && a.date > to) return false;
-    const sc = a.scores ? (a.scores.total || 0) : 0;
-    if (sc < min || sc > max) return false;
-    if (q) {
-      const hay = (a.title + a.summary + a.author + (a.themes||[]).join()
-        + Object.keys(a.etf_sentiment || {})
-            .map(k => k + ' ' + (NAMES[k] || '')).join()).toLowerCase();
-      if (!hay.includes(q)) return false;
-    }
+  _syncURL();
+  const q=document.getElementById('q').value.trim().toLowerCase();
+  const insts=_filterMulti('f-inst'); const themes=_filterMulti('f-theme'); const vps=_activeBtns('vp-group'); const lvls=_activeBtns('lv-group');
+  const min=parseFloat(document.getElementById('f-min').value)||0;
+  const ffrom=document.getElementById('f-from').value; const fto=document.getElementById('f-to').value;
+  const showArch=document.getElementById('show-arch').checked;
+  const rows=ARTS.filter(a=>{
+    if(insts.length&&!insts.includes(a.author)) return false;
+    if(themes.length&&!(a.themes||[]).some(t=>themes.includes(t))) return false;
+    if(vps.length&&!vps.includes(a.viewpoint)) return false;
+    if(lvls.length&&!lvls.includes(a.level)) return false;
+    if(ffrom&&a.date<ffrom) return false;
+    if(fto&&a.date>fto) return false;
+    const sc=a.scores?(a.scores.total||0):0; if(sc<min) return false;
+    if(!showArch&&a.level==='archived') return false;
+    if(q) { const hay=(a.title+' '+(a.summary||'')+' '+a.author+' '+(a.themes||[]).join(' ')+' '+Object.keys(a.etf_sentiment||{}).join(' ')).toLowerCase(); if(!hay.includes(q)) return false; }
     return true;
   });
-  document.getElementById('count').textContent = '命中 ' + rows.length + ' / ' + ARTS.length + ' 篇';
-  window.__filteredRows = rows.slice().sort((x, y) => y.date.localeCompare(x.date) || y.scores.total - x.scores.total);
-  window.__currentPage = 1;
-  _renderPage();
+  let sorted=rows.slice();
+  const sort=window.__sort||'score-desc';
+  if(sort==='date-desc') sorted.sort((x,y)=>y.date.localeCompare(x.date));
+  else if(sort==='date-asc') sorted.sort((x,y)=>x.date.localeCompare(y.date));
+  else if(sort==='score-asc') sorted.sort((x,y)=>(x.scores?.total||0)-(y.scores?.total||0));
+  else sorted.sort((x,y)=>(y.scores?.total||0)-(x.scores?.total||0));
+  window.__filteredRows=sorted; window.__currentPage=1; _renderTable();
 }
-
-function _renderPage() {
-  const rows = window.__filteredRows || [];
-  const pageSize = 10;
-  const total = rows.length;
-  const pages = Math.max(1, Math.ceil(total / pageSize));
-  if (window.__currentPage > pages) window.__currentPage = pages;
-  if (window.__currentPage < 1) window.__currentPage = 1;
-  const start = (window.__currentPage - 1) * pageSize;
-  const shown = rows.slice(start, start + pageSize);
-  const tb = document.getElementById('tbody');
-  tb.innerHTML = shown.map(a => {
-    const etfs = Object.entries(a.etf_sentiment || {}).map(([k, v]) =>
-      '<a href="index.html?etf=' + k + '">' + k + '</a>' +
-      (NAMES[k] ? '<span class="dim" style="font-size:.82em"> ' + NAMES[k] + '</span>' : '') +
-      (v === '多' ? '<span style="color:#d6336c">↑</span>' : v === '空' ? '<span style="color:#2e8b57">↓</span>' : '·')
-    ).join(' ') || '-';
-    const s = a.scores ? a.scores.total.toFixed(1) : '-';
-    const themes = (a.themes || []).map(t => {
-      const slug = THEME_SLUG[t];
-      return slug ? '<a class="theme-chip" href="themes.html#t-' + slug + '">' + t + '</a>'
-                  : '<span class="theme-chip">' + t + '</span>';
-    }).join('') || '-';
-    return '<tr><td>' + a.date + '</td>'
-      + '<td class="t"><a href="' + a.page + '">' + a.title + '</a></td>'
-      + '<td>' + a.author + '</td>'
-      + '<td>' + themes + '</td>'
-      + '<td><span class="score">' + s + '</span></td>'
-      + '<td class="vp-' + (a.viewpoint || '') + '">' + (a.viewpoint || '-') + '</td>'
-      + '<td>' + etfs + '</td>'
-      + '<td><span class="lv-' + a.level + '">' + ({detail:'详读',brief:'速览',archived:'归档'}[a.level] || a.level) + '</span></td>'
-      + '<td>' + (a.url ? '<a href="' + a.url + '" target="_blank">原文</a>' : '-') + '</td></tr>';
-  }).join('') || '<tr><td colspan=9 style="color:#999;padding:20px">无匹配结果</td></tr>';
-  // 翻页条
-  const bar = document.getElementById('search-pg');
-  if (total <= pageSize) { bar.style.display = 'none'; return; }
-  bar.style.display = '';
-  document.getElementById('pg-info').textContent = '第 ' + window.__currentPage + '/' + pages + ' 页（共 ' + total + ' 篇）';
-  // 页码按钮（最多 7 个：当前 ±3）
-  const btnFirst = document.getElementById('pg-first');
-  const btnPrev = document.getElementById('pg-prev');
-  const btnNext = document.getElementById('pg-next');
-  const btnLast = document.getElementById('pg-last');
-  btnFirst.disabled = window.__currentPage === 1;
-  btnPrev.disabled = window.__currentPage === 1;
-  btnNext.disabled = window.__currentPage === pages;
-  btnLast.disabled = window.__currentPage === pages;
-  let pageStart = Math.max(1, window.__currentPage - 3);
-  let pageEnd = Math.min(pages, pageStart + 6);
-  pageStart = Math.max(1, pageEnd - 6);
-  const pagesHtml = [];
-  for (let p = pageStart; p <= pageEnd; p++) {
-    pagesHtml.push('<button class="pg-btn" data-pg="' + p + '" ' + (p === window.__currentPage ? 'disabled' : '') + '>' + p + '</button>');
-  }
-  document.getElementById('pg-pages').innerHTML = pagesHtml.join(' ');
-  document.querySelectorAll('#pg-pages .pg-btn').forEach(b => {
-    b.onclick = () => { window.__currentPage = parseInt(b.dataset.pg, 10); _renderPage(); window.scrollTo({top: document.getElementById('count').offsetTop - 60, behavior: 'smooth'}); };
+function _renderTable() {
+  const rows=window.__filteredRows||[]; const pageSize=10; const total=rows.length;
+  const pages=Math.max(1,Math.ceil(total/pageSize));
+  if(window.__currentPage>pages) window.__currentPage=pages;
+  if(window.__currentPage<1) window.__currentPage=1;
+  const start=(window.__currentPage-1)*pageSize; const shown=rows.slice(start,start+pageSize);
+  const sort=window.__sort||'score-desc';
+  const thead='<thead><tr>'
+    +'<th data-col="date" class="'+(sort.startsWith('date-')?(sort==='date-asc'?'sorted-asc':'sorted-desc'):'')+'">日期</th>'
+    +'<th data-col="score" class="'+(sort.startsWith('score-')?(sort==='score-asc'?'sorted-asc':'sorted-desc'):'sorted-desc')+'">评分</th>'
+    +'<th>标题</th><th>机构</th><th>主题</th><th>观点</th><th>ETF</th><th>级别</th><th>操作</th></tr></thead>';
+  let body='';
+  shown.forEach(a=>{
+    const isArch=a.level==='archived'; const score=a.scores?.total||0; const isHi=score>=4.5;
+    const dateShort=a.date.slice(5);
+    const evs_rows=Object.entries(a.etf_sentiment||{}).map(([c,s])=>{
+      const arrow=s==='多'?'↑':s==='空'?'↓':'·'; const col=s==='多'?'#d6336c':s==='空'?'#2e8b57':'#888';
+      return '<a class="etf-inline" href="index.html?etf='+c+'"><span style="color:'+col+'">'+c+arrow+'</span></a>';
+    }).join(' ')||'-';
+    const themesChip=(a.themes||[]).map(t=>{
+      const cls=themeCategory(t); return '<a class="theme-chip '+cls+'" href="'+('themes.html#t-'+THEME_SLUG[t] if THEME_SLUG[t] else '#')+'">'+t+'</a>';
+    }).join(' ')||'-';
+    const vpCls=a.viewpoint==='多'?'vp-multi':a.viewpoint==='空'?'vp-bear':a.viewpoint==='中性'?'vp-neutral':'vp-ignore';
+    const scoreCls=scoreCls(score); const starsHtml=stars(score);
+    const levelCls=a.level==='detail'?'lv-detail':a.level==='brief'?'lv-brief':'lv-archived';
+    const levelText=a.level==='detail'?'详读':a.level==='brief'?'速览':'归档';
+    body+='<tr class="'+(isArch?'archived-row':'')+'" data-art="'+a.page+'">'
+      +'<td class="col-date" data-title="'+a.date+'">'+dateShort+'</td>'
+      +'<td class="col-score '+scoreCls+'">'+score.toFixed(1)+'<span class="stars">'+starsHtml+'</span></td>'
+      +'<td class="col-title"><a class="'+(isHi?'title-highlight':'')+'" href="'+a.page+'">'+a.title+'</a></td>'
+      +'<td class="col-author">'+a.author+'</td>'
+      +'<td class="col-themes">'+themesChip+'</td>'
+      +'<td><span class="vp-badge '+vpCls+'">'+(a.viewpoint||'-')+'</span></td>'
+      +'<td class="col-etfs">'+evs_rows+'</td>'
+      +'<td><span class="lv-badge '+levelCls+'">'+levelText+'</span></td>'
+      +'<td class="col-ops">'
+      +'<button class="ops-btn" onclick="_toggleExpand(this)">展开</button>'
+      +(a.url?'<a class="ops-btn" href="'+a.url+'" target="_blank">原文</a>':'')+'</td></tr>';
   });
-  btnFirst.onclick = () => { window.__currentPage = 1; _renderPage(); };
-  btnPrev.onclick = () => { if (window.__currentPage > 1) { window.__currentPage--; _renderPage(); } };
-  btnNext.onclick = () => { if (window.__currentPage < pages) { window.__currentPage++; _renderPage(); } };
-  btnLast.onclick = () => { window.__currentPage = pages; _renderPage(); };
+  if(shown.length===0){
+    document.getElementById('count').textContent='命中 0 / '+ARTS.length+' 篇';
+    document.getElementById('art-table-area').innerHTML='<div class="empty-state"><i class="fa-solid fa-search"></i><div>无匹配结果</div><button onclick="_resetFilters()">重置</button></div>';
+    return;
+  }
+  document.getElementById('count').textContent='命中 '+total+' / '+ARTS.length+' 篇 · 第 '+window.__currentPage+'/'+pages+' 页';
+  let pgBtnsHtml='';
+  if(pages>1){
+    let ps=Math.max(1,window.__currentPage-3); let pe=Math.min(pages,ps+6); ps=Math.max(1,pe-6);
+    for(let p=ps;p<=pe;p++) pgBtnsHtml+='<button class="pg-btn" data-pg="'+p+'" '+(p===window.__currentPage?'disabled':'')+'>'+p+'</button>';
+  }
+  document.getElementById('art-table-area').innerHTML=
+    '<div class="table-wrap"><table class="arts">'+thead+'<tbody>'+body+'</tbody></table></div>'
+    +(pages>1?'<div class="pg-bar"><span>第 '+window.__currentPage+'/'+pages+' 页</span><span>'+pgBtnsHtml+'</span></div>':'');
+  document.querySelectorAll('#art-table-area .pg-btn[data-pg]').forEach(b=>{
+    b.onclick=()=>{window.__currentPage=parseInt(b.dataset.pg,10);_renderTable();window.scrollTo({top:document.getElementById('art-table-area').offsetTop-60,behavior:'smooth'});};
+  });
+  document.querySelectorAll('#art-table-area th[data-col]').forEach(th=>{
+    th.onclick=()=>{const col=th.dataset.col; const cur=window.__sort||'score-desc';
+      if(col==='date') window.__sort=cur==='date-desc'?'date-asc':'date-desc';
+      else if(col==='score') window.__sort=cur==='score-desc'?'score-asc':'score-desc'; else return;
+      render();};
+  });
 }
+function _toggleExpand(btn) {
+  const tr=btn.closest('tr'); const page=tr.dataset.art;
+  if(tr.classList.contains('expanded')){ tr.classList.remove('expanded'); const n=tr.nextElementSibling; if(n&&n.classList.contains('expand-row')) n.remove(); btn.textContent='展开'; return; }
+  tr.classList.add('expanded'); btn.textContent='收起';
+  const art=ARTS.find(x=>x.page===page);
+  const inner=document.createElement('tr'); inner.className='expand-row';
+  const etfs=Object.entries(art?.etf_sentiment||{}).map(([c,s])=>c+(s==='多'?'↑':s==='空'?'↓':'')).join(' ');
+  inner.innerHTML='<td colspan="9"><div class="expand-inner">'
+    +'<b>核心观点</b><div class="summary-text">'+(art?.summary||'—')+'</div>'
+    +(art?.etf_sentiment&&Object.keys(art.etf_sentiment).length?'<div style="margin-top:6px"><b>ETF 倾向</b>：'+etfs+'</div>':'')+'</div></td>';
+  tr.parentNode.insertBefore(inner,tr.nextSibling);
+}
+function _switchCatTab(t,el) { document.querySelectorAll('.cat-tab').forEach(x=>x.classList.remove('active')); el.classList.add('active'); document.getElementById('cat-list').classList.toggle('active',t==='list'); document.getElementById('cat-cal').classList.toggle('active',t==='cal'); }
+function _showCats(list) {
+  const today=new Date().toISOString().slice(0,10);
+  const future=list.filter(c=>c.date>=today).sort((a,b)=>a.date.localeCompare(b.date));
+  const past=list.filter(c=>c.date<today).sort((a,b)=>b.date.localeCompare(a.date));
+  function catRow(c) {
+    const st=c.status||'pending';
+    const badge=st==='verified'?'<span class="cat-badge verified">✓ 已验证</span>':st==='occurred'?'<span class="cat-badge occurred">已发生</span>':'<span class="cat-badge pending">待发生</span>';
+    const crit=(c.event||'').includes('杰克逊')||(c.event||'').includes('FOMC')||(c.event||'').includes('美联储');
+    const targets=(c.target||'').split('/').map(t=>'<a href="index.html?etf='+t.trim()+'">'+t.trim()+'</a>').join(' / ');
+    return '<div class="cat-card"><div class="cat-date">'+c.date+'</div><div class="cat-body"><div class="cat-event '+(crit?'critical':'')+'">'+(crit?'⚠ ':'')+(c.event||'')+'　'+badge+'</div><div class="cat-meta"><span class="cat-target">关联 '+targets+'</span></div></div></div>';
+  }
+  let html='<h4 style="margin:18px 0 10px;color:#1565c0">待发生（'+future.length+'）</h4>';
+  future.forEach(c=>{html+=catRow(c);});
+  html+='<h4 style="margin:18px 0 10px;color:#856404">已发生（'+past.length+'）</h4>';
+  past.forEach(c=>{html+=catRow(c);});
+  return html||'<div class="dim" style="padding:20px;text-align:center">暂无催化事件</div>';
+}
+fetch('articles.json?ts='+Date.now()).then(r=>r.json()).then(d=>{
+  ARTS=d.articles||[]; _updateFromURL();
+  document.getElementById('cat-list-body').innerHTML=_showCats([{"date": "2026-08-21", "event": "欧元区PMI", "target": "510300", "status": "occurred", "result": ""}, {"date": "2026-08-24", "event": "美国财长贝森特新闻发布会（美债问题回应）", "target": "518880/513100", "status": "occurred", "result": ""}, {"date": "2026-08-27", "event": "Jackson Hole年会开幕（至8-29，沃什讲话前瞻指引）", "target": "513100/518880", "status": "occurred", "result": ""}, {"date": "2026-08-27", "event": "杰克逊霍尔央行年会（8/27-29）", "target": "513100/518880", "status": "occurred", "result": ""}, {"date": "2026-08-28", "event": "Jackson Hole全球央行年会持续", "target": "513100/511090", "status": "pending", "result": ""}, {"date": "2026-08-28", "event": "美国7月PCE物价指数", "target": "513100", "status": "pending", "result": ""}, {"date": "2026-08-28", "event": "英伟达财报（财报季末焦点，算力供需验证）", "target": "512480/513100", "status": "pending", "result": ""}, {"date": "2026-08-28", "event": "跨月资金面大考：本周近8000亿政府债缴款+6000亿MLF到期+6400亿存单到期", "target": "511090", "status": "pending", "result": ""}, {"date": "2026-08-29", "event": "十四届全国人大常委会闭幕（政策表态）", "target": "510300", "status": "pending", "result": ""}, {"date": "2026-08-30", "event": "中国8月PMI数据", "target": "510300/512480", "status": "pending", "result": ""}, {"date": "2026-08-31", "event": "A股中报季收官", "target": "510300/512480", "status": "pending", "result": ""}, {"date": "2026-08-31", "event": "A股中报季收官、港股科网中报验证盈利拐点", "target": "510300/512480/513050", "status": "pending", "result": ""}, {"date": "2026-08-31", "event": "8月底政府债供给高峰+央行对冲力度验证", "target": "511090", "status": "pending", "result": ""}, {"date": "2026-09-05", "event": "港股通调整交易窗口（8月下旬-9月初）", "target": "513050", "status": "pending", "result": ""}, {"date": "2026-09-08", "event": "恒生系列指数季度调整生效（约9月上旬；华虹宏力/潍柴动力纳入恒指，天数智芯纳入恒生科技）", "target": "513050", "status": "pending", "result": ""}, {"date": "2026-09-09", "event": "美国财政部长债回购新上限40亿美元生效", "target": "518880/513100", "status": "pending", "result": ""}, {"date": "2026-09-15", "event": "苹果发布会/华为Mate新品", "target": "512480", "status": "pending", "result": ""}, {"date": "2026-09-15", "event": "美联储FOMC会议（至9-16）", "target": "513100", "status": "pending", "result": ""}, {"date": "2026-09-15", "event": "超长债止盈压力窗口+政府债供给高峰尾声", "target": "511090", "status": "pending", "result": ""}, {"date": "2026-09-15", "event": "国内金九旺季需求验证（铜）", "target": "512400", "status": "pending", "result": ""}, {"date": "2026-09-17", "event": "美联储9月FOMC议息", "target": "513100/518880", "status": "pending", "result": ""}, {"date": "2026-09-18", "event": "Anthropic/OpenAI新模型发布预期", "target": "513100/512480", "status": "pending", "result": ""}, {"date": "2026-09-20", "event": "公积金条例修订施行", "target": "地产链", "status": "pending", "result": ""}, {"date": "2026-09-20", "event": "15只摊余债基预计开启募集（9月中下旬-10月，审核1-2个月）", "target": "511010", "status": "pending", "result": ""}, {"date": "2026-09-23", "event": "美联储9月议息会议", "target": "513100/511090", "status": "pending", "result": ""}]);
+  render();
+}).catch(e=>{document.getElementById('art-table-area').innerHTML='<div class="empty-state"><i class="fa-solid fa-triangle-exclamation"></i><div>数据加载失败</div></div>';});
+['q','f-inst','f-theme','f-min','f-from','f-to','show-arch'].forEach(id=>{const el=document.getElementById(id); el.addEventListener('input',render); el.addEventListener('change',render);});
+document.getElementById('f-min').addEventListener('input',()=>{document.getElementById('f-min-v').textContent=document.getElementById('f-min').value;});
+document.querySelectorAll('#vp-group .filter-btn,#lv-group .filter-btn').forEach(b=>{b.addEventListener('click',()=>{b.classList.toggle('active'); render();});});
+document.addEventListener('keydown',e=>{
+  if(e.key==='/'&&document.activeElement.tagName!=='INPUT'){e.preventDefault();document.getElementById('q').focus();}
+  if(e.key==='Escape'&&document.activeElement.tagName!=='INPUT'){_resetFilters();}
+});
 </script>
 <style>
 .term { border-bottom: 1px dashed #b08fd0; cursor: help; position: relative; }
