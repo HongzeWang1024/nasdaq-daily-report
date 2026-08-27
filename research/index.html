@@ -575,7 +575,7 @@ function _renderTable() {
       return '<a class="etf-inline" href="index.html?etf='+c+'"><span style="color:'+col+'">'+c+arrow+'</span></a>';
     }).join(' ')||'-';
     const themesChip=(a.themes||[]).map(t=>{
-      const cls=themeCategory(t); return '<a class="theme-chip '+cls+'" href="'+('themes.html#t-'+THEME_SLUG[t] if THEME_SLUG[t] else '#')+'">'+t+'</a>';
+      const cls=themeCategory(t); return '<a class="theme-chip '+cls+'" href="'+(THEME_SLUG[t]?'themes.html#t-'+THEME_SLUG[t]:'#')+'">'+t+'</a>';
     }).join(' ')||'-';
     const vpCls=a.viewpoint==='多'?'vp-multi':a.viewpoint==='空'?'vp-bear':a.viewpoint==='中性'?'vp-neutral':'vp-ignore';
     const scoreCls=scoreCls(score); const starsHtml=stars(score);
