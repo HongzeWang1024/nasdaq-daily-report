@@ -22,8 +22,8 @@ th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid #f0f0f0; 
 th { color: #888; font-weight: 600; background: #fafafa; }
 .tag { display: inline-block; padding: 1px 9px; border-radius: 9px; font-size: 0.88em;
 font-weight: bold; white-space: nowrap; }
-.tag.buy { background: #e6f4ea; color: #1a7f37; }
-.tag.sell { background: #fdecea; color: #c5221f; }
+.tag.buy { background: #fdecea; color: #c5221f; }
+.tag.sell { background: #e6f4ea; color: #1a7f37; }
 .tag.hold { background: #e8f0fe; color: #1a56c4; }
 .tag.flat { background: #f1f1f1; color: #777; }
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; }
@@ -31,6 +31,7 @@ font-weight: bold; white-space: nowrap; }
 .stat .num { font-size: 1.45em; font-weight: bold; margin: 4px 0; }
 .stat .lbl { color: #888; font-size: 0.85em; }
 .ok { color: #1a7f37; } .warn { color: #c05621; }
+.up { color: #c5221f; } .down { color: #1a7f37; }
 .note { color: #777; font-size: 0.88em; line-height: 1.8; }
 .legend { font-size: 0.85em; color: #666; margin-top: 6px; }
 input { width: 90px; padding: 5px 8px; border: 1px solid #ddd; border-radius: 6px;
@@ -66,7 +67,7 @@ border-radius: 10px; padding: 12px 16px; margin: 14px 0; font-size: 0.93em; line
 
 <div class="card">
 <h2>当前持仓</h2>
-<table><tr><th>代码</th><th>名称</th><th>类别</th><th>股数</th><th>成本(含佣)</th><th>收盘价</th><th>市值(¥)</th><th>权重</th><th>浮盈亏</th></tr><tr><td><b>159980</b></td><td>有色ETF大成</td><td>商品</td><td>1200</td><td>2.1592</td><td>2.1590</td><td>2,591</td><td>2.6%</td><td class="warn">-0.01%</td></tr><tr><td><b>159509</b></td><td>纳指科技ETF景顺</td><td>跨境</td><td>700</td><td>2.7903</td><td>2.7900</td><td>1,953</td><td>2.0%</td><td class="warn">-0.01%</td></tr><tr><td><b>511520</b></td><td>政金债ETF</td><td>债券</td><td colspan="2">目标 3.0%（待建仓）</td></tr><tr><td><b>159781</b></td><td>科创创业ETF易方达</td><td>宽基</td><td colspan="2">目标 1.0%（待建仓）</td></tr><tr><td><b>513310</b></td><td>中韩半导体ETF华泰柏瑞</td><td>跨境</td><td colspan="2">目标 2.0%（待建仓）</td></tr><tr><td><b>159516</b></td><td>半导体设备ETF国泰</td><td>行业</td><td colspan="2">目标 2.1%（待建仓）</td></tr><tr><td><b>588200</b></td><td>科创芯片ETF嘉实</td><td>行业</td><td colspan="2">目标 1.7%（待建仓）</td></tr><tr><td><b>515880</b></td><td>通信ETF国泰</td><td>行业</td><td colspan="2">目标 1.7%（待建仓）</td></tr><tr><td><b>512480</b></td><td>半导体ETF国联安</td><td>行业</td><td colspan="2">目标 1.8%（待建仓）</td></tr></table><p class="note">成本=含买入佣金的摊薄成本（按成交记录重放，佣金万0.5最低0.2元）；浮盈亏已计入手续费。</p>
+<table><tr><th>代码</th><th>名称</th><th>类别</th><th>股数</th><th>成本(含佣)</th><th>收盘价</th><th>市值(¥)</th><th>权重</th><th>浮盈亏</th></tr><tr><td><b>159980</b></td><td>有色ETF大成</td><td>商品</td><td>1200</td><td>2.1592</td><td>2.1590</td><td>2,591</td><td>2.6%</td><td class="down">-0.01%</td></tr><tr><td><b>159509</b></td><td>纳指科技ETF景顺</td><td>跨境</td><td>700</td><td>2.7903</td><td>2.7900</td><td>1,953</td><td>2.0%</td><td class="down">-0.01%</td></tr><tr><td><b>511520</b></td><td>政金债ETF</td><td>债券</td><td colspan="2">目标 3.0%（待建仓）</td></tr><tr><td><b>159781</b></td><td>科创创业ETF易方达</td><td>宽基</td><td colspan="2">目标 1.0%（待建仓）</td></tr><tr><td><b>513310</b></td><td>中韩半导体ETF华泰柏瑞</td><td>跨境</td><td colspan="2">目标 2.0%（待建仓）</td></tr><tr><td><b>159516</b></td><td>半导体设备ETF国泰</td><td>行业</td><td colspan="2">目标 2.1%（待建仓）</td></tr><tr><td><b>588200</b></td><td>科创芯片ETF嘉实</td><td>行业</td><td colspan="2">目标 1.7%（待建仓）</td></tr><tr><td><b>515880</b></td><td>通信ETF国泰</td><td>行业</td><td colspan="2">目标 1.7%（待建仓）</td></tr><tr><td><b>512480</b></td><td>半导体ETF国联安</td><td>行业</td><td colspan="2">目标 1.8%（待建仓）</td></tr></table><p class="note">成本=含买入佣金的摊薄成本（按成交记录重放，佣金万0.5最低0.2元）；浮盈亏已计入手续费。</p>
 </div>
 
 <div class="card">
