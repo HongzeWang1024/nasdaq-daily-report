@@ -48,6 +48,18 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helv
 .search-wrap input { width: 100%; padding: 10px 14px 10px 36px; border: 1.5px solid #e0e0e0; border-radius: 8px; font-size: .95em; transition: border-color .15s; }
 .search-wrap input:focus { outline: none; border-color: #6f42c1; }
 .search-wrap .fa-search { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: #aaa; }
+.search-sugg { display: none; position: absolute; top: calc(100% + 4px); left: 0; right: 0; background: white; border: 1.5px solid #e0e0e0; border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,.1); z-index: 100; max-height: 420px; overflow-y: auto; }
+.search-sugg.open { display: block; }
+.sugg-group { padding: 4px 0; border-bottom: 1px solid #f5f5f5; }
+.sugg-group:last-child { border-bottom: none; }
+.sugg-group-title { padding: 4px 14px; font-size: .72em; color: #aaa; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
+.sugg-item { display: flex; align-items: center; gap: 8px; padding: 7px 14px; cursor: pointer; font-size: .88em; color: #444; transition: background .06s; }
+.sugg-item:hover, .sugg-item.active { background: #f5f3fb; color: #6f42c1; }
+.sugg-item .sugg-icon { font-size: .78em; width: 20px; text-align: center; color: #bbb; flex-shrink: 0; }
+.sugg-item .sugg-text { flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.sugg-item .sugg-text mark { background: #fff3cd; color: #856404; border-radius: 2px; padding: 0 1px; }
+.sugg-item .sugg-sub { font-size: .75em; color: #aaa; flex-shrink: 0; }
+.sugg-item .sugg-count { font-size: .72em; color: #bbb; background: #f5f5f5; padding: 1px 7px; border-radius: 10px; flex-shrink: 0; }
 .reset-btn { padding: 10px 18px; background: white; border: 1.5px solid #e0e0e0; border-radius: 8px; cursor: pointer; color: #666; font-size: .9em; transition: all .15s; white-space: nowrap; }
 .reset-btn:hover { border-color: #d6336c; color: #d6336c; }
 .filters-row { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
@@ -207,7 +219,8 @@ table.arts tbody tr.archived-row { opacity: .45; }
     <div class="filters-top">
       <div class="search-wrap" style="flex:1">
         <i class="fa-solid fa-search"></i>
-        <input type="text" id="q" placeholder="搜索 标题 / 机构 / 主题 / ETF代码 / 关键词  （按 / 快速聚焦）">
+        <input type="text" id="q" placeholder="搜索 标题 / 机构 / 主题 / ETF代码 / 关键词  （按 / 快速聚焦）" autocomplete="off">
+        <div class="search-sugg" id="search-sugg"></div>
       </div>
       <button class="reset-btn" onclick="_resetFilters()"><i class="fa-solid fa-rotate-left"></i> 重置</button>
     </div>
@@ -338,6 +351,7 @@ window.CAL_CUR = "2026-08";
     const py = mm === 1 ? y - 1 : y;
     return py + '-' + pad(pm);
   }
+
   function render() {
     const evs = window.CAL_DATA[window.CAL_CUR] || [];
     // 计算该月第一天是周几和天数
@@ -528,6 +542,79 @@ function _updateFromURL() {
   document.getElementById('f-from').value=p.get('from')||''; document.getElementById('f-to').value=p.get('to')||'';
   document.getElementById('show-arch').checked=p.get('arch')!=='0';
 }
+let _suggTimer=null;
+function _doSugg(kw) {
+  kw=(kw||'').trim().toLowerCase();
+  const box=document.getElementById('search-sugg');
+  if(!kw){box.classList.remove('open');box.innerHTML='';return;}
+  const etfCodes=new Set(); const etfNameMap={};
+  ARTS.forEach(a=>{ for(const c of Object.keys(a.etf_sentiment||{})){ etfCodes.add(c); if(NAMES[c]) etfNameMap[c]=NAMES[c]; } });
+  const etfHits=Array.from(etfCodes).filter(c=>c.toLowerCase().includes(kw)).slice(0,5);
+  const authorSet=new Set(ARTS.map(a=>a.author));
+  const instHits=Array.from(authorSet).filter(n=>n.toLowerCase().includes(kw)).slice(0,5);
+  const themeCnt={}; ARTS.forEach(a=>(a.themes||[]).forEach(t=>themeCnt[t]=(themeCnt[t]||0)+1));
+  const themeHits=Object.keys(themeCnt).filter(t=>t.toLowerCase().includes(kw)).sort((a,b)=>themeCnt[b]-themeCnt[a]).slice(0,5);
+  const titleHits=ARTS.filter(a=>a.title.toLowerCase().includes(kw)).slice(0,5);
+  function hl(text) {
+    const i=text.toLowerCase().indexOf(kw);
+    if(i<0) return text;
+    return text.slice(0,i)+'<mark>'+text.slice(i,i+kw.length)+'</mark>'+text.slice(i+kw.length);
+  }
+  let html='';
+  if(etfHits.length){
+    html+='<div class="sugg-group"><div class="sugg-group-title">ETF 代码 ('+etfHits.length+')</div>';
+    etfHits.forEach(c=>{
+      const name=etfNameMap[c]||'';
+      html+='<div class="sugg-item" data-type="etf" data-val="'+c+'"><i class="fa-solid fa-chart-line sugg-icon"></i><span class="sugg-text">'+hl(c)+(name?' · '+name:'')+'</span><span class="sugg-sub">点击筛选</span></div>';
+    });
+    html+='</div>';
+  }
+  if(instHits.length){
+    html+='<div class="sugg-group"><div class="sugg-group-title">机构 ('+instHits.length+')</div>';
+    instHits.forEach(n=>{
+      const cnt=ARTS.filter(a=>a.author===n).length;
+      html+='<div class="sugg-item" data-type="inst" data-val="'+n+'"><i class="fa-solid fa-building sugg-icon"></i><span class="sugg-text">'+hl(n)+'</span><span class="sugg-count">'+cnt+'</span></div>';
+    });
+    html+='</div>';
+  }
+  if(themeHits.length){
+    html+='<div class="sugg-group"><div class="sugg-group-title">主题 ('+themeHits.length+')</div>';
+    themeHits.forEach(t=>{
+      html+='<div class="sugg-item" data-type="theme" data-val="'+t+'"><i class="fa-solid fa-tag sugg-icon"></i><span class="sugg-text">'+hl(t)+'</span><span class="sugg-count">'+themeCnt[t]+'</span></div>';
+    });
+    html+='</div>';
+  }
+  if(titleHits.length){
+    html+='<div class="sugg-group"><div class="sugg-group-title">研报标题 ('+titleHits.length+')</div>';
+    titleHits.forEach(a=>{
+      html+='<div class="sugg-item" data-type="title" data-val="'+a.title+'"><i class="fa-solid fa-file-lines sugg-icon"></i><span class="sugg-text">'+hl(a.title)+'</span><span class="sugg-sub">'+a.date.slice(5)+'</span></div>';
+    });
+    html+='</div>';
+  }
+  if(!html){
+    html='<div style="padding:14px;text-align:center;color:#aaa;font-size:.85em"><i class="fa-solid fa-circle-question" style="margin-right:6px"></i>无匹配结果</div>';
+  }
+  box.innerHTML=html;
+  box.classList.add('open');
+  box.querySelectorAll('.sugg-item').forEach(el=>{
+    el.addEventListener('click',()=>{
+      const t=el.dataset.type, v=el.dataset.val;
+      box.classList.remove('open');
+      if(t==='etf'){ document.getElementById('q').value=v; render(); document.getElementById('q').focus(); }
+      else if(t==='inst'){
+        const cb=document.querySelector('input[type=checkbox][data-grp="inst"][value="'+CSS.escape(v)+'"]');
+        if(cb&&!cb.checked){cb.checked=true; _updateMsLabel('inst');}
+        render();
+      }
+      else if(t==='theme'){
+        const cb=document.querySelector('input[type=checkbox][data-grp="theme"][value="'+CSS.escape(v)+'"]');
+        if(cb&&!cb.checked){cb.checked=true; _updateMsLabel('theme');}
+        render();
+      }
+      else if(t==='title'){ document.getElementById('q').value=v; render(); }
+    });
+  });
+}
 function render() {
   _syncURL();
   const q=document.getElementById('q').value.trim().toLowerCase();
@@ -653,8 +740,15 @@ fetch('articles.json?ts='+Date.now()).then(r=>r.json()).then(d=>{
   document.getElementById('cat-list-body').innerHTML=_showCats([{"date": "2026-08-21", "event": "欧元区PMI", "target": "510300", "status": "occurred", "result": ""}, {"date": "2026-08-24", "event": "美国财长贝森特新闻发布会（美债问题回应）", "target": "518880/513100", "status": "occurred", "result": ""}, {"date": "2026-08-27", "event": "Jackson Hole年会开幕（至8-29，沃什讲话前瞻指引）", "target": "513100/518880", "status": "occurred", "result": ""}, {"date": "2026-08-27", "event": "杰克逊霍尔央行年会（8/27-29）", "target": "513100/518880", "status": "occurred", "result": ""}, {"date": "2026-08-28", "event": "Jackson Hole全球央行年会持续", "target": "513100/511090", "status": "pending", "result": ""}, {"date": "2026-08-28", "event": "美国7月PCE物价指数", "target": "513100", "status": "pending", "result": ""}, {"date": "2026-08-28", "event": "英伟达财报（财报季末焦点，算力供需验证）", "target": "512480/513100", "status": "pending", "result": ""}, {"date": "2026-08-28", "event": "跨月资金面大考：本周近8000亿政府债缴款+6000亿MLF到期+6400亿存单到期", "target": "511090", "status": "pending", "result": ""}, {"date": "2026-08-29", "event": "十四届全国人大常委会闭幕（政策表态）", "target": "510300", "status": "pending", "result": ""}, {"date": "2026-08-30", "event": "中国8月PMI数据", "target": "510300/512480", "status": "pending", "result": ""}, {"date": "2026-08-31", "event": "A股中报季收官", "target": "510300/512480", "status": "pending", "result": ""}, {"date": "2026-08-31", "event": "A股中报季收官、港股科网中报验证盈利拐点", "target": "510300/512480/513050", "status": "pending", "result": ""}, {"date": "2026-08-31", "event": "8月底政府债供给高峰+央行对冲力度验证", "target": "511090", "status": "pending", "result": ""}, {"date": "2026-09-05", "event": "港股通调整交易窗口（8月下旬-9月初）", "target": "513050", "status": "pending", "result": ""}, {"date": "2026-09-08", "event": "恒生系列指数季度调整生效（约9月上旬；华虹宏力/潍柴动力纳入恒指，天数智芯纳入恒生科技）", "target": "513050", "status": "pending", "result": ""}, {"date": "2026-09-09", "event": "美国财政部长债回购新上限40亿美元生效", "target": "518880/513100", "status": "pending", "result": ""}, {"date": "2026-09-15", "event": "苹果发布会/华为Mate新品", "target": "512480", "status": "pending", "result": ""}, {"date": "2026-09-15", "event": "美联储FOMC会议（至9-16）", "target": "513100", "status": "pending", "result": ""}, {"date": "2026-09-15", "event": "超长债止盈压力窗口+政府债供给高峰尾声", "target": "511090", "status": "pending", "result": ""}, {"date": "2026-09-15", "event": "国内金九旺季需求验证（铜）", "target": "512400", "status": "pending", "result": ""}, {"date": "2026-09-17", "event": "美联储9月FOMC议息", "target": "513100/518880", "status": "pending", "result": ""}, {"date": "2026-09-18", "event": "Anthropic/OpenAI新模型发布预期", "target": "513100/512480", "status": "pending", "result": ""}, {"date": "2026-09-20", "event": "公积金条例修订施行", "target": "地产链", "status": "pending", "result": ""}, {"date": "2026-09-20", "event": "15只摊余债基预计开启募集（9月中下旬-10月，审核1-2个月）", "target": "511010", "status": "pending", "result": ""}, {"date": "2026-09-23", "event": "美联储9月议息会议", "target": "513100/511090", "status": "pending", "result": ""}]);
   render();
 }).catch(e=>{document.getElementById('art-table-area').innerHTML='<div class="empty-state"><i class="fa-solid fa-triangle-exclamation"></i><div>数据加载失败</div></div>';});
-['q','f-min','f-from','f-to','show-arch'].forEach(id=>{const el=document.getElementById(id); if(el){el.addEventListener('input',render); el.addEventListener('change',render);}});
+['f-min','f-from','f-to','show-arch'].forEach(id=>{const el=document.getElementById(id); if(el){el.addEventListener('input',render); el.addEventListener('change',render);}});
 document.getElementById('f-min').addEventListener('input',()=>{document.getElementById('f-min-v').textContent=document.getElementById('f-min').value;});
+const qEl=document.getElementById('q');
+qEl.addEventListener('input',()=>{clearTimeout(_suggTimer);_suggTimer=setTimeout(()=>_doSugg(qEl.value),120);});
+qEl.addEventListener('keydown',e=>{
+  if(e.key==='Enter'){document.getElementById('search-sugg').classList.remove('open');render();}
+  if(e.key==='Escape'){document.getElementById('search-sugg').classList.remove('open');}
+});
+qEl.addEventListener('blur',()=>{setTimeout(()=>document.getElementById('search-sugg').classList.remove('open'),200);});
 document.querySelectorAll('#vp-group .filter-btn,#lv-group .filter-btn').forEach(b=>{b.addEventListener('click',()=>{b.classList.toggle('active'); render();});});
 document.querySelectorAll('input[type=checkbox][data-grp]').forEach(cb=>{cb.addEventListener('change',()=>{_updateMsLabel(cb.dataset.grp); render();});});
 document.querySelectorAll('.ms-search input').forEach(inp=>{
@@ -665,9 +759,10 @@ document.querySelectorAll('.ms-search input').forEach(inp=>{
 });
 document.addEventListener('click',e=>{
   if(!e.target.closest('.ms-wrap')){document.querySelectorAll('.ms-wrap.open').forEach(w=>w.classList.remove('open'));}
+  if(!e.target.closest('.search-wrap')){document.getElementById('search-sugg').classList.remove('open');}
 });
 document.addEventListener('keydown',e=>{
-  if(e.key==='Escape'){document.querySelectorAll('.ms-wrap.open').forEach(w=>w.classList.remove('open')); if(document.activeElement.tagName!=='INPUT'&&!document.activeElement.closest('.ms-search')){_resetFilters();}}
+  if(e.key==='Escape'){document.querySelectorAll('.ms-wrap.open').forEach(w=>w.classList.remove('open')); document.getElementById('search-sugg').classList.remove('open'); if(document.activeElement.tagName!=='INPUT'&&!document.activeElement.closest('.ms-search')){_resetFilters();}}
   if(e.key==='/'&&document.activeElement.tagName!=='INPUT'){e.preventDefault();document.getElementById('q').focus();}
 });
 </script>
