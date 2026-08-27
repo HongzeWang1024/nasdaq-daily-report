@@ -175,6 +175,32 @@ table.arts tbody tr.archived-row { opacity: .45; }
 .cat-badge.verified { background: #e8f5e9; color: #2e7d32; }
 @media (max-width: 1100px) { .ov-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 700px) { .ov-grid { grid-template-columns: 1fr; } .filters-row { flex-direction: column; align-items: stretch; } table.arts th, table.arts td { font-size: .82em; padding: 6px 5px; } }
+/* ===== Catalyst Calendar ===== */
+.cat-section { display: none; }
+.cat-section.active { display: block; }
+.cal-container { background: white; border-radius: 10px; padding: 18px; box-shadow: 0 1px 4px rgba(0,0,0,.06); margin-top: 12px; }
+.cal-legend { font-size: .88em; color: #555; margin-bottom: 10px; }
+.cal-legend .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin: 0 4px 0 12px; vertical-align: middle; }
+.cal-legend .dot:first-child { margin-left: 0; }
+.cal-month { margin-top: 8px; }
+.cal-nav { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.cal-title { font-weight: bold; font-size: 1.05em; color: #333; }
+.pg-btn { padding: 4px 12px; border: 1px solid #ddd; background: #fafafa; border-radius: 6px; cursor: pointer; font-size: .85em; color: #555; transition: all .12s; }
+.pg-btn:hover:not(:disabled) { background: #eee; border-color: #ccc; color: #333; }
+.pg-btn:disabled { opacity: .4; cursor: not-allowed; }
+.cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; border: 1px solid #e5e7eb; border-radius: 8px; overflow: hidden; }
+.cal-wd { background: #f8f9fa; padding: 8px 0; text-align: center; font-size: .85em; font-weight: 600; color: #666; border-bottom: 1px solid #e5e7eb; }
+.cal-cell { min-height: 78px; padding: 4px 6px; border-bottom: 1px solid #f0f0f0; border-right: 1px solid #f0f0f0; display: flex; flex-direction: column; overflow: hidden; }
+.cal-cell:nth-child(7n) { border-right: none; }
+.cal-cell.cal-empty { background: #fafafa; min-height: 0; }
+.cal-cell.cal-empty:nth-child(7n+1) { border-left: 1px solid #f0f0f0; }
+.cal-cell.cal-day.past { background: #fcfcfc; }
+.cal-cell.cal-day.future { background: white; }
+.cal-date { font-size: .9em; font-weight: 600; color: #555; line-height: 1.4; margin-bottom: 2px; }
+.cal-ev { font-size: .72em; padding: 2px 4px; margin: 1px 0; border-radius: 3px; color: white; cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.3; flex-shrink: 0; box-shadow: 0 1px 2px rgba(0,0,0,.1); }
+.cal-ev:hover { transform: scale(1.02); box-shadow: 0 2px 6px rgba(0,0,0,.2); z-index: 1; position: relative; }
+.cal-summary { font-size: .85em; color: #666; margin-top: 10px; padding: 8px 12px; background: #f8f9fa; border-radius: 6px; }
+.cal-tip { position: fixed; display: none; background: #333; color: #fff; padding: 10px 14px; border-radius: 8px; font-size: .85em; line-height: 1.5; max-width: 320px; box-shadow: 0 4px 12px rgba(0,0,0,.3); z-index: 9999; pointer-events: none; }
 </style>
 </head>
 <body>
@@ -454,7 +480,7 @@ window.CAL_CUR = "2026-08";
 <script>
 let ARTS = [];
 const THEME_SLUG = {"科技股": "ff46804f", "市场情绪": "d56e9e72", "信用债": "4e382717", "宏观经济": "9043c47f", "利率债": "95635520", "金融科技": "bd593ebe", "海外利率": "40fdac59", "地缘政治": "4865f02b", "AI产业链": "f4dd1c74", "可转债": "234a92ef", "理财": "a5b437b1", "产品创新": "fbb56f78", "REITs": "a7507b75", "量化": "03860b39", "超长债": "d15af0b4", "资产配置": "f2d95807", "大宗商品": "81d09717", "港股": "d82e5038", "美债": "224ae603", "流动性": "ef086e44", "公募基金": "144d7ddc", "ETF轮动": "e1804533", "固收+": "d3bb9daa", "量化策略": "29af4295", "政策解读": "e1d77fc1", "AI基建": "a75decec", "同业存单": "bc505f22", "全球宏观": "2e66b146", "大类资产": "ab37b7fb", "美联储": "0658b81a", "通胀": "a39c288a", "货币政策": "5adbd54f", "城投": "cca7e477", "基金持仓": "cc7e9a53", "美元流动性": "7844791d", "ABS": "7d8a220d", "光模块": "a4d17adb", "半导体": "1e39751b", "机构行为": "56a5d2e5", "外贸": "2f2b0277", "资本开支": "b359815f", "转债": "d4dcdd7c", "小盘风格": "8dd1ba53", "二永债": "57cdaf3c", "金融债": "8f603cdd", "境外债": "a9b6e3f2", "日元": "9229ee96", "汇率": "d3bc58b6", "债市情绪": "feee303c", "机构观点": "1dd49e41", "债市调查": "011135b6", "AI产业": "ef02e0e6", "科技周期": "34ae19fc", "利率衍生品": "2cf607f9", "债市开放": "c4376866", "资源品": "6b072e5c", "A股流动性": "fbfc6c02", "杠杆资金": "0eae227b", "关税": "3adb9acc", "贸易政策": "e6599284", "黄金": "11289a9c", "美元": "4727e7e1", "美股": "d0df6156", "美元信用": "2cddf2c7", "套息交易": "144d8abc", "指数调整": "d09e6007", "地方债": "290ec0ab", "A股": "9e7cece8", "风险偏好": "70bbccef", "A股策略": "b3be0c80", "量化方法": "20a1b3c4", "资金面": "31e6f1e3", "电力设备": "85bb1173", "算力": "7798d341", "投资框架": "66980fa1", "液冷": "eab5f470", "股债联动": "680182e6", "油价": "795ccd75", "国债期货": "d0699768", "全球权益": "bf8f3132", "股东回报": "969c11cd", "就业": "34a965f2", "机构持仓": "2e7e5903", "消费": "85f42dcd", "AI应用": "b8ff4f01", "传媒": "1a3b222c", "海外研究": "cfb2809d", "人口": "4e1e6675", "央行流动性": "42837ed6", "ETF资金流": "d9c9aa89", "科技成长": "02971ad8", "红利防御": "4ca29a90", "外汇": "f00a8c66", "欧央行": "80870e81", "银行": "f14b4f28", "医药": "13b7cefe", "波动率": "d813b2ed", "中美板块映射": "6ab9408b", "国产算力": "bb9b2f8b", "创新药": "2934ea0c", "AI融资债务化": "d1c08c44", "美债长端利率": "ca39ef8d", "科创债": "5d116abe", "保险资负新规": "a75e0d25", "资产荒": "ddd066d6", "财政": "ae1c81e9", "农产品": "ca2c2960", "国际货币体系": "1ad64233", "欧元": "5e1e50ac", "海外财报": "97338962", "海外宏观": "0105e8d7", "美债利率": "1be985ab", "AI融资": "c31baa7e", "美国K型分化": "27fd4607", "中游制造": "2e5b9e7b", "债市策略": "c40c9cd0", "微观结构": "8ded1ea6", "财政政策": "0f0fb51e", "债市": "1f5db759", "重大工程": "3494b39f", "经济观察": "cde7f140", "资金流向": "eab10498", "Jackson Hole": "775ba5bc", "权益市场": "1ecf332a", "地产政策": "23b3edf8", "消费刺激": "4942eca1", "瞎扯系列": "69520890"};
-const NAMES = {"510300": "沪深300", "510500": "中证500", "512100": "中证1000", "588000": "科创50", "512480": "半导体", "512660": "军工", "512690": "酒", "512170": "医疗", "512800": "银行", "512400": "有色/铜", "515790": "光伏", "518880": "黄金", "513100": "纳指", "511090": "30年国债", "501018": "油气", "515220": "煤炭", "513050": "中概互联", "511010": "国债ETF", "511260": "十年国债", "512880": "证券", "515180": "红利ETF", "159915": "创业板", "512000": "券商", "512760": "芯片", "515000": "科技", "512980": "传媒", "512010": "医药", "159928": "消费", "513500": "标普500", "513180": "恒生科技", "159920": "恒生", "513520": "日经", "159985": "豆粕", "510880": "红利", "511380": "可转债", "159949": "创业板50", "516160": "新能源", "513060": "恒生医疗", "515880": "通信ETF"};
+const NAMES = {"510300": "沪深300", "510500": "中证500", "512100": "中证1000", "588000": "科创50", "512480": "半导体", "512660": "军工", "512690": "酒", "512170": "医疗", "512800": "银行", "512400": "有色/铜", "515790": "光伏", "518880": "黄金", "513100": "纳指", "511090": "30年国债", "501018": "油气", "515220": "煤炭", "513050": "中概互联", "511010": "国债ETF", "511260": "十年国债", "512880": "证券", "515180": "红利ETF", "159915": "创业板", "512000": "券商", "512760": "芯片", "515000": "科技", "512980": "传媒", "512010": "医药", "159928": "消费", "513500": "标普500", "513180": "恒生科技", "159920": "恒生", "513520": "日经", "159985": "豆粕", "510880": "红利", "511380": "可转债", "159949": "创业板50", "516160": "新能源"};
 function themeCategory(t) {
   const macro=['宏观','财政','货币政策','PMI','消费','土地','地方债'];
   const bond=['债市','利率债','国债','央行','MLF','逆回购'];
