@@ -3,7 +3,8 @@
     "strategy": "中证红利 V4 评分",
     "index": "000922.SH",
     "index_name": "中证红利",
-    "generated_at": "2026-08-27 09:30:19",
+    "version": "V4-opt",
+    "generated_at": "2026-08-27 14:01:44",
     "data_date": "2026-08-26"
   },
   "now": {
@@ -12,39 +13,46 @@
   },
   "score": {
     "date": "2026-08-26",
-    "total_score": 46.09,
+    "total_score": 43.34,
     "signal": {
-      "level": "中性观察",
-      "score": 46.09,
-      "color": "#999",
-      "action": "持仓不动，不追高不杀跌"
+      "level": "中性偏空",
+      "score": 43.34,
+      "color": "#d4a72c",
+      "action": "谨慎操作，避免追高，分批止盈",
+      "position": "三成以内（≤30%）",
+      "position_pct": 25
     },
     "valuation": {
-      "total": 12.39,
+      "total": 9.14,
       "max": 34,
       "note": "回退",
       "detail": {
         "DID历史位置": {
-          "score": 2.32,
+          "score": 3.0,
           "max": 14,
-          "value": 4.08,
-          "percentile": 16.6
+          "value": 4.25,
+          "percentile": 21.4,
+          "note": "回退",
+          "n": 19
         },
         "DID动态绝对": {
-          "score": 0.99,
+          "score": 1.29,
           "max": 6,
-          "value": 4.08
+          "value": 4.25
         },
         "DID_RobustZ": {
-          "score": 0.0,
+          "score": 0,
           "max": 4,
-          "z": -2.14
+          "z": 0,
+          "note": "不足30点",
+          "n": 19
         },
         "PB历史位置": {
-          "score": 9.07,
+          "score": 4.85,
           "max": 10,
-          "value": 0.867,
-          "percentile": 9.3
+          "value": 0.854,
+          "percentile": 48.5,
+          "note": "真实(且慢)"
         }
       }
     },
@@ -54,21 +62,23 @@
       "note": "真实",
       "detail": {
         "CN10Y": {
-          "score": 7.5,
+          "score": 7.57,
           "max": 8,
           "value": 1.69,
-          "percentile": 6.3
+          "percentile": 6.3,
+          "trend": "20日下行-0.04pp"
         },
         "股债利差": {
-          "score": 8.61,
+          "score": 8.54,
           "max": 18,
-          "value": 2.39,
-          "percentile": 47.8
+          "value": 2.56,
+          "percentile": 51.2,
+          "trend": "10日收窄-0.10pp"
         }
       }
     },
     "technical": {
-      "total": 17.59,
+      "total": 18.09,
       "max": 40,
       "note": "真实",
       "detail": {
@@ -76,14 +86,41 @@
           "score": 6.22,
           "max": 8,
           "value": 5658.97,
-          "sma60": 5433.3,
-          "sma120": 5586.7,
-          "sma250": 5590.94
+          "sma60": {
+            "ma": 5433.3,
+            "score": 2.67,
+            "diff_pct": 4.15,
+            "status": "走平",
+            "slope": -0.01
+          },
+          "sma120": {
+            "ma": 5586.7,
+            "score": 1.78,
+            "diff_pct": 1.29,
+            "status": "下降",
+            "slope": -0.15
+          },
+          "sma250": {
+            "ma": 5590.94,
+            "score": 1.78,
+            "diff_pct": 1.22,
+            "status": "走平",
+            "slope": 0.01
+          },
+          "trend_state": "震荡整理",
+          "support": 5590.94,
+          "resistance": 5976.53
         },
         "252日分位": {
           "score": 5.06,
           "max": 15,
-          "percentile": 66.3
+          "percentile": 66.3,
+          "extremes": {
+            "min": 5022.46,
+            "max": 5976.53,
+            "median": 5587.04,
+            "n": 252
+          }
         },
         "RSI14": {
           "score": 3.31,
@@ -91,494 +128,394 @@
           "value": 63.5
         },
         "成交量": {
-          "score": 3,
+          "score": 3.5,
           "max": 5,
-          "vol_ratio": 0.9,
-          "chg_5d": 1.9
+          "vol_ratio5": 0.94,
+          "vol_ratio20": 0.9,
+          "chg": 0.71,
+          "scene": "上涨"
         }
       }
     }
   },
+  "judgment": {
+    "bulls": [
+      "10年期国债利率20日下行-0.04pp，利好权益",
+      "下方支撑位 5590.94（站稳均线）"
+    ],
+    "bears": [
+      "股息率处于历史低分位（21%），估值偏贵",
+      "股债利差收窄，权益相对债券吸引力下降",
+      "上方阻力位 5976.53（前高/未站稳均线）",
+      "RSI(64)进入超买区，建议分批止盈"
+    ],
+    "conclusion": "当前综合评分 43 分（中性偏空），估值或技术面偏弱，建议控制仓位、谨慎观望。"
+  },
   "history": [
     {
-      "date": "2026-06-03",
-      "total": 23.75,
-      "level": "高估警示",
-      "valuation": 0,
-      "macro": 7.38,
-      "technical": 16.37
-    },
-    {
-      "date": "2026-06-04",
-      "total": 25.05,
-      "level": "高估警示",
-      "valuation": 0,
-      "macro": 7.42,
-      "technical": 17.63
-    },
-    {
-      "date": "2026-06-05",
-      "total": 24.91,
-      "level": "高估警示",
-      "valuation": 0,
-      "macro": 7.33,
-      "technical": 17.58
-    },
-    {
-      "date": "2026-06-08",
-      "total": 24.83,
-      "level": "高估警示",
-      "valuation": 0,
-      "macro": 7.28,
-      "technical": 17.55
-    },
-    {
-      "date": "2026-06-09",
-      "total": 27.0,
-      "level": "高估警示",
-      "valuation": 0,
-      "macro": 7.25,
-      "technical": 19.75
-    },
-    {
-      "date": "2026-06-10",
-      "total": 28.35,
-      "level": "高估警示",
-      "valuation": 0,
-      "macro": 7.19,
-      "technical": 21.16
-    },
-    {
-      "date": "2026-06-11",
-      "total": 29.66,
-      "level": "高估警示",
-      "valuation": 0,
-      "macro": 7.19,
-      "technical": 22.47
-    },
-    {
-      "date": "2026-06-12",
-      "total": 25.39,
-      "level": "高估警示",
-      "valuation": 0,
-      "macro": 7.22,
-      "technical": 18.17
-    },
-    {
-      "date": "2026-06-15",
-      "total": 27.93,
-      "level": "高估警示",
-      "valuation": 0,
-      "macro": 7.21,
-      "technical": 20.72
-    },
-    {
-      "date": "2026-06-16",
-      "total": 33.62,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.27,
-      "technical": 26.35
-    },
-    {
-      "date": "2026-06-17",
-      "total": 36.45,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.29,
-      "technical": 29.16
-    },
-    {
-      "date": "2026-06-18",
-      "total": 35.8,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.27,
-      "technical": 28.53
-    },
-    {
-      "date": "2026-06-22",
-      "total": 35.39,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.24,
-      "technical": 28.15
-    },
-    {
-      "date": "2026-06-23",
-      "total": 35.65,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.2,
-      "technical": 28.45
-    },
-    {
-      "date": "2026-06-24",
-      "total": 35.53,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.18,
-      "technical": 28.35
-    },
-    {
-      "date": "2026-06-25",
-      "total": 36.11,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.25,
-      "technical": 28.86
-    },
-    {
-      "date": "2026-06-26",
-      "total": 36.87,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.27,
-      "technical": 29.6
-    },
-    {
-      "date": "2026-06-29",
-      "total": 36.18,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.37,
-      "technical": 28.81
-    },
-    {
-      "date": "2026-06-30",
-      "total": 36.75,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.25,
-      "technical": 29.5
-    },
-    {
-      "date": "2026-07-01",
-      "total": 34.92,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.16,
-      "technical": 27.76
-    },
-    {
-      "date": "2026-07-02",
-      "total": 34.04,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.2,
-      "technical": 26.84
-    },
-    {
-      "date": "2026-07-03",
-      "total": 33.02,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.15,
-      "technical": 25.87
-    },
-    {
-      "date": "2026-07-06",
-      "total": 32.31,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.21,
-      "technical": 25.1
-    },
-    {
-      "date": "2026-07-07",
-      "total": 32.26,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.19,
-      "technical": 25.07
-    },
-    {
-      "date": "2026-07-08",
-      "total": 31.8,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.2,
-      "technical": 24.6
-    },
-    {
-      "date": "2026-07-09",
-      "total": 32.66,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.21,
-      "technical": 25.45
-    },
-    {
-      "date": "2026-07-10",
-      "total": 32.87,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.19,
-      "technical": 25.68
-    },
-    {
-      "date": "2026-07-13",
-      "total": 32.55,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.15,
-      "technical": 25.4
-    },
-    {
-      "date": "2026-07-14",
-      "total": 31.45,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.18,
-      "technical": 24.27
-    },
-    {
-      "date": "2026-07-15",
-      "total": 32.03,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.17,
-      "technical": 24.86
-    },
-    {
-      "date": "2026-07-16",
-      "total": 31.99,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.15,
-      "technical": 24.84
-    },
-    {
-      "date": "2026-07-17",
-      "total": 33.8,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.18,
-      "technical": 26.62
-    },
-    {
-      "date": "2026-07-20",
-      "total": 32.6,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.11,
-      "technical": 25.49
-    },
-    {
-      "date": "2026-07-21",
-      "total": 33.83,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.11,
-      "technical": 26.72
-    },
-    {
-      "date": "2026-07-22",
-      "total": 30.76,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.28,
-      "technical": 23.48
-    },
-    {
-      "date": "2026-07-23",
-      "total": 29.44,
-      "level": "高估警示",
-      "valuation": 0,
-      "macro": 7.25,
-      "technical": 22.19
-    },
-    {
-      "date": "2026-07-24",
-      "total": 32.07,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.28,
-      "technical": 24.79
-    },
-    {
-      "date": "2026-07-27",
-      "total": 31.41,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.24,
-      "technical": 24.17
-    },
-    {
-      "date": "2026-07-28",
-      "total": 31.11,
-      "level": "中性偏空",
-      "valuation": 0,
-      "macro": 7.22,
-      "technical": 23.89
-    },
-    {
-      "date": "2026-07-29",
-      "total": 28.83,
-      "level": "高估警示",
-      "valuation": 0,
-      "macro": 7.24,
-      "technical": 21.59
-    },
-    {
       "date": "2026-07-30",
-      "total": 49.01,
+      "total": 54.47,
       "level": "中性观察",
-      "valuation": 13.94,
-      "macro": 16.86,
-      "technical": 18.21
+      "position_pct": 40,
+      "valuation": 16.33,
+      "macro": 17.93,
+      "technical": 20.21
     },
     {
       "date": "2026-07-31",
-      "total": 49.99,
+      "total": 50.79,
       "level": "中性观察",
-      "valuation": 12.81,
-      "macro": 16.16,
-      "technical": 21.02
+      "position_pct": 40,
+      "valuation": 14.16,
+      "macro": 16.61,
+      "technical": 20.02
     },
     {
       "date": "2026-08-03",
-      "total": 49.29,
+      "total": 52.07,
       "level": "中性观察",
-      "valuation": 12.88,
-      "macro": 16.17,
-      "technical": 20.24
+      "position_pct": 40,
+      "valuation": 14.23,
+      "macro": 16.6,
+      "technical": 21.24
     },
     {
       "date": "2026-08-04",
-      "total": 54.47,
+      "total": 57.2,
       "level": "中性观察",
-      "valuation": 13.41,
-      "macro": 16.46,
-      "technical": 24.6
+      "position_pct": 40,
+      "valuation": 15.02,
+      "macro": 17.08,
+      "technical": 25.1
     },
     {
       "date": "2026-08-05",
-      "total": 54.28,
+      "total": 57.88,
       "level": "中性观察",
-      "valuation": 13.52,
-      "macro": 16.48,
-      "technical": 24.28
-    },
-    {
-      "date": "2026-08-06",
-      "total": 51.81,
-      "level": "中性观察",
-      "valuation": 13.2,
-      "macro": 16.29,
-      "technical": 22.32
-    },
-    {
-      "date": "2026-08-07",
-      "total": 52.31,
-      "level": "中性观察",
-      "valuation": 13.27,
-      "macro": 16.37,
-      "technical": 22.67
-    },
-    {
-      "date": "2026-08-10",
-      "total": 49.62,
-      "level": "中性观察",
-      "valuation": 13.02,
-      "macro": 16.27,
-      "technical": 20.33
-    },
-    {
-      "date": "2026-08-11",
-      "total": 49.77,
-      "level": "中性观察",
-      "valuation": 13.12,
-      "macro": 16.22,
-      "technical": 20.43
-    },
-    {
-      "date": "2026-08-12",
-      "total": 50.95,
-      "level": "中性观察",
-      "valuation": 13.23,
-      "macro": 16.28,
-      "technical": 21.44
-    },
-    {
-      "date": "2026-08-13",
-      "total": 54.79,
-      "level": "中性观察",
-      "valuation": 13.44,
-      "macro": 16.56,
-      "technical": 24.79
-    },
-    {
-      "date": "2026-08-14",
-      "total": 56.11,
-      "level": "中性观察",
-      "valuation": 15.37,
-      "macro": 16.58,
-      "technical": 24.16
-    },
-    {
-      "date": "2026-08-17",
-      "total": 56.42,
-      "level": "中性观察",
-      "valuation": 14.61,
-      "macro": 16.53,
+      "position_pct": 40,
+      "valuation": 15.36,
+      "macro": 17.24,
       "technical": 25.28
     },
     {
-      "date": "2026-08-18",
-      "total": 51.31,
+      "date": "2026-08-06",
+      "total": 55.1,
       "level": "中性观察",
-      "valuation": 13.63,
-      "macro": 16.48,
-      "technical": 21.2
+      "position_pct": 40,
+      "valuation": 15.16,
+      "macro": 17.12,
+      "technical": 22.82
+    },
+    {
+      "date": "2026-08-07",
+      "total": 56.09,
+      "level": "中性观察",
+      "position_pct": 40,
+      "valuation": 15.22,
+      "macro": 17.2,
+      "technical": 23.67
+    },
+    {
+      "date": "2026-08-10",
+      "total": 51.51,
+      "level": "中性观察",
+      "position_pct": 40,
+      "valuation": 15.03,
+      "macro": 17.15,
+      "technical": 19.33
+    },
+    {
+      "date": "2026-08-11",
+      "total": 53.87,
+      "level": "中性观察",
+      "position_pct": 40,
+      "valuation": 14.96,
+      "macro": 16.98,
+      "technical": 21.93
+    },
+    {
+      "date": "2026-08-12",
+      "total": 55.92,
+      "level": "中性观察",
+      "position_pct": 40,
+      "valuation": 15.29,
+      "macro": 17.19,
+      "technical": 23.44
+    },
+    {
+      "date": "2026-08-13",
+      "total": 56.23,
+      "level": "中性观察",
+      "position_pct": 40,
+      "valuation": 15.16,
+      "macro": 15.78,
+      "technical": 25.29
+    },
+    {
+      "date": "2026-08-14",
+      "total": 59.1,
+      "level": "中性观察",
+      "position_pct": 40,
+      "valuation": 15.29,
+      "macro": 18.65,
+      "technical": 25.16
+    },
+    {
+      "date": "2026-08-17",
+      "total": 58.24,
+      "level": "中性观察",
+      "position_pct": 40,
+      "valuation": 15.28,
+      "macro": 18.68,
+      "technical": 24.28
+    },
+    {
+      "date": "2026-08-18",
+      "total": 53.92,
+      "level": "中性观察",
+      "position_pct": 40,
+      "valuation": 14.89,
+      "macro": 17.33,
+      "technical": 21.7
     },
     {
       "date": "2026-08-19",
-      "total": 50.6,
+      "total": 51.03,
       "level": "中性观察",
-      "valuation": 13.35,
-      "macro": 16.46,
-      "technical": 20.79
+      "position_pct": 40,
+      "valuation": 14.43,
+      "macro": 16.31,
+      "technical": 20.29
     },
     {
       "date": "2026-08-20",
-      "total": 48.2,
+      "total": 50.61,
       "level": "中性观察",
-      "valuation": 12.81,
-      "macro": 16.38,
-      "technical": 19.01
+      "position_pct": 40,
+      "valuation": 14.49,
+      "macro": 16.61,
+      "technical": 19.51
     },
     {
       "date": "2026-08-21",
-      "total": 48.43,
+      "total": 51.09,
       "level": "中性观察",
-      "valuation": 12.8,
-      "macro": 16.37,
-      "technical": 19.26
+      "position_pct": 40,
+      "valuation": 14.43,
+      "macro": 16.4,
+      "technical": 20.26
     },
     {
       "date": "2026-08-24",
-      "total": 46.28,
+      "total": 49.67,
       "level": "中性观察",
-      "valuation": 12.45,
-      "macro": 16.23,
-      "technical": 17.6
+      "position_pct": 40,
+      "valuation": 14.03,
+      "macro": 16.04,
+      "technical": 19.6
     },
     {
       "date": "2026-08-25",
-      "total": 48.37,
+      "total": 50.35,
       "level": "中性观察",
-      "valuation": 12.57,
-      "macro": 16.28,
-      "technical": 19.52
+      "position_pct": 40,
+      "valuation": 14.09,
+      "macro": 16.24,
+      "technical": 20.02
     },
     {
       "date": "2026-08-26",
-      "total": 46.09,
-      "level": "中性观察",
-      "valuation": 12.39,
+      "total": 43.34,
+      "level": "中性偏空",
+      "position_pct": 25,
+      "valuation": 9.14,
       "macro": 16.11,
-      "technical": 17.59
+      "technical": 18.09
     }
-  ]
+  ],
+  "distribution": {
+    "buckets": [
+      {
+        "label": "<30",
+        "lo": 0,
+        "hi": 30,
+        "count": 0,
+        "pct": 0.0
+      },
+      {
+        "label": "30-45",
+        "lo": 30,
+        "hi": 45,
+        "count": 1,
+        "pct": 5.0
+      },
+      {
+        "label": "45-60",
+        "lo": 45,
+        "hi": 60,
+        "count": 19,
+        "pct": 95.0
+      },
+      {
+        "label": "60-70",
+        "lo": 60,
+        "hi": 70,
+        "count": 0,
+        "pct": 0.0
+      },
+      {
+        "label": "70-85",
+        "lo": 70,
+        "hi": 85,
+        "count": 0,
+        "pct": 0.0
+      },
+      {
+        "label": "≥85",
+        "lo": 85,
+        "hi": 100,
+        "count": 0,
+        "pct": 0.0
+      }
+    ],
+    "total_days": 20
+  },
+  "backtest": {
+    "available": true,
+    "window": {
+      "start": "2026-07-30",
+      "end": "2026-08-26",
+      "days": 20
+    },
+    "metrics": {
+      "total_return": 0.58,
+      "benchmark_return": 1.42,
+      "excess_return": -0.84,
+      "annualized": 7.54,
+      "benchmark_annualized": 19.48,
+      "max_drawdown": -0.95,
+      "benchmark_max_drawdown": -2.36,
+      "win_rate": 47.4,
+      "sharpe": 1.64,
+      "trades": 2
+    },
+    "trades": [
+      {
+        "date": "2026-07-30",
+        "from": 0.0,
+        "to": 0.4,
+        "level": "中性观察",
+        "score": 54.47
+      },
+      {
+        "date": "2026-08-26",
+        "from": 0.4,
+        "to": 0.25,
+        "level": "中性偏空",
+        "score": 43.34
+      }
+    ],
+    "nav_curve": [
+      {
+        "date": "2026-07-30",
+        "strategy": 1.0,
+        "benchmark": 1.0
+      },
+      {
+        "date": "2026-07-31",
+        "strategy": 0.9993,
+        "benchmark": 0.9982
+      },
+      {
+        "date": "2026-08-03",
+        "strategy": 0.9978,
+        "benchmark": 0.9945
+      },
+      {
+        "date": "2026-08-04",
+        "strategy": 0.9914,
+        "benchmark": 0.9784
+      },
+      {
+        "date": "2026-08-05",
+        "strategy": 0.9905,
+        "benchmark": 0.9764
+      },
+      {
+        "date": "2026-08-06",
+        "strategy": 0.9953,
+        "benchmark": 0.9882
+      },
+      {
+        "date": "2026-08-07",
+        "strategy": 0.9948,
+        "benchmark": 0.9869
+      },
+      {
+        "date": "2026-08-10",
+        "strategy": 0.9987,
+        "benchmark": 0.9967
+      },
+      {
+        "date": "2026-08-11",
+        "strategy": 0.9966,
+        "benchmark": 0.9913
+      },
+      {
+        "date": "2026-08-12",
+        "strategy": 0.9953,
+        "benchmark": 0.9882
+      },
+      {
+        "date": "2026-08-13",
+        "strategy": 0.9918,
+        "benchmark": 0.9794
+      },
+      {
+        "date": "2026-08-14",
+        "strategy": 0.9928,
+        "benchmark": 0.9819
+      },
+      {
+        "date": "2026-08-17",
+        "strategy": 0.9944,
+        "benchmark": 0.9857
+      },
+      {
+        "date": "2026-08-18",
+        "strategy": 0.9969,
+        "benchmark": 0.992
+      },
+      {
+        "date": "2026-08-19",
+        "strategy": 0.9982,
+        "benchmark": 0.9953
+      },
+      {
+        "date": "2026-08-20",
+        "strategy": 1.0005,
+        "benchmark": 1.001
+      },
+      {
+        "date": "2026-08-21",
+        "strategy": 1.0001,
+        "benchmark": 1.0
+      },
+      {
+        "date": "2026-08-24",
+        "strategy": 1.0054,
+        "benchmark": 1.0132
+      },
+      {
+        "date": "2026-08-25",
+        "strategy": 1.0029,
+        "benchmark": 1.0071
+      },
+      {
+        "date": "2026-08-26",
+        "strategy": 1.0058,
+        "benchmark": 1.0142
+      }
+    ]
+  }
 }
