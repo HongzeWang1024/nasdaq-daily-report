@@ -182,6 +182,7 @@ table.arts tbody tr.archived-row { opacity: .45; }
   <div class="topbar-inner">
     <div class="topbar-title"><i class="fa-solid fa-chart-line"></i>研报观点 · 检索</div>
     <nav class="topbar-nav">
+      <a href="../index.html"><i class="fa-solid fa-house"></i> 首页</a>
       <a href="index.html" class="active"><i class="fa-solid fa-table"></i> 检索列表</a>
       <a href="indicators.html"><i class="fa-solid fa-chart-simple"></i> 指标追踪</a>
       <a href="authors.html"><i class="fa-solid fa-user-group"></i> 机构观点</a>
@@ -352,7 +353,7 @@ window.CAL_CUR = "2026-08";
     return py + '-' + pad(pm);
   }
 
-  function render() {
+  function renderCal() {
     const evs = window.CAL_DATA[window.CAL_CUR] || [];
     // 计算该月第一天是周几和天数
     const [yy, mm] = window.CAL_CUR.split('-').map(Number);
@@ -438,13 +439,13 @@ window.CAL_CUR = "2026-08";
   }
   document.getElementById('cal-prev').onclick = () => {
     const p = prevMonth(window.CAL_CUR);
-    if (getMonthIdx(p) >= 0) { window.CAL_CUR = p; render(); }
+    if (getMonthIdx(p) >= 0) { window.CAL_CUR = p; renderCal(); }
   };
   document.getElementById('cal-next').onclick = () => {
     const n = nextMonth(window.CAL_CUR);
-    if (getMonthIdx(n) >= 0) { window.CAL_CUR = n; render(); }
+    if (getMonthIdx(n) >= 0) { window.CAL_CUR = n; renderCal(); }
   };
-  render();
+  renderCal();
 })();
 </script>
 </div></div>
