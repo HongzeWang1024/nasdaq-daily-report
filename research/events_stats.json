@@ -10,12 +10,12 @@
     {
      "date": "2026-08-21",
      "r1": -0.0113,
-     "r3": -0.006,
+     "r3": null,
      "r7": null
     }
    ],
    "avg_ret_1d": -0.0113,
-   "avg_ret_3d": -0.006,
+   "avg_ret_3d": null,
    "avg_ret_7d": null
   }
  ]
