@@ -1,6 +1,422 @@
 {
- "updated": "2026-08-26",
+ "updated": "2026-08-28",
  "articles": [
+  {
+   "date": "2026-08-28",
+   "title": "黄金观望",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/wjm8a9ejo3QC5AAQSewvZg",
+   "level": "brief",
+   "viewpoint": "观望",
+   "themes": [
+    "黄金",
+    "大宗商品"
+   ],
+   "etf_sentiment": {
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "商品市场能源偏强原油+2.1%、煤炭获资金青睐，贵金属化工遭撤离（沪金流出18亿居首）；黄金调整源于短期利好充分释放，9月加息概率回落至三成、伦敦金8月涨超13%、SPDR持仓两日流出4吨，关注周五晚杰克逊霍尔美联储主席沃什讲话，鹰派则金价承压、持稳则资金回补。",
+   "page": "research_20260828.html"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "权益 | AI行情需要新叙事",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/eyZXJFYX_ix4B6YlpY2EPQ",
+   "level": "archived",
+   "viewpoint": "观望",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.2
+   },
+   "summary": "正文拉取失败（微信端仅返回图片/标题），无法总结观点，仅记录标题存档。",
+   "page": "research_20260828.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "英伟达Q2业绩超预期，指引乐观，盘后大涨，利好A股",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/LyipUCg7RYygLa_btls_Qw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI产业链",
+    "海外财报"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "515880": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "英伟达FY27Q2营收962亿(同比+106%)超预期920亿,数据中心890亿(同比+117%),Q3指引1080亿(±2%)超分析师预期1051.5亿;客户承诺订单从1190亿飙升至2790亿,CFO称明年营收翻倍,黄仁勋罕见提前一年指引2028财年+70%,映射A股半导体/通信链",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "如何刻画AI泡沫程度？",
+   "author": "Kevin策略研究",
+   "url": "https://mp.weixin.qq.com/s/MEK5vGOH1CS5od5xfSWJ1A",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI产业链",
+    "海外宏观"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "中金/Kevin构建AI泡沫压力指数(需求40%/现金流30%/外部融资25%/外部约束5%,20指标合成),8/17升至66进入>1.7σ极端区间;需求与现金流是主要拖累(8月近一个月无新模型刷新能力上限),极端位置有助于判断拐点,流动性过度调整反而提供介入机会",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "美债的\"问题\"出在哪？",
+   "author": "Kevin策略研究",
+   "url": "https://mp.weixin.qq.com/s/NyxhKYn6Vyv9J1D10rk4ZA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美债利率",
+    "AI融资"
+   ],
+   "etf_sentiment": {
+    "511090": "中性",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "华泰/Kevin分析美债\"问题\"本质:私募信贷担忧(Blue Owl/Apollo/Blackrock旗下基金限制赎回)放大AI融资冲击信贷市场结构的预期;但年初Anthropic ToB需求超预期已部分缓释,AI商业化验证仍是核心;8月集中发债+超长科技债+主权资本构成新融资模式",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "张瑜:分化的源头——投石问\"K\"系列三",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/Bi1PPL8ymz8EmOoIgtCqDQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美国K型分化",
+    "中游制造"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "华创张瑜\"投石问K\"系列三:美国K型经济分化的源头在劳动力市场与收入分配(高技能岗位+高资产价格 vs 低中位数工资+制造业空心化),系列一二分别讲规律与美国三条轨迹;对A股映射:上游中游制造业受惠全球供给重塑,弱美元交易延续",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "债券借贷的牛熊信号与策略应用",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/oCjmAzwC6_FnBFVttERJCw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "债市策略",
+    "微观结构"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "方正李清荷:债券借贷作为情绪观测工具(熊市\"量增价跌\"负反馈/牛市国债>政金/震荡市无规律);新券反套策略(Δ新-Δ老连续2日<-1000百万+利差>2BP)胜率71.4%/赔率1.57/期望1.72;30Y国债活跃券借贷费率1.4-1.9%指示超长久期品种机会",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "财政两个灵魂问题:供给压力?支出提速?——7月财政数据点评",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/FUCAsrqAFYPBhLZO50ITgQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "财政政策",
+    "债市"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "华创张瑜7月财政数据点评:一般预算支出仅+0.5%/地方转负/土地出让-27.1%显示支出偏慢;8月政府债净发行1.1万亿低于预期1.57-1.67万亿;下半年还有2万亿专项债+超长期特别国债待发;债市缺乏实质利空,10Y国债1.68%一线阻力但下行动能未破",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "货币政策规则指引美国需加息?",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/yacUSKe_pNOuO7XQ3yU27A",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "美联储",
+    "美债利率"
+   ],
+   "etf_sentiment": {
+    "513100": "空",
+    "511090": "空"
+   },
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "华创张瑜基于泰勒规则(实际r*+通胀缺口+产出缺口)测算美国货币政策或需加息,与市场降息共识相悖;但联储实际操作中'灵活务实',规则化框架并非唯一指引;Jackson Hole沃什首秀或放大美债利率上行压力",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "沃什将在全球央行年会首秀——海外周报第154期",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/nMs6ArH57DqniAOUdzYI0Q",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "Jackson Hole"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.45
+   },
+   "summary": "华创海外周报154期:Jackson Hole 8/22-24沃什首秀,关注其对业绩指引/融资/对华业务的表述,可能放大美债利率压力",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "存量政策加快落地——政策周观察第93期",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/9_PlQ30n3vFl0pQQCIEtVg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "财政政策",
+    "重大工程"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "近一周(8-17~8-23)政策综合:六张网+清欠+财政金融协同促内需(贴息扩围提额)+公积金条例修订(利率由国务院决定/提取情形6→9种);'六张网'建设+清欠推进+下半年还有2万亿专项债+超长期特别国债待发",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "AI景气度继续提升——每周经济观察第84期",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/a1gvsKTEz08jDdeNd4um3Q",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "AI产业链",
+    "经济观察"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "华创每周经济观察第84期:AI景气度继续提升,全球资金风险偏好回升",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "全球资金风险偏好回升,中国股基流出规模下降——全球资金流动周报第23期",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/ACvJrckcmPKVKblycnIVMw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "资金流向"
+   ],
+   "etf_sentiment": {
+    "513100": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "华创全球资金流动周报:EPFR全球资金风险偏好回升,中国股基流出规模下降",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "欲攻还休",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/b4na5LT1W_GEv4c_Oj_JHQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "权益市场",
+    "债市"
+   ],
+   "etf_sentiment": {
+    "512480": "中性",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "兴业郁见8/26市场观察:万得全A+0.59%(成交1.82万亿),光模块核心(旭创-26%/新易盛无量)继续缩量,资金切向软件/券商/工业金属;创业板指两次反弹失败,市场再平衡格局延续;债市跨月资金边际转松但10Y国债1.68%一线阻力",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "张瑜:分化的规律——投石问\"K\"系列一",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/RRGG_5TpO0NRY9AUOJKqYw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美国K型分化"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "系列一/分化的规律——投石问K系列导论,建立K型分析框架(与《分化的源头》同题,本篇已降速览)",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "张瑜:美国分化的三条轨迹——投石问\"K\"系列二",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/UGCr3cylGFkUyoQ7FqyokQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美国K型分化"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "系列二/美国分化的三条轨迹——劳动/消费/资产三轨分化(与《分化的源头》同题,本篇已降速览)",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "酝酿新机",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/NHvnoECHipfo1fXvXm0jqg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "权益市场",
+    "AI应用"
+   ],
+   "etf_sentiment": {
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "兴业郁见8/25市场观察:创业板指两次反弹失败,资金从光模块切光纤/液冷,医药板块表现;AI应用/Agent/端侧AI/具身智能为下一阶段叙事方向;银行/煤炭/公用事业为低波资产平衡",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "联储的\"仪表盘\"在看什么?(国联民生宏观林彦)",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/VTj4BSFAFXWBQzQglbU1gg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "川阅全球宏观(转载国联民生林彦):联储多目标决策框架,通胀/就业/金融条件权重变化,仪表盘各指标信号矛盾,难以机械应用规则",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "信用 | 从摊余债基配置变化看本轮长信用行情",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/acmQqoN2wNn_00msdOHNKQ",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "信用债",
+    "债市策略"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "覃汉:从摊余债基配置变化看本轮长信用行情,摊余债基扩容+信用利差压缩延续",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "【瞎扯】房贷贴息到底有多大用处?",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/usBUSPJrtECfnnlBnXv1Zg",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "地产政策",
+    "消费刺激"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.9
+   },
+   "summary": "吐槽吖:1000亿额度较1875亿以旧换新更小;地方实践'锦上添花不雪中送炭'(杭州临平-43.5%/武汉-20%),仅南京雨花台(+28.6%)等局部有正向反馈;地区分化下整体企稳难;刺激始终是'买500减500'代金券式,居民缺的是500万不是500",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "【瞎扯】切券导致的新老券利差背离",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/MVSwkLKfTaFpliMKQLVyOw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "债市策略",
+    "瞎扯系列"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 2.8
+   },
+   "summary": "吐槽吖瞎扯系列:戏说切券现象,新老券利差背离",
+   "page": "research_20260827.html"
+  },
   {
    "date": "2026-08-26",
    "title": "中美板块映射的新特征",
