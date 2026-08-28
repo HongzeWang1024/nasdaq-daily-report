@@ -1,6 +1,41 @@
 {
- "updated": "2026-08-27",
+ "updated": "2026-08-28",
  "articles": [
+  {
+   "date": "2026-08-28",
+   "title": "黄金观望",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/wjm8a9ejo3QC5AAQSewvZg",
+   "level": "brief",
+   "viewpoint": "观望",
+   "themes": [
+    "黄金",
+    "大宗商品"
+   ],
+   "etf_sentiment": {
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "商品市场能源偏强原油+2.1%、煤炭获资金青睐，贵金属化工遭撤离（沪金流出18亿居首）；黄金调整源于短期利好充分释放，9月加息概率回落至三成、伦敦金8月涨超13%、SPDR持仓两日流出4吨，关注周五晚杰克逊霍尔美联储主席沃什讲话，鹰派则金价承压、持稳则资金回补。",
+   "page": "research_20260828.html"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "权益 | AI行情需要新叙事",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/eyZXJFYX_ix4B6YlpY2EPQ",
+   "level": "archived",
+   "viewpoint": "观望",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.2
+   },
+   "summary": "正文拉取失败（微信端仅返回图片/标题），无法总结观点，仅记录标题存档。",
+   "page": "research_20260828.html"
+  },
   {
    "date": "2026-08-27",
    "title": "英伟达Q2业绩超预期，指引乐观，盘后大涨，利好A股",
