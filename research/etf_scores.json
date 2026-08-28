@@ -1,58 +1,28 @@
 {
- "updated": "2026-08-27",
- "date": "2026-08-27",
- "sentiment_index": 70.0,
+ "updated": "2026-08-28",
+ "date": "2026-08-28",
+ "sentiment_index": 42.0,
  "risk_level": {
-  "level": "中",
-  "score": 50,
+  "level": "低",
+  "score": 6,
   "cats": {
-   "宏观流动性": 4.2,
+   "宏观流动性": 1.2,
    "地缘政治": 0.0,
-   "板块情绪": 2.2,
-   "估值水平": 3.6
+   "板块情绪": 0.0,
+   "估值水平": 0.0
   },
-  "advice": "⚠ 风险等级中等，防御关注：511090（30年国债）、518880（黄金）"
+  "advice": ""
  },
  "scores": [
   {
-   "code": "515880",
-   "name": "",
-   "grade": "关注",
-   "score": 84,
+   "code": "518880",
+   "name": "黄金",
+   "grade": "观望",
+   "score": 57,
    "delta": null,
-   "bull": 1,
+   "bull": 0,
    "bear": 0,
-   "neutral": 0
-  },
-  {
-   "code": "512480",
-   "name": "半导体",
-   "grade": "强推",
-   "score": 74,
-   "delta": 0,
-   "bull": 4,
-   "bear": 0,
-   "neutral": 2
-  },
-  {
-   "code": "511090",
-   "name": "30年国债",
-   "grade": "关注",
-   "score": 65,
-   "delta": -8,
-   "bull": 4,
-   "bear": 1,
-   "neutral": 4
-  },
-  {
-   "code": "513100",
-   "name": "纳指",
-   "grade": "关注",
-   "score": 61,
-   "delta": 2,
-   "bull": 2,
-   "bear": 1,
-   "neutral": 6
+   "neutral": 1
   }
  ]
 }
