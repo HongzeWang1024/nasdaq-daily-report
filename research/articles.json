@@ -1,6 +1,235 @@
 {
- "updated": "2026-08-28",
+ "updated": "2026-08-31",
  "articles": [
+  {
+   "date": "2026-08-31",
+   "title": "外资观点：金价年底有望突破5000美元/盎司",
+   "author": "方正/李清荷",
+   "url": "https://mp.weixin.qq.com/s/Pdvd6GZHJESGhGk0CkZQ0Q",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "大类资产配置",
+    "黄金",
+    "美债"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "513100": "中性",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 4.25
+   },
+   "summary": "外资一致看多黄金（年底目标4500-5400美元），央行购金+去美元化支撑；美债长端4.50-4.75%高位震荡；A股短期中性、中长期偏积极",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "四重拐点的交织——张瑜旬度会议纪要No.146",
+   "author": "张瑜/华创",
+   "url": "https://mp.weixin.qq.com/s/hmiv-VxGqGYIlaJX_TIRoA",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "宏观经济",
+    "大类资产配置"
+   ],
+   "etf_sentiment": {
+    "510300": "中性",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "盈利领先指标近周期顶、拔估值进入观察期、政策仅小拐点无强刺激；股债性价比重回中立位，下半年市场从拔估值转向盈利驱动，操作难度上升需再平衡",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "扬汤止沸易，釜底抽薪难——长端美债的五点思考",
+   "author": "张瑜/华创",
+   "url": "https://mp.weixin.qq.com/s/sJMTxJYyWa1opmQxrBpAJg",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "海外宏观",
+    "美债"
+   ],
+   "etf_sentiment": {
+    "518880": "中性",
+    "513100": "空"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "长端美债上行主因期限溢价（财政+联储不确定性+AI融资挤压），短期高位震荡、年内或阶段性下行，警惕美股美债同跌的流动性冲击",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "【中金固收·信用】5年期抢跑、持续关注摊余债基审批发行情况",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/dXFGIqUpqBKWeKUAaEasxg",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "信用债",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511010": "多"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "信用利差处历史低位（各评级收益率3%以下分位），摊余成本法债基审批预期下市场或对5年普通信用债抢跑，建议配置5年非金融信用债、交易二永债随利率债",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "债的“打手”，终究敲崩了情绪。",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/Q8ULOc5Hh_zgPAI8Kb4ozg",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "利率债",
+    "机构行为"
+   ],
+   "etf_sentiment": {
+    "511090": "空"
+   },
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "券商连续7日净卖‘奉旨压盘’抑制债市热度，YM控利率过快下行让利配置盘，TL回踩115.71-115.78企稳与否定配置节奏，债中长期多趋势未变",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "【中金·REITs】分红价值助力市场反弹——REITs周报（8.17-8.21）",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/WWybrgh2TS6YsJivDsXl9A",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "REITs",
+    "红利"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.85
+   },
+   "summary": "中证REITs全收益指数周涨1.18%，产权REITs分派率4.69%与红利指数息差39bps（历史99.6%分位），分红+增持助力反弹，保险资管新规落地或提振泛红利",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "20260828早评存档",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/mP2HxoeiDkcg_kxdq2zN_Q",
+   "level": "brief",
+   "viewpoint": "观望",
+   "themes": [
+    "利率债",
+    "技术分析"
+   ],
+   "etf_sentiment": {
+    "511090": "空"
+   },
+   "scores": {
+    "total": 2.7
+   },
+   "summary": "与《债的打手》同题（债市回调）；国债期货大跌后弱势修复，TL 115.71-115.78企稳与否定反抽强弱，配置盘关注到位点位，黄金991-1009震荡多头未变",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "【中金固收】债券供给增加，商业银行继续增配——2026年7月托管数据点评",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/8CDzPFhBO3IJPt-UOAgwGQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债",
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.65
+   },
+   "summary": "7月债券供给增加、托管合计净增2.26万亿，商业银行为主要增持方（增持6212亿），广义基金增持力度减弱、境外机构转为增持，资金或边际流向境内债市",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "【中金固收·信用】中国公司债及企业债信用分析周报",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/tlyfUMCgniKCaxPqyYnLvw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.65
+   },
+   "summary": "本周公司债企业债合计发行883.8亿元，集中在高等级综合/地产/煤炭/电力，无中金评分调整",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "【中金固收·信用】中国短期融资券及中期票据信用分析周报",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/8itpzmMkaXHvZnoDXFXFLA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.65
+   },
+   "summary": "本周短融中票发行2159.5亿元，电力/城投为主，3项中金评分调整（西安经发下调、湖南白银上调、广核国际下调）",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "9月债市怎么看？| 市场调查问卷20260827",
+   "author": "浙商固收/覃汉",
+   "url": "https://mp.weixin.qq.com/s/1NoI2fEewZ4OWYcPjUN_ZQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.55
+   },
+   "summary": "8月债市震荡偏强（30Y曾下探2.14%、10Y守住1.67-1.70%），9月关注政府债供给与止盈压力，本期为问卷发起无实质结论",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "【中金固收·信用】中国信用债评级调整周报",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/SpduXXPPQdSWwZUKC6-OQQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.4
+   },
+   "summary": "本周20项评级行动均为关注类、无中金评分调整，南京交投董事长被调查、空港新城新增失信人等事件被关注",
+   "page": "research_20260831.html"
+  },
   {
    "date": "2026-08-28",
    "title": "黄金观望",
