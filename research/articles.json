@@ -24,28 +24,6 @@
   },
   {
    "date": "2026-09-02",
-   "title": "AI行情需要新叙事",
-   "author": "兴业证券",
-   "url": "https://mp.weixin.qq.com/s/xg-r7nsKREhStua0C17vTA",
-   "level": "detail",
-   "viewpoint": "多",
-   "themes": [
-    "AI算力",
-    "AI应用",
-    "A股轮动"
-   ],
-   "etf_sentiment": {
-    "513100": "多",
-    "512480": "多"
-   },
-   "scores": {
-    "total": 4.8
-   },
-   "summary": "AI行情由技术突破→资本开支→商业化验证演进，当前算力定价较充分，下一阶段增量在AI应用/端侧/具身，A股或跟美股切向AI商业化叙事，可搭银行煤炭公用对冲。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
    "title": "中金 | 迟到的鹰派，信誉的修复：杰克逊霍尔会议点评",
    "author": "中金点睛",
    "url": "https://mp.weixin.qq.com/s/gjP5X21b9ddsTwzXjTB9DQ",
@@ -276,27 +254,6 @@
   },
   {
    "date": "2026-09-02",
-   "title": "英伟达业绩翻倍，背后有三大争议",
-   "author": "泽平宏观",
-   "url": "https://mp.weixin.qq.com/s/1muH_lbZXNzDQpghTiCFWQ",
-   "level": "detail",
-   "viewpoint": "中性",
-   "themes": [
-    "AI算力",
-    "美股科技"
-   ],
-   "etf_sentiment": {
-    "513100": "多",
-    "512480": "多"
-   },
-   "scores": {
-    "total": 4.2
-   },
-   "summary": "英伟达Q2营收962亿美元+106%但存在高增可持续性、循环融资隐性负债(35亿担保+1085亿表外基建承诺)、AI商业闭环三大争议。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
    "title": "REITs I 关注租赁住房板块政策指引",
    "author": "郁言债市",
    "url": "https://mp.weixin.qq.com/s/boUyQ5COhRQzi-Bjkf4UZA",
@@ -447,27 +404,6 @@
   },
   {
    "date": "2026-09-02",
-   "title": "如何理解近期的公开市场操作",
-   "author": "国联民生证券",
-   "url": "https://mp.weixin.qq.com/s/Y2TGLQrD2CL-j4kNHN7EMA",
-   "level": "detail",
-   "viewpoint": "中性",
-   "themes": [
-    "货币政策",
-    "债市",
-    "流动性"
-   ],
-   "etf_sentiment": {
-    "511090": "多"
-   },
-   "scores": {
-    "total": 3.9
-   },
-   "summary": "央行公开市场显著倚重隔夜逆回购(占比78%)增强资金面把控，观察取向应看DR001而非操作量；月末政府债供给+MLF到期+大行融出下降致资金面偏紧，债市低位震荡。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
    "title": "流动性 | 央行收长放短，无碍资金平稳",
    "author": "郁言债市",
    "url": "https://mp.weixin.qq.com/s/VHNIFLjUL8nchftHpyZ0Ow",
@@ -483,27 +419,6 @@
     "total": 3.8
    },
    "summary": "央行收长放短（净投放1.33万亿逆回购、回笼1000亿MLF），资金面先紧后松，DR007周均值1.42%小幅上行，整体无碍平稳跨月。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "美债风暴会否引发金融危机？",
-   "author": "泽平宏观",
-   "url": "https://mp.weixin.qq.com/s/vDOJDCf1ra7isgF3VTJ9zA",
-   "level": "detail",
-   "viewpoint": "多",
-   "themes": [
-    "美债",
-    "黄金",
-    "去美元化"
-   ],
-   "etf_sentiment": {
-    "518880": "多"
-   },
-   "scores": {
-    "total": 3.8
-   },
-   "summary": "美债风暴由财政赤字/科技巨头发债挤占/去美元化等五因引爆，不硬违约但'软违约'(债务货币化)正在发生，黄金人民币大宗长期受益。",
    "page": "research_20260902.html"
   },
   {
@@ -626,26 +541,6 @@
   },
   {
    "date": "2026-09-02",
-   "title": "长江存储上市，AI中国力量",
-   "author": "泽平宏观",
-   "url": "https://mp.weixin.qq.com/s/MfxZATYySux052FjX40cPQ",
-   "level": "brief",
-   "viewpoint": "多",
-   "themes": [
-    "半导体",
-    "国产存储"
-   ],
-   "etf_sentiment": {
-    "512480": "多"
-   },
-   "scores": {
-    "total": 3.4
-   },
-   "summary": "长江存储科创板IPO获受理拟募330亿，国产NAND IDM全球第三、NAND产值上调2706亿(+281%)，撬动存储及半导体国产化产业链。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
    "title": "黄金观望",
    "author": "郁言债市",
    "url": "https://mp.weixin.qq.com/s/wjm8a9ejo3QC5AAQSewvZg",
@@ -764,26 +659,6 @@
   },
   {
    "date": "2026-09-02",
-   "title": "商金债发行如何改善银行指标？",
-   "author": "国联民生证券",
-   "url": "https://mp.weixin.qq.com/s/XqzfaE1wPJswkq92xF4WRg",
-   "level": "brief",
-   "viewpoint": "中性",
-   "themes": [
-    "信用债",
-    "银行债"
-   ],
-   "etf_sentiment": {
-    "511010": "多"
-   },
-   "scores": {
-    "total": 3.2
-   },
-   "summary": "商金债主要改善银行NSFR流动性指标、难改善ΔEVE与资本充足率，利率上行震荡区间商金债相对安全但绝对收益不高。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
    "title": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量",
    "author": "{'name': '泽平宏观展望'}",
    "url": "https://mp.weixin.qq.com/s/6XoSLsfJLfZHn1mZp8AnuA",
@@ -876,24 +751,6 @@
   },
   {
    "date": "2026-09-02",
-   "title": "《货币的秩序》| 第十一章 人民币国际化的新形势与新机遇",
-   "author": "中金公司",
-   "url": "https://mp.weixin.qq.com/s/cY-5cQipfFsj6vWfrVsAlA",
-   "level": "brief",
-   "viewpoint": "中性",
-   "themes": [
-    "人民币国际化",
-    "宏观"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.0
-   },
-   "summary": "美元霸权动摇提供历史窗口，建议把握美元贬值窗口增人民币汇率弹性、增人民币安全资产供给、深化跨境结算计价。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
    "title": "七夕鲜花销量大降：年轻人不恋爱了？",
    "author": "泽平宏观展望",
    "url": "https://mp.weixin.qq.com/s/lrUlPUOUbdOCiIkWKwaQLg",
@@ -909,24 +766,6 @@
     "total": 3.0
    },
    "summary": "七夕鲜花/珠宝销量下滑，结婚登记降7.5%，主因：消费理性化、高婚育成本（房价收入比26.1）、年轻人追求自由、社会替代品增多。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "《货币的秩序》| 第十二章 提升人民币储备货币地位",
-   "author": "中金公司",
-   "url": "https://mp.weixin.qq.com/s/F6YTZe-vYRJRbm-3Qv4xgw",
-   "level": "brief",
-   "viewpoint": "中性",
-   "themes": [
-    "人民币国际化",
-    "宏观"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 2.9
-   },
-   "summary": "储备货币地位是货币国际化终极王冠，人民币占比约2%，提升依赖跨境贸易结算+金融市场开放+区域化三驾马车。",
    "page": "research_20260902.html"
   },
   {
@@ -965,26 +804,6 @@
     "total": 2.7
    },
    "summary": "与《债的打手》同题（债市回调）；国债期货大跌后弱势修复，TL 115.71-115.78企稳与否定反抽强弱，配置盘关注到位点位，黄金991-1009震荡多头未变",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "低波红利/高自由现金流/股东回报ETF：境外篇",
-   "author": "DeepVan",
-   "url": "https://mp.weixin.qq.com/s/a0PcITN7ySTnXLl6nIDImw",
-   "level": "brief",
-   "viewpoint": "中性",
-   "themes": [
-    "红利策略",
-    "高自由现金流"
-   ],
-   "etf_sentiment": {
-    "518880": "多"
-   },
-   "scores": {
-    "total": 2.7
-   },
-   "summary": "详解SCHD/DXJ/3441.HK等海外低波动红利与高自由现金流工具，作者自述7-8月全球半导体去杠杆(杠杆ETF规模降40%)，多为非境内标的仅供参考。",
    "page": "research_20260902.html"
   },
   {
@@ -1107,7 +926,188 @@
    "page": "research_20260902.html"
   },
   {
-   "date": "2026-09-02",
+   "date": "2026-09-01",
+   "title": "AI行情需要新叙事",
+   "author": "兴业证券",
+   "url": "https://mp.weixin.qq.com/s/xg-r7nsKREhStua0C17vTA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI算力",
+    "AI应用",
+    "A股轮动"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.8
+   },
+   "summary": "AI行情由技术突破→资本开支→商业化验证演进，当前算力定价较充分，下一阶段增量在AI应用/端侧/具身，A股或跟美股切向AI商业化叙事，可搭银行煤炭公用对冲。",
+   "page": "research_20260901.html"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "英伟达业绩翻倍，背后有三大争议",
+   "author": "泽平宏观",
+   "url": "https://mp.weixin.qq.com/s/1muH_lbZXNzDQpghTiCFWQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI算力",
+    "美股科技"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "英伟达Q2营收962亿美元+106%但存在高增可持续性、循环融资隐性负债(35亿担保+1085亿表外基建承诺)、AI商业闭环三大争议。",
+   "page": "research_20260901.html"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "如何理解近期的公开市场操作",
+   "author": "国联民生证券",
+   "url": "https://mp.weixin.qq.com/s/Y2TGLQrD2CL-j4kNHN7EMA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "货币政策",
+    "债市",
+    "流动性"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "央行公开市场显著倚重隔夜逆回购(占比78%)增强资金面把控，观察取向应看DR001而非操作量；月末政府债供给+MLF到期+大行融出下降致资金面偏紧，债市低位震荡。",
+   "page": "research_20260901.html"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "美债风暴会否引发金融危机？",
+   "author": "泽平宏观",
+   "url": "https://mp.weixin.qq.com/s/vDOJDCf1ra7isgF3VTJ9zA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美债",
+    "黄金",
+    "去美元化"
+   ],
+   "etf_sentiment": {
+    "518880": "多"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "美债风暴由财政赤字/科技巨头发债挤占/去美元化等五因引爆，不硬违约但'软违约'(债务货币化)正在发生，黄金人民币大宗长期受益。",
+   "page": "research_20260901.html"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "长江存储上市，AI中国力量",
+   "author": "泽平宏观",
+   "url": "https://mp.weixin.qq.com/s/MfxZATYySux052FjX40cPQ",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "半导体",
+    "国产存储"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "长江存储科创板IPO获受理拟募330亿，国产NAND IDM全球第三、NAND产值上调2706亿(+281%)，撬动存储及半导体国产化产业链。",
+   "page": "research_20260901.html"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "商金债发行如何改善银行指标？",
+   "author": "国联民生证券",
+   "url": "https://mp.weixin.qq.com/s/XqzfaE1wPJswkq92xF4WRg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债",
+    "银行债"
+   ],
+   "etf_sentiment": {
+    "511010": "多"
+   },
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "商金债主要改善银行NSFR流动性指标、难改善ΔEVE与资本充足率，利率上行震荡区间商金债相对安全但绝对收益不高。",
+   "page": "research_20260901.html"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "《货币的秩序》| 第十一章 人民币国际化的新形势与新机遇",
+   "author": "中金公司",
+   "url": "https://mp.weixin.qq.com/s/cY-5cQipfFsj6vWfrVsAlA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "人民币国际化",
+    "宏观"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "美元霸权动摇提供历史窗口，建议把握美元贬值窗口增人民币汇率弹性、增人民币安全资产供给、深化跨境结算计价。",
+   "page": "research_20260901.html"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "《货币的秩序》| 第十二章 提升人民币储备货币地位",
+   "author": "中金公司",
+   "url": "https://mp.weixin.qq.com/s/F6YTZe-vYRJRbm-3Qv4xgw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "人民币国际化",
+    "宏观"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.9
+   },
+   "summary": "储备货币地位是货币国际化终极王冠，人民币占比约2%，提升依赖跨境贸易结算+金融市场开放+区域化三驾马车。",
+   "page": "research_20260901.html"
+  },
+  {
+   "date": "2026-09-01",
+   "title": "低波红利/高自由现金流/股东回报ETF：境外篇",
+   "author": "DeepVan",
+   "url": "https://mp.weixin.qq.com/s/a0PcITN7ySTnXLl6nIDImw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "红利策略",
+    "高自由现金流"
+   ],
+   "etf_sentiment": {
+    "518880": "多"
+   },
+   "scores": {
+    "total": 2.7
+   },
+   "summary": "详解SCHD/DXJ/3441.HK等海外低波动红利与高自由现金流工具，作者自述7-8月全球半导体去杠杆(杠杆ETF规模降40%)，多为非境内标的仅供参考。",
+   "page": "research_20260901.html"
+  },
+  {
+   "date": "2026-09-01",
    "title": "“崩老头”“崩阿姨”现象为何流行？",
    "author": "泽平宏观",
    "url": "https://mp.weixin.qq.com/s/qlX5hZy-dpkVhVv2itQgJA",
@@ -1119,10 +1119,10 @@
     "total": 1.0
    },
    "summary": "社会现象评论：'崩老头崩阿姨'现象成因与婚恋观引导建议，无交易含义。",
-   "page": "research_20260902.html"
+   "page": "research_20260901.html"
   },
   {
-   "date": "2026-09-02",
+   "date": "2026-09-01",
    "title": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量",
    "author": "泽平宏观商学",
    "url": "https://mp.weixin.qq.com/s/RKHQu2zVrtqwxrUVRMOz9Q",
@@ -1134,10 +1134,10 @@
     "total": 1.0
    },
    "summary": "泽平宏观商学9月研学活动宣传(同题重复多篇)。",
-   "page": "research_20260902.html"
+   "page": "research_20260901.html"
   },
   {
-   "date": "2026-09-02",
+   "date": "2026-09-01",
    "title": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量",
    "author": "泽平宏观商学",
    "url": "https://mp.weixin.qq.com/s/RbE_YQdiMM5SpOvGwEev1g",
@@ -1149,10 +1149,10 @@
     "total": 1.0
    },
    "summary": "泽平宏观商学9月研学活动宣传(同题重复多篇)。",
-   "page": "research_20260902.html"
+   "page": "research_20260901.html"
   },
   {
-   "date": "2026-09-02",
+   "date": "2026-09-01",
    "title": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量",
    "author": "泽平宏观商学",
    "url": "https://mp.weixin.qq.com/s/FgvKZfgAYpTtLN2zPZykIQ",
@@ -1164,10 +1164,10 @@
     "total": 1.0
    },
    "summary": "泽平宏观商学9月研学活动宣传(同题重复多篇)。",
-   "page": "research_20260902.html"
+   "page": "research_20260901.html"
   },
   {
-   "date": "2026-09-02",
+   "date": "2026-09-01",
    "title": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量",
    "author": "泽平宏观商学",
    "url": "https://mp.weixin.qq.com/s/S0NJoHg0KDjjNlrPTDZKJQ",
@@ -1179,10 +1179,10 @@
     "total": 1.0
    },
    "summary": "泽平宏观商学9月研学活动宣传(同题重复多篇)。",
-   "page": "research_20260902.html"
+   "page": "research_20260901.html"
   },
   {
-   "date": "2026-09-02",
+   "date": "2026-09-01",
    "title": "1月美西站——AI智驭浪潮：2027 CES & 硅谷前沿科技探索之旅",
    "author": "泽平宏观商学",
    "url": "https://mp.weixin.qq.com/s/CWLl5NHWyzd0qBd1EvvGgw",
@@ -1194,10 +1194,10 @@
     "total": 1.0
    },
    "summary": "泽平宏观商学2027 CES硅谷研学付费活动宣传(同题重复多篇)。",
-   "page": "research_20260902.html"
+   "page": "research_20260901.html"
   },
   {
-   "date": "2026-09-02",
+   "date": "2026-09-01",
    "title": "1月美西站——AI智驭浪潮：2027 CES & 硅谷前沿科技探索之旅",
    "author": "泽平宏观商学",
    "url": "https://mp.weixin.qq.com/s/at_Aa1K_SeehZ1_wNr-SSg",
@@ -1209,10 +1209,10 @@
     "total": 1.0
    },
    "summary": "泽平宏观商学2027 CES硅谷研学付费活动宣传(同题重复多篇)。",
-   "page": "research_20260902.html"
+   "page": "research_20260901.html"
   },
   {
-   "date": "2026-09-02",
+   "date": "2026-09-01",
    "title": "1月美西站——AI智驭浪潮：2027 CES & 硅谷前沿科技探索之旅",
    "author": "泽平宏观商学",
    "url": "https://mp.weixin.qq.com/s/WejIQ9nsSG1BBtLMRHnYww",
@@ -1224,10 +1224,10 @@
     "total": 1.0
    },
    "summary": "泽平宏观商学2027 CES硅谷研学付费活动宣传(同题重复多篇)。",
-   "page": "research_20260902.html"
+   "page": "research_20260901.html"
   },
   {
-   "date": "2026-09-02",
+   "date": "2026-09-01",
    "title": "1月美西站——AI智驭浪潮：2027 CES & 硅谷前沿科技探索之旅",
    "author": "泽平宏观商学",
    "url": "https://mp.weixin.qq.com/s/Xlh3LsQgPu5QX01xvWE1Xg",
@@ -1239,7 +1239,7 @@
     "total": 1.0
    },
    "summary": "泽平宏观商学2027 CES硅谷研学付费活动宣传(同题重复多篇)。",
-   "page": "research_20260902.html"
+   "page": "research_20260901.html"
   },
   {
    "date": "2026-08-27",
