@@ -1,7 +1,7 @@
 {
  "updated": "2026-09-02",
  "date": "2026-09-02",
- "sentiment_index": 55.0,
+ "sentiment_index": 53.0,
  "risk_level": {
   "level": "低",
   "score": 0,
@@ -18,9 +18,9 @@
    "code": "512480",
    "name": "半导体",
    "grade": "强推",
-   "score": 83,
-   "delta": -1,
-   "bull": 9,
+   "score": 82,
+   "delta": -2,
+   "bull": 6,
    "bear": 0,
    "neutral": 0
   },
@@ -28,9 +28,9 @@
    "code": "518880",
    "name": "黄金",
    "grade": "强推",
-   "score": 73,
-   "delta": 1,
-   "bull": 5,
+   "score": 72,
+   "delta": 0,
+   "bull": 3,
    "bear": 0,
    "neutral": 3
   },
@@ -38,41 +38,41 @@
    "code": "511010",
    "name": "国债ETF",
    "grade": "关注",
-   "score": 72,
-   "delta": 0,
-   "bull": 2,
+   "score": 71,
+   "delta": -1,
+   "bull": 1,
    "bear": 0,
    "neutral": 0
   },
   {
    "code": "511090",
    "name": "30年国债",
-   "grade": "关注",
-   "score": 63,
-   "delta": -14,
-   "bull": 3,
+   "grade": "观望",
+   "score": 59,
+   "delta": -18,
+   "bull": 2,
    "bear": 2,
    "neutral": 1
-  },
-  {
-   "code": "513100",
-   "name": "纳指",
-   "grade": "规避",
-   "score": 63,
-   "delta": -23,
-   "bull": 4,
-   "bear": 5,
-   "neutral": 3
   },
   {
    "code": "510300",
    "name": "沪深300",
    "grade": "观望",
-   "score": 60,
+   "score": 59,
    "delta": null,
    "bull": 0,
    "bear": 0,
    "neutral": 2
+  },
+  {
+   "code": "513100",
+   "name": "纳指",
+   "grade": "规避",
+   "score": 58,
+   "delta": -28,
+   "bull": 2,
+   "bear": 5,
+   "neutral": 3
   }
  ]
 }
