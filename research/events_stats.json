@@ -2,23 +2,6 @@
  "updated": "2026-09-02",
  "events": [
   {
-   "event": "杰克逊霍尔年会美联储主席沃什主旨演讲（北京时间周五晚）",
-   "target": "518880",
-   "name": "黄金",
-   "samples": 1,
-   "history": [
-    {
-     "date": "2026-08-28",
-     "r1": -0.0359,
-     "r3": null,
-     "r7": null
-    }
-   ],
-   "avg_ret_1d": -0.0359,
-   "avg_ret_3d": null,
-   "avg_ret_7d": null
-  },
-  {
    "event": "欧元区PMI",
    "target": "510300",
    "name": "沪深300",
@@ -33,40 +16,6 @@
    ],
    "avg_ret_1d": -0.0113,
    "avg_ret_3d": -0.006,
-   "avg_ret_7d": null
-  },
-  {
-   "event": "美国7月PCE物价指数",
-   "target": "513100",
-   "name": "纳指",
-   "samples": 1,
-   "history": [
-    {
-     "date": "2026-08-28",
-     "r1": -0.0054,
-     "r3": null,
-     "r7": null
-    }
-   ],
-   "avg_ret_1d": -0.0054,
-   "avg_ret_3d": null,
-   "avg_ret_7d": null
-  },
-  {
-   "event": "跨月资金面大考：本周近8000亿政府债缴款+6000亿MLF到期+6400亿存单到期",
-   "target": "511090",
-   "name": "30年国债",
-   "samples": 1,
-   "history": [
-    {
-     "date": "2026-08-28",
-     "r1": 0.001,
-     "r3": null,
-     "r7": null
-    }
-   ],
-   "avg_ret_1d": 0.001,
-   "avg_ret_3d": null,
    "avg_ret_7d": null
   }
  ]
