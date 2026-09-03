@@ -1,1322 +1,6 @@
 {
- "updated": "2026-09-03",
+ "updated": "2026-09-02",
  "articles": [
-  {
-   "date": "2026-09-03",
-   "title": "【华泰资产配置】需要重视的全球“资金失衡”",
-   "author": "华泰证券固收研究",
-   "url": "https://mp.weixin.qq.com/s/o7ec6vB7QVpEKYfHql-gcQ",
-   "level": "detail",
-   "viewpoint": "多",
-   "themes": [
-    "全球资金失衡",
-    "长端利率",
-    "资产配置"
-   ],
-   "etf_sentiment": {
-    "518880": "多",
-    "512480": "多",
-    "513100": "多",
-    "510300": "中性",
-    "511090": "中性",
-    "159928": "空"
-   },
-   "scores": {
-    "total": 4.63
-   },
-   "summary": "全球储蓄四重收缩叠加政府与AI同时加杠杆，六大科技巨头前7月发债2200亿美元与5年以上国债净发行同量级，长端利率易上难下；配置“黄金+科技”哑铃，权益优于债券。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "如何评估黄金的节奏和空间 | 建投宏观·周君芝团队",
-   "author": "CSC研究 宏观团队",
-   "url": "https://mp.weixin.qq.com/s/-OESZ6LWr~Lib3EroivD7g",
-   "level": "detail",
-   "viewpoint": "多",
-   "themes": [
-    "黄金",
-    "央行购金",
-    "流动性"
-   ],
-   "etf_sentiment": {
-    "518880": "多"
-   },
-   "scores": {
-    "total": 4.5
-   },
-   "summary": "黄金年内三轮行情切换本质是短周期流动性博弈，7月以来完成4000→4600美元首轮修复；央行购金289吨/季+期限溢价上行提供支撑，第二轮趋势上涨需等实质性宽松确认，联储“易松难紧”下上行周期未终结。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "9月，每调买机",
-   "author": "郁言债市",
-   "url": "https://mp.weixin.qq.com/s/ZwE2-8NNeyX8-b3NT3TYmQ",
-   "level": "detail",
-   "viewpoint": "多",
-   "themes": [
-    "利率债",
-    "9月债市展望",
-    "政府债供给"
-   ],
-   "etf_sentiment": {
-    "511090": "多",
-    "511010": "多"
-   },
-   "scores": {
-    "total": 4.23
-   },
-   "summary": "近十年9月利率上行概率70%但今年“魔咒”重演概率有限：政府债净融资1.44-1.6万亿虽创年内新高，央行大概率加大投放配合；长端利率极致低位下震荡行情中“每调买机”仍是有效策略。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "金融债|策略维度看二永：从“赚价差”到“赚票息”",
-   "author": "覃汉研究笔记",
-   "url": "https://mp.weixin.qq.com/s/ojmm9kdftXPs50Eyamfz3A",
-   "level": "detail",
-   "viewpoint": "中性",
-   "themes": [
-    "二永债",
-    "票息策略",
-    "收益拆解"
-   ],
-   "etf_sentiment": {
-    "511090": "空"
-   },
-   "scores": {
-    "total": 4.2
-   },
-   "summary": "1-8月10Y AA+二永综合收益6.28%但超七成来自价差，30Y防御空间仅4bp；建议从赚价差切回赚票息，以中短久期中高评级为底仓，超长端仅作交易品种、警惕长久期“收益幻觉”。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "美联储理事Barr表示9月议息会议可能支持加息",
-   "author": "丹湖渔翁",
-   "url": "https://mp.weixin.qq.com/s/UVkklOU~S3TBwq9FKykXmg",
-   "level": "detail",
-   "viewpoint": "空",
-   "themes": [
-    "美联储",
-    "加息",
-    "通胀"
-   ],
-   "etf_sentiment": {
-    "513100": "空"
-   },
-   "scores": {
-    "total": 4.15
-   },
-   "summary": "Barr明确“通胀未充分放缓就果断加息”，7月已有3名票委主张加息25bp；8月油价走势不像通胀要下行的样子，9月中旬FOMC加息概率很大，美债2Y/10Y/30Y齐创新高已在定价加息。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "类权益|9月，再均衡与新叙事",
-   "author": "郁见投资",
-   "url": "https://mp.weixin.qq.com/s/7MYugrs1jz8uItB6Alb8FQ",
-   "level": "detail",
-   "viewpoint": "中性",
-   "themes": [
-    "权益策略",
-    "AI新叙事",
-    "转债"
-   ],
-   "etf_sentiment": {
-    "510300": "中性",
-    "512480": "中性"
-   },
-   "scores": {
-    "total": 4.08
-   },
-   "summary": "8月缩量轮动、8/19美债利率冲击致万得全A单日-4.13%；9月30Y美债或高位震荡但突破8月高点概率不高，权益延续均衡配置（低波底仓+AI新叙事弹性仓位），转债宜哑铃波段。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "9月信用债投资策略",
-   "author": "固收亮话",
-   "url": "https://mp.weixin.qq.com/s/HBxHgrmyOI0ll9qnt62P4A",
-   "level": "detail",
-   "viewpoint": "中性",
-   "themes": [
-    "信用债",
-    "哑铃策略",
-    "摊余债基"
-   ],
-   "etf_sentiment": {
-    "511010": "中性"
-   },
-   "scores": {
-    "total": 3.9
-   },
-   "summary": "9月理财回表0.7万亿+信用债季节性偏弱（1Y/3Y AAA过去7年9月下行概率0%），策略建议哑铃型（组合久期约5Y）+中高等级底仓，新批1200亿摊余债基是需求端主要变量。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "中金 | 食饮功能化：健康中国领航，万亿赛道重构",
-   "author": "中金点睛",
-   "url": "https://mp.weixin.qq.com/s/pgaSIxPePwxElGb8v5Fu0g",
-   "level": "detail",
-   "viewpoint": "多",
-   "themes": [
-    "食品饮料功能化",
-    "健康消费",
-    "老龄化"
-   ],
-   "etf_sentiment": {
-    "515170": "多",
-    "159928": "多"
-   },
-   "scores": {
-    "total": 3.73
-   },
-   "summary": "健康中国入策叠加老龄化（65+人口2.24亿），食饮功能化赛道规模近万亿：日常健康食品7000亿+保健品2600亿，对标日本制度红利期增长弹性可期。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "美债利率拐点何时到来？（国联民生宏观林彦、武朔）",
-   "author": "川阅全球宏观",
-   "url": "https://mp.weixin.qq.com/s/vqm8Puk-J6kTR32idhp0kA",
-   "level": "detail",
-   "viewpoint": "空",
-   "themes": [
-    "美债利率",
-    "期限溢价",
-    "实际利率"
-   ],
-   "etf_sentiment": {
-    "513100": "空"
-   },
-   "scores": {
-    "total": 3.65
-   },
-   "summary": "10Y美债一度升破4.8%关口，沃什鹰派推高实际利率至2.44%但期限溢价核心矛盾未化解；长债利率短期高位震荡，拐点需通胀就业走弱与财政收敛确认。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "宇树市值为何腰斩？",
-   "author": "泽平宏观展望",
-   "url": "https://mp.weixin.qq.com/s/fmGMczdfQIUL54SXQO5Mkg",
-   "level": "detail",
-   "viewpoint": "观望",
-   "themes": [
-    "人形机器人",
-    "宇树科技",
-    "估值回归"
-   ],
-   "etf_sentiment": {
-    "562500": "中性"
-   },
-   "scores": {
-    "total": 3.63
-   },
-   "summary": "宇树上市9个交易日市值蒸发超2160亿元至2285亿，峰值PE超800倍远超11.52亿营收的业绩支撑（H1增速放缓至48.5%、扣非净利降近两成），短期估值回归理性，长期人形机器人仍有前途。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "消费金融ABS：纠偏旧模式，稳住好供给",
-   "author": "中金固定收益研究",
-   "url": "https://mp.weixin.qq.com/s/M759P81V74KYxeOQJKmyCA",
-   "level": "brief",
-   "viewpoint": "中性",
-   "themes": [
-    "消费金融ABS",
-    "监管纠偏",
-    "信用分层"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.45
-   },
-   "summary": "监管纠偏下泛消金ABS发行未消失：前7月3500亿与上年持平、前五大平台集中度85%，AAA档利率较2024年降60bp，尾部出清后合规供给将率先获得更宽发行窗口。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "缅A出海 + 股东回报 标的半年报分析之二：赛轮轮胎",
-   "author": "DeepVan的逃生地牢",
-   "url": "https://mp.weixin.qq.com/s/~6aUi5kKv7Za~K7~5HUGpQ",
-   "level": "brief",
-   "viewpoint": "多",
-   "themes": [
-    "轮胎出海",
-    "半年报分析",
-    "股东回报"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.45
-   },
-   "summary": "赛轮H1销量4501万条增15%，售价跌原料涨下毛利率逆势升245bp至26.99%，境外占比76.9%、2026E PE仅约11倍，全球化成长被低估。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "美债收益率回落的先决条件是什么",
-   "author": "固收亮话",
-   "url": "https://mp.weixin.qq.com/s/v0GjFROxybP6OrTUZEoFVQ",
-   "level": "brief",
-   "viewpoint": "空",
-   "themes": [
-    "美债利率",
-    "供需分析",
-    "财政赤字"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.38
-   },
-   "summary": "复盘近五年两轮10Y美债破4.7%行情，当前更接近2024年末供需与财政担忧格局；收益率回落需供给放缓、需求回流或数据明显转弱三者其一，否则高位震荡。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "张瑜：企业收入与岗位的非对称观察——投石问“K”系列五",
-   "author": "一瑜中的",
-   "url": "https://mp.weixin.qq.com/s/NWhwEof5QWaKaE7pSdwtuQ",
-   "level": "brief",
-   "viewpoint": "中性",
-   "themes": [
-    "K型分化",
-    "就业结构",
-    "中游制造"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.23
-   },
-   "summary": "中国制造业“赢者少雇”分化2025年达15.9%略超美韩，符合海外规律；产业升级与超大规模制造并存下分化或仍处上升阶段，就业质量修复弱于营收。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "政策用好存量＝穷得叮当响",
-   "author": "虎投虎脑Tips",
-   "url": "https://mp.weixin.qq.com/s/pIXrXKmRP9XEsDP7a6PIKw",
-   "level": "brief",
-   "viewpoint": "观望",
-   "themes": [
-    "宏观政策",
-    "债券策略",
-    "促消费"
-   ],
-   "etf_sentiment": {
-    "511090": "多",
-    "511010": "多",
-    "518880": "多",
-    "510300": "中性",
-    "159928": "空"
-   },
-   "scores": {
-    "total": 3.2
-   },
-   "summary": "8月PMI回升至49.8%全靠基数与季节性，政策仅“用好存量”而非增量刺激（房贷延至40年遭用脚投票）：权益保持敬畏，债市企稳配置盘可介入，黄金回调即波段入场点。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "加息在即，长债收益率骑虎难下",
-   "author": "早安汇市",
-   "url": "https://mp.weixin.qq.com/s/76ZV6axeT09PA02YjXDEIg",
-   "level": "brief",
-   "viewpoint": "空",
-   "themes": [
-    "全球长债利率",
-    "财政赤字",
-    "央行加息"
-   ],
-   "etf_sentiment": {
-    "513100": "空"
-   },
-   "scores": {
-    "total": 3.13
-   },
-   "summary": "10Y美债逼近4.8%两年高位、日债3%澳债5.2%创新高，短端加息预期驱动曲线熊平；40万亿美债余额下财政赤字是根源，长债收益率骑虎难下。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "【瞎扯】当钢铁企业被煤价逼迫裁员7万人",
-   "author": "吐槽吖",
-   "url": "https://mp.weixin.qq.com/s/xyYJFjKy0kVc5RCmn4M2Hw",
-   "level": "brief",
-   "viewpoint": "空",
-   "themes": [
-    "焦煤焦炭",
-    "钢铁行业",
-    "供给侧涨价"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 2.7
-   },
-   "summary": "焦煤焦炭第三轮提涨纯属供给收缩推动，地产与制造业需求疲弱，钢厂利润被极致压缩，钢铁业半年裁员6.9万人、减少111家企业，行业困境加剧。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "沃什转鹰意味着什么？",
-   "author": "Kevin策略研究",
-   "url": "https://mp.weixin.qq.com/s/LnqSP62BZvGDHX2a31Gf4w",
-   "level": "archived",
-   "viewpoint": "空",
-   "themes": [
-    "美联储",
-    "美债"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 2.35
-   },
-   "summary": "明确但克制的鹰，好于模糊的鸽；短暂加息意味利空出尽（类1997年格林斯潘加息），市场认可以短期鹰派换取长期稳定。（与前日中金点睛版同文，自动降级归档）",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-03",
-   "title": "九月，你好！",
-   "author": "郁言债市",
-   "url": "https://mp.weixin.qq.com/s/CGZfTfHDWgEhdBkYH8f3lg",
-   "level": "archived",
-   "viewpoint": "中性",
-   "themes": [],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 1.0
-   },
-   "summary": "仅月度问候语与免责声明，无实质研究内容、数据或投资建议，参考价值极低。",
-   "page": "research_20260903.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "中金：沃什转鹰意味着什么？",
-   "author": "中金点睛",
-   "url": "https://mp.weixin.qq.com/s/7iL_8c2SREd0cuVIcOJCuw",
-   "level": "detail",
-   "viewpoint": "空",
-   "themes": [
-    "美联储",
-    "杰克逊霍尔",
-    "美债"
-   ],
-   "etf_sentiment": {
-    "513100": "空"
-   },
-   "scores": {
-    "total": 4.8
-   },
-   "summary": "沃什杰克逊霍尔明确偏鹰，承认通胀仍高、利率是主要工具，纠正7月让市场代加息的模糊表态，美联储政策信誉边际修复，但年内加息概率回升对美股构成短期压制。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "中金 | 迟到的鹰派，信誉的修复：杰克逊霍尔会议点评",
-   "author": "中金点睛",
-   "url": "https://mp.weixin.qq.com/s/gjP5X21b9ddsTwzXjTB9DQ",
-   "level": "detail",
-   "viewpoint": "空",
-   "themes": [
-    "美联储",
-    "杰克逊霍尔",
-    "政策信誉"
-   ],
-   "etf_sentiment": {
-    "513100": "空"
-   },
-   "scores": {
-    "total": 4.6
-   },
-   "summary": "沃什杰克逊霍尔鹰派表态重建政策信誉，纠正7月模糊表态。年内加息概率上升但非纯粹利空——市场更缺政策纪律性，中期通胀压制后反而有利。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "“变色龙”沃什，Jackson Hole放鹰",
-   "author": "郁言债市",
-   "url": "https://mp.weixin.qq.com/s/YE5LDuFoVOdAKfkifUdXww",
-   "level": "detail",
-   "viewpoint": "空",
-   "themes": [
-    "美联储",
-    "杰克逊霍尔",
-    "美债"
-   ],
-   "etf_sentiment": {
-    "513100": "空"
-   },
-   "scores": {
-    "total": 4.5
-   },
-   "summary": "沃什杰克逊霍尔放鹰，态度与7月模糊表态形成反差，短期美债收益率上行压制风险资产。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "1月美西站——AI智驭浪潮：2027 CES & 硅谷前沿科技探索之旅",
-   "author": "{'name': '泽平宏观展望'}",
-   "url": "https://mp.weixin.qq.com/s/5UECs4m8ZJJ2DsTqDk1QjA",
-   "level": "archived",
-   "viewpoint": "中性",
-   "themes": [
-    "AI算力",
-    "AI应用",
-    "去美元化",
-    "海外宏观"
-   ],
-   "etf_sentiment": {
-    "513100": "多",
-    "512480": "多"
-   },
-   "scores": {
-    "total": 4.5
-   },
-   "summary": "1月美西站——AI智驭浪潮：2027 CES & 硅谷前沿科技探索之旅。The following article is from 泽平宏观商学Author 泽平宏观商学（同日重复，自动降级归档）",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "张瑜：更务实的下半场 ——华创证券秋季策略会演讲实录",
-   "author": "一瑜中的",
-   "url": "https://mp.weixin.qq.com/s/9pUyP9W1vbg8vDWGneVIMw",
-   "level": "detail",
-   "viewpoint": "多",
-   "themes": [
-    "货币政策",
-    "地产",
-    "海外宏观"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 4.5
-   },
-   "summary": "8 月 26 日华创证券秋季策略会上，华创证券首席经济学家张瑜发表题为《更务实的下半场》的主题演讲，以下为演讲实录。。各位投资者朋友们大家好，非常感谢各位拨冗参加我们的策略会。今天这个题目（ 更务实的下半场）已经代表了我的观点——我觉得 即便是修复、即便是牛市，也都是分阶段、分状态的。。今天我们会自上而下，从几点变化当中，理清对整个资配的看法。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "张瑜：六个方面可能的影响——地产新政学习",
-   "author": "一瑜中的",
-   "url": "https://mp.weixin.qq.com/s/dtpBobVXScY6YujkkG8b_A",
-   "level": "detail",
-   "viewpoint": "空",
-   "themes": [
-    "A股轮动",
-    "地产",
-    "海外宏观"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 4.5
-   },
-   "summary": "文： 华创证券首席经济学家 张瑜 执业证号：S0360518090001。联系人： 陆银波（15210860866）。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "科技试温",
-   "author": "郁见投资",
-   "url": "https://mp.weixin.qq.com/s/Mw6cxspSlyL6-nVwBOVwNg",
-   "level": "detail",
-   "viewpoint": "多",
-   "themes": [
-    "AI硬件",
-    "英伟达",
-    "MLCC"
-   ],
-   "etf_sentiment": {
-    "512480": "多"
-   },
-   "scores": {
-    "total": 4.5
-   },
-   "summary": "英伟达Q2业绩翻倍催化A股AI硬件放量，电子通信领涨，工业富联+5.43%、MLCC指数+4.66%，资金开始回补AI硬件仓位，但光模块核心品种涨幅温和反映信心未完全恢复。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "1月美西站——AI智驭浪潮：2027 CES & 硅谷前沿科技探索之旅",
-   "author": "{'name': '泽平宏观展望'}",
-   "url": "https://mp.weixin.qq.com/s/Nu7hBkgC_1dL8lB3TJTL0Q",
-   "level": "detail",
-   "viewpoint": "中性",
-   "themes": [
-    "AI算力",
-    "AI应用",
-    "去美元化",
-    "海外宏观"
-   ],
-   "etf_sentiment": {
-    "513100": "多",
-    "512480": "多"
-   },
-   "scores": {
-    "total": 4.5
-   },
-   "summary": "1月美西站——AI智驭浪潮：2027 CES & 硅谷前沿科技探索之旅。The following article is from 泽平宏观商学Author 泽平宏观商学。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "外资观点：金价年底有望突破5000美元/盎司",
-   "author": "方正/李清荷",
-   "url": "https://mp.weixin.qq.com/s/Pdvd6GZHJESGhGk0CkZQ0Q",
-   "level": "detail",
-   "viewpoint": "多",
-   "themes": [
-    "大类资产配置",
-    "黄金",
-    "美债"
-   ],
-   "etf_sentiment": {
-    "518880": "多",
-    "513100": "中性",
-    "510300": "中性"
-   },
-   "scores": {
-    "total": 4.25
-   },
-   "summary": "外资一致看多黄金（年底目标4500-5400美元），央行购金+去美元化支撑；美债长端4.50-4.75%高位震荡；A股短期中性、中长期偏积极",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "毛利率有所分化——7月工业企业利润点评",
-   "author": "一瑜中的",
-   "url": "https://mp.weixin.qq.com/s/LRC495eNqxqojltK1bgl0Q",
-   "level": "detail",
-   "viewpoint": "中性",
-   "themes": [
-    "海外宏观"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 4.2
-   },
-   "summary": "文 ： 华创证券首席经济学家 张瑜 执业证号:S0360518090001。联系人： 陆银波（15210860866）。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "沃什放鹰后金价何去何从？",
-   "author": "川阅全球宏观",
-   "url": "https://mp.weixin.qq.com/s/qWBs58XLv4j1aHyY3prDPw",
-   "level": "detail",
-   "viewpoint": "中性",
-   "themes": [
-    "黄金",
-    "美联储",
-    "拥挤度"
-   ],
-   "etf_sentiment": {
-    "518880": "中性"
-   },
-   "scores": {
-    "total": 4.2
-   },
-   "summary": "沃什放鹰致金价单日回撤3.7%，但此前贵金属股票拥挤度已破1年90%分位，是领先预警信号。短期流动性踩踏风险释放后，中期黄金仍有配置价值。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "出口高频数据回落——每周经济观察第85期",
-   "author": "一瑜中的",
-   "url": "https://mp.weixin.qq.com/s/V_T7ZUhTUuQ0QNKweXy6WQ",
-   "level": "detail",
-   "viewpoint": "空",
-   "themes": [
-    "AI算力",
-    "AI应用",
-    "A股轮动",
-    "黄金"
-   ],
-   "etf_sentiment": {
-    "518880": "多"
-   },
-   "scores": {
-    "total": 4.2
-   },
-   "summary": "文： 华创证券首席经济学家 张瑜 执业证号：S0360518090001。联系人： 陆银波（15210860866）。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "REITs I 关注租赁住房板块政策指引",
-   "author": "郁言债市",
-   "url": "https://mp.weixin.qq.com/s/boUyQ5COhRQzi-Bjkf4UZA",
-   "level": "detail",
-   "viewpoint": "空",
-   "themes": [
-    "美债",
-    "货币政策",
-    "地产",
-    "海外宏观"
-   ],
-   "etf_sentiment": {
-    "511090": "多"
-   },
-   "scores": {
-    "total": 4.2
-   },
-   "summary": "本周（2026年8月24-28日），中证REITs全收益指数收于955.3点， 较上周上涨1.39%，连续两周涨幅超1%，成交情绪继续回暖， 日均换手率上升0.05pct至0.48%。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "杰克逊霍尔会议：悬念与影响？",
-   "author": "川阅全球宏观",
-   "url": "https://mp.weixin.qq.com/s/Itogjy_Viakwc9LpoEWlyQ",
-   "level": "detail",
-   "viewpoint": "中性",
-   "themes": [
-    "美联储",
-    "杰克逊霍尔",
-    "政策反应函数"
-   ],
-   "etf_sentiment": {
-    "513100": "中性"
-   },
-   "scores": {
-    "total": 4.2
-   },
-   "summary": "杰克逊霍尔是沃什重塑政策公信力关键窗口，三大悬念：政策反应函数界定、通胀容忍度、与市场沟通模式。鲍威尔给路径、市场跟随；沃什要市场自主定价但需先讲清规则。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "1月美西站——AI智驭浪潮：2027 CES & 硅谷前沿科技探索之旅",
-   "author": "泽平宏观展望",
-   "url": "https://mp.weixin.qq.com/s/2o6BUxBZRtODrpnIbbs9JA",
-   "level": "detail",
-   "viewpoint": "中性",
-   "themes": [
-    "AI算力",
-    "AI应用",
-    "去美元化",
-    "海外宏观"
-   ],
-   "etf_sentiment": {
-    "513100": "多",
-    "512480": "多"
-   },
-   "scores": {
-    "total": 4.2
-   },
-   "summary": "曾担任国务院发展研究中心宏观部研究室副主任，国泰君安证券研究所董事总经理、首席宏观分析师，方正证券首席经济学家、研究所联席所长等职务，荣获中国证券分析师大满贯冠军。中国人民大学经济学博士，清华大学经济管理学院博士后。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "四重拐点的交织——张瑜旬度会议纪要No.146",
-   "author": "张瑜/华创",
-   "url": "https://mp.weixin.qq.com/s/hmiv-VxGqGYIlaJX_TIRoA",
-   "level": "detail",
-   "viewpoint": "观望",
-   "themes": [
-    "宏观经济",
-    "大类资产配置"
-   ],
-   "etf_sentiment": {
-    "510300": "中性",
-    "511090": "中性"
-   },
-   "scores": {
-    "total": 4.0
-   },
-   "summary": "盈利领先指标近周期顶、拔估值进入观察期、政策仅小拐点无强刺激；股债性价比重回中立位，下半年市场从拔估值转向盈利驱动，操作难度上升需再平衡",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "沃什放“鹰”，美联储会加息吗？",
-   "author": "泽平宏观展望",
-   "url": "https://mp.weixin.qq.com/s/FjuOkcAqyd5jUOLR86oGKg",
-   "level": "detail",
-   "viewpoint": "空",
-   "themes": [
-    "美联储",
-    "美债",
-    "通胀"
-   ],
-   "etf_sentiment": {
-    "513100": "空"
-   },
-   "scores": {
-    "total": 4.0
-   },
-   "summary": "沃什放鹰后年内加息概率上升，但需等8月CPI数据确认。通胀粘性仍是关键约束。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "中金 | Token启示录（五）：推理产业链深度-测算篇",
-   "author": "中金点睛",
-   "url": "https://mp.weixin.qq.com/s/9kTACcNCZzf9rgqOZUtHIw",
-   "level": "detail",
-   "viewpoint": "多",
-   "themes": [
-    "AI算力",
-    "推理",
-    "Token经济学"
-   ],
-   "etf_sentiment": {
-    "512480": "多"
-   },
-   "scores": {
-    "total": 4.0
-   },
-   "summary": "推理需求高增叠加算力紧缺，从Token经济学视角测算推理产业链各环节价值分配，推理服务层与算力供给端均有结构性机会。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "扬汤止沸易，釜底抽薪难——长端美债的五点思考",
-   "author": "张瑜/华创",
-   "url": "https://mp.weixin.qq.com/s/sJMTxJYyWa1opmQxrBpAJg",
-   "level": "detail",
-   "viewpoint": "观望",
-   "themes": [
-    "海外宏观",
-    "美债"
-   ],
-   "etf_sentiment": {
-    "518880": "中性",
-    "513100": "空"
-   },
-   "scores": {
-    "total": 3.95
-   },
-   "summary": "长端美债上行主因期限溢价（财政+联储不确定性+AI融资挤压），短期高位震荡、年内或阶段性下行，警惕美股美债同跌的流动性冲击",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "流动性 | 央行收长放短，无碍资金平稳",
-   "author": "郁言债市",
-   "url": "https://mp.weixin.qq.com/s/VHNIFLjUL8nchftHpyZ0Ow",
-   "level": "detail",
-   "viewpoint": "中性",
-   "themes": [
-    "流动性",
-    "MLF",
-    "逆回购"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.8
-   },
-   "summary": "央行收长放短（净投放1.33万亿逆回购、回笼1000亿MLF），资金面先紧后松，DR007周均值1.42%小幅上行，整体无碍平稳跨月。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "“旺季”反弹，8月PMI的信号",
-   "author": "郁言债市",
-   "url": "https://mp.weixin.qq.com/s/5Uk-sBKc3C53r9s8eBVKpw",
-   "level": "detail",
-   "viewpoint": "中性",
-   "themes": [
-    "大宗商品"
-   ],
-   "etf_sentiment": {
-    "511090": "多"
-   },
-   "scores": {
-    "total": 3.8
-   },
-   "summary": "8月31日，国家统计局发布8月PMI数据，制造业PMI环比回升0.6个百分点至49.8%，高于彭博预期的49.5%；非制造业商务活动指数环比持平于49.0%，低于彭博预期的49.5%。关注以下几点：。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "ETF | 资金继续流入半导体设备与通信",
-   "author": "郁见投资",
-   "url": "https://mp.weixin.qq.com/s/3wvMYoOSVgPIRQMn5ytmtA",
-   "level": "brief",
-   "viewpoint": "多",
-   "themes": [
-    "半导体",
-    "通信",
-    "ETF资金流"
-   ],
-   "etf_sentiment": {
-    "512480": "多"
-   },
-   "scores": {
-    "total": 3.5
-   },
-   "summary": "ETF资金持续流入半导体设备与通信板块，AI硬件方向获增量资金确认。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "中金：联合解读房地产销售及融资新政影响几何？",
-   "author": "中金点睛",
-   "url": "https://mp.weixin.qq.com/s/PZpY0iwQ9uOke4sI4T2uQQ",
-   "level": "detail",
-   "viewpoint": "中性",
-   "themes": [
-    "房地产",
-    "融资新政"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.5
-   },
-   "summary": "房地产销售及融资新政解读，短期情绪修复但长期去库存压力仍存，关注政策执行力度与销售实际改善情况。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "事实和几句心里话",
-   "author": "{'name': '泽平宏观展望'}",
-   "url": "https://mp.weixin.qq.com/s/scf7eoL790y5Ydp2wYhy5g",
-   "level": "brief",
-   "viewpoint": "中性",
-   "themes": [
-    "AI算力",
-    "黄金",
-    "地产",
-    "海外宏观"
-   ],
-   "etf_sentiment": {
-    "518880": "多"
-   },
-   "scores": {
-    "total": 3.5
-   },
-   "summary": "1、网上说起我的本科是青岛大学。是的，我农村出生，山东高考，省重点高中重点班第6。数学好，英语差，偏科，青岛大学入学成绩全班靠前。大学时光美好。。考研人大，专业第一名。博士论文《宏观经济结构研究》，入选“当代经济学文库”。清华大学经管院博士后。公考国务院发展研究中心，几百人前二。。感谢时代，给了农村孩子读书奋斗改变命运的机会。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "9月债市投资策略展望",
-   "author": "固收亮话",
-   "url": "https://mp.weixin.qq.com/s/mry7GCLReRCCVSY5_D3_Zg",
-   "level": "detail",
-   "viewpoint": "中性",
-   "themes": [
-    "债市",
-    "国债期货",
-    "MLF"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.5
-   },
-   "summary": "9月债市整体中性偏震荡，建议利率债基久期维持高位、关注MLF到期续作节奏与央行资金投放力度。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "基于状态转换模型的国债期货市场划分",
-   "author": "固收亮话",
-   "url": "https://mp.weixin.qq.com/s/i5_-VkKuT_QvVGpBdjOsNg",
-   "level": "detail",
-   "viewpoint": "中性",
-   "themes": [
-    "国债期货",
-    "状态转换模型",
-    "牛熊划分"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.5
-   },
-   "summary": "用状态转换模型（收益动量+趋势差异+下行风险多维特征）替代传统MA金叉死叉，更精准识别国债期货牛熊状态切换。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "黄金观望",
-   "author": "郁言债市",
-   "url": "https://mp.weixin.qq.com/s/wjm8a9ejo3QC5AAQSewvZg",
-   "level": "brief",
-   "viewpoint": "观望",
-   "themes": [
-    "黄金",
-    "大宗商品"
-   ],
-   "etf_sentiment": {
-    "518880": "中性"
-   },
-   "scores": {
-    "total": 3.25
-   },
-   "summary": "商品市场能源偏强原油+2.1%、煤炭获资金青睐，贵金属化工遭撤离（沪金流出18亿居首）；黄金调整源于短期利好充分释放，9月加息概率回落至三成、伦敦金8月涨超13%、SPDR持仓两日流出4吨，关注周五晚杰克逊霍尔美联储主席沃什讲话，鹰派则金价承压、持稳则资金回补。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "【中金固收·信用】5年期抢跑、持续关注摊余债基审批发行情况",
-   "author": "中金固收",
-   "url": "https://mp.weixin.qq.com/s/dXFGIqUpqBKWeKUAaEasxg",
-   "level": "brief",
-   "viewpoint": "多",
-   "themes": [
-    "信用债",
-    "利率债"
-   ],
-   "etf_sentiment": {
-    "511010": "多"
-   },
-   "scores": {
-    "total": 3.25
-   },
-   "summary": "信用利差处历史低位（各评级收益率3%以下分位），摊余成本法债基审批预期下市场或对5年普通信用债抢跑，建议配置5年非金融信用债、交易二永债随利率债",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "中金研究 | 本周精选",
-   "author": "中金点睛",
-   "url": "https://mp.weixin.qq.com/s/JKJmggzZNMisaeO5Yzhlxg",
-   "level": "brief",
-   "viewpoint": "中性",
-   "themes": [
-    "美债",
-    "AI",
-    "宏观"
-   ],
-   "etf_sentiment": {
-    "513100": "中性",
-    "512480": "多"
-   },
-   "scores": {
-    "total": 3.2
-   },
-   "summary": "中金本周精选汇总：美债问题在于短期供需错配+AI瓶颈担忧，沃什信誉考验是本周焦点，黄金可短期对冲。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量",
-   "author": "{'name': '泽平宏观展望'}",
-   "url": "https://mp.weixin.qq.com/s/p5fUmj1ciEkRBXA9kS5B8w",
-   "level": "archived",
-   "viewpoint": "中性",
-   "themes": [
-    "AI算力",
-    "AI应用",
-    "海外宏观"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.2
-   },
-   "summary": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量。The following article is from 泽平宏观商学Author 泽平宏观商学（同日重复，自动降级归档）",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "地产新模式",
-   "author": "郁见投资",
-   "url": "https://mp.weixin.qq.com/s/ZfjPVN1lFn43RQkoZw4V4w",
-   "level": "detail",
-   "viewpoint": "中性",
-   "themes": [
-    "房地产",
-    "新模式"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.2
-   },
-   "summary": "房地产行业新模式探讨，传统开发模式承压下关注存量盘活与资产运营转型机会。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量",
-   "author": "{'name': '泽平宏观展望'}",
-   "url": "https://mp.weixin.qq.com/s/Beonh5DZiHX5olw_Z8EJhQ",
-   "level": "archived",
-   "viewpoint": "中性",
-   "themes": [
-    "AI算力",
-    "AI应用",
-    "海外宏观"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.2
-   },
-   "summary": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量。The following article is from 泽平宏观商学Author 泽平宏观商学（同日重复，自动降级归档）",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量",
-   "author": "{'name': '泽平宏观展望'}",
-   "url": "https://mp.weixin.qq.com/s/6XoSLsfJLfZHn1mZp8AnuA",
-   "level": "brief",
-   "viewpoint": "中性",
-   "themes": [
-    "AI算力",
-    "AI应用",
-    "海外宏观"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.2
-   },
-   "summary": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量。The following article is from 泽平宏观商学Author 泽平宏观商学。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "债的“打手”，终究敲崩了情绪。",
-   "author": "虎投虎脑Tips",
-   "url": "https://mp.weixin.qq.com/s/Q8ULOc5Hh_zgPAI8Kb4ozg",
-   "level": "brief",
-   "viewpoint": "空",
-   "themes": [
-    "利率债",
-    "机构行为"
-   ],
-   "etf_sentiment": {
-    "511090": "空"
-   },
-   "scores": {
-    "total": 3.0
-   },
-   "summary": "券商连续7日净卖‘奉旨压盘’抑制债市热度，YM控利率过快下行让利配置盘，TL回踩115.71-115.78企稳与否定配置节奏，债中长期多趋势未变",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "9月十大转债",
-   "author": "固收亮话",
-   "url": "https://mp.weixin.qq.com/s/O-4dRoLOxOg6EbywIQDNjA",
-   "level": "brief",
-   "viewpoint": "中性",
-   "themes": [
-    "可转债"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.0
-   },
-   "summary": "9月十大转债推荐，关注低价低溢价率品种与下修博弈机会。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "债市｜利率债基久期仍在高位",
-   "author": "郁言债市",
-   "url": "https://mp.weixin.qq.com/s/HROxWLuxgYXRn9Y6BkZcJw",
-   "level": "brief",
-   "viewpoint": "中性",
-   "themes": [
-    "债市",
-    "久期"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.0
-   },
-   "summary": "利率债基久期维持高位，在美联储鹰派预期与国内资金面平稳间寻求平衡。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "美的集团半年报简评",
-   "author": "DeepVan的逃生地牢",
-   "url": "https://mp.weixin.qq.com/s/03tEHafBHZ1OJ1kAPVmmYw",
-   "level": "brief",
-   "viewpoint": "中性",
-   "themes": [
-    "家电",
-    "美的"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.0
-   },
-   "summary": "美的集团半年报解读，关注海外业务韧性与国内AI应用落地进度。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "七夕鲜花销量大降：年轻人不恋爱了？",
-   "author": "泽平宏观展望",
-   "url": "https://mp.weixin.qq.com/s/lrUlPUOUbdOCiIkWKwaQLg",
-   "level": "brief",
-   "viewpoint": "中性",
-   "themes": [
-    "消费",
-    "婚育",
-    "年轻人"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 3.0
-   },
-   "summary": "七夕鲜花/珠宝销量下滑，结婚登记降7.5%，主因：消费理性化、高婚育成本（房价收入比26.1）、年轻人追求自由、社会替代品增多。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "【中金·REITs】分红价值助力市场反弹——REITs周报（8.17-8.21）",
-   "author": "中金固收",
-   "url": "https://mp.weixin.qq.com/s/WWybrgh2TS6YsJivDsXl9A",
-   "level": "brief",
-   "viewpoint": "多",
-   "themes": [
-    "REITs",
-    "红利"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 2.85
-   },
-   "summary": "中证REITs全收益指数周涨1.18%，产权REITs分派率4.69%与红利指数息差39bps（历史99.6%分位），分红+增持助力反弹，保险资管新规落地或提振泛红利",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "20260828早评存档",
-   "author": "虎投虎脑Tips",
-   "url": "https://mp.weixin.qq.com/s/mP2HxoeiDkcg_kxdq2zN_Q",
-   "level": "brief",
-   "viewpoint": "观望",
-   "themes": [
-    "利率债",
-    "技术分析"
-   ],
-   "etf_sentiment": {
-    "511090": "空"
-   },
-   "scores": {
-    "total": 2.7
-   },
-   "summary": "与《债的打手》同题（债市回调）；国债期货大跌后弱势修复，TL 115.71-115.78企稳与否定反抽强弱，配置盘关注到位点位，黄金991-1009震荡多头未变",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "【中金固收】债券供给增加，商业银行继续增配——2026年7月托管数据点评",
-   "author": "中金固收",
-   "url": "https://mp.weixin.qq.com/s/8CDzPFhBO3IJPt-UOAgwGQ",
-   "level": "brief",
-   "viewpoint": "中性",
-   "themes": [
-    "利率债",
-    "信用债"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 2.65
-   },
-   "summary": "7月债券供给增加、托管合计净增2.26万亿，商业银行为主要增持方（增持6212亿），广义基金增持力度减弱、境外机构转为增持，资金或边际流向境内债市",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "中金点睛MCP上线，AI助手也能直接查询中金研报、数据与模型了！",
-   "author": "中金点睛",
-   "url": "https://mp.weixin.qq.com/s/Ez_ao_l2IKSBXR7N6zN0RQ",
-   "level": "brief",
-   "viewpoint": "中性",
-   "themes": [
-    "AI应用",
-    "金融科技"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 2.5
-   },
-   "summary": "中金点睛MCP上线，AI助手可直接调用中金研报数据与模型，体现金融机构AI工具化趋势。",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "【中金固收·信用】中国公司债及企业债信用分析周报",
-   "author": "中金固收",
-   "url": "https://mp.weixin.qq.com/s/tlyfUMCgniKCaxPqyYnLvw",
-   "level": "archived",
-   "viewpoint": "中性",
-   "themes": [
-    "信用债"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 1.65
-   },
-   "summary": "本周公司债企业债合计发行883.8亿元，集中在高等级综合/地产/煤炭/电力，无中金评分调整",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "【中金固收·信用】中国短期融资券及中期票据信用分析周报",
-   "author": "中金固收",
-   "url": "https://mp.weixin.qq.com/s/8itpzmMkaXHvZnoDXFXFLA",
-   "level": "archived",
-   "viewpoint": "中性",
-   "themes": [
-    "信用债"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 1.65
-   },
-   "summary": "本周短融中票发行2159.5亿元，电力/城投为主，3项中金评分调整（西安经发下调、湖南白银上调、广核国际下调）",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "9月债市怎么看？| 市场调查问卷20260827",
-   "author": "浙商固收/覃汉",
-   "url": "https://mp.weixin.qq.com/s/1NoI2fEewZ4OWYcPjUN_ZQ",
-   "level": "archived",
-   "viewpoint": "中性",
-   "themes": [
-    "利率债"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 1.55
-   },
-   "summary": "8月债市震荡偏强（30Y曾下探2.14%、10Y守住1.67-1.70%），9月关注政府债供给与止盈压力，本期为问卷发起无实质结论",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "【中金固收·信用】中国信用债评级调整周报",
-   "author": "中金固收",
-   "url": "https://mp.weixin.qq.com/s/SpduXXPPQdSWwZUKC6-OQQ",
-   "level": "archived",
-   "viewpoint": "中性",
-   "themes": [
-    "信用债"
-   ],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 1.4
-   },
-   "summary": "本周20项评级行动均为关注类、无中金评分调整，南京交投董事长被调查、空港新城新增失信人等事件被关注",
-   "page": "research_20260902.html"
-  },
-  {
-   "date": "2026-09-02",
-   "title": "权益 | AI行情需要新叙事",
-   "author": "郁言债市",
-   "url": "https://mp.weixin.qq.com/s/eyZXJFYX_ix4B6YlpY2EPQ",
-   "level": "archived",
-   "viewpoint": "观望",
-   "themes": [],
-   "etf_sentiment": {},
-   "scores": {
-    "total": 1.2
-   },
-   "summary": "正文拉取失败（微信端仅返回图片/标题），无法总结观点，仅记录标题存档。",
-   "page": "research_20260902.html"
-  },
   {
    "date": "2026-09-01",
    "title": "AI行情需要新叙事",
@@ -1634,6 +318,1322 @@
    "page": "research_20260901.html"
   },
   {
+   "date": "2026-08-31",
+   "title": "张瑜：六个方面可能的影响——地产新政学习",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/dtpBobVXScY6YujkkG8b_A",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "A股轮动",
+    "地产",
+    "海外宏观"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.5
+   },
+   "summary": "文： 华创证券首席经济学家 张瑜 执业证号：S0360518090001。联系人： 陆银波（15210860866）。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "中金 | 中报业绩总结：上游和AI驱动A股创5年最高盈利增速",
+   "author": "未知机构",
+   "url": "https://mp.weixin.qq.com/s/9mC9iM2v1diChjnR5vPU2g",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI算力",
+    "A股轮动",
+    "黄金",
+    "地产"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.5
+   },
+   "summary": "业绩增长：2Q26A股盈利增速创近5年新高，结构层面亮点突出。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "中金缪延亮 | Jackson Hole会议观察：美元、美债与全球货币秩序",
+   "author": "未知机构",
+   "url": "https://mp.weixin.qq.com/s/8yom--VKZrn88FwYo1Trqw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美债",
+    "去美元化",
+    "货币政策",
+    "地产"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.5
+   },
+   "summary": "一、 Jackson Hole会议的边际变化：从“沟通失误”到“矫枉过正”。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "外资观点：金价年底有望突破5000美元/盎司",
+   "author": "方正/李清荷",
+   "url": "https://mp.weixin.qq.com/s/Pdvd6GZHJESGhGk0CkZQ0Q",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "大类资产配置",
+    "黄金",
+    "美债"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "513100": "中性",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 4.25
+   },
+   "summary": "外资一致看多黄金（年底目标4500-5400美元），央行购金+去美元化支撑；美债长端4.50-4.75%高位震荡；A股短期中性、中长期偏积极",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "REITs I 关注租赁住房板块政策指引",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/boUyQ5COhRQzi-Bjkf4UZA",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "美债",
+    "货币政策",
+    "地产",
+    "海外宏观"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "本周（2026年8月24-28日），中证REITs全收益指数收于955.3点， 较上周上涨1.39%，连续两周涨幅超1%，成交情绪继续回暖， 日均换手率上升0.05pct至0.48%。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "中金 | 逆风下的韧性：欧洲经济市场快评",
+   "author": "未知机构",
+   "url": "https://mp.weixin.qq.com/s/ZsHbI4-5Jaa03MFM1SVPOQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "货币政策",
+    "海外宏观"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "事件：近期欧元区经济意外指数迅速攀升至2023年以来的最高水平， 后续欧洲经济和市场怎么看？。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "国债期货 | 价格行为视角下的楔形反转深度解析",
+   "author": "未知机构",
+   "url": "https://mp.weixin.qq.com/s/eM-2LdyWSeqfYQj2GvR3uA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "债市"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "以下内容为报告核心摘要部分，如需完整报告或数据底稿请联系团队成员或对口销售，欢迎随时与我 们交 流！。报告链接： 价格行为视角下的楔形反转深度解析——国债期货技术分析系列报告之十七。楔形是识别趋势衰竭与变盘拐点的关键结构，本文基于价格行为学对楔形形态的结构特征、非典型变式以及反转的有效识别方式进行了系统梳理，以期为投资者提供高概率的反向入场信号。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "辩证看待隔夜逆回购规模走高",
+   "author": "未知机构",
+   "url": "https://mp.weixin.qq.com/s/htCuAWZdHGHBxQlQ9mhOJA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "A股轮动",
+    "美债",
+    "去美元化",
+    "货币政策"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "以下内容为报告核心摘要部分，如需完整报告或数据底稿请联系团队成员或对口销售，欢迎随时与我 们交 流！。报告链接： 辩证看待隔夜逆回购规模走高——债市策略思考系列。流动性投放不仅要看期限，同样应重视价格，隔夜逆回购加码或并不代表流动性收紧，反而可能是流动性进一步宽松信号。日历效应下股债行情或并非一帆风顺，权益市场波动中仍有期待，债券市场调整后或更具性价比。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "四重拐点的交织——张瑜旬度会议纪要No.146",
+   "author": "张瑜/华创",
+   "url": "https://mp.weixin.qq.com/s/hmiv-VxGqGYIlaJX_TIRoA",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "宏观经济",
+    "大类资产配置"
+   ],
+   "etf_sentiment": {
+    "510300": "中性",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "盈利领先指标近周期顶、拔估值进入观察期、政策仅小拐点无强刺激；股债性价比重回中立位，下半年市场从拔估值转向盈利驱动，操作难度上升需再平衡",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "大宗商品价格指数创2009年以来最高水平——海外周报第155期",
+   "author": "未知机构",
+   "url": "https://mp.weixin.qq.com/s/gmhkgOLloeN4FhlaXOwqDg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "去美元化",
+    "货币政策",
+    "地产",
+    "海外宏观"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "文 ： 华创证券首席经济学家 张瑜 执业证号：S0360518090001。联系人： 李星宇（18810112501）。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "流动性 | DR001或已成为货币市场核心利率指标",
+   "author": "未知机构",
+   "url": "https://mp.weixin.qq.com/s/oEk7rLGIhea388BNQmptmA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI应用",
+    "货币政策"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "const ua = navigator.userAgent;。const noMobile = !(/(iPhone|iPad|iPod|iOS)/i.test(ua) || /Windows\\sPhone/i.test(ua) || /(Android)/i.test(ua));。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "中金• 全球研究 | 印尼：政策紧缩遇上经济增长蓝图",
+   "author": "未知机构",
+   "url": "https://mp.weixin.qq.com/s/C7bnqUQf1tb3pi19Ub6Juw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "A股轮动",
+    "去美元化",
+    "货币政策",
+    "海外宏观"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "本篇报告中，我们对2026年3季度印尼经济进行展望。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "全球权益配置动能收敛，外资驱动中国股基转正——全球资金流动周报第24期",
+   "author": "未知机构",
+   "url": "https://mp.weixin.qq.com/s/ZZLJzn7OeMqE4AFyW2ykug",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "去美元化",
+    "货币政策"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "文 ： 华创证券首席经济学家 张瑜 执业证号：S0360518090001。联系人： 李星宇（18810112501）。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "扬汤止沸易，釜底抽薪难——长端美债的五点思考",
+   "author": "张瑜/华创",
+   "url": "https://mp.weixin.qq.com/s/sJMTxJYyWa1opmQxrBpAJg",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "海外宏观",
+    "美债"
+   ],
+   "etf_sentiment": {
+    "518880": "中性",
+    "513100": "空"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "长端美债上行主因期限溢价（财政+联储不确定性+AI融资挤压），短期高位震荡、年内或阶段性下行，警惕美股美债同跌的流动性冲击",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "“旺季”反弹，8月PMI的信号",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/5Uk-sBKc3C53r9s8eBVKpw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "大宗商品"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "8月31日，国家统计局发布8月PMI数据，制造业PMI环比回升0.6个百分点至49.8%，高于彭博预期的49.5%；非制造业商务活动指数环比持平于49.0%，低于彭博预期的49.5%。关注以下几点：。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "量化 | 量化视角下如何看本轮债市调整？",
+   "author": "未知机构",
+   "url": "https://mp.weixin.qq.com/s/6PHI_eroDAYIgCe88WZPtA",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "A股轮动",
+    "美债",
+    "货币政策",
+    "债市"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "以下内容为报告核心摘要部分，如需完整报告或数据底稿请联系团队成员或对口销售，欢迎随时与我 们交 流！。报告链接： 量化视角下如何看本轮债市调整？。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "政策用好存量＝穷得叮当响",
+   "author": "未知机构",
+   "url": "https://mp.weixin.qq.com/s/pIXrXKmRP9XEsDP7a6PIKw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "A股轮动",
+    "美债",
+    "黄金",
+    "债市"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "一、今日中国8月PMI数据发布，环比回升0.6个百分点至49.8%，主要观点如下：。1）8月PMI回升主要是7月基数太低+大企业受原材料涨价带动，中小企业其实还在走弱。。2）消费品和建筑业回暖有天气修复因素，不算真回暖。企业对未来预期偏谨慎，库存和投资都在收缩。。3）8 月历来是制造业传统旺季（暑期消费、开学备货、中秋国庆提前生产），季节性回升是常态。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "9月债市投资策略展望",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/mry7GCLReRCCVSY5_D3_Zg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "债市",
+    "国债期货",
+    "MLF"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "9月债市整体中性偏震荡，建议利率债基久期维持高位、关注MLF到期续作节奏与央行资金投放力度。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "事实和几句心里话",
+   "author": "泽平宏观展望",
+   "url": "https://weread.111965.xyz/articles/scf7eoL790y5Ydp2wYhy5g",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "AI算力",
+    "黄金",
+    "地产",
+    "海外宏观"
+   ],
+   "etf_sentiment": {
+    "518880": "多"
+   },
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "1、网上说起我的本科是青岛大学。是的，我农村出生，山东高考，省重点高中重点班第6。数学好，英语差，偏科，青岛大学入学成绩全班靠前。大学时光美好。。考研人大，专业第一名。博士论文《宏观经济结构研究》，入选“当代经济学文库”。清华大学经管院博士后。公考国务院发展研究中心，几百人前二。。感谢时代，给了农村孩子读书奋斗改变命运的机会。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "【中金固收·信用】5年期抢跑、持续关注摊余债基审批发行情况",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/dXFGIqUpqBKWeKUAaEasxg",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "信用债",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511010": "多"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "信用利差处历史低位（各评级收益率3%以下分位），摊余成本法债基审批预期下市场或对5年普通信用债抢跑，建议配置5年非金融信用债、交易二永债随利率债",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "一切为了银行！（附利率债影响）",
+   "author": "未知机构",
+   "url": "https://mp.weixin.qq.com/s/VTJSLxXvbDKUi0yNMx76tQ",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "A股轮动",
+    "货币政策",
+    "债市",
+    "地产"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "昨晚地产政策刷屏，从现房销售到房贷期限拉长至40年，从贷款发放时点延后到资金封闭管理，乍一看是\"保护购房者\"的利好组合拳。但扒开来看， 这套政策的核心逻辑只有一个：一切为了银行。。银行现在最头疼的，表面看是存款搬家、揽储不易，但根子不在负债端。 真正让银行焦虑的，是\"好资产\"越来越稀缺。",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "债的“打手”，终究敲崩了情绪。",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/Q8ULOc5Hh_zgPAI8Kb4ozg",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "利率债",
+    "机构行为"
+   ],
+   "etf_sentiment": {
+    "511090": "空"
+   },
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "券商连续7日净卖‘奉旨压盘’抑制债市热度，YM控利率过快下行让利配置盘，TL回踩115.71-115.78企稳与否定配置节奏，债中长期多趋势未变",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "【中金·REITs】分红价值助力市场反弹——REITs周报（8.17-8.21）",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/WWybrgh2TS6YsJivDsXl9A",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "REITs",
+    "红利"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.85
+   },
+   "summary": "中证REITs全收益指数周涨1.18%，产权REITs分派率4.69%与红利指数息差39bps（历史99.6%分位），分红+增持助力反弹，保险资管新规落地或提振泛红利",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "20260828早评存档",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/mP2HxoeiDkcg_kxdq2zN_Q",
+   "level": "brief",
+   "viewpoint": "观望",
+   "themes": [
+    "利率债",
+    "技术分析"
+   ],
+   "etf_sentiment": {
+    "511090": "空"
+   },
+   "scores": {
+    "total": 2.7
+   },
+   "summary": "与《债的打手》同题（债市回调）；国债期货大跌后弱势修复，TL 115.71-115.78企稳与否定反抽强弱，配置盘关注到位点位，黄金991-1009震荡多头未变",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "【中金固收】债券供给增加，商业银行继续增配——2026年7月托管数据点评",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/8CDzPFhBO3IJPt-UOAgwGQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债",
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.65
+   },
+   "summary": "7月债券供给增加、托管合计净增2.26万亿，商业银行为主要增持方（增持6212亿），广义基金增持力度减弱、境外机构转为增持，资金或边际流向境内债市",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "【中金固收·信用】中国公司债及企业债信用分析周报",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/tlyfUMCgniKCaxPqyYnLvw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.65
+   },
+   "summary": "本周公司债企业债合计发行883.8亿元，集中在高等级综合/地产/煤炭/电力，无中金评分调整",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "【中金固收·信用】中国短期融资券及中期票据信用分析周报",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/8itpzmMkaXHvZnoDXFXFLA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.65
+   },
+   "summary": "本周短融中票发行2159.5亿元，电力/城投为主，3项中金评分调整（西安经发下调、湖南白银上调、广核国际下调）",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "9月债市怎么看？| 市场调查问卷20260827",
+   "author": "浙商固收/覃汉",
+   "url": "https://mp.weixin.qq.com/s/1NoI2fEewZ4OWYcPjUN_ZQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.55
+   },
+   "summary": "8月债市震荡偏强（30Y曾下探2.14%、10Y守住1.67-1.70%），9月关注政府债供给与止盈压力，本期为问卷发起无实质结论",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-31",
+   "title": "【中金固收·信用】中国信用债评级调整周报",
+   "author": "中金固收",
+   "url": "https://mp.weixin.qq.com/s/SpduXXPPQdSWwZUKC6-OQQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.4
+   },
+   "summary": "本周20项评级行动均为关注类、无中金评分调整，南京交投董事长被调查、空港新城新增失信人等事件被关注",
+   "page": "research_20260831.html"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "中金：沃什转鹰意味着什么？",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/7iL_8c2SREd0cuVIcOJCuw",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "美联储",
+    "杰克逊霍尔",
+    "美债"
+   ],
+   "etf_sentiment": {
+    "513100": "空"
+   },
+   "scores": {
+    "total": 4.8
+   },
+   "summary": "沃什杰克逊霍尔明确偏鹰，承认通胀仍高、利率是主要工具，纠正7月让市场代加息的模糊表态，美联储政策信誉边际修复，但年内加息概率回升对美股构成短期压制。",
+   "page": "research_20260830.html"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "沃什放鹰后金价何去何从？",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/qWBs58XLv4j1aHyY3prDPw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "黄金",
+    "美联储",
+    "拥挤度"
+   ],
+   "etf_sentiment": {
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "沃什放鹰致金价单日回撤3.7%，但此前贵金属股票拥挤度已破1年90%分位，是领先预警信号。短期流动性踩踏风险释放后，中期黄金仍有配置价值。",
+   "page": "research_20260830.html"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "出口高频数据回落——每周经济观察第85期",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/V_T7ZUhTUuQ0QNKweXy6WQ",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "AI算力",
+    "AI应用",
+    "A股轮动",
+    "黄金"
+   ],
+   "etf_sentiment": {
+    "518880": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "文： 华创证券首席经济学家 张瑜 执业证号：S0360518090001。联系人： 陆银波（15210860866）。",
+   "page": "research_20260830.html"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "美联储要加息了吗？",
+   "author": "一瑜中的",
+   "url": "https://weread.111965.xyz/articles/1hqjw9EDmhUzZadL_UooyA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "货币政策",
+    "海外宏观"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "文 ： 华创证券首席经济学家 张瑜 执业证号:S0360518090001。联系人： 付春生(18482259975)。沃什在杰克逊霍尔年会上讲了什么？整体表态偏鹰。沃什演讲以“我们所处的时代（In Our Time）”为题，主要涉及四个方面：。",
+   "page": "research_20260830.html"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "美联储要加息了吗？",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/1hqjw9EDmhUzZadL_UooyA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "货币政策",
+    "海外宏观"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "文 ： 华创证券首席经济学家 张瑜 执业证号:S0360518090001。联系人： 付春生(18482259975)。沃什在杰克逊霍尔年会上讲了什么？整体表态偏鹰。沃什演讲以“我们所处的时代（In Our Time）”为题，主要涉及四个方面：。",
+   "page": "research_20260830.html"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "中金 | Token启示录（五）：推理产业链深度-测算篇",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/9kTACcNCZzf9rgqOZUtHIw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI算力",
+    "推理",
+    "Token经济学"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "推理需求高增叠加算力紧缺，从Token经济学视角测算推理产业链各环节价值分配，推理服务层与算力供给端均有结构性机会。",
+   "page": "research_20260830.html"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "地产新模式",
+   "author": "郁见投资",
+   "url": "https://weread.111965.xyz/articles/ZfjPVN1lFn43RQkoZw4V4w",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "A股轮动",
+    "货币政策",
+    "地产",
+    "海外宏观"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "。",
+   "page": "research_20260830.html"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "美的集团半年报简评",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://weread.111965.xyz/articles/03tEHafBHZ1OJ1kAPVmmYw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "A股轮动",
+    "转债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "风险提示：仅为个人研究用，不构成投资建议 。。1.表面上看出现了扣非净利润-25%的吓人数据，不过不用担心：人民币升值背景下，美的大量外币货币性资产产生了 汇兑损失 ，这个损失计入经常性损益；与此同时，美的为了对冲汇率风险做了大量外汇衍生品，而相关衍生工具的一部分收益却按照会计准则被放到了 非经常性损益。实际利润同比基本不变。",
+   "page": "research_20260830.html"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "中金：联合解读房地产销售及融资新政影响几何？",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/PZpY0iwQ9uOke4sI4T2uQQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "房地产",
+    "融资新政"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "房地产销售及融资新政解读，短期情绪修复但长期去库存压力仍存，关注政策执行力度与销售实际改善情况。",
+   "page": "research_20260830.html"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "事实和几句心里话",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/scf7eoL790y5Ydp2wYhy5g",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "AI算力",
+    "黄金",
+    "地产",
+    "海外宏观"
+   ],
+   "etf_sentiment": {
+    "518880": "多"
+   },
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "1、网上说起我的本科是青岛大学。是的，我农村出生，山东高考，省重点高中重点班第6。数学好，英语差，偏科，青岛大学入学成绩全班靠前。大学时光美好。。考研人大，专业第一名。博士论文《宏观经济结构研究》，入选“当代经济学文库”。清华大学经管院博士后。公考国务院发展研究中心，几百人前二。。感谢时代，给了农村孩子读书奋斗改变命运的机会。",
+   "page": "research_20260830.html"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "地产新模式",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/ZfjPVN1lFn43RQkoZw4V4w",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "房地产",
+    "新模式"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "房地产行业新模式探讨，传统开发模式承压下关注存量盘活与资产运营转型机会。",
+   "page": "research_20260830.html"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/Beonh5DZiHX5olw_Z8EJhQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "AI算力",
+    "AI应用",
+    "海外宏观"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量。The following article is from 泽平宏观商学Author 泽平宏观商学。",
+   "page": "research_20260830.html"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "债市｜利率债基久期仍在高位",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/HROxWLuxgYXRn9Y6BkZcJw",
+   "level": "quick",
+   "viewpoint": "中性",
+   "themes": [
+    "债市",
+    "久期"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "利率债基久期维持高位，在美联储鹰派预期与国内资金面平稳间寻求平衡。",
+   "page": "research_20260830.html"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "美的集团半年报简评",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://mp.weixin.qq.com/s/03tEHafBHZ1OJ1kAPVmmYw",
+   "level": "quick",
+   "viewpoint": "中性",
+   "themes": [
+    "家电",
+    "美的"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "美的集团半年报解读，关注海外业务韧性与国内AI应用落地进度。",
+   "page": "research_20260830.html"
+  },
+  {
+   "date": "2026-08-30",
+   "title": "中金点睛MCP上线，AI助手也能直接查询中金研报、数据与模型了！",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/Ez_ao_l2IKSBXR7N6zN0RQ",
+   "level": "quick",
+   "viewpoint": "中性",
+   "themes": [
+    "AI应用",
+    "金融科技"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.5
+   },
+   "summary": "中金点睛MCP上线，AI助手可直接调用中金研报数据与模型，体现金融机构AI工具化趋势。",
+   "page": "research_20260830.html"
+  },
+  {
+   "date": "2026-08-29",
+   "title": "中金 | 迟到的鹰派，信誉的修复：杰克逊霍尔会议点评",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/gjP5X21b9ddsTwzXjTB9DQ",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "美联储",
+    "杰克逊霍尔",
+    "政策信誉"
+   ],
+   "etf_sentiment": {
+    "513100": "空"
+   },
+   "scores": {
+    "total": 4.6
+   },
+   "summary": "沃什杰克逊霍尔鹰派表态重建政策信誉，纠正7月模糊表态。年内加息概率上升但非纯粹利空——市场更缺政策纪律性，中期通胀压制后反而有利。",
+   "page": "research_20260829.html"
+  },
+  {
+   "date": "2026-08-29",
+   "title": "“变色龙”沃什，Jackson Hole放鹰",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/YE5LDuFoVOdAKfkifUdXww",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "美联储",
+    "杰克逊霍尔",
+    "美债"
+   ],
+   "etf_sentiment": {
+    "513100": "空"
+   },
+   "scores": {
+    "total": 4.5
+   },
+   "summary": "沃什杰克逊霍尔放鹰，态度与7月模糊表态形成反差，短期美债收益率上行压制风险资产。",
+   "page": "research_20260829.html"
+  },
+  {
+   "date": "2026-08-29",
+   "title": "1月美西站——AI智驭浪潮：2027 CES & 硅谷前沿科技探索之旅",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/5UECs4m8ZJJ2DsTqDk1QjA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI算力",
+    "AI应用",
+    "去美元化",
+    "海外宏观"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.5
+   },
+   "summary": "1月美西站——AI智驭浪潮：2027 CES & 硅谷前沿科技探索之旅。The following article is from 泽平宏观商学Author 泽平宏观商学。",
+   "page": "research_20260829.html"
+  },
+  {
+   "date": "2026-08-29",
+   "title": "张瑜：更务实的下半场 ——华创证券秋季策略会演讲实录",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/9pUyP9W1vbg8vDWGneVIMw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "货币政策",
+    "地产",
+    "海外宏观"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.5
+   },
+   "summary": "8 月 26 日华创证券秋季策略会上，华创证券首席经济学家张瑜发表题为《更务实的下半场》的主题演讲，以下为演讲实录。。各位投资者朋友们大家好，非常感谢各位拨冗参加我们的策略会。今天这个题目（ 更务实的下半场）已经代表了我的观点——我觉得 即便是修复、即便是牛市，也都是分阶段、分状态的。。今天我们会自上而下，从几点变化当中，理清对整个资配的看法。",
+   "page": "research_20260829.html"
+  },
+  {
+   "date": "2026-08-29",
+   "title": "9月十大转债",
+   "author": "固收亮话",
+   "url": "https://weread.111965.xyz/articles/O-4dRoLOxOg6EbywIQDNjA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI算力",
+    "A股轮动",
+    "大宗商品",
+    "转债"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 4.5
+   },
+   "summary": "颀中科技/颀中转债: 公司主要从事集成电路的先进封装与测试业务。通过超过二十年的研发积累和技术攻关，在凸块制造、测试以及后段封装环节上掌握了一系列具有自主知识产权的核心技术和大量工艺经验，相关技术适用于显示驱动芯片、电源管理芯片、射频前端芯片等不同种类的产品，可以满足客户高性能、高品质、高可靠性封装测试需求。",
+   "page": "research_20260829.html"
+  },
+  {
+   "date": "2026-08-29",
+   "title": "毛利率有所分化——7月工业企业利润点评",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/LRC495eNqxqojltK1bgl0Q",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "海外宏观"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "文 ： 华创证券首席经济学家 张瑜 执业证号:S0360518090001。联系人： 陆银波（15210860866）。",
+   "page": "research_20260829.html"
+  },
+  {
+   "date": "2026-08-29",
+   "title": "沃什放“鹰”，美联储会加息吗？",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/FjuOkcAqyd5jUOLR86oGKg",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "美联储",
+    "美债",
+    "通胀"
+   ],
+   "etf_sentiment": {
+    "513100": "空"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "沃什放鹰后年内加息概率上升，但需等8月CPI数据确认。通胀粘性仍是关键约束。",
+   "page": "research_20260829.html"
+  },
+  {
+   "date": "2026-08-29",
+   "title": "流动性 | 央行收长放短，无碍资金平稳",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/VHNIFLjUL8nchftHpyZ0Ow",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "流动性",
+    "MLF",
+    "逆回购"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "央行收长放短（净投放1.33万亿逆回购、回笼1000亿MLF），资金面先紧后松，DR007周均值1.42%小幅上行，整体无碍平稳跨月。",
+   "page": "research_20260829.html"
+  },
+  {
+   "date": "2026-08-29",
+   "title": "ETF | 资金继续流入半导体设备与通信",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/3wvMYoOSVgPIRQMn5ytmtA",
+   "level": "quick",
+   "viewpoint": "多",
+   "themes": [
+    "半导体",
+    "通信",
+    "ETF资金流"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "ETF资金持续流入半导体设备与通信板块，AI硬件方向获增量资金确认。",
+   "page": "research_20260829.html"
+  },
+  {
+   "date": "2026-08-29",
+   "title": "中金研究 | 本周精选",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/JKJmggzZNMisaeO5Yzhlxg",
+   "level": "quick",
+   "viewpoint": "中性",
+   "themes": [
+    "美债",
+    "AI",
+    "宏观"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "中金本周精选汇总：美债问题在于短期供需错配+AI瓶颈担忧，沃什信誉考验是本周焦点，黄金可短期对冲。",
+   "page": "research_20260829.html"
+  },
+  {
+   "date": "2026-08-29",
+   "title": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/p5fUmj1ciEkRBXA9kS5B8w",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "AI算力",
+    "AI应用",
+    "海外宏观"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量。The following article is from 泽平宏观商学Author 泽平宏观商学。",
+   "page": "research_20260829.html"
+  },
+  {
+   "date": "2026-08-29",
+   "title": "9月十大转债",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/O-4dRoLOxOg6EbywIQDNjA",
+   "level": "quick",
+   "viewpoint": "中性",
+   "themes": [
+    "可转债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "9月十大转债推荐，关注低价低溢价率品种与下修博弈机会。",
+   "page": "research_20260829.html"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "科技试温",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/Mw6cxspSlyL6-nVwBOVwNg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI硬件",
+    "英伟达",
+    "MLCC"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.5
+   },
+   "summary": "英伟达Q2业绩翻倍催化A股AI硬件放量，电子通信领涨，工业富联+5.43%、MLCC指数+4.66%，资金开始回补AI硬件仓位，但光模块核心品种涨幅温和反映信心未完全恢复。",
+   "page": "research_20260828.html"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "1月美西站——AI智驭浪潮：2027 CES & 硅谷前沿科技探索之旅",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/Nu7hBkgC_1dL8lB3TJTL0Q",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI算力",
+    "AI应用",
+    "去美元化",
+    "海外宏观"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.5
+   },
+   "summary": "1月美西站——AI智驭浪潮：2027 CES & 硅谷前沿科技探索之旅。The following article is from 泽平宏观商学Author 泽平宏观商学。",
+   "page": "research_20260828.html"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "杰克逊霍尔会议：悬念与影响？",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/Itogjy_Viakwc9LpoEWlyQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "杰克逊霍尔",
+    "政策反应函数"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "杰克逊霍尔是沃什重塑政策公信力关键窗口，三大悬念：政策反应函数界定、通胀容忍度、与市场沟通模式。鲍威尔给路径、市场跟随；沃什要市场自主定价但需先讲清规则。",
+   "page": "research_20260828.html"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "1月美西站——AI智驭浪潮：2027 CES & 硅谷前沿科技探索之旅",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/2o6BUxBZRtODrpnIbbs9JA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI算力",
+    "AI应用",
+    "去美元化",
+    "海外宏观"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "曾担任国务院发展研究中心宏观部研究室副主任，国泰君安证券研究所董事总经理、首席宏观分析师，方正证券首席经济学家、研究所联席所长等职务，荣获中国证券分析师大满贯冠军。中国人民大学经济学博士，清华大学经济管理学院博士后。",
+   "page": "research_20260828.html"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "科技试温",
+   "author": "郁见投资",
+   "url": "https://weread.111965.xyz/articles/Mw6cxspSlyL6-nVwBOVwNg",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "AI算力",
+    "A股轮动",
+    "美债",
+    "去美元化"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "8月27日，权益市场放量上涨。 万得全A上涨1.61%，全天成交额2.14万亿元，较上一交易日放量3191亿元；创业板指、科创50分别上涨1.71%、3.77%。全市场上涨3394家，下跌1944家。港股方面，恒生指数下跌0.34%，恒生科技下跌0.13%。",
+   "page": "research_20260828.html"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "基于状态转换模型的国债期货市场划分",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/i5_-VkKuT_QvVGpBdjOsNg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "国债期货",
+    "状态转换模型",
+    "牛熊划分"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "用状态转换模型（收益动量+趋势差异+下行风险多维特征）替代传统MA金叉死叉，更精准识别国债期货牛熊状态切换。",
+   "page": "research_20260828.html"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "黄金观望",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/wjm8a9ejo3QC5AAQSewvZg",
+   "level": "brief",
+   "viewpoint": "观望",
+   "themes": [
+    "黄金",
+    "大宗商品"
+   ],
+   "etf_sentiment": {
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "商品市场能源偏强原油+2.1%、煤炭获资金青睐，贵金属化工遭撤离（沪金流出18亿居首）；黄金调整源于短期利好充分释放，9月加息概率回落至三成、伦敦金8月涨超13%、SPDR持仓两日流出4吨，关注周五晚杰克逊霍尔美联储主席沃什讲话，鹰派则金价承压、持稳则资金回补。",
+   "page": "research_20260828.html"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/6XoSLsfJLfZHn1mZp8AnuA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "AI算力",
+    "AI应用",
+    "海外宏观"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "9月上海站：沐曦股份、具身机器人、特赞科技——芯启智算·AI中国力量。The following article is from 泽平宏观商学Author 泽平宏观商学。",
+   "page": "research_20260828.html"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "七夕鲜花销量大降：年轻人不恋爱了？",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/lrUlPUOUbdOCiIkWKwaQLg",
+   "level": "quick",
+   "viewpoint": "中性",
+   "themes": [
+    "消费",
+    "婚育",
+    "年轻人"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "七夕鲜花/珠宝销量下滑，结婚登记降7.5%，主因：消费理性化、高婚育成本（房价收入比26.1）、年轻人追求自由、社会替代品增多。",
+   "page": "research_20260828.html"
+  },
+  {
+   "date": "2026-08-28",
+   "title": "权益 | AI行情需要新叙事",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/eyZXJFYX_ix4B6YlpY2EPQ",
+   "level": "archived",
+   "viewpoint": "观望",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.2
+   },
+   "summary": "正文拉取失败（微信端仅返回图片/标题），无法总结观点，仅记录标题存档。",
+   "page": "research_20260828.html"
+  },
+  {
    "date": "2026-08-27",
    "title": "英伟达Q2业绩超预期，指引乐观，盘后大涨，利好A股",
    "author": "丹湖渔翁",
@@ -1776,6 +1776,61 @@
     "total": 3.55
    },
    "summary": "华创张瑜基于泰勒规则(实际r*+通胀缺口+产出缺口)测算美国货币政策或需加息,与市场降息共识相悖;但联储实际操作中'灵活务实',规则化框架并非唯一指引;Jackson Hole沃什首秀或放大美债利率上行压力",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "《货币的秩序》| 第十三章 提升人民币计价货币地位",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/zZM6QVcEk5NpoHozVX1dqw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "人民币国际化",
+    "计价货币"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "人民币国际化三大功能中计价货币最薄弱，增强国际贸易定价权可降低汇率风险并提升规则制定权。从'中国制造'到'中国定价'是长期方向。",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "《货币的秩序》| 第十四章 关于资本账户的若干迷思",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/HmlFkiBrKDeyJeYqDZmjoQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "人民币国际化",
+    "资本账户开放"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "'十五五'规划将人民币国际化表述从'稳慎推进'转为'推进'，资本账户开放从夯实基础转向主动拓展。",
+   "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-27",
+   "title": "《货币的秩序》| 第十五章 稳定币、金融市场与人民币国际化",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/4s9HkW8YAqZrkOy6BED0FA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "稳定币",
+    "人民币国际化",
+    "加密货币"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "稳定币有潜力成为新型金融基础设施，发行离岸人民币稳定币是中国参与的选项之一。但稳定币只是'术'，根本取决于人民币的法理之锚与功能之锚。",
    "page": "research_20260827.html"
   },
   {
@@ -2013,6 +2068,30 @@
    },
    "summary": "吐槽吖瞎扯系列:戏说切券现象,新老券利差背离",
    "page": "research_20260827.html"
+  },
+  {
+   "date": "2026-08-26",
+   "title": "欲攻还休",
+   "author": "郁见投资",
+   "url": "https://weread.111965.xyz/articles/b4na5LT1W_GEv4c_Oj_JHQ",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "AI算力",
+    "A股轮动",
+    "黄金",
+    "货币政策"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "8月26日，权益市场平量上涨。 万得全A上涨0.59%，全天成交额1.82万亿元，较上一交易日小幅缩量约225亿元；创业板指上涨0.51%，科创50上涨1.71%。全市场上涨2942家，下跌2445家。港股方面，恒生指数上涨0.56%，恒生科技上涨0.82%。",
+   "page": "research_20260826.html"
   },
   {
    "date": "2026-08-26",
@@ -5703,6 +5782,26 @@
    },
    "summary": "非投资内容（自然利率与代际流动性随笔）",
    "page": "research_20260821.html"
+  },
+  {
+   "date": "2026-08-19",
+   "title": "【中金固收·信用】中国短期融资券及中期票据信用分析周报260819",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/zV_H5Le1RqoMZJBbLG4sRQ",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "A股轮动",
+    "固收",
+    "地产",
+    "大宗商品"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "【中金固收·信用】中国短期融资券及中期票据信用分析周报260819。Original邱子轩 许艳等邱子轩 许艳等。",
+   "page": "research_20260819.html"
   }
  ]
 }
