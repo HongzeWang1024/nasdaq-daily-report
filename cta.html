@@ -49,41 +49,41 @@ border-radius: 10px; padding: 12px 16px; margin: 14px 0; font-size: 0.93em; line
 <h1>📈 A股CTA量化策略</h1>
 <div class="sub">
 <span class="mode">CTA V16 · 实盘（盘后固定价）</span>
-资金 ¥100,000 · 数据日期 2026-09-03
+资金 ¥100,000 · 数据日期 2026-09-04
 （T日收盘）·
-2026-09-03 盘后固定价执行 ·
-生成于 2026-09-03 15:01
+2026-09-04 盘后固定价执行 ·
+生成于 2026-09-04 15:01
 </div>
 
 <div class="card">
-<h2>今日操作（2026-09-03 盘后固定价）</h2>
-<p class="note" style="font-size:1.05em;color:#555">今日无操作（非调仓日，无风控触发，持仓不动）。</p>
+<h2>今日操作（2026-09-04 盘后固定价）</h2>
+<table><tr><th>代码</th><th>名称</th><th>方向</th><th>股数</th><th>收盘价</th><th>金额(¥)</th><th>原因</th><th>执行状态</th></tr><tr><td><b>513500</b></td><td>标普500ETF博时</td><td><span class="tag buy">买入</span></td><td>1000</td><td>2.6980</td><td>2,698</td><td style="color:#777">新建仓</td><td><span class="tag flat">待回填</span></td></tr></table><p class="note">盘后固定价：以当日收盘价申报，<b>15:30前</b>提交委托。成交后请在下方"实际成交回填"填写。</p>
 </div>
 
 <div class="card">
 <h2>实际成交回填</h2>
-<div class="banner">📋 <b>1 笔交易待回填实际成交</b>：填写实际成交价与数量（EOD盘后固定价成交应=收盘价，可直接核对上方"今日操作"表）→ 点击「下载 pending.json」保存到 <b>境内\live\fills\</b>目录（覆盖同名文件）→ 次交易日15:01盘后信号生成时自动按实际成交入账（重算现金/成本/股数）。</div><table><tr><th>代码</th><th>名称</th><th>方向</th><th>信号股数</th><th>收盘价</th><th>实际股数</th><th>实际成交价</th></tr><tr data-fill-date="2026-09-01" data-fill-code="512480" data-fill-side="sell"><td><b>512480</b></td><td>半导体ETF国联安</td><td><span class="tag sell">卖出</span></td><td>1900</td><td>1.0300</td><td><input class="f-shares" type="number" value="1900" min="0" step="100"></td><td><input class="f-price" type="number" step="0.001" placeholder="实际价"></td></tr></table><button class="btn-x" id="copy-btn" onclick="genFill()">生成JSON并复制</button> <button class="btn-x" onclick="downloadFill()">下载 pending.json</button><textarea id="fill-out" readonly placeholder="点击按钮后这里显示回填JSON"></textarea>
+<div class="banner">📋 <b>2 笔交易待回填实际成交</b>：填写实际成交价与数量（EOD盘后固定价成交应=收盘价，可直接核对上方"今日操作"表）→ 点击「下载 pending.json」保存到 <b>境内\live\fills\</b>目录（覆盖同名文件）→ 次交易日15:01盘后信号生成时自动按实际成交入账（重算现金/成本/股数）。</div><table><tr><th>代码</th><th>名称</th><th>方向</th><th>信号股数</th><th>收盘价</th><th>实际股数</th><th>实际成交价</th></tr><tr data-fill-date="2026-09-01" data-fill-code="512480" data-fill-side="sell"><td><b>512480</b></td><td>半导体ETF国联安</td><td><span class="tag sell">卖出</span></td><td>1900</td><td>1.0300</td><td><input class="f-shares" type="number" value="1900" min="0" step="100"></td><td><input class="f-price" type="number" step="0.001" placeholder="实际价"></td></tr><tr data-fill-date="2026-09-04" data-fill-code="513500" data-fill-side="buy"><td><b>513500</b></td><td>标普500ETF博时</td><td><span class="tag buy">买入</span></td><td>1000</td><td>2.6980</td><td><input class="f-shares" type="number" value="1000" min="0" step="100"></td><td><input class="f-price" type="number" step="0.001" placeholder="实际价"></td></tr></table><button class="btn-x" id="copy-btn" onclick="genFill()">生成JSON并复制</button> <button class="btn-x" onclick="downloadFill()">下载 pending.json</button><textarea id="fill-out" readonly placeholder="点击按钮后这里显示回填JSON"></textarea>
 </div>
 
 <div class="card">
 <h2>当前持仓</h2>
-<table><tr><th>代码</th><th>名称</th><th>类别</th><th>股数</th><th>成本(含佣)</th><th>收盘价</th><th>市值(¥)</th><th>权重</th><th>浮盈亏</th></tr><tr><td><b>159980</b></td><td>有色ETF大成</td><td>商品</td><td>1200</td><td>2.1592</td><td>2.1660</td><td>2,599</td><td>2.6%</td><td class="up">+0.32%</td></tr><tr><td><b>159509</b></td><td>纳指科技ETF景顺</td><td>跨境</td><td>700</td><td>2.7903</td><td>2.7760</td><td>1,943</td><td>1.9%</td><td class="down">-0.51%</td></tr><tr><td><b>159516</b></td><td>半导体设备ETF国泰</td><td>行业</td><td>2800</td><td>0.7161</td><td>0.6780</td><td>1,898</td><td>1.9%</td><td class="down">-5.32%</td></tr><tr><td><b>513310</b></td><td>中韩半导体ETF华泰柏瑞</td><td>跨境</td><td>500</td><td>4.7724</td><td>4.6460</td><td>2,323</td><td>2.3%</td><td class="down">-2.65%</td></tr><tr><td><b>511520</b></td><td>政金债ETF</td><td>债券</td><td colspan="2">目标 3.2%（待建仓）</td></tr><tr><td><b>159781</b></td><td>科创创业ETF易方达</td><td>宽基</td><td colspan="2">目标 0.6%（待建仓）</td></tr><tr><td><b>588200</b></td><td>科创芯片ETF嘉实</td><td>行业</td><td colspan="2">目标 1.6%（待建仓）</td></tr><tr><td><b>515880</b></td><td>通信ETF国泰</td><td>行业</td><td colspan="2">目标 1.6%（待建仓）</td></tr></table><p class="note">成本=含买入佣金的摊薄成本（按成交记录重放，佣金万0.5最低0.2元）；浮盈亏已计入手续费。</p>
+<table><tr><th>代码</th><th>名称</th><th>类别</th><th>股数</th><th>成本(含佣)</th><th>收盘价</th><th>市值(¥)</th><th>权重</th><th>浮盈亏</th></tr><tr><td><b>159980</b></td><td>有色ETF大成</td><td>商品</td><td>1200</td><td>2.1592</td><td>2.1670</td><td>2,600</td><td>2.6%</td><td class="up">+0.36%</td></tr><tr><td><b>159509</b></td><td>纳指科技ETF景顺</td><td>跨境</td><td>700</td><td>2.7903</td><td>2.8330</td><td>1,983</td><td>2.0%</td><td class="up">+1.53%</td></tr><tr><td><b>159516</b></td><td>半导体设备ETF国泰</td><td>行业</td><td>2800</td><td>0.7161</td><td>0.6570</td><td>1,840</td><td>1.8%</td><td class="down">-8.25%</td></tr><tr><td><b>513310</b></td><td>中韩半导体ETF华泰柏瑞</td><td>跨境</td><td>500</td><td>4.7724</td><td>4.6510</td><td>2,326</td><td>2.3%</td><td class="down">-2.54%</td></tr><tr><td><b>513500</b> <span class="tag buy">今买@2.6980</span></td><td>标普500ETF博时</td><td>跨境</td><td>1000</td><td>2.6982</td><td>2.6980</td><td>2,698</td><td>2.7%</td><td class="down">-0.01%</td></tr><tr><td><b>511020</b></td><td>活跃国债ETF</td><td>债券</td><td colspan="2">目标 3.6%（待建仓）</td></tr><tr><td><b>511520</b></td><td>政金债ETF</td><td>债券</td><td colspan="2">目标 3.2%（待建仓）</td></tr><tr><td><b>588200</b></td><td>科创芯片ETF嘉实</td><td>行业</td><td colspan="2">目标 0.9%（待建仓）</td></tr></table><p class="note">当日交易已并入上表（标记"今买/今卖@价"=当日收盘价，供与实际成交核对）。</p><p class="note">成本=含买入佣金的摊薄成本（按成交记录重放，佣金万0.5最低0.2元）；浮盈亏已计入手续费。</p>
 </div>
 
 <div class="card">
 <h2>组合概览</h2>
 
 <div class="stats">
-<div class="stat"><div class="lbl">实盘净值</div><div class="num">0.9977（-0.23%）</div></div>
-<div class="stat"><div class="lbl">总资产</div><div class="num">¥99,775</div></div>
+<div class="stat"><div class="lbl">实盘净值（含当日交易）</div><div class="num">0.9976（-0.24%）</div></div>
+<div class="stat"><div class="lbl">总资产</div><div class="num">¥99,759</div></div>
 <div class="stat"><div class="lbl">持仓市值 / 现金</div>
-<div class="num" style="font-size:1.15em">¥8,764<br>
-<span style="color:#888;font-size:0.8em">/ ¥91,011</span></div></div>
+<div class="num" style="font-size:1.15em">¥11,447<br>
+<span style="color:#888;font-size:0.8em">/ ¥88,313</span></div></div>
 <div class="stat"><div class="lbl">引擎目标暴露</div>
-<div class="num">16%</div></div>
+<div class="num">17%</div></div>
 <div class="stat"><div class="lbl">下次调仓</div>
-<div class="num" style="font-size:1.1em">2026-09-04</div>
-<div class="lbl">1个交易日后</div></div>
+<div class="num" style="font-size:1.1em">2026-09-18</div>
+<div class="lbl">10个交易日后</div></div>
 </div>
 </div>
 
@@ -100,13 +100,13 @@ border-radius: 10px; padding: 12px 16px; margin: 14px 0; font-size: 0.93em; line
 <text x="48" y="75.0" text-anchor="end" font-size="11" fill="#999">1.000</text>
 <line x1="54" y1="18.0" x2="798" y2="18.0" stroke="#eee" stroke-width="1"/>
 <text x="48" y="22.0" text-anchor="end" font-size="11" fill="#999">1.001</text>
-<line x1="54" y1="82.8" x2="798" y2="82.8" stroke="#bbb" stroke-dasharray="4,3" stroke-width="1"/>
+<line x1="54" y1="80.4" x2="798" y2="80.4" stroke="#bbb" stroke-dasharray="4,3" stroke-width="1"/>
 <text x="54" y="252" font-size="11" fill="#999">2026-08-25</text>
-<text x="798" y="252" text-anchor="end" font-size="11" fill="#999">2026-09-03</text>
-<polyline points="54.0,82.8 160.3,83.0 266.6,32.6 372.9,63.9 479.1,42.4 585.4,123.7 691.7,213.2 798.0,215.4" fill="none" stroke="#e8830c" stroke-width="2"/>
-<text x="804" y="219.4" font-size="11" fill="#e8830c" font-weight="bold">0.9977</text>
+<text x="798" y="252" text-anchor="end" font-size="11" fill="#999">2026-09-04</text>
+<polyline points="54.0,80.4 147.0,80.6 240.0,32.6 333.0,62.5 426.0,41.9 519.0,119.4 612.0,204.7 705.0,206.7 798.0,215.4" fill="none" stroke="#e8830c" stroke-width="2"/>
+<text x="804" y="219.4" font-size="11" fill="#e8830c" font-weight="bold">0.9976</text>
 </svg>
-<div class="legend">橙线 实盘净值（基准1.0=初始资金）· 当前 0.9977（-0.23%）</div>
+<div class="legend">橙线 实盘净值（基准1.0=初始资金）· 当前 0.9976（-0.24%）</div>
 </div>
 
 <div class="card">
@@ -122,21 +122,21 @@ border-radius: 10px; padding: 12px 16px; margin: 14px 0; font-size: 0.93em; line
 <text x="48" y="75.0" text-anchor="end" font-size="11" fill="#999">1.012</text>
 <line x1="54" y1="18.0" x2="798" y2="18.0" stroke="#eee" stroke-width="1"/>
 <text x="48" y="22.0" text-anchor="end" font-size="11" fill="#999">1.018</text>
-<line x1="54" y1="193.1" x2="798" y2="193.1" stroke="#bbb" stroke-dasharray="4,3" stroke-width="1"/>
+<line x1="54" y1="191.8" x2="798" y2="191.8" stroke="#bbb" stroke-dasharray="4,3" stroke-width="1"/>
 <text x="54" y="252" font-size="11" fill="#999">2026-08-25</text>
-<text x="798" y="252" text-anchor="end" font-size="11" fill="#999">2026-09-03</text>
-<polygon points="54.0,193.1 160.3,193.2 266.6,184.7 372.9,190.0 479.1,186.4 585.4,200.0 691.7,215.0 798.0,215.4 798.0,182.4 691.7,184.6 585.4,47.6 479.1,45.5 372.9,58.3 266.6,32.6 160.3,116.1 54.0,193.1" fill="#e8830c" fill-opacity="0.12" stroke="none"/>
-<polyline points="54.0,193.1 160.3,116.1 266.6,32.6 372.9,58.3 479.1,45.5 585.4,47.6 691.7,184.6 798.0,182.4" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="5,3"/>
-<polyline points="54.0,193.1 160.3,193.2 266.6,184.7 372.9,190.0 479.1,186.4 585.4,200.0 691.7,215.0 798.0,215.4" fill="none" stroke="#e8830c" stroke-width="2"/>
-<text x="804" y="219.4" font-size="11" fill="#e8830c" font-weight="bold">0.9977</text>
-<text x="804" y="186.4" font-size="11" fill="#888">1.0011</text>
+<text x="798" y="252" text-anchor="end" font-size="11" fill="#999">2026-09-04</text>
+<polygon points="54.0,191.8 147.0,191.8 240.0,183.5 333.0,188.7 426.0,185.1 519.0,198.6 612.0,213.5 705.0,213.9 798.0,215.4 798.0,191.8 705.0,181.2 612.0,183.3 519.0,47.5 426.0,45.4 333.0,58.1 240.0,32.6 147.0,115.4 54.0,191.8" fill="#e8830c" fill-opacity="0.12" stroke="none"/>
+<polyline points="54.0,191.8 147.0,115.4 240.0,32.6 333.0,58.1 426.0,45.4 519.0,47.5 612.0,183.3 705.0,181.2 798.0,191.8" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="5,3"/>
+<polyline points="54.0,191.8 147.0,191.8 240.0,183.5 333.0,188.7 426.0,185.1 519.0,198.6 612.0,213.5 705.0,213.9 798.0,215.4" fill="none" stroke="#e8830c" stroke-width="2"/>
+<text x="804" y="219.4" font-size="11" fill="#e8830c" font-weight="bold">0.9976</text>
+<text x="804" y="195.8" font-size="11" fill="#888">1.0000</text>
 </svg>
-<div class="legend">橙线 策略净值 -0.23% · 灰虚线 510300基准 +0.11% · 阴影 累计超额 <b style="color:#e8830c">-0.33%</b>（基期 2026-08-25=1.0）</div>
+<div class="legend">橙线 策略净值 -0.24% · 灰虚线 510300基准 +0.00% · 阴影 累计超额 <b style="color:#e8830c">-0.24%</b>（基期 2026-08-25=1.0）</div>
 </div>
 
 <div class="card">
 <h2>交易历史（最近20笔）</h2>
-<table><tr><th>日期</th><th>代码</th><th>名称</th><th>方向</th><th>股数</th><th>成交价</th></tr><tr><td>2026-09-01</td><td><b>512480</b></td><td>半导体ETF国联安</td><td><span class="tag sell">卖</span></td><td>1900</td><td><span class="warn">1.0300（待回填）</span></td></tr><tr><td>2026-08-31</td><td><b>512480</b></td><td>半导体ETF国联安</td><td><span class="tag buy">买</span></td><td>1900</td><td><span class="ok">1.0580</span></td></tr><tr><td>2026-08-28</td><td><b>513310</b></td><td>中韩半导体ETF华泰柏瑞</td><td><span class="tag buy">买</span></td><td>500</td><td><span class="ok">4.7720</span></td></tr><tr><td>2026-08-27</td><td><b>513310</b></td><td>中韩半导体ETF华泰柏瑞</td><td><span class="tag buy">买</span></td><td>500</td><td><span class="warn">4.8830（待回填）</span></td></tr><tr><td>2026-08-27</td><td><b>159516</b></td><td>半导体设备ETF国泰</td><td><span class="tag buy">买</span></td><td>2800</td><td><span class="ok">0.7160</span></td></tr><tr><td>2026-08-26</td><td><b>159509</b></td><td>纳指科技ETF景顺</td><td><span class="tag buy">买</span></td><td>700</td><td><span class="ok">2.7900</span></td></tr><tr><td>2026-08-26</td><td><b>159980</b></td><td>有色ETF大成</td><td><span class="tag buy">买</span></td><td>1200</td><td><span class="ok">2.1590</span></td></tr></table><p class="note">绿色=已按实际成交回填；橙色=仍为估计价（网站上方表单待回填）。</p>
+<table><tr><th>日期</th><th>代码</th><th>名称</th><th>方向</th><th>股数</th><th>成交价</th></tr><tr><td>2026-09-04</td><td><b>513500</b></td><td>标普500ETF博时</td><td><span class="tag buy">买</span></td><td>1000</td><td><span class="warn">2.6980（待回填）</span></td></tr><tr><td>2026-09-01</td><td><b>512480</b></td><td>半导体ETF国联安</td><td><span class="tag sell">卖</span></td><td>1900</td><td><span class="warn">1.0300（待回填）</span></td></tr><tr><td>2026-08-31</td><td><b>512480</b></td><td>半导体ETF国联安</td><td><span class="tag buy">买</span></td><td>1900</td><td><span class="ok">1.0580</span></td></tr><tr><td>2026-08-28</td><td><b>513310</b></td><td>中韩半导体ETF华泰柏瑞</td><td><span class="tag buy">买</span></td><td>500</td><td><span class="ok">4.7720</span></td></tr><tr><td>2026-08-27</td><td><b>513310</b></td><td>中韩半导体ETF华泰柏瑞</td><td><span class="tag buy">买</span></td><td>500</td><td><span class="warn">4.8830（待回填）</span></td></tr><tr><td>2026-08-27</td><td><b>159516</b></td><td>半导体设备ETF国泰</td><td><span class="tag buy">买</span></td><td>2800</td><td><span class="ok">0.7160</span></td></tr><tr><td>2026-08-26</td><td><b>159509</b></td><td>纳指科技ETF景顺</td><td><span class="tag buy">买</span></td><td>700</td><td><span class="ok">2.7900</span></td></tr><tr><td>2026-08-26</td><td><b>159980</b></td><td>有色ETF大成</td><td><span class="tag buy">买</span></td><td>1200</td><td><span class="ok">2.1590</span></td></tr></table><p class="note">绿色=已按实际成交回填；橙色=仍为估计价（网站上方表单待回填）。</p>
 </div>
 
 <div class="card">
