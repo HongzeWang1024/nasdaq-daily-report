@@ -1,6 +1,117 @@
 {
- "updated": "2026-09-03",
+ "updated": "2026-09-04",
  "articles": [
+  {
+   "date": "2026-09-04",
+   "title": "9月宏观及资产配置：关键在美元流动性 | 建投宏观·周君芝团队",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/IEYV7QEnkfozUTcrUY74uw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "9月资产配置",
+    "美元流动性",
+    "黄金",
+    "美股软件算力",
+    "长债谨慎"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "512400": "多",
+    "513100": "多",
+    "511090": "空",
+    "159928": "空",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 4.75
+   },
+   "summary": "9月配置三条主线——防御底仓（红利+高股息+黄金）、结构性进攻（A股资源硬科技+美股软件算力龙头）、谨慎配置（不追长债+内需消费）；美元流动性敏感资产9月或有机会，隐含排序黄金/铜>美股软件算力>红利>长债/内需。",
+   "page": "research_20260904.html"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "【瞎扯】新型政策性金融工具的结构性降息",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/M209xFqa3xPZzIzd9C8-2g",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "新型政策性金融工具",
+    "结构性降息",
+    "PSL",
+    "债市利好",
+    "科技新质生产力"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "512480": "多",
+    "512800": "多",
+    "515790": "多"
+   },
+   "scores": {
+    "total": 3.75
+   },
+   "summary": "新型政策性金融工具8000亿密集落地，PSL利率2%+财政贴息=项目资金成本<1%，实质构成结构性降息；短期利好债市配置需求，长期撬动科技新质生产力投资。",
+   "page": "research_20260904.html"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "日元反攻，日本要进入快速加息周期吗？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/qJ9iR3azOJYFYgq775sOmg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "日元加息",
+    "日央行政策",
+    "USDJPY"
+   ],
+   "etf_sentiment": {
+    "518880": "中性",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.15
+   },
+   "summary": "日元加息驱动而非干预，日债曲线定价未来半年4次加息终点1.9-2.0%，但日本通胀内生性弱难撑快速加息，USDJPY可再等等。",
+   "page": "research_20260904.html"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "中金｜怎么理解债基业务变化？——公募债基26H1数据解读",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/oVmVrB7QVpEKYfHql-gcQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "公募债基",
+    "机构持有结构",
+    "短债vs长债",
+    "含权一级债基"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.15
+   },
+   "summary": "26H1债基行业结构——短债债基机构持有抬升（理财增配）、中长期纯债机构持有下降（C端突围）、含权一级债基机构关注策略差异性（双低/低价策略失效）。",
+   "page": "research_20260904.html"
+  },
+  {
+   "date": "2026-09-04",
+   "title": "中金首席经济学家缪延亮Skill重磅上线：率先开启经济学家的AI时代",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/zP8ErgCv4KWRlFWuLa94kw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.15
+   },
+   "summary": "纯广告，无实质观点。",
+   "page": "research_20260904.html"
+  },
   {
    "date": "2026-09-03",
    "title": "【华泰资产配置】需要重视的全球“资金失衡”",
