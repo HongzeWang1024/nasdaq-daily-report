@@ -1,34 +1,24 @@
 {
- "updated": "2026-09-03",
- "date": "2026-09-03",
- "sentiment_index": 52.0,
+ "updated": "2026-09-04",
+ "date": "2026-09-04",
+ "sentiment_index": 82.0,
  "risk_level": {
   "level": "高",
-  "score": 100,
+  "score": 81,
   "cats": {
-   "宏观流动性": 18.0,
+   "宏观流动性": 11.6,
    "地缘政治": 0.0,
-   "板块情绪": 6.3,
+   "板块情绪": 4.6,
    "估值水平": 0.0
   },
   "advice": "⚠ 风险等级偏高，防御关注：511090（30年国债）、518880（黄金）"
  },
  "scores": [
   {
-   "code": "518880",
-   "name": "黄金",
-   "grade": "强推",
-   "score": 78,
-   "delta": 6,
-   "bull": 3,
-   "bear": 0,
-   "neutral": 0
-  },
-  {
-   "code": "515170",
-   "name": "",
+   "code": "512400",
+   "name": "有色/铜",
    "grade": "关注",
-   "score": 75,
+   "score": 88,
    "delta": null,
    "bull": 1,
    "bear": 0,
@@ -38,70 +28,80 @@
    "code": "512480",
    "name": "半导体",
    "grade": "关注",
-   "score": 70,
-   "delta": -12,
+   "score": 77,
+   "delta": 7,
    "bull": 1,
    "bear": 0,
-   "neutral": 1
+   "neutral": 0
   },
   {
-   "code": "511010",
-   "name": "国债ETF",
+   "code": "512800",
+   "name": "银行",
    "grade": "关注",
-   "score": 69,
-   "delta": -2,
-   "bull": 2,
-   "bear": 0,
-   "neutral": 1
-  },
-  {
-   "code": "511090",
-   "name": "30年国债",
-   "grade": "关注",
-   "score": 63,
-   "delta": 4,
-   "bull": 2,
-   "bear": 1,
-   "neutral": 1
-  },
-  {
-   "code": "510300",
-   "name": "沪深300",
-   "grade": "观望",
-   "score": 57,
-   "delta": -2,
-   "bull": 0,
-   "bear": 0,
-   "neutral": 3
-  },
-  {
-   "code": "562500",
-   "name": "",
-   "grade": "观望",
-   "score": 55,
+   "score": 77,
    "delta": null,
-   "bull": 0,
+   "bull": 1,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "515790",
+   "name": "光伏",
+   "grade": "关注",
+   "score": 77,
+   "delta": null,
+   "bull": 1,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "518880",
+   "name": "黄金",
+   "grade": "关注",
+   "score": 72,
+   "delta": -8,
+   "bull": 1,
    "bear": 0,
    "neutral": 1
   },
   {
    "code": "513100",
    "name": "纳指",
-   "grade": "规避",
-   "score": 52,
-   "delta": -6,
+   "grade": "关注",
+   "score": 72,
+   "delta": 17,
    "bull": 1,
-   "bear": 3,
+   "bear": 0,
+   "neutral": 1
+  },
+  {
+   "code": "510300",
+   "name": "沪深300",
+   "grade": "观望",
+   "score": 68,
+   "delta": 7,
+   "bull": 0,
+   "bear": 0,
+   "neutral": 1
+  },
+  {
+   "code": "511090",
+   "name": "30年国债",
+   "grade": "观望",
+   "score": 63,
+   "delta": 2,
+   "bull": 1,
+   "bear": 1,
    "neutral": 0
   },
   {
    "code": "159928",
    "name": "消费",
    "grade": "规避",
-   "score": 50,
-   "delta": null,
-   "bull": 1,
-   "bear": 2,
+   "score": 48,
+   "delta": 0,
+   "bull": 0,
+   "bear": 1,
    "neutral": 0
   }
  ]
