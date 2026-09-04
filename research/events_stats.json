@@ -1,6 +1,57 @@
 {
- "updated": "2026-09-03",
+ "updated": "2026-09-04",
  "events": [
+  {
+   "event": "8月底政府债供给高峰+央行对冲力度验证",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-08-31",
+     "r1": 0.0034,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0034,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "十四届全国人大常委会闭幕（政策表态）",
+   "target": "510300",
+   "name": "沪深300",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-08-29",
+     "r1": -0.0002,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0002,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "央行隔夜逆回购操作(每日≤6000亿)",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-01",
+     "r1": -0.0013,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0013,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
   {
    "event": "杰克逊霍尔年会美联储主席沃什主旨演讲（北京时间周五晚）",
    "target": "518880",
@@ -10,12 +61,12 @@
     {
      "date": "2026-08-28",
      "r1": -0.0359,
-     "r3": null,
+     "r3": -0.0605,
      "r7": null
     }
    ],
    "avg_ret_1d": -0.0359,
-   "avg_ret_3d": null,
+   "avg_ret_3d": -0.0605,
    "avg_ret_7d": null
   },
   {
@@ -28,12 +79,12 @@
      "date": "2026-08-21",
      "r1": -0.0113,
      "r3": -0.006,
-     "r7": null
+     "r7": 0.0009
     }
    ],
    "avg_ret_1d": -0.0113,
    "avg_ret_3d": -0.006,
-   "avg_ret_7d": null
+   "avg_ret_7d": 0.0009
   },
   {
    "event": "美国7月PCE物价指数",
@@ -44,12 +95,12 @@
     {
      "date": "2026-08-28",
      "r1": -0.0054,
-     "r3": null,
+     "r3": -0.0179,
      "r7": null
     }
    ],
    "avg_ret_1d": -0.0054,
-   "avg_ret_3d": null,
+   "avg_ret_3d": -0.0179,
    "avg_ret_7d": null
   },
   {
@@ -61,12 +112,12 @@
     {
      "date": "2026-08-28",
      "r1": 0.001,
-     "r3": null,
+     "r3": 0.0031,
      "r7": null
     }
    ],
    "avg_ret_1d": 0.001,
-   "avg_ret_3d": null,
+   "avg_ret_3d": 0.0031,
    "avg_ret_7d": null
   }
  ]
