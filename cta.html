@@ -5,28 +5,46 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>A股CTA量化策略</title>
 <style>
-body { font-family: -apple-system, "Microsoft YaHei", sans-serif; max-width: 960px;
-margin: 0 auto; padding: 30px 18px 50px; background: #f5f5f5; color: #333; }
+body { font-family: -apple-system, "Microsoft YaHei", sans-serif; max-width: 980px;
+margin: 0 auto; padding: 18px 14px 60px; background: #f5f5f5; color: #333; }
 a { color: #e8830c; }
-.back { margin-bottom: 16px; font-size: 0.9em; }
+.back { margin-bottom: 10px; font-size: 0.9em; }
 .back a { text-decoration: none; font-weight: bold; }
-h1 { color: #e8830c; border-bottom: 3px solid #e8830c; padding-bottom: 10px; margin: 0 0 6px; }
-.sub { color: #666; font-size: 0.92em; margin-bottom: 22px; line-height: 1.7; }
+.riskbar { position: sticky; top: 0; z-index: 50; background: #fdecea; color: #c5221f;
+border: 1px solid #f5c6c2; border-radius: 8px; padding: 7px 14px; font-size: 0.84em;
+margin-bottom: 14px; line-height: 1.5; }
+h1 { color: #e8830c; border-bottom: 3px solid #e8830c; padding-bottom: 10px;
+margin: 0 0 6px; font-size: 1.45em; }
+.sub { color: #666; font-size: 0.9em; margin-bottom: 18px; line-height: 1.7; }
 .mode { display: inline-block; padding: 2px 10px; border-radius: 10px; color: #fff;
 font-size: 0.85em; font-weight: bold; margin-right: 6px; background: #e8830c; }
 .card { background: #fff; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-padding: 22px 24px; margin: 18px 0; border-top: 4px solid #e8830c; }
+padding: 20px 22px; margin: 16px 0; border-top: 4px solid #e8830c; }
 .card h2 { margin: 0 0 14px; font-size: 1.15em; color: #e8830c; }
-table { width: 100%; border-collapse: collapse; font-size: 0.93em; }
-th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid #f0f0f0; }
+details.card > summary { cursor: pointer; font-size: 1.15em; color: #e8830c;
+font-weight: bold; user-select: none; list-style: none; }
+details.card > summary::-webkit-details-marker { display: none; }
+details.card > summary::before { content: "▸ "; }
+details.card[open] > summary::before { content: "▾ "; }
+.tbl-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 8px; }
+table { width: 100%; border-collapse: collapse; font-size: 0.9em; min-width: 620px; }
+th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid #f0f0f0;
+white-space: nowrap; }
 th { color: #888; font-weight: 600; background: #fafafa; }
+th.c1, td.c1 { position: sticky; left: 0; background: #fff; z-index: 2;
+box-shadow: 2px 0 4px rgba(0,0,0,0.05); }
+th.c1 { background: #fafafa; z-index: 3; }
+tr.pending-row td { background: #fff8e1; }
+tr.pending-row td.c1 { background: #fff8e1; }
+tr.tgt-row td { color: #888; background: #fafcff; }
+tr.tgt-row td.c1 { background: #fafcff; }
 .tag { display: inline-block; padding: 1px 9px; border-radius: 9px; font-size: 0.88em;
 font-weight: bold; white-space: nowrap; }
 .tag.buy { background: #fdecea; color: #c5221f; }
 .tag.sell { background: #e6f4ea; color: #1a7f37; }
 .tag.hold { background: #e8f0fe; color: #1a56c4; }
 .tag.flat { background: #f1f1f1; color: #777; }
-.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 14px; }
+.kpi { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
 .stat { background: #fafafa; border-radius: 10px; padding: 14px 16px; text-align: center; }
 .stat .num { font-size: 1.45em; font-weight: bold; margin: 4px 0; }
 .stat .lbl { color: #888; font-size: 0.85em; }
@@ -34,123 +52,166 @@ font-weight: bold; white-space: nowrap; }
 .up { color: #c5221f; } .down { color: #1a7f37; }
 .note { color: #777; font-size: 0.88em; line-height: 1.8; }
 .legend { font-size: 0.85em; color: #666; margin-top: 6px; }
-input { width: 90px; padding: 5px 8px; border: 1px solid #ddd; border-radius: 6px;
+input { width: 90px; padding: 6px 8px; border: 1px solid #ddd; border-radius: 6px;
 font-size: 0.95em; text-align: right; }
 textarea { width: 100%; height: 110px; margin-top: 10px; font-family: Consolas, monospace;
 font-size: 0.82em; padding: 8px; border: 1px solid #ddd; border-radius: 6px; }
-.btn-x { display: inline-block; padding: 7px 16px; border: none; border-radius: 6px;
+.btn-x { display: inline-block; padding: 9px 18px; border: none; border-radius: 6px;
 background: #e8830c; color: #fff; font-weight: bold; cursor: pointer; font-size: 0.9em; }
 .banner { background: #fff7e6; border: 1px solid #f0d060; color: #8a6d1a;
 border-radius: 10px; padding: 12px 16px; margin: 14px 0; font-size: 0.93em; line-height: 1.7; }
+.green-banner { background: #e6f4ea; border: 1px solid #a8d5b9; color: #1a7f37;
+border-radius: 10px; padding: 12px 16px; margin: 14px 0; font-size: 0.95em; }
+.card.sum { border-top: none; border-left: 6px solid; }
+.sum-trade { background: #fff3e0; border-left-color: #e65100; }
+.sum-pending { background: #fffbe6; border-left-color: #f9a825; }
+.sum-clear { background: #f0fff4; border-left-color: #2e7d32; }
+.sum-status { font-size: 1.5em; font-weight: bold; margin: 8px 0; }
+.sum-meta { color: #666; font-size: 0.95em; margin-bottom: 4px; }
+.sum-ops { margin-top: 10px; }
+.mini-op { padding: 3px 0; font-size: 0.95em; }
+.fbar { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0; align-items: center; }
+.fbar button { padding: 6px 14px; border: 1px solid #e8830c; background: #fff;
+color: #e8830c; border-radius: 16px; cursor: pointer; font-size: 0.88em; }
+.fbar button.on { background: #e8830c; color: #fff; }
+.err { color: #c5221f; font-weight: bold; }
+.good { color: #1a7f37; font-weight: bold; }
+mark.hl { background: #ffe082; padding: 0 5px; border-radius: 4px; font-weight: bold; }
+.rules h3 { margin: 14px 0 6px; font-size: 1.02em; color: #333;
+border-left: 3px solid #e8830c; padding-left: 8px; }
+pre.sample { background: #f7f7f7; border-radius: 8px; padding: 10px 12px;
+font-size: 0.82em; overflow-x: auto; white-space: pre; }
+@media (max-width: 640px) {
+body { padding: 10px 8px 40px; }
+.card { padding: 14px 12px; }
+.sum-status { font-size: 1.2em; }
+.btn-x { padding: 11px 16px; font-size: 0.95em; }
+h1 { font-size: 1.25em; }
+}
 </style>
 </head>
 <body>
+<div class="riskbar">⚠️ 本页为量化策略实盘跟踪，信号与数据仅供参考，不构成投资建议；
+实盘执行存在滑点、停牌与流动性风险。</div>
 <p class="back"><a href="index.html">← 返回主页</a></p>
 <h1>📈 A股CTA量化策略</h1>
 <div class="sub">
 <span class="mode">CTA V16 · 实盘（盘后固定价）</span>
 资金 ¥100,000 · 数据日期 2026-09-07
 （T日收盘）·
-2026-09-07 盘后固定价执行 ·
-生成于 2026-09-07 15:22
+生成于 2026-09-07 15:50
 </div>
 
-<div class="card">
-<h2>今日操作（2026-09-07 盘后固定价）</h2>
-<p class="note" style="font-size:1.05em;color:#555">今日无操作（非调仓日，无风控触发，持仓不动）。</p>
-</div>
+<div class="card sum sum-clear"><div class="sum-meta">报告日期 2026-09-07 · <span class="mode">CTA V16</span>盘后固定价模式</div><div class="sum-status">今日无操作</div><div class="sum-meta">待回填 <b>0</b> 笔 ｜ 下次调仓 2026-09-18（9个交易日后）</div><div class="sum-ops"></div></div>
 
 <div class="card">
-<h2>实际成交回填</h2>
-<p class="note">无待回填交易（全部已按实际成交入账或今日无交易）。</p>
+<h2>账户核心指标</h2>
+
+<div class="kpi">
+<div class="stat"><div class="lbl">实盘净值</div>
+<div class="num">1.0000</div><div class="lbl">当日 <span class="up">+0.19%</span></div></div>
+<div class="stat"><div class="lbl">总资产</div><div class="num">¥100,000</div>
+<div class="lbl">持仓 ¥11,633 · 现金 ¥88,366</div></div>
+<div class="stat"><div class="lbl">实际总暴露</div><div class="num">11.6%</div>
+<div class="lbl">引擎目标 15.7%</div></div>
+<div class="stat"><div class="lbl">下次调仓</div>
+<div class="num" style="font-size:1.12em">2026-09-18</div>
+<div class="lbl">9个交易日后（双周）</div></div>
+</div>
+<p class="note">现金=策略可用资金（含待建仓目标预留）；实际总暴露=持仓市值/总资产
+（当日交易后口径）。</p>
+
 </div>
 
 <div class="card">
 <h2>当前持仓</h2>
-<table><tr><th>代码</th><th>名称</th><th>类别</th><th>股数</th><th>成本(含佣)</th><th>收盘价</th><th>市值(¥)</th><th>权重</th><th>浮盈亏</th></tr><tr><td><b>159980</b></td><td>有色ETF大成</td><td>商品</td><td>1200</td><td>2.1592</td><td>2.1820</td><td>2,618</td><td>2.6%</td><td class="up">+1.06%</td></tr><tr><td><b>159509</b></td><td>纳指科技ETF景顺</td><td>跨境</td><td>700</td><td>2.7903</td><td>2.8460</td><td>1,992</td><td>2.0%</td><td class="up">+2.00%</td></tr><tr><td><b>159516</b></td><td>半导体设备ETF国泰</td><td>行业</td><td>2800</td><td>0.7161</td><td>0.6820</td><td>1,910</td><td>1.9%</td><td class="down">-4.76%</td></tr><tr><td><b>513310</b></td><td>中韩半导体ETF华泰柏瑞</td><td>跨境</td><td>500</td><td>4.7724</td><td>4.8420</td><td>2,421</td><td>2.4%</td><td class="up">+1.46%</td></tr><tr><td><b>513500</b></td><td>标普500ETF博时</td><td>跨境</td><td>1000</td><td>2.6982</td><td>2.6920</td><td>2,692</td><td>2.7%</td><td class="down">-0.23%</td></tr><tr><td><b>511020</b></td><td>活跃国债ETF</td><td>债券</td><td colspan="2">目标 3.6%（待建仓）</td></tr><tr><td><b>511520</b></td><td>政金债ETF</td><td>债券</td><td colspan="2">目标 3.2%（待建仓）</td></tr></table><p class="note">成本=含买入佣金的摊薄成本（按成交记录重放，佣金万0.5最低0.2元）；浮盈亏已计入手续费。</p>
+<div class="tbl-wrap"><table><tr><th class="c1">标的</th><th>类别</th><th>股数</th><th>成本(含佣)</th><th>收盘价</th><th>市值(¥)</th><th>浮盈(¥)</th><th>浮盈率</th><th>盈亏贡献</th><th>权重</th><th>状态</th></tr><tr><td class="c1"><b>159980</b><br><span style="color:#666;font-size:0.82em">有色ETF大成</span></td><td>商品</td><td>1200</td><td>2.1592</td><td>2.1820</td><td>2,618</td><td class="up">+27</td><td class="up">+1.06%</td><td class="up">+0.03%</td><td>2.6%</td><td>—</td></tr><tr><td class="c1"><b>159509</b><br><span style="color:#666;font-size:0.82em">纳指科技ETF景顺</span></td><td>跨境</td><td>700</td><td>2.7903</td><td>2.8460</td><td>1,992</td><td class="up">+39</td><td class="up">+2.00%</td><td class="up">+0.04%</td><td>2.0%</td><td>—</td></tr><tr><td class="c1"><b>159516</b><br><span style="color:#666;font-size:0.82em">半导体设备ETF国泰</span></td><td>行业</td><td>2800</td><td>0.7161</td><td>0.6820</td><td>1,910</td><td class="down">-95</td><td class="down">-4.76%</td><td class="down">-0.10%</td><td>1.9%</td><td>—</td></tr><tr><td class="c1"><b>513310</b><br><span style="color:#666;font-size:0.82em">中韩半导体ETF华泰柏瑞</span></td><td>跨境</td><td>500</td><td>4.7724</td><td>4.8420</td><td>2,421</td><td class="up">+35</td><td class="up">+1.46%</td><td class="up">+0.03%</td><td>2.4%</td><td>—</td></tr><tr><td class="c1"><b>513500</b><br><span style="color:#666;font-size:0.82em">标普500ETF博时</span></td><td>跨境</td><td>1000</td><td>2.6982</td><td>2.6920</td><td>2,692</td><td class="down">-6</td><td class="down">-0.23%</td><td class="down">-0.01%</td><td>2.7%</td><td>—</td></tr><tr class="tgt-row"><td class="c1"><b>511020</b><br><span style="font-size:0.82em">活跃国债ETF</span></td><td>债券</td><td>0</td><td>—</td><td>118.2680</td><td>—</td><td>—</td><td>—</td><td>—</td><td><b>3.6%</b></td><td><span class="tag flat">待建仓</span></td></tr><tr class="tgt-row"><td class="c1"><b>511520</b><br><span style="font-size:0.82em">政金债ETF</span></td><td>债券</td><td>0</td><td>—</td><td>118.5890</td><td>—</td><td>—</td><td>—</td><td>—</td><td><b>3.2%</b></td><td><span class="tag flat">待建仓</span></td></tr></table></div><p class="note">盈亏贡献=该标的盈亏/当前总资产（对账户净值的影响，快速定位影响最大品种）；权重=市值/总资产。待建仓=引擎目标内尚未买入的标的（目标金额未达2000元线或资金约束）。</p><p class="note">成本=含买入佣金的摊薄成本（按成交记录重放，佣金万0.5最低0.2元）；浮盈已计入手续费。</p>
 </div>
 
 <div class="card">
-<h2>组合概览</h2>
-
-<div class="stats">
-<div class="stat"><div class="lbl">实盘净值</div><div class="num">1.0000（-0.00%）</div></div>
-<div class="stat"><div class="lbl">总资产</div><div class="num">¥100,000</div></div>
-<div class="stat"><div class="lbl">持仓市值 / 现金</div>
-<div class="num" style="font-size:1.15em">¥11,633<br>
-<span style="color:#888;font-size:0.8em">/ ¥88,366</span></div></div>
-<div class="stat"><div class="lbl">引擎目标暴露</div>
-<div class="num">16%</div></div>
-<div class="stat"><div class="lbl">下次调仓</div>
-<div class="num" style="font-size:1.1em">2026-09-18</div>
-<div class="lbl">9个交易日后</div></div>
-</div>
+<h2>实际成交回填（已完成）</h2>
+<div class="green-banner">✅ 全部待回填已处理（无待回填交易）</div><div class="fbar" style="margin-top:14px"><label class="btn-x" style="background:#555">校验本地 pending.json<input type="file" id="fill-file" accept=".json,application/json" style="display:none"></label></div><div id="upload-msg"></div><div id="upload-preview"></div><details style="margin-top:10px"><summary style="cursor:pointer;color:#888;font-size:0.9em">查看示例 JSON</summary><pre class="sample">{
+  "fills": [
+    {"date": "2026-09-04", "code": "513500", "side": "buy",
+     "shares": 1000, "price": 2.698}
+  ]
+}</pre></details><p class="note"><b>回填工作流</b>：① 上表填写实际成交价/股数 → ② 点「下载 pending.json」（浏览器只下载文件，<b>不能直接写入本地目录</b>）→ ③ 手动把文件放入 <b>境内\live\fills\</b> 并覆盖同名文件 → ④ 次日15:01盘后任务自动入账（重算现金/成本/股数）。「校验」按钮可上传本地 pending.json 预览并检查格式（纯前端解析，不经网络）。</p>
 </div>
 
 <div class="card">
-<h2>实盘净值曲线</h2>
-<svg viewBox="0 0 860 260" style="width:100%;height:auto;">
-<line x1="54" y1="230.0" x2="798" y2="230.0" stroke="#eee" stroke-width="1"/>
-<text x="48" y="234.0" text-anchor="end" font-size="11" fill="#999">0.998</text>
-<line x1="54" y1="177.0" x2="798" y2="177.0" stroke="#eee" stroke-width="1"/>
-<text x="48" y="181.0" text-anchor="end" font-size="11" fill="#999">0.999</text>
-<line x1="54" y1="124.0" x2="798" y2="124.0" stroke="#eee" stroke-width="1"/>
-<text x="48" y="128.0" text-anchor="end" font-size="11" fill="#999">0.999</text>
-<line x1="54" y1="71.0" x2="798" y2="71.0" stroke="#eee" stroke-width="1"/>
-<text x="48" y="75.0" text-anchor="end" font-size="11" fill="#999">1.000</text>
-<line x1="54" y1="18.0" x2="798" y2="18.0" stroke="#eee" stroke-width="1"/>
-<text x="48" y="22.0" text-anchor="end" font-size="11" fill="#999">1.001</text>
-<line x1="54" y1="89.8" x2="798" y2="89.8" stroke="#bbb" stroke-dasharray="4,3" stroke-width="1"/>
-<text x="54" y="252" font-size="11" fill="#999">2026-08-25</text>
-<text x="798" y="252" text-anchor="end" font-size="11" fill="#999">2026-09-07</text>
-<polyline points="54.0,89.8 136.7,90.1 219.3,32.6 302.0,68.3 384.7,43.6 467.3,100.5 550.0,202.6 632.7,205.0 715.3,215.4 798.0,90.1" fill="none" stroke="#e8830c" stroke-width="2"/>
-<text x="804" y="94.1" font-size="11" fill="#e8830c" font-weight="bold">1.0000</text>
-</svg>
-<div class="legend">橙线 实盘净值（基准1.0=初始资金）· 当前 1.0000（-0.00%）</div>
+<h2>实盘净值曲线（vs 510300）</h2>
+<div id="nav-chart" style="height:340px;"></div>
+<div class="legend">橙色=策略净值 · 灰虚线=510300基准（同基期1.0）·
+灰竖虚线=历史调仓日；悬浮看明细（含累计超额），可框选/滚轮缩放区间。</div>
 </div>
 
 <div class="card">
-<h2>超额收益（vs 510300）</h2>
-<svg viewBox="0 0 860 260" style="width:100%;height:auto;">
-<line x1="54" y1="230.0" x2="798" y2="230.0" stroke="#eee" stroke-width="1"/>
-<text x="48" y="234.0" text-anchor="end" font-size="11" fill="#999">0.997</text>
-<line x1="54" y1="177.0" x2="798" y2="177.0" stroke="#eee" stroke-width="1"/>
-<text x="48" y="181.0" text-anchor="end" font-size="11" fill="#999">1.002</text>
-<line x1="54" y1="124.0" x2="798" y2="124.0" stroke="#eee" stroke-width="1"/>
-<text x="48" y="128.0" text-anchor="end" font-size="11" fill="#999">1.007</text>
-<line x1="54" y1="71.0" x2="798" y2="71.0" stroke="#eee" stroke-width="1"/>
-<text x="48" y="75.0" text-anchor="end" font-size="11" fill="#999">1.012</text>
-<line x1="54" y1="18.0" x2="798" y2="18.0" stroke="#eee" stroke-width="1"/>
-<text x="48" y="22.0" text-anchor="end" font-size="11" fill="#999">1.018</text>
-<line x1="54" y1="196.5" x2="798" y2="196.5" stroke="#bbb" stroke-dasharray="4,3" stroke-width="1"/>
-<text x="54" y="252" font-size="11" fill="#999">2026-08-25</text>
-<text x="798" y="252" text-anchor="end" font-size="11" fill="#999">2026-09-07</text>
-<polygon points="54.0,196.5 136.7,196.6 219.3,187.9 302.0,193.3 384.7,189.6 467.3,198.1 550.0,213.5 632.7,213.8 715.3,215.4 798.0,196.6 798.0,157.2 715.3,196.5 632.7,185.6 550.0,187.8 467.3,47.9 384.7,45.7 302.0,58.8 219.3,32.6 136.7,117.8 54.0,196.5" fill="#e8830c" fill-opacity="0.12" stroke="none"/>
-<polyline points="54.0,196.5 136.7,117.8 219.3,32.6 302.0,58.8 384.7,45.7 467.3,47.9 550.0,187.8 632.7,185.6 715.3,196.5 798.0,157.2" fill="none" stroke="#999" stroke-width="1.5" stroke-dasharray="5,3"/>
-<polyline points="54.0,196.5 136.7,196.6 219.3,187.9 302.0,193.3 384.7,189.6 467.3,198.1 550.0,213.5 632.7,213.8 715.3,215.4 798.0,196.6" fill="none" stroke="#e8830c" stroke-width="2"/>
-<text x="804" y="200.6" font-size="11" fill="#e8830c" font-weight="bold">1.0000</text>
-<text x="804" y="161.2" font-size="11" fill="#888">1.0039</text>
-</svg>
-<div class="legend">橙线 策略净值 -0.00% · 灰虚线 510300基准 +0.39% · 阴影 累计超额 <b style="color:#e8830c">-0.39%</b>（基期 2026-08-25=1.0）</div>
+<h2>大类资产权重分布</h2>
+<div id="pie-chart" style="height:300px;"></div>
 </div>
 
-<div class="card">
-<h2>交易历史（最近20笔）</h2>
-<table><tr><th>日期</th><th>代码</th><th>名称</th><th>方向</th><th>股数</th><th>成交价</th></tr><tr><td>2026-09-04</td><td><b>513500</b></td><td>标普500ETF博时</td><td><span class="tag buy">买</span></td><td>1000</td><td><span class="ok">2.6980</span></td></tr><tr><td>2026-08-28</td><td><b>513310</b></td><td>中韩半导体ETF华泰柏瑞</td><td><span class="tag buy">买</span></td><td>500</td><td><span class="ok">4.7720</span></td></tr><tr><td>2026-08-27</td><td><b>159516</b></td><td>半导体设备ETF国泰</td><td><span class="tag buy">买</span></td><td>2800</td><td><span class="ok">0.7160</span></td></tr><tr><td>2026-08-26</td><td><b>159509</b></td><td>纳指科技ETF景顺</td><td><span class="tag buy">买</span></td><td>700</td><td><span class="ok">2.7900</span></td></tr><tr><td>2026-08-26</td><td><b>159980</b></td><td>有色ETF大成</td><td><span class="tag buy">买</span></td><td>1200</td><td><span class="ok">2.1590</span></td></tr></table><p class="note">绿色=已按实际成交回填；橙色=仍为估计价（网站上方表单待回填）。</p>
+<details class="card">
+<summary>交易历史（最近5笔）</summary>
+<div class="fbar"><button class="on" data-f="all" onclick="filterLog('all')">全部</button> <button data-f="buy" onclick="filterLog('buy')">买入</button> <button data-f="sell" onclick="filterLog('sell')">卖出</button> <button data-f="pending" onclick="filterLog('pending')">待回填</button></div><div class="tbl-wrap"><table id="log-table"><tr><th>日期</th><th>代码</th><th>名称</th><th>方向</th><th>股数</th><th>成交价</th></tr><tr data-side="buy" data-pending="0"><td>2026-09-04</td><td><b>513500</b></td><td>标普500ETF博时</td><td><span class="tag buy">买</span></td><td>1000</td><td><span class="ok">2.6980</span></td></tr><tr data-side="buy" data-pending="0"><td>2026-08-28</td><td><b>513310</b></td><td>中韩半导体ETF华泰柏瑞</td><td><span class="tag buy">买</span></td><td>500</td><td><span class="ok">4.7720</span></td></tr><tr data-side="buy" data-pending="0"><td>2026-08-27</td><td><b>159516</b></td><td>半导体设备ETF国泰</td><td><span class="tag buy">买</span></td><td>2800</td><td><span class="ok">0.7160</span></td></tr><tr data-side="buy" data-pending="0"><td>2026-08-26</td><td><b>159509</b></td><td>纳指科技ETF景顺</td><td><span class="tag buy">买</span></td><td>700</td><td><span class="ok">2.7900</span></td></tr><tr data-side="buy" data-pending="0"><td>2026-08-26</td><td><b>159980</b></td><td>有色ETF大成</td><td><span class="tag buy">买</span></td><td>1200</td><td><span class="ok">2.1590</span></td></tr></table></div><p class="note">绿色=已按实际成交回填；橙色=待回填（上方回填区处理）。</p>
+</details>
+
+<details class="card">
+<summary>策略回测绩效（V16 vs V12-P2）</summary>
+
+<div class="tbl-wrap"><table style="min-width:480px">
+<tr><th>指标</th><th>V16（现役）</th><th>V12-P2（前版）</th></tr>
+<tr><td>年化收益</td><td><b>+11.33%</b></td><td>+10.21%</td></tr>
+<tr><td>夏普比率</td><td><b>1.379</b></td><td>1.271</td></tr>
+<tr><td>最大回撤</td><td>-9.46%</td><td>-9.46%</td></tr>
+<tr><td>卡玛比率</td><td><b>1.19</b></td><td>1.08</td></tr>
+<tr><td>交易频率</td><td>168笔/年</td><td>166笔/年</td></tr>
+<tr><td>11年终值（10万本金）</td><td><b>¥320,607</b></td><td>¥287,215</td></tr>
+</table></div>
+<p class="note">口径：EOD交易层模拟（盘后固定价、万0.5佣金、2000元线、
+每日收敛），10万本金，2015-06 ~ 2026-08（backtest/test_v16.py）。
+分年对比 V16 vs V12-P2：8胜1负3平（仅2021 -2.2pp）。</p>
+
+</details>
+
+<details class="card">
+<summary>策略规则与参数</summary>
+
+<div class="rules note">
+<h3>调仓规则</h3>
+- 双周调仓（每10个交易日重算动量排名）；每日盘后向引擎目标权重收敛
+（差额≥<mark class="hl">2000元</mark>才出单）<br>
+- 权重变化 &lt; <mark class="hl">3%</mark> 不调仓（降换手）；
+单笔成交额 &lt; <mark class="hl">2000元</mark> 不执行（整百取整后不足则上取一手）<br>
+- 动态持仓数（V16）：富趋势期（≥20只有信号）集中持 <mark class="hl">8只</mark>；
+贫信号期（≤8只）并仓 <mark class="hl">6只</mark>；中间态 10只<br>
+<h3>风控规则</h3>
+- 单标的自持有高点回撤 <mark class="hl">12% 减半</mark> /
+<mark class="hl">20% 清仓</mark>（权益+商品，债券豁免）<br>
+- 510300 跌破 MA200 时总暴露上限 <mark class="hl">45%</mark><br>
+- 组合波动率目标 <mark class="hl">12%</mark>（20日窗口，超限按比例压缩）<br>
+<h3>执行规则</h3>
+- T日15:01收盘数据生成信号 → T日盘后固定价申报
+（<mark class="hl">15:30前</mark>，成交价=当日收盘价）<br>
+- 佣金万0.5（最低0.2元）；闲置现金按511520政金债ETF真实收益计
+（V13-C0口径）<br>
+- 策略池：85只ETF（宽基/行业/风格/债券/跨境/商品六大类），
+多周期动量200/240/300日（债券150/180/210）+ 风险调整排名
 </div>
 
-<div class="card">
-<h2>策略规则</h2>
-<div class="note">
-<b>策略</b>：CTA V16 —— 85只ETF池（宽基/行业/风格/债券/跨境/商品六大类），多周期动量（200/240/300日，债券150/180/210）+ 风险调整排名 + 波动率目标12% + 双周调仓 + 大类分散。</br>
-<b>动态持仓数（V16）</b>：富趋势期（≥20只有信号）集中持8只；贫信号期（≤8只）并仓至6只；中间态10只。其余规则与V12-P2完全一致。</br>
-<b>执行</b>：T日15:01收盘数据生成信号 → T日盘后固定价执行（15:30前申报，成交价=当日收盘价）；权重变化<3%不调（降换手）。</br>
-<b>风控</b>：单标的自持有高点回撤12%减半/20%清仓（权益+商品）；510300跌破MA200时总暴露上限45%；组合波动率超12%按比例压缩。</br>
-<b>校准（V13定稿）</b>：闲置现金按511520政金债ETF真实收益计；成本按大类差异化（债券4/跨境商品12.5/权益17.5bps）。</br>
-<b>回测</b>（2015-2026，EOD交易层10万）：年化+11.33% · 夏普1.379 · 最大回撤-9.46%（V16 vs V12-P2：年化+1.12pp、分年8胜1负3平）。</br>
-<b>佣金</b>：万0.5（最低0.2元），单笔成交额<2000元不执行（整百取整后不足则上取整一手）。
+</details>
+
+<div class="fbar" style="justify-content:center">
+<button class="btn-x" onclick="exportSnapshot('json')">导出当日快照 JSON</button>
+<button class="btn-x" style="background:#555" onclick="exportSnapshot('md')">
+导出当日报告 Markdown</button>
 </div>
-</div>
+<p class="note" style="text-align:center">A股CTA V16 · 与国家队ETF策略合并推送 ·
+<a href="index.html">返回主页</a></p>
+
+<script>window.__CHART__ = {"dates": ["2026-08-25", "2026-08-26", "2026-08-27", "2026-08-28", "2026-08-31", "2026-09-01", "2026-09-02", "2026-09-03", "2026-09-04", "2026-09-07"], "nav": [1.0, 0.999996, 1.000852, 1.00032, 1.000688, 0.999841, 0.998321, 0.998284, 0.99813, 0.999996], "bench": [1.0, 1.007799, 1.016248, 1.013648, 1.014948, 1.014731, 1.000867, 1.001083, 1.0, 1.003899], "trade_dates": ["2026-08-26", "2026-08-27", "2026-08-28", "2026-09-04"], "pie": [{"name": "现金", "value": 88366.4}, {"name": "跨境", "value": 7105.2}, {"name": "商品", "value": 2618.4}, {"name": "行业", "value": 1909.6}]};</script>
+<script>window.__SNAP__ = {"date": "2026-09-07", "json": "{\n  \"strategy\": \"CTA_V16\",\n  \"signal_date\": \"2026-09-07\",\n  \"fill_date\": \"2026-09-07\",\n  \"eod\": true,\n  \"data_date\": \"2026-09-07\",\n  \"data_stale\": false,\n  \"action\": \"hold\",\n  \"trades\": [],\n  \"notes\": [],\n  \"target_positions\": [\n    {\n      \"code\": \"511020\",\n      \"name\": \"活跃国债ETF\",\n      \"category\": \"bond\",\n      \"target_w\": 0.036351940563116414,\n      \"cur_w\": 0.0,\n      \"shares_cur\": 0,\n      \"price\": 118.268\n    },\n    {\n      \"code\": \"511520\",\n      \"name\": \"政金债ETF\",\n      \"category\": \"bond\",\n      \"target_w\": 0.032315787669630704,\n      \"cur_w\": 0.0,\n      \"shares_cur\": 0,\n      \"price\": 118.589\n    },\n    {\n      \"code\": \"159980\",\n      \"name\": \"有色ETF大成\",\n      \"category\": \"commodity\",\n      \"target_w\": 0.02193761481170999,\n      \"cur_w\": 0.026184104736418943,\n      \"shares_cur\": 1200,\n      \"price\": 2.182\n    },\n    {\n      \"code\": \"513310\",\n      \"name\": \"中韩半导体ETF华泰柏瑞\",\n      \"category\": \"cross_border\",\n      \"target_w\": 0.011559084203617141,\n      \"cur_w\": 0.024210096840387357,\n      \"shares_cur\": 500,\n      \"price\": 4.842\n    },\n    {\n      \"code\": \"159509\",\n      \"name\": \"纳指科技ETF景顺\",\n      \"category\": \"cross_border\",\n      \"target_w\": 0.015779597528780002,\n      \"cur_w\": 0.019922079688318748,\n      \"shares_cur\": 700,\n      \"price\": 2.846\n    },\n    {\n      \"code\": \"513500\",\n      \"name\": \"标普500ETF博时\",\n      \"category\": \"cross_border\",\n      \"target_w\": 0.029070755202779863,\n      \"cur_w\": 0.026920107680430717,\n      \"shares_cur\": 1000,\n      \"price\": 2.692\n    },\n    {\n      \"code\": \"159516\",\n      \"name\": \"半导体设备ETF国泰\",\n      \"category\": \"sector\",\n      \"target_w\": 0.009530202481370445,\n      \"cur_w\": 0.019096076384305535,\n      \"shares_cur\": 2800,\n      \"price\": 0.682\n    }\n  ],\n  \"target_exposure\": 0.1565449824610045,\n  \"current_positions\": {\n    \"159980\": {\n      \"shares\": 1200,\n      \"cost_basis\": 2.159,\n      \"name\": \"有色ETF大成\",\n      \"price\": 2.182,\n      \"value\": 2618.4,\n      \"weight\": 0.026184104736418943\n    },\n    \"159509\": {\n      \"shares\": 700,\n      \"cost_basis\": 2.79,\n      \"name\": \"纳指科技ETF景顺\",\n      \"price\": 2.846,\n      \"value\": 1992.2,\n      \"weight\": 0.019922079688318748\n    },\n    \"159516\": {\n      \"shares\": 2800,\n      \"cost_basis\": 0.716,\n      \"name\": \"半导体设备ETF国泰\",\n      \"price\": 0.682,\n      \"value\": 1909.6000000000001,\n      \"weight\": 0.019096076384305535\n    },\n    \"513310\": {\n      \"shares\": 500,\n      \"cost_basis\": 4.772,\n      \"name\": \"中韩半导体ETF华泰柏瑞\",\n      \"price\": 4.842,\n      \"value\": 2421.0,\n      \"weight\": 0.024210096840387357\n    },\n    \"513500\": {\n      \"shares\": 1000,\n      \"cost_basis\": 2.698,\n      \"name\": \"标普500ETF博时\",\n      \"price\": 2.692,\n      \"value\": 2692.0,\n      \"weight\": 0.026920107680430717\n    }\n  },\n  \"equity\": 99999.60000000002,\n  \"cash\": 88366.40000000002,\n  \"positions_value\": 11633.2,\n  \"next_rebalance_date\": \"2026-09-18\",\n  \"days_to_next_rebal\": 9\n}", "md": "## CTA V16 实盘信号\n\n**信号日期**：2026-09-07 (周一)  \n**成交时点**：2026-09-07 (周一) 盘后固定价（15:30前申报，成交价=当日收盘价）  \n**数据截至**：2026-09-07 收盘\n**净值**：1.0000\n\n总资产 ¥100,000 | 持仓 ¥11,633 | 现金 ¥88,366\n\n### 引擎目标组合（总暴露 16%）\n\n| 代码 | 名称 | 类别 | 目标权重 | 当前权重 | 动作 |\n|:----:|:----|:----:|:-------:|:-------:|:----|\n| 511020 | 活跃国债ETF | 债券 | 3.6% | 0.0% | 买入 |\n| 511520 | 政金债ETF | 债券 | 3.2% | 0.0% | 买入 |\n| 159980 | 有色ETF大成 | 商品 | 2.2% | 2.6% | 持有 |\n| 513310 | 中韩半导体ETF华泰柏瑞 | 跨境 | 1.2% | 2.4% | 持有 |\n| 159509 | 纳指科技ETF景顺 | 跨境 | 1.6% | 2.0% | 持有 |\n| 513500 | 标普500ETF博时 | 跨境 | 2.9% | 2.7% | 持有 |\n| 159516 | 半导体设备ETF国泰 | 行业 | 1.0% | 1.9% | 持有 |\n\n### 交易指令：今日无操作\n\n### 下次调仓：2026-09-18 (周五)（9个交易日后，双周调仓）\n\n💡 闲置现金 ¥88,366 可手动买 511520（T+0）或国债逆回购增强\n\n近期收益：1日 +0.19% | 1周 -0.07% | 1月 N/A\n"};</script>
+<script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.3/echarts.min.js"></script>
+<script>if(typeof echarts==='undefined'){document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.3/echarts.min.js"><\/script>');}</script>
 <script>
 function collectFills() {
   const fills = [];
@@ -189,8 +250,173 @@ function downloadFill() {
   document.body.removeChild(a);
   URL.revokeObjectURL(a.href);
 }
+function validateFillsObj(obj) {
+  const errs = [];
+  if (!obj || typeof obj !== 'object' || Array.isArray(obj))
+    return ['顶层必须是 {"fills": [...]} 对象'];
+  if (!Array.isArray(obj.fills)) return ['缺少 fills 数组（正确格式 {"fills":[...]}）'];
+  if (obj.fills.length === 0) errs.push('fills 为空数组');
+  obj.fills.forEach(function(f, i) {
+    const pre = '第' + (i + 1) + '笔：';
+    if (!f || typeof f !== 'object') { errs.push(pre + '不是对象'); return; }
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(f.date || ''))
+      errs.push(pre + 'date 缺失或格式错（应为 YYYY-MM-DD）');
+    if (!/^\d{6}$/.test(String(f.code || '')))
+      errs.push(pre + 'code 应为 6 位数字代码');
+    if (f.side !== 'buy' && f.side !== 'sell')
+      errs.push(pre + 'side 必须为 buy 或 sell');
+    if (!(Number(f.shares) > 0)) errs.push(pre + 'shares 必须为正整数');
+    if (!(Number(f.price) > 0)) errs.push(pre + 'price 必须为正数');
+  });
+  return errs;
+}
+function renderUploadPreview(obj) {
+  const box = document.getElementById('upload-preview');
+  const msg = document.getElementById('upload-msg');
+  box.innerHTML = ''; msg.innerHTML = ''; msg.className = '';
+  const errs = validateFillsObj(obj);
+  if (errs.length) {
+    msg.className = 'err';
+    msg.innerHTML = '❌ 校验失败：' + errs.join('；');
+    return;
+  }
+  let rows = '';
+  obj.fills.forEach(function(f) {
+    rows += '<tr><td><b>' + f.code + '</b></td><td>' +
+            (f.side === 'buy' ? '买入' : '卖出') + '</td><td>' + f.shares +
+            '</td><td>' + f.price + '</td><td>' + f.date + '</td></tr>';
+  });
+  box.innerHTML = '<p class="good">✅ 格式校验通过（' + obj.fills.length +
+    ' 笔），请核对与实际成交一致：</p>' +
+    '<div class="tbl-wrap"><table><tr><th>代码</th><th>方向</th><th>股数</th>' +
+    '<th>成交价</th><th>日期</th></tr>' + rows + '</table></div>' +
+    '<p class="note">确认无误后，将该文件保存为 pending.json 放入 境内' +
+    '\\live\\fills\\ 目录（覆盖同名文件），次日 15:01 自动入账。</p>';
+}
+(function() {
+  const fi = document.getElementById('fill-file');
+  if (!fi) return;
+  fi.addEventListener('change', function(ev) {
+    const file = ev.target.files[0];
+    if (!file) return;
+    const r = new FileReader();
+    r.onload = function() {
+      try { renderUploadPreview(JSON.parse(r.result)); }
+      catch (e) {
+        const m = document.getElementById('upload-msg');
+        m.className = 'err';
+        m.innerHTML = '❌ 不是合法的 JSON 文件：' + e.message;
+      }
+    };
+    r.readAsText(file, 'utf-8');
+  });
+})();
+function filterLog(mode) {
+  document.querySelectorAll('#log-table tr').forEach(function(tr) {
+    if (!tr.dataset.side) return;
+    let show = true;
+    if (mode === 'buy') show = tr.dataset.side === 'buy';
+    else if (mode === 'sell') show = tr.dataset.side === 'sell';
+    else if (mode === 'pending') show = tr.dataset.pending === '1';
+    tr.style.display = show ? '' : 'none';
+  });
+  document.querySelectorAll('.fbar button[data-f]').forEach(function(b) {
+    b.classList.toggle('on', b.dataset.f === mode);
+  });
+}
+function exportFile(name, content, mime) {
+  const blob = new Blob([content], {type: mime || 'text/plain'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = name;
+  document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  URL.revokeObjectURL(a.href);
+}
+function exportSnapshot(kind) {
+  const S = window.__SNAP__ || {};
+  if (kind === 'json')
+    exportFile('cta_snapshot_' + S.date + '.json', S.json || '{}', 'application/json');
+  else
+    exportFile('cta_report_' + S.date + '.md', S.md || '', 'text/markdown');
+}
+function initCharts() {
+  const D = window.__CHART__ || {};
+  if (typeof echarts === 'undefined') {
+    ['nav-chart', 'pie-chart'].forEach(function(id) {
+      const el = document.getElementById(id);
+      if (el) el.innerHTML =
+        '<p class="note">图表组件（ECharts）加载失败——请检查网络后刷新。</p>';
+    });
+    return;
+  }
+  const navEl = document.getElementById('nav-chart');
+  if (navEl) {
+    if (D.dates && D.dates.length > 1) {
+      const chart = echarts.init(navEl);
+      const hasB = Array.isArray(D.bench) && D.bench.length === D.dates.length;
+      const series = [{
+        name: '策略净值', type: 'line', data: D.nav, showSymbol: false,
+        lineStyle: {width: 2.5, color: '#e8830c'},
+        itemStyle: {color: '#e8830c'},
+        markLine: {
+          symbol: 'none', silent: true,
+          lineStyle: {color: '#bbb', width: 1, type: 'dashed'},
+          data: (D.trade_dates || []).map(function(d) { return {xAxis: d}; })
+        }
+      }];
+      if (hasB) series.push({
+        name: '510300', type: 'line', data: D.bench, showSymbol: false,
+        lineStyle: {width: 1.5, color: '#999', type: 'dashed'},
+        itemStyle: {color: '#999'}
+      });
+      chart.setOption({
+        tooltip: {
+          trigger: 'axis',
+          formatter: function(ps) {
+            let nv = null, bv = null;
+            ps.forEach(function(p) {
+              if (p.seriesName === '策略净值') nv = p.value;
+              if (p.seriesName === '510300') bv = p.value;
+            });
+            let h = '<b>' + ps[0].axisValue + '</b>';
+            if (nv != null) h += '<br/>策略净值：' + Number(nv).toFixed(4);
+            if (bv != null) h += '<br/>510300：' + Number(bv).toFixed(4);
+            if (nv != null && bv != null)
+              h += '<br/>累计超额：<b>' + ((nv - bv) * 100).toFixed(2) + '%</b>';
+            return h;
+          }
+        },
+        legend: {data: hasB ? ['策略净值', '510300'] : ['策略净值'], top: 0},
+        grid: {left: 58, right: 22, top: 32, bottom: 54},
+        xAxis: {type: 'category', data: D.dates},
+        yAxis: {type: 'value', scale: true},
+        dataZoom: [{type: 'inside'}, {type: 'slider', height: 18, bottom: 10}],
+        series: series
+      });
+    } else {
+      navEl.innerHTML = '<p class="note">净值曲线将在运行数日后生成（当前数据点不足）。</p>';
+    }
+  }
+  const pieEl = document.getElementById('pie-chart');
+  if (pieEl) {
+    if (D.pie && D.pie.length) {
+      const pie = echarts.init(pieEl);
+      pie.setOption({
+        tooltip: {trigger: 'item', formatter: '{b}: ¥{c}（{d}%）'},
+        legend: {orient: 'vertical', left: 0, top: 'middle',
+                 itemWidth: 14, itemHeight: 14, textStyle: {fontSize: 12}},
+        series: [{
+          type: 'pie', radius: ['42%', '68%'], center: ['60%', '50%'],
+          data: D.pie, label: {formatter: '{b}\n{d}%', fontSize: 11},
+          emphasis: {itemStyle: {shadowBlur: 10, shadowColor: 'rgba(0,0,0,0.25)'}}
+        }]
+      });
+    } else {
+      pieEl.innerHTML = '<p class="note">暂无持仓数据。</p>';
+    }
+  }
+}
+window.addEventListener('DOMContentLoaded', initCharts);
 </script>
-<p class="note" style="text-align:center">A股CTA V16 · 与国家队ETF策略合并推送 ·
-<a href="index.html">返回主页</a></p>
 </body>
 </html>
