@@ -10,12 +10,12 @@
     {
      "date": "2026-08-31",
      "r1": 0.0034,
-     "r3": null,
+     "r3": 0.0055,
      "r7": null
     }
    ],
    "avg_ret_1d": 0.0034,
-   "avg_ret_3d": null,
+   "avg_ret_3d": 0.0055,
    "avg_ret_7d": null
   },
   {
@@ -27,12 +27,12 @@
     {
      "date": "2026-08-29",
      "r1": -0.0002,
-     "r3": null,
+     "r3": -0.0137,
      "r7": null
     }
    ],
    "avg_ret_1d": -0.0002,
-   "avg_ret_3d": null,
+   "avg_ret_3d": -0.0137,
    "avg_ret_7d": null
   },
   {
@@ -44,12 +44,12 @@
     {
      "date": "2026-09-01",
      "r1": -0.0013,
-     "r3": null,
+     "r3": 0.0028,
      "r7": null
     }
    ],
    "avg_ret_1d": -0.0013,
-   "avg_ret_3d": null,
+   "avg_ret_3d": 0.0028,
    "avg_ret_7d": null
   },
   {
