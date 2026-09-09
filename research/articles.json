@@ -1,6 +1,118 @@
 {
- "updated": "2026-09-08",
+ "updated": "2026-09-09",
  "articles": [
+  {
+   "date": "2026-09-09",
+   "title": "框架 | 如何从高久期预判债市风险",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/HWcX0LNKcia6OtlDXDaHVg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "债市",
+    "久期风险",
+    "利率"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "高久期不改变方向但放大尾部风险，当前MA10=4.80年低于前高4.97年，不宜过度悲观；需分层观察久期边际变化",
+   "page": "research_20260909.html"
+  },
+  {
+   "date": "2026-09-09",
+   "title": "GPT6 Astra模型的防蒸馏机制，与费半指数的上涨",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/HEBKFjXrXCg6v1U4GBBc9A",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI算力",
+    "半导体",
+    "中美科技竞争"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "GPT6 Astra使用10万台NVLink72训练，防蒸馏机制大幅提高对手成本，中美大模型差距拉大，A股光通信/PCB/光纤有望跟随费半大涨",
+   "page": "research_20260909.html"
+  },
+  {
+   "date": "2026-09-09",
+   "title": "中金 | 在线音乐深度观察：估值筑底，周期新启",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/vUM7Xnh6mvvMD4lzeFq16g",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI",
+    "音乐产业",
+    "消费"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "在线音乐估值筑底，AI音乐供给端占40%但有效播放<1%，真人版权核心地位难以撼动，头部平台长期价值或被低估",
+   "page": "research_20260909.html"
+  },
+  {
+   "date": "2026-09-09",
+   "title": "亚系货币的集体大反攻",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/Bt62PG1usnGa9az9ET2aWQ",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "汇率",
+    "亚系货币"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "韩日元台币两个月升值近10%修复低估，人民币因升值周期更早更长此轮滞后，按自身节奏缓慢升值",
+   "page": "research_20260909.html"
+  },
+  {
+   "date": "2026-09-09",
+   "title": "兴证固收 | AI投研新时代，看板+MCP来了",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/ekwZpsqr9sE0fGcKCrqdNQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "AI",
+    "投研工具"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.7
+   },
+   "summary": "团队宣传，核心观点AI落地瓶颈在数据而非模型不算新，无交易含义",
+   "page": "research_20260909.html"
+  },
+  {
+   "date": "2026-09-09",
+   "title": "不要相信深夜的大脑，经常犯错：科学发现",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/iuLT9BKun-dIpkbUoPmKXA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.0
+   },
+   "summary": "科普文章，深夜大脑理性控制下降易冲动决策，无投资含义",
+   "page": "research_20260909.html"
+  },
   {
    "date": "2026-09-08",
    "title": "如何看待后续债券供给",
