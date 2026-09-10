@@ -1,6 +1,180 @@
 {
- "updated": "2026-09-09",
+ "updated": "2026-09-10",
  "articles": [
+  {
+   "date": "2026-09-10",
+   "title": "【华泰资产配置】美债利率上行的四种类型与启示",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/WkAUWIN6kx1HpaKrwG5zMA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美债利率",
+    "美联储",
+    "大类资产配置",
+    "黄金"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "512400": "多",
+    "513100": "多",
+    "511090": "空",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 4.75
+   },
+   "summary": "本轮美债上行兼具通胀冲击/政策紧缩/再通胀/供给冲击四种类型，建议增配黄金+铜+中美科技，美债勿追高。",
+   "page": "research_20260910.html"
+  },
+  {
+   "date": "2026-09-10",
+   "title": "PPI见顶后：下半场的轨迹（国联民生宏观钟渝梅、陶川）",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/ZkPbi4rsjESw4cbrEk3LuA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "PPI周期",
+    "宏观预测",
+    "新质生产力",
+    "大宗商品"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "512400": "多",
+    "511090": "空"
+   },
+   "scores": {
+    "total": 4.55
+   },
+   "summary": "6月PPI同比4.1%大概率已是年内高点，9月迎阶段性小高峰后逐季回落；M1同比领先PPI约9个月，AI新质生产力正接棒成为PPI企稳的结构性亮色。",
+   "page": "research_20260910.html"
+  },
+  {
+   "date": "2026-09-10",
+   "title": "中金 | 资产配置：应对9月挑战——AI融资、沃什转鹰与地缘风险",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/PKNRKsgiEM3R1rhxXfAVRg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI融资",
+    "美联储政策",
+    "地缘风险",
+    "大类资产配置"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "513100": "多",
+    "512480": "多",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.45
+   },
+   "summary": "9月三重挑战叠加，黄金最明确超配，中美科技逢低增配，9/16 FOMC后是反弹窗口；但政策纠偏时点渐近，中期或回归宽松。",
+   "page": "research_20260910.html"
+  },
+  {
+   "date": "2026-09-10",
+   "title": "联储阵营分歧下的加息\"胜负手\"？（国联民生宏观武朔、林彦）",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/Ehwj035fe9mWNaCBQNb-FA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "FOMC阵营",
+    "加息预期"
+   ],
+   "etf_sentiment": {
+    "511090": "中性",
+    "518880": "中性",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "FOMC三方阵营（鹰3+中立4+主席5），9月加息需7票；基准情景（通胀符合预期）下按兵不动概率更高，但鹰派已降低加息门槛。",
+   "page": "research_20260910.html"
+  },
+  {
+   "date": "2026-09-10",
+   "title": "8月PPI环比转正，涨价的成色",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/7kGzE3M3Q7oN6Z6Z6Z6Z6Zg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "PPI",
+    "通胀",
+    "输入性通胀"
+   ],
+   "etf_sentiment": {
+    "512400": "多",
+    "515220": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "8月PPI环比+0.4%由油价反弹(贡献0.19pp)+AI科技制造链连涨8月(贡献0.07pp)驱动，剔除能化后其余行业基本走平。（与川阅《PPI见顶后》同题，角度互补）",
+   "page": "research_20260910.html"
+  },
+  {
+   "date": "2026-09-10",
+   "title": "信用 | 盘整期中短信用确定性更强",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/credit_sep_2026",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债",
+    "城投债",
+    "二永债"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "9月信用债策略主线：票息底仓+中性久期+逢调整增配；3年以内中高等级信用底仓、4-5年收益增厚；降准降息落地概率偏低。",
+   "page": "research_20260910.html"
+  },
+  {
+   "date": "2026-09-10",
+   "title": "澳元/纽元：新高之后是什么？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/CzpMU2ordoGn5SN6PY6C6Q",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "外汇",
+    "大宗商品"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.75
+   },
+   "summary": "AUDNZD创13年新高1.23，纽元三方面承压（货币鸽派+高油价+大选），11月大选前上行逻辑仍在。",
+   "page": "research_20260910.html"
+  },
+  {
+   "date": "2026-09-10",
+   "title": "兴证固收投研平台，24H长情陪伴",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/t6uaSvh91OelptB1GIYHDw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.0
+   },
+   "summary": "纯平台推广，无实质研报内容",
+   "page": "research_20260910.html"
+  },
   {
    "date": "2026-09-09",
    "title": "框架 | 如何从高久期预判债市风险",
