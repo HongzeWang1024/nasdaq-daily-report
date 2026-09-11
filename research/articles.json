@@ -1,6 +1,198 @@
 {
- "updated": "2026-09-10",
+ "updated": "2026-09-11",
  "articles": [
+  {
+   "date": "2026-09-11",
+   "title": "Astra 助推美韩AI产业链大涨,缅A鸡肋依旧",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://mp.weixin.qq.com/s/avw5EwwCbv0-pXhNBTbihA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI产业链",
+    "反蒸馏"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "空"
+   },
+   "scores": {
+    "total": 4.75
+   },
+   "summary": "GPT-6 Astra推动Agent时代，美日韩台AI产业链产业优势+估值更合理，A股AI硬件（长鑫PE为海力士4-5倍）技术追赶+国产替代溢价+套牢筹码三重承压，建议资金转向QDII",
+   "page": "research_20260911.html"
+  },
+  {
+   "date": "2026-09-11",
+   "title": "近期美韩AI产业链部分要点：谷歌/intel/Lumentum",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://mp.weixin.qq.com/s/5GwHgmuFmdwODcCHdqYsjg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI产业链"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.55
+   },
+   "summary": "谷歌云TPU全栈优势驱动客户迁移；AMD数据中心爆发（2027收入约700亿、2030 TAM约2万亿）；Lumentum OCS需求远超供给（FY2028 EPS 40+），光通信可等待回撤建仓",
+   "page": "research_20260911.html"
+  },
+  {
+   "date": "2026-09-11",
+   "title": "美国FCC最新《保护通信供应链免受国家安全威胁——设备授权计划》",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/A2IG24ZT-Fn0KnFY1d0sJg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "光模块",
+    "FCC监管"
+   ],
+   "etf_sentiment": {
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 4.45
+   },
+   "summary": "FCC新规（9/11发布）新增组件穿透禁令，但中际旭创/新易盛等光模块厂目前不在Covered List，仅中国生产不触发禁授，光模块短期监管风险澄清",
+   "page": "research_20260911.html"
+  },
+  {
+   "date": "2026-09-11",
+   "title": "【中金固收】PPI及CPI剪刀差扩大，关注中下游行业利润挤压——8月通胀数据点评",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/fDXw99yISDTCNd4dRHbiJQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "通胀",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "8月CPI+0.8%/PPI+3.8%均超预期，剪刀差走扩显示内需疲弱、中下游利润挤压，预计9月后货币政策放松加快，继续推荐30年国债",
+   "page": "research_20260911.html"
+  },
+  {
+   "date": "2026-09-11",
+   "title": "【中金固收·信用】整体改善但内部分化仍大——债券发行人2026年半年报点评",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/z0z7xNCYnSG-4rCIeztaqw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债",
+    "行业分化"
+   ],
+   "etf_sentiment": {
+    "512400": "多",
+    "515220": "多",
+    "512800": "多"
+   },
+   "scores": {
+    "total": 4.25
+   },
+   "summary": "809家产业债发行人半年报整体盈利+现金流改善但分化大（亏损面20%），中上游（有色/煤炭/化工/石油）好，下游消费+地产链弱化",
+   "page": "research_20260911.html"
+  },
+  {
+   "date": "2026-09-11",
+   "title": "注资进程启动，债市怎么看",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/29JnFjonPgg5rqiq1YwknA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "大行注资",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "512800": "多"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "3600亿大行注资落地后ΔEVE空间打开390亿，可多承接10Y 1926亿/30Y 788亿，边际催化曲线平坦化但难成主线；注资特别国债预计Q4初落地",
+   "page": "research_20260911.html"
+  },
+  {
+   "date": "2026-09-11",
+   "title": "【瞎扯】CPI上行可不一定代表繁荣",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/v1W9KtNJ-wZv8AkNSh0R-A",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "通胀",
+    "中游利润"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "本轮CPI上行是输入性通胀（油价+化工+黄金首饰），非国内自发性需求；PPIRM增速持续大于PPI，中游利润压缩将触发裁员→需求疲软负反馈循环",
+   "page": "research_20260911.html"
+  },
+  {
+   "date": "2026-09-11",
+   "title": "熊猫债供给增加后有何投资价值",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/zrDDpRU-LM49KA8oU3J5MQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "熊猫债",
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "2026年熊猫债发行1183亿（同比+74%）已超2025全年，融资成本优势驱动扩容；信用债策略建议5Y二永性价比、哑铃型配置",
+   "page": "research_20260911.html"
+  },
+  {
+   "date": "2026-09-11",
+   "title": "迈向AGI：低利率时代固收投研的下一站",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/tlodrT8TYsKKA37ZDEZfdg",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.45
+   },
+   "summary": "32篇固收研究报告方法论汇总，低利率+AI时代投研框架回顾，无增量观点与具体数据",
+   "page": "research_20260911.html"
+  },
+  {
+   "date": "2026-09-11",
+   "title": "中游，图来！",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/hmuWd6IUJxWhL12wfU4Q2g",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.15
+   },
+   "summary": "纯引流文章，仅列出战略看多中游系列百图目录，无实质新观点与数据",
+   "page": "research_20260911.html"
+  },
   {
    "date": "2026-09-10",
    "title": "【华泰资产配置】美债利率上行的四种类型与启示",
