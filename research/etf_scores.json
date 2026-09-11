@@ -1,36 +1,56 @@
 {
- "updated": "2026-09-10",
- "date": "2026-09-10",
- "sentiment_index": 53.0,
+ "updated": "2026-09-11",
+ "date": "2026-09-11",
+ "sentiment_index": 75.0,
  "risk_level": {
   "level": "中",
-  "score": 47,
+  "score": 55,
   "cats": {
-   "宏观流动性": 9.4,
+   "宏观流动性": 9.8,
    "地缘政治": 0.0,
-   "板块情绪": 0.0,
+   "板块情绪": 1.2,
    "估值水平": 0.0
   },
   "advice": "⚠ 风险等级中等，防御关注：511090（30年国债）、518880（黄金）"
  },
  "scores": [
   {
-   "code": "512400",
-   "name": "有色/铜",
+   "code": "513100",
+   "name": "纳指",
+   "grade": "关注",
+   "score": 87,
+   "delta": 16,
+   "bull": 2,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "511090",
+   "name": "30年国债",
    "grade": "强推",
-   "score": 84,
-   "delta": null,
+   "score": 79,
+   "delta": 30,
    "bull": 3,
    "bear": 0,
    "neutral": 0
   },
   {
-   "code": "512480",
-   "name": "半导体",
+   "code": "512800",
+   "name": "银行",
    "grade": "关注",
-   "score": 80,
-   "delta": -2,
+   "score": 78,
+   "delta": null,
    "bull": 2,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "512400",
+   "name": "有色/铜",
+   "grade": "关注",
+   "score": 74,
+   "delta": -10,
+   "bull": 1,
    "bear": 0,
    "neutral": 0
   },
@@ -38,51 +58,21 @@
    "code": "515220",
    "name": "煤炭",
    "grade": "关注",
-   "score": 72,
-   "delta": null,
+   "score": 74,
+   "delta": 2,
    "bull": 1,
    "bear": 0,
    "neutral": 0
   },
   {
-   "code": "518880",
-   "name": "黄金",
-   "grade": "关注",
-   "score": 71,
-   "delta": null,
-   "bull": 2,
-   "bear": 0,
-   "neutral": 1
-  },
-  {
-   "code": "513100",
-   "name": "纳指",
-   "grade": "关注",
-   "score": 71,
-   "delta": null,
-   "bull": 2,
-   "bear": 0,
-   "neutral": 1
-  },
-  {
-   "code": "510300",
-   "name": "沪深300",
+   "code": "512480",
+   "name": "半导体",
    "grade": "观望",
-   "score": 68,
-   "delta": null,
-   "bull": 0,
-   "bear": 0,
+   "score": 70,
+   "delta": -10,
+   "bull": 1,
+   "bear": 1,
    "neutral": 1
-  },
-  {
-   "code": "511090",
-   "name": "30年国债",
-   "grade": "规避",
-   "score": 49,
-   "delta": -7,
-   "bull": 0,
-   "bear": 2,
-   "neutral": 3
   }
  ]
 }
