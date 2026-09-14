@@ -1,6 +1,326 @@
 {
- "updated": "2026-09-11",
+ "updated": "2026-09-14",
  "articles": [
+  {
+   "date": "2026-09-14",
+   "title": "美国8月CPI前瞻：五种情景，如何影响股债金",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/6i06MZObxaCP6HT9w3kGyA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美联储加息",
+    "美国CPI",
+    "大类资产"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 4.75
+   },
+   "summary": "核心CPI环比0.2%为一致预期，分三种CPI情景x五种FOMC组合推演，组合五对权益最有利，组合三四波动率最高",
+   "page": "research_20260914.html"
+  },
+  {
+   "date": "2026-09-14",
+   "title": "美债利率或阶段性见顶",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/oglzCi77WPwyNYiik4Eq8g",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美债利率",
+    "大类资产",
+    "大宗商品"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "512400": "多"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "美债熊市未终结但短期油价与加息预期已充分定价，利率阶段性见顶；黄金4300支撑、铜托底、原油偏强",
+   "page": "research_20260914.html"
+  },
+  {
+   "date": "2026-09-14",
+   "title": "9月FOMC前瞻：加息能否解决当前通胀问题",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/cXPmA7u-CLMdNiHTdMaX0w",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储加息",
+    "通胀传导",
+    "美债利率"
+   ],
+   "etf_sentiment": {
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 4.6
+   },
+   "summary": "加息无法解决输入型通胀(能源+AI涨价)，美国未形成工资-价格螺旋，不具备持续加息基础",
+   "page": "research_20260914.html"
+  },
+  {
+   "date": "2026-09-14",
+   "title": "季节性共振与新增扰动",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/ugsrNu0yOBmaTvOMtVJ6cg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "国内债市",
+    "中美利差",
+    "输入型通胀"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.6
+   },
+   "summary": "9月债市面临季节性+通胀+美债三重扰动，中美利差倒挂327BP创新高，弱内需+资产荒决定调整空间有限，逢调整买入",
+   "page": "research_20260914.html"
+  },
+  {
+   "date": "2026-09-14",
+   "title": "量化视角如何看债市短期交易机会？",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/N8sDuACB2w8MddXjA6detA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "国内债市",
+    "量化策略",
+    "ETF轮动",
+    "转债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.5
+   },
+   "summary": "利率周频多头信号稳定但日频降温、超长端多空再平衡；ETF轮动转向防御；转债哑铃配置",
+   "page": "research_20260914.html"
+  },
+  {
+   "date": "2026-09-14",
+   "title": "8月美国CPI：当市场对加息脱敏？",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/-Sx05eTK9DwEABWw6V5hcQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美联储加息",
+    "美国CPI",
+    "通胀传导"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 4.45
+   },
+   "summary": "核心CPI环比0.3%超预期但资产脱敏，加息不等于持续利空，年内兑现后明年鹰派弱化或打开降息空间",
+   "page": "research_20260914.html"
+  },
+  {
+   "date": "2026-09-14",
+   "title": "美联储有连续加息的基础吗？",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/bpMC5dRDZ0ZOdnWttzpGIQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美联储加息",
+    "就业",
+    "财政压力"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 4.45
+   },
+   "summary": "不具备连续加息基础(就业未过热+财政40万亿+AI企业7000亿债务)，单次加息是利空出尽",
+   "page": "research_20260914.html"
+  },
+  {
+   "date": "2026-09-14",
+   "title": "现在看，9月11日是通信的很好买点",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/paSlJzS1i5xKl0vRsiJoeQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "通信",
+    "A股结构",
+    "量化交易"
+   ],
+   "etf_sentiment": {
+    "515880": "多"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "量化放弃通信-老登负相关跷跷板模式，老登行业无源之水；通信三季报与2027估值切换可期，9/11是好买点",
+   "page": "research_20260914.html"
+  },
+  {
+   "date": "2026-09-14",
+   "title": "A股财报的薪里话",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/uCEdZ9kFINdbO6XOXYMzXA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "A股基本面",
+    "就业",
+    "中游制造"
+   ],
+   "etf_sentiment": {
+    "512330": "多"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "人均薪酬增速低位略改善，新经济量价齐升vs旧经济缩量保价，中游制造是就业扩张主力",
+   "page": "research_20260914.html"
+  },
+  {
+   "date": "2026-09-14",
+   "title": "债市 | 震荡，等待新的利多催化",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/qGeV7mesgdq2LiSOz8GlpQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "国内债市"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.75
+   },
+   "summary": "债市低波震荡，多头等待三大催化(资金转松/基本面弱/股市走弱)，遇到调整分步加久期",
+   "page": "research_20260914.html"
+  },
+  {
+   "date": "2026-09-14",
+   "title": "动荡时刻，要让理性占据内心",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/EqR2vGD5qqjmsNLiasJIBg",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "美联储加息",
+    "通胀",
+    "大类资产"
+   ],
+   "etf_sentiment": {
+    "518880": "多"
+   },
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "CPI反弹加息预期升温，但靴子落地布局机会；加息不可持续，长期面对40万亿债务只能债务货币化",
+   "page": "research_20260914.html"
+  },
+  {
+   "date": "2026-09-14",
+   "title": "估值调整后，当前转债性价比如何",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/g5goVjXkg3vrwozEhnK4Hg",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "转债",
+    "估值"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "转债估值回落至合理位置，看好科技成长/高端制造/复苏链转债，小盘风格走强时转债或跑赢沪深300",
+   "page": "research_20260914.html"
+  },
+  {
+   "date": "2026-09-14",
+   "title": "中金：中国服务消费产业进入黄金发展期",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/FPcTD-1nNoDqjsF6IvXBTw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "服务消费",
+    "内需"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.95
+   },
+   "summary": "服务消费增速持续快于商品，刚需履约型+体验升级型双主线，实用价值x情绪价值x交付效率框架",
+   "page": "research_20260914.html"
+  },
+  {
+   "date": "2026-09-14",
+   "title": "住房销售制度改革全景梳理",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/9KCbBw5Jl6juyDKw2Xi2IA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "房地产",
+    "政策"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.85
+   },
+   "summary": "现房销售制度落地，新老划段，配套土地分期/开发贷延长/按揭后移/封闭管理，房企转向低杠杆精益经营",
+   "page": "research_20260914.html"
+  },
+  {
+   "date": "2026-09-14",
+   "title": "关乎生死存亡，谁敢放慢脚步啊？！",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/YEzXdm7S7wviR3QRefLUBA",
+   "level": "archived",
+   "viewpoint": "多",
+   "themes": [
+    "AI"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.9
+   },
+   "summary": "AI发展关乎国家兴衰，中美都不会放缓AI脚步，纯观点无数据",
+   "page": "research_20260914.html"
+  },
+  {
+   "date": "2026-09-14",
+   "title": "【8月美国CPI竞猜与策略投票】",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/7c8O1QAr7BwYubknCRERYw",
+   "level": "archived",
+   "viewpoint": "观望",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.3
+   },
+   "summary": "纯活动广告，无实质研报内容",
+   "page": "research_20260914.html"
+  },
   {
    "date": "2026-09-11",
    "title": "Astra 助推美韩AI产业链大涨,缅A鸡肋依旧",
