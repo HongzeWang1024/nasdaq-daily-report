@@ -1,6 +1,40 @@
 {
- "updated": "2026-09-11",
+ "updated": "2026-09-14",
  "events": [
+  {
+   "event": "50年期特别国债发行",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-09",
+     "r1": -0.0024,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0024,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "8月CPI、PPI数据",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-09",
+     "r1": -0.0024,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0024,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
   {
    "event": "8月底政府债供给高峰+央行对冲力度验证",
    "target": "511090",
@@ -36,6 +70,23 @@
    "avg_ret_7d": null
   },
   {
+   "event": "A股光通信板块再度跟随费半",
+   "target": "512480",
+   "name": "半导体",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-09",
+     "r1": -0.0071,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0071,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
    "event": "十四届全国人大常委会闭幕（政策表态）",
    "target": "510300",
    "name": "沪深300",
@@ -62,12 +113,12 @@
      "date": "2026-09-01",
      "r1": -0.0013,
      "r3": 0.0028,
-     "r7": null
+     "r7": 0.0005
     }
    ],
    "avg_ret_1d": -0.0013,
    "avg_ret_3d": 0.0028,
-   "avg_ret_7d": null
+   "avg_ret_7d": 0.0005
   },
   {
    "event": "恒生系列指数季度调整生效（约9月上旬；华虹宏力/潍柴动力纳入恒指，天数智芯纳入恒生科技）",
@@ -129,12 +180,12 @@
     {
      "date": "2026-09-05",
      "r1": -0.0067,
-     "r3": null,
+     "r3": -0.0372,
      "r7": null
     }
    ],
    "avg_ret_1d": -0.0067,
-   "avg_ret_3d": null,
+   "avg_ret_3d": -0.0372,
    "avg_ret_7d": null
   },
   {
