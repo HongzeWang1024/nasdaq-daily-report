@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-14",
+ "updated": "2026-09-15",
  "events": [
   {
    "event": "50年期特别国债发行",
@@ -61,11 +61,28 @@
     {
      "date": "2026-09-08",
      "r1": 0.0007,
-     "r3": null,
+     "r3": -0.002,
      "r7": null
     }
    ],
    "avg_ret_1d": 0.0007,
+   "avg_ret_3d": -0.002,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "8月金融数据",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-10",
+     "r1": -0.0002,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0002,
    "avg_ret_3d": null,
    "avg_ret_7d": null
   },
@@ -129,11 +146,28 @@
     {
      "date": "2026-09-08",
      "r1": -0.0125,
-     "r3": null,
+     "r3": -0.0259,
      "r7": null
     }
    ],
    "avg_ret_1d": -0.0125,
+   "avg_ret_3d": -0.0259,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "摊余成本法债基审批/发行结果",
+   "target": "511010",
+   "name": "国债ETF",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-10",
+     "r1": -0.0003,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0003,
    "avg_ret_3d": null,
    "avg_ret_7d": null
   },
@@ -170,6 +204,40 @@
    "avg_ret_1d": -0.0113,
    "avg_ret_3d": -0.006,
    "avg_ret_7d": 0.0009
+  },
+  {
+   "event": "欧央行议息会议",
+   "target": "518880",
+   "name": "黄金",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-10",
+     "r1": -0.0154,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0154,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "欧央行议息加息25bp",
+   "target": "518880",
+   "name": "黄金",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-10",
+     "r1": -0.0154,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0154,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "港股通调整交易窗口（8月下旬-9月初）",
