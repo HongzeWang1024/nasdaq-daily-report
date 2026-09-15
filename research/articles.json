@@ -1,6 +1,237 @@
 {
- "updated": "2026-09-14",
+ "updated": "2026-09-15",
  "articles": [
+  {
+   "date": "2026-09-15",
+   "title": "4400美元的黄金，涨跌空间怎么看",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/dFaYry-JYaDzITWHrpgwTA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "黄金",
+    "大宗商品",
+    "美联储货币政策"
+   ],
+   "etf_sentiment": {
+    "518880": "多"
+   },
+   "scores": {
+    "total": 4.25
+   },
+   "summary": "黄金定价双轮驱动：加息交易+贬值交易，当前4350美元处于4300-4600基准区间下沿，央行连续22个月增持+ETF回补构成底仓",
+   "page": "research_20260915.html"
+  },
+  {
+   "date": "2026-09-15",
+   "title": "中金缪延亮：AI冲击下的“逆巴萨效应”",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/frGI-EjnKGkVo4BDYrEuuw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI",
+    "汇率",
+    "宏观经济"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "AI首次大规模触及不可贸易服务业→逆巴萨效应→贬值压力而非升值，人民币升值存在天花板",
+   "page": "research_20260915.html"
+  },
+  {
+   "date": "2026-09-15",
+   "title": "融资需求继续收缩，降息空间打开——8月金融数据点评",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/Aj1WRx40NTxM0GiuzMJZsg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "宏观经济",
+    "8月金融数据"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "8月信贷600亿、社融7.2%创新低，融资需求收缩降息空间打开，继续看好30年国债利差压缩",
+   "page": "research_20260915.html"
+  },
+  {
+   "date": "2026-09-15",
+   "title": "机构行为 | 机构行为Skill搭建：定价权透视和利率前瞻",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/HWstQv55-iSCN3z8Q-Icrg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债",
+    "机构行为"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "机构行为量化框架：定价权+动量+反转三层信号，大行承接放量胜率80%，1Y存单为全场最佳因子",
+   "page": "research_20260915.html"
+  },
+  {
+   "date": "2026-09-15",
+   "title": "【瞎扯】央妈：持债不炒，谁炒谁倒",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/4U8fQ-0I9IKKw29qF4W7PQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债",
+    "央行政策"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "MPA考核新增利率波动+持仓结构约束，银行加权久期上限5.8，短端需求增加长端承压",
+   "page": "research_20260915.html"
+  },
+  {
+   "date": "2026-09-15",
+   "title": "【华泰固收】融资需求磨底——8月金融数据点评",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/DBSIa8pq7POsm36NrvwmGA",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "8月金融数据"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "与中金同题，偏平衡配置，超长债逢高配置+存单吃票息哑铃型组合",
+   "page": "research_20260915.html"
+  },
+  {
+   "date": "2026-09-15",
+   "title": "张瑜：如何看美国的“脆弱”与“坚强”——张瑜旬度会议纪要No.147",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/bg6HNam4QnyazgvOl2EVFw",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "美联储货币政策",
+    "美债",
+    "宏观经济"
+   ],
+   "etf_sentiment": {
+    "513100": "空"
+   },
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "美股美债相关系数转正两年为30年第四次，前两次均演变为系统性危机，沃什拆弹核心=让系数回落负区间",
+   "page": "research_20260915.html"
+  },
+  {
+   "date": "2026-09-15",
+   "title": "经营性债务时代的城投债投资逻辑",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/iePerPKxV7BHkMRHxrMo0w",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "城投债",
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.95
+   },
+   "summary": "化债后半程从区域下沉转向主体排序下沉，城投净融资-772亿，债券ETF 9264亿创新高",
+   "page": "research_20260915.html"
+  },
+  {
+   "date": "2026-09-15",
+   "title": "9 月加息在弦上，美元会开启新一轮涨势吗？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/jw5FJepiZ6dWWZG3qhV06w",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储货币政策",
+    "外汇"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.75
+   },
+   "summary": "加息90%概率已充分定价，美元突破100需点阵图中值≥4.375%，USDCNY 6.70震荡",
+   "page": "research_20260915.html"
+  },
+  {
+   "date": "2026-09-15",
+   "title": "为何美债加息没能带飞美元汇率？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/dGxFB5v-pksoDTZSVYWaLQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储货币政策",
+    "外汇"
+   ],
+   "etf_sentiment": {
+    "518880": "多"
+   },
+   "scores": {
+    "total": 2.6
+   },
+   "summary": "全球利率同步上行致美-非美利差未拉宽，亚系货币压制美元，10Y美债5.0%有左侧配置价值，黄金有支撑",
+   "page": "research_20260915.html"
+  },
+  {
+   "date": "2026-09-15",
+   "title": "爱博弈不一定是好事儿",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/ir3n6Qw-X1Fdd0rdrHPrvg",
+   "level": "archived",
+   "viewpoint": "多",
+   "themes": [
+    "A股",
+    "AI"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.35
+   },
+   "summary": "Anthropic CEO放缓AI建议无可行性但A股通信板块被错杀，博弈行为造成市场波动",
+   "page": "research_20260915.html"
+  },
+  {
+   "date": "2026-09-15",
+   "title": "全球房价涨幅最高的10大城市",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/bEta45HlmGWlkRSIXNiGvg",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "房地产"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.4
+   },
+   "summary": "全球房价涨幅前十城市排名：胡志明市23%居首，旧金山AI驱动10.2%第二，首尔9%第三",
+   "page": "research_20260915.html"
+  },
   {
    "date": "2026-09-14",
    "title": "美国8月CPI前瞻：五种情景，如何影响股债金",
