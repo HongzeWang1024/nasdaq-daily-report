@@ -1,6 +1,171 @@
 {
- "updated": "2026-09-15",
+ "updated": "2026-09-16",
  "articles": [
+  {
+   "date": "2026-09-16",
+   "title": "如何量化拆解油价冲击与政策冲击",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/IAtKCNiW89mIvPmENNjSGg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美债利率",
+    "油价冲击",
+    "美联储加息"
+   ],
+   "etf_sentiment": {
+    "501018": "多",
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "量化模型拆解：30Y美债走势几乎完全由油价期限结构解释（残差-0.01bp），2Y则主要反映Fed政策重定价（残差+13bp），长短端定价逻辑分化加剧。BEI回落显示市场未将油价冲击理解为中长期通胀失锚。",
+   "page": "research_20260916.html"
+  },
+  {
+   "date": "2026-09-16",
+   "title": "中金9月数说资产",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/O1VqyYp7dDb3fvdzQTkLqA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "宏观经济",
+    "利率债",
+    "银行",
+    "房地产"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "512800": "多"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "8月经济供给改善需求偏弱：工业5.2%超预期但社零0.4%低于预期，固投-7.2%加速恶化。看好30年国债利差压缩，银行红利逻辑凸显，地产投资承压或延续。",
+   "page": "research_20260916.html"
+  },
+  {
+   "date": "2026-09-16",
+   "title": "对话首席｜孙媛媛：医药行业的机会与配置思路",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/WvPkPHlLJdwbuojo0E9Dkw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "创新药",
+    "CXO",
+    "AI医药",
+    "医疗消费"
+   ],
+   "etf_sentiment": {
+    "512170": "多"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "创新药/CXO景气度持续向上，2027年商业化爆发期。双抗和ADC迭代单抗和化疗，中国企业全球领先。CXO戴维斯双击进行中，AI for Science带来增量需求分层沉淀。",
+   "page": "research_20260916.html"
+  },
+  {
+   "date": "2026-09-16",
+   "title": "中美领导人会晤的历史回顾",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/GMlmIYnUn7doBoagkGZD1A",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "中美关系",
+    "地缘政治",
+    "关税",
+    "AI安全"
+   ],
+   "etf_sentiment": {
+    "513100": "多"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "中美9月会晤前瞻：关税暂停至11/10、稀土续期、AI安全会谈等议题，底层逻辑为建设性战略稳定。历史规律显示会晤前后市场风偏改善。",
+   "page": "research_20260916.html"
+  },
+  {
+   "date": "2026-09-16",
+   "title": "经济供求格局延续，债券机会依然突出——8月经济数据分析",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/QwUqmVcHOajvzalmjMB30g",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "宏观经济"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "需求偏弱+供给改善，AI经济偏强但传统经济加速下行，看好30年国债利差压缩。（与《中金9月数说资产》同题，后者已包含本篇固收观点）",
+   "page": "research_20260916.html"
+  },
+  {
+   "date": "2026-09-16",
+   "title": "对热炒人形机器人的冷思考",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/luj6bdQvB7hCWUiRq1-qew",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "人形机器人",
+    "AI",
+    "资本泡沫"
+   ],
+   "etf_sentiment": {
+    "512480": "空"
+   },
+   "scores": {
+    "total": 3.75
+   },
+   "summary": "任泽平泼冷水：人形机器人73.6%收入来自展示用途，企业忙于秀场而非研发，资本泡沫风险大。需突破数据/灵巧手/整机/大脑四大难题。",
+   "page": "research_20260916.html"
+  },
+  {
+   "date": "2026-09-16",
+   "title": "8月经济：托底的兑现度",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/yFkYvBK0ijUke01VyZqWng",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观经济",
+    "财政政策"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "8月宏观指标放缓斜率改善、企稳能见度初显，9月是政策实物验证期，若兑现度不佳四季度或出增量政策。（与《中金9月数说资产》同题）",
+   "page": "research_20260916.html"
+  },
+  {
+   "date": "2026-09-16",
+   "title": "【瞎扯】现在经济全躺在财爸身上",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/1b4-2gGFE800TeqQ3fMlhw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观经济"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.55
+   },
+   "summary": "通俗复述8月经济数据，居民消费靠不住只能靠财政，科创是唯一出路，无增量观点。",
+   "page": "research_20260916.html"
+  },
   {
    "date": "2026-09-15",
    "title": "4400美元的黄金，涨跌空间怎么看",
