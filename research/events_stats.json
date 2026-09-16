@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15",
+ "updated": "2026-09-16",
  "events": [
   {
    "event": "50年期特别国债发行",
@@ -10,12 +10,12 @@
     {
      "date": "2026-09-09",
      "r1": -0.0024,
-     "r3": null,
+     "r3": -0.0039,
      "r7": null
     }
    ],
    "avg_ret_1d": -0.0024,
-   "avg_ret_3d": null,
+   "avg_ret_3d": -0.0039,
    "avg_ret_7d": null
   },
   {
@@ -27,12 +27,12 @@
     {
      "date": "2026-09-09",
      "r1": -0.0024,
-     "r3": null,
+     "r3": -0.0039,
      "r7": null
     }
    ],
    "avg_ret_1d": -0.0024,
-   "avg_ret_3d": null,
+   "avg_ret_3d": -0.0039,
    "avg_ret_7d": null
   },
   {
@@ -95,12 +95,12 @@
     {
      "date": "2026-09-09",
      "r1": -0.0071,
-     "r3": null,
+     "r3": -0.0366,
      "r7": null
     }
    ],
    "avg_ret_1d": -0.0071,
-   "avg_ret_3d": null,
+   "avg_ret_3d": -0.0366,
    "avg_ret_7d": null
   },
   {
