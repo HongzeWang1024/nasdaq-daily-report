@@ -1,6 +1,210 @@
 {
- "updated": "2026-09-16",
+ "updated": "2026-09-17",
  "articles": [
+  {
+   "date": "2026-09-17",
+   "title": "经济的三个视角——8月经济数据点评",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/WIAFpDvcRrit7DJjPfv1DA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观经济",
+    "内需政策",
+    "新动能"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "510300": "多",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "8月经济三视角：生产修复（工增5.2%）但内需缩圈（84.2%行业投资负增），新动能平稳（装备制造12.1%），政策偏克制",
+   "page": "research_20260917.html"
+  },
+  {
+   "date": "2026-09-17",
+   "title": "对话首席｜蔡屹：红利机会与配置思路",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/mrO20iGu8tDW7oWt4vaJTg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "红利资产",
+    "保险资金",
+    "配置策略"
+   ],
+   "etf_sentiment": {
+    "512800": "多",
+    "510300": "多",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "红利资产从分子端要收益，股息率vs国债利差是择时核心指标，稳健型红利仍为底仓压舱石",
+   "page": "research_20260917.html"
+  },
+  {
+   "date": "2026-09-17",
+   "title": "内需政策的逻辑：今时不同往日 | 建投宏观·周君芝团队",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/QqhRwBqW5VZYQMX7LnyHdw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "内需政策",
+    "新动能",
+    "中美资产对比",
+    "汇率"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多",
+    "510300": "多"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "今时不同往日：新动能崛起（AI出口贡献率40%）、人民币升值资金回流、政策不再重复9·24内需强刺激，转向存量落地、结构发力",
+   "page": "research_20260917.html"
+  },
+  {
+   "date": "2026-09-17",
+   "title": "【华泰固收】双重分化进入阶段性收敛期——2026年8月经济数据点评",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/8-iKG75SizG-OFDW-2-chA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观经济",
+    "8月经济数据"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "510300": "多"
+   },
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "双重分化阶段性收敛：生产端修复+内需边际企稳，债市转向平衡配置，超长债逢高配置+存单哑铃型（与张瑜同题8月经济数据，张瑜分更高故降级速览）",
+   "page": "research_20260917.html"
+  },
+  {
+   "date": "2026-09-17",
+   "title": "9月FOMC前瞻：加息周期的开始吗",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/lwDvZKnjnAR-7jPR51Ymvg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储加息",
+    "FOMC",
+    "油价"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "被动式加息带来额外风险，油价回落不取决于加息，核心通胀未泛化，加息定价充分不排除过度，沃什表态与点阵图更关键",
+   "page": "research_20260917.html"
+  },
+  {
+   "date": "2026-09-17",
+   "title": "发债房企2026年半年报变化及地产债投资策略",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/kv97LgFIEdL0T5bFVi8czA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "地产债",
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.1
+   },
+   "summary": "主要房企持续缩表（总资产10.97万亿）、营收-21.82%净利润为负，地产债配置以1-3Y中高等级为主",
+   "page": "research_20260917.html"
+  },
+  {
+   "date": "2026-09-17",
+   "title": "【瞎扯】沃什这次加息能不能加出降息的效果？",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/DQsMx-2alfvYYr-lxuVhFQ",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "美联储加息",
+    "FOMC",
+    "中东地缘"
+   ],
+   "etf_sentiment": {
+    "513100": "多"
+   },
+   "scores": {
+    "total": 3.05
+   },
+   "summary": "市场对加息定价过头，沃什不敢连续强硬（特朗普压力+中国调停美伊可能），历史案例2022年5月4日加息50bp后市场大涨2.99%",
+   "page": "research_20260917.html"
+  },
+  {
+   "date": "2026-09-17",
+   "title": "当下应该买房还是卖房？",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/rRUM64zZhn4dBwRrumlu4w",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "房地产",
+    "宏观经济"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.85
+   },
+   "summary": "一线城市二手房价连续6个月环比上涨，房地产二八分化，核心城市核心区资产保值、非核心尽早处理",
+   "page": "research_20260917.html"
+  },
+  {
+   "date": "2026-09-17",
+   "title": "【中金固收·信用】中国短期融资券及中期票据信用分析周报",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/q1dbj2zk7R2ZivMazbD4TA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.05
+   },
+   "summary": "纯信用债周报，本周短融中票发行1405.88亿元，栾川钼业上调至4+、安泰科技上调至4-",
+   "page": "research_20260917.html"
+  },
+  {
+   "date": "2026-09-17",
+   "title": "固收实务投研框架系列会议（共12期，每周三晚上7点）",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/lxebg1JqJLwWJQ1clBUJEA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "固收"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.45
+   },
+   "summary": "国联民生固收实务投研框架系列会议通知，第十一期双支柱货币政策体系与流动性调控逻辑",
+   "page": "research_20260917.html"
+  },
   {
    "date": "2026-09-16",
    "title": "如何量化拆解油价冲击与政策冲击",
