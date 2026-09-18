@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-17",
+ "updated": "2026-09-18",
  "events": [
   {
    "event": "50年期特别国债发行",
@@ -104,6 +104,40 @@
    "avg_ret_7d": null
   },
   {
+   "event": "中国8月经济数据",
+   "target": "510300",
+   "name": "沪深300",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-15",
+     "r1": 0.006,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.006,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "久期MA10是否突破前高",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-15",
+     "r1": 0.0002,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0002,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
    "event": "十四届全国人大常委会闭幕（政策表态）",
    "target": "510300",
    "name": "沪深300",
@@ -119,6 +153,23 @@
    "avg_ret_1d": -0.0002,
    "avg_ret_3d": -0.0137,
    "avg_ret_7d": -0.0102
+  },
+  {
+   "event": "国内金九旺季需求验证（铜）",
+   "target": "512400",
+   "name": "有色/铜",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-15",
+     "r1": 0.0162,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0162,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "央行隔夜逆回购操作(每日≤6000亿)",
@@ -249,12 +300,12 @@
      "date": "2026-09-05",
      "r1": -0.0067,
      "r3": -0.0372,
-     "r7": null
+     "r7": -0.0324
     }
    ],
    "avg_ret_1d": -0.0067,
    "avg_ret_3d": -0.0372,
-   "avg_ret_7d": null
+   "avg_ret_7d": -0.0324
   },
   {
    "event": "美国7月PCE物价指数",
@@ -274,6 +325,91 @@
    "avg_ret_7d": -0.0009
   },
   {
+   "event": "美联储9月议息会议（9月15-16日）",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-15",
+     "r1": 0.01,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.01,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "美联储9月议息会议（9月15-16日）",
+   "target": "518880",
+   "name": "黄金",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-15",
+     "r1": 0.0086,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0086,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "美联储FOMC会议（至9-16）",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-15",
+     "r1": 0.01,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.01,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "苹果发布会/华为Mate新品",
+   "target": "512480",
+   "name": "半导体",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-15",
+     "r1": 0.0456,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0456,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "超长债止盈压力窗口+政府债供给高峰尾声",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-15",
+     "r1": 0.0002,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0002,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
    "event": "跨月资金面大考：本周近8000亿政府债缴款+6000亿MLF到期+6400亿存单到期",
    "target": "511090",
    "name": "30年国债",
@@ -289,6 +425,23 @@
    "avg_ret_1d": 0.001,
    "avg_ret_3d": 0.0031,
    "avg_ret_7d": 0.0065
+  },
+  {
+   "event": "长江存储科创板IPO进程",
+   "target": "512480",
+   "name": "半导体",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-15",
+     "r1": 0.0456,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0456,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   }
  ]
 }
