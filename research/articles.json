@@ -1,6 +1,238 @@
 {
- "updated": "2026-09-17",
+ "updated": "2026-09-18",
  "articles": [
+  {
+   "date": "2026-09-18",
+   "title": "黄金迎加仓",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/OC8Qimx7ybgo3TcdkloHRA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "黄金",
+    "美联储加息",
+    "商品"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "512400": "多"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "加息后黄金冲击快速修复，伦敦金从4240反弹至4370涨2%，SPDR持仓续增1.7吨，黄金迎加仓窗口",
+   "page": "research_20260918.html"
+  },
+  {
+   "date": "2026-09-18",
+   "title": "超强厄尔尼诺：强在哪里，涨在何处？",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/bQ9uaxFJBtm8Fveo7mBPkQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "厄尔尼诺",
+    "农产品"
+   ],
+   "etf_sentiment": {
+    "159985": "多"
+   },
+   "scores": {
+    "total": 4.6
+   },
+   "summary": "超强厄尔尼诺RONI峰值2.7℃或创历史新高，玉米/棕榈减产确定，供需+地缘+天气共振催化涨价",
+   "page": "research_20260918.html"
+  },
+  {
+   "date": "2026-09-18",
+   "title": "美联储加息一次够么？",
+   "author": "Kevin策略研究",
+   "url": "https://mp.weixin.qq.com/s/9WWZWjFr8EOi9NZNFnAApg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美联储加息",
+    "美股",
+    "美债"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "预防式加息已充分计入，市场往往'反着走'，加息落地反而是美债高点和美股低点，扰动提供买点",
+   "page": "research_20260918.html"
+  },
+  {
+   "date": "2026-09-18",
+   "title": "Fed加息周期启动，还要加几次",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/1kpH-roKr4tqkAZD6Tblgg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储加息",
+    "美债",
+    "黄金"
+   ],
+   "etf_sentiment": {
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "与1999年互联网类比，AI资本开支先拉动需求、生产率提升滞后致通胀持续更久，加息终点4-5%，10年美债或至5.2-5.5%",
+   "page": "research_20260918.html"
+  },
+  {
+   "date": "2026-09-18",
+   "title": "为了遏制通胀传导：对美联储加息的最深度、最全面、最细致分析",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/K8nmtnLA7YcM2GIdevhy2w",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储加息"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "FOMC全票加息超预期，声明维护川普颜面，沃什反映函数暗示可继续加息阻断通胀传导，FOMC担忧地缘推升油价",
+   "page": "research_20260918.html"
+  },
+  {
+   "date": "2026-09-18",
+   "title": "外资观点：FOMC后存在黄金布局机会，强盈利预期支撑美股",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/E8qB7-jxbO1OofgH1jCaeA",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "美联储加息",
+    "黄金",
+    "美股"
+   ],
+   "etf_sentiment": {
+    "518880": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "21家买方债市3偏多18中性0看空，标普EPS同比+52%，黄金FOMC后迎布局窗口",
+   "page": "research_20260918.html"
+  },
+  {
+   "date": "2026-09-18",
+   "title": "美联储加息：外溢性几何？",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/XkHrmI8h-hp3IAgaCATciw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "美联储加息",
+    "A股外溢"
+   ],
+   "etf_sentiment": {
+    "513100": "多"
+   },
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "加息外溢可控，A股科技与纳指深度共振，'924'以来正相关性上升，纳指定价锚作用凸显",
+   "page": "research_20260918.html"
+  },
+  {
+   "date": "2026-09-18",
+   "title": "中金：美联储用鹰派加息重塑公信力",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/rnqfUFtyNJ9cThNdQL9PsA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储加息"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "全票12比0通过、点阵图4.1%，沃什'通胀才是主要问题'，曲线平坦化、美元涨黄金跌",
+   "page": "research_20260918.html"
+  },
+  {
+   "date": "2026-09-18",
+   "title": "美联储：加息周期，一锤定音",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/I2PZHEXX3nNrM1Am43FpQQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储加息",
+    "外汇"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.1
+   },
+   "summary": "点阵图显示50-75bp加息周期，沃什反映函数暗示可继续加息，高息货币跑赢、美债曲线平坦化",
+   "page": "research_20260918.html"
+  },
+  {
+   "date": "2026-09-18",
+   "title": "基于AI Agent的固收投研应用研究",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/U40oY3-zrWbx0J6k-IPIUA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "AI投研",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 2.9
+   },
+   "summary": "五碗面五Agent架构、利率曲线四种形态判断体系，偏方法论无即时交易含义",
+   "page": "research_20260918.html"
+  },
+  {
+   "date": "2026-09-18",
+   "title": "张一鸣登顶亚洲首富：All in AI",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/FMr9WfKeA1Brf5QVUtd1pg",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "AI产业链"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 2.9
+   },
+   "summary": "字节估值3.8万亿、豆包Token 180万亿/日、火山引擎市占49.2%，AI是海啸不是风口",
+   "page": "research_20260918.html"
+  },
+  {
+   "date": "2026-09-18",
+   "title": "中国公司债及企业债信用分析周报",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/2MJUEpkk7G30DTVPLZ3rrA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.8
+   },
+   "summary": "常规信用周报，42家发行人，山东黄金评分上调至3-，无交易含义",
+   "page": "research_20260918.html"
+  },
   {
    "date": "2026-09-17",
    "title": "经济的三个视角——8月经济数据点评",
