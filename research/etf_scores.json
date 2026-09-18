@@ -1,65 +1,25 @@
 {
- "updated": "2026-09-17",
- "date": "2026-09-17",
- "sentiment_index": 81.0,
+ "updated": "2026-09-18",
+ "date": "2026-09-18",
+ "sentiment_index": 85.0,
  "risk_level": {
   "level": "高",
   "score": 100,
   "cats": {
-   "宏观流动性": 12.6,
+   "宏观流动性": 9.0,
    "地缘政治": 3.6,
-   "板块情绪": 2.4,
-   "估值水平": 3.0
+   "板块情绪": 4.2,
+   "估值水平": 3.6
   },
   "advice": "⚠ 风险等级偏高，防御关注：511090（30年国债）、518880（黄金）"
  },
  "scores": [
   {
-   "code": "511090",
-   "name": "30年国债",
+   "code": "512400",
+   "name": "有色/铜",
    "grade": "关注",
-   "score": 81,
-   "delta": 6,
-   "bull": 2,
-   "bear": 0,
-   "neutral": 0
-  },
-  {
-   "code": "512480",
-   "name": "半导体",
-   "grade": "关注",
-   "score": 79,
-   "delta": 56,
-   "bull": 2,
-   "bear": 0,
-   "neutral": 0
-  },
-  {
-   "code": "510300",
-   "name": "沪深300",
-   "grade": "强推",
-   "score": 78,
+   "score": 86,
    "delta": null,
-   "bull": 4,
-   "bear": 0,
-   "neutral": 0
-  },
-  {
-   "code": "518880",
-   "name": "黄金",
-   "grade": "关注",
-   "score": 75,
-   "delta": 14,
-   "bull": 2,
-   "bear": 0,
-   "neutral": 0
-  },
-  {
-   "code": "512800",
-   "name": "银行",
-   "grade": "关注",
-   "score": 70,
-   "delta": -9,
    "bull": 1,
    "bear": 0,
    "neutral": 0
@@ -68,9 +28,49 @@
    "code": "513100",
    "name": "纳指",
    "grade": "关注",
-   "score": 67,
-   "delta": -3,
+   "score": 83,
+   "delta": 16,
    "bull": 2,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "518880",
+   "name": "黄金",
+   "grade": "强推",
+   "score": 76,
+   "delta": 0,
+   "bull": 3,
+   "bear": 0,
+   "neutral": 1
+  },
+  {
+   "code": "159985",
+   "name": "豆粕",
+   "grade": "关注",
+   "score": 71,
+   "delta": null,
+   "bull": 1,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "512480",
+   "name": "半导体",
+   "grade": "关注",
+   "score": 61,
+   "delta": -18,
+   "bull": 1,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "511090",
+   "name": "30年国债",
+   "grade": "观望",
+   "score": 47,
+   "delta": -34,
+   "bull": 0,
    "bear": 0,
    "neutral": 1
   }
