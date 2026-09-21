@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-18",
+ "updated": "2026-09-21",
  "events": [
   {
    "event": "50年期特别国债发行",
@@ -62,12 +62,12 @@
      "date": "2026-09-08",
      "r1": 0.0007,
      "r3": -0.002,
-     "r7": null
+     "r7": -0.0003
     }
    ],
    "avg_ret_1d": 0.0007,
    "avg_ret_3d": -0.002,
-   "avg_ret_7d": null
+   "avg_ret_7d": -0.0003
   },
   {
    "event": "8月金融数据",
@@ -117,6 +117,23 @@
     }
    ],
    "avg_ret_1d": 0.006,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "中美领导人华盛顿会晤",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-16",
+     "r1": 0.0009,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0009,
    "avg_ret_3d": null,
    "avg_ret_7d": null
   },
@@ -198,12 +215,12 @@
      "date": "2026-09-08",
      "r1": -0.0125,
      "r3": -0.0259,
-     "r7": null
+     "r7": -0.0374
     }
    ],
    "avg_ret_1d": -0.0125,
    "avg_ret_3d": -0.0259,
-   "avg_ret_7d": null
+   "avg_ret_7d": -0.0374
   },
   {
    "event": "摊余成本法债基审批/发行结果",
@@ -323,6 +340,23 @@
    "avg_ret_1d": -0.0054,
    "avg_ret_3d": -0.0179,
    "avg_ret_7d": -0.0009
+  },
+  {
+   "event": "美联储9月FOMC议息（加息概率约90%）",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-16",
+     "r1": 0.0009,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0009,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "美联储9月议息会议（9月15-16日）",
