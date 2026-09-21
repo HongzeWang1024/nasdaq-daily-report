@@ -1,6 +1,350 @@
 {
- "updated": "2026-09-18",
+ "updated": "2026-09-21",
  "articles": [
+  {
+   "date": "2026-09-21",
+   "title": "美欧日进入加息周期，中国反而可能要适度宽松，中债持续跑赢",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/XnvQvAy9IXyPWWed4H-xzQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "中债",
+    "中外周期",
+    "货币政策"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "518880": "空"
+   },
+   "scores": {
+    "total": 5.0
+   },
+   "summary": "超级央行周集体紧缩，但中国通胀可控内需偏弱，反而需要进一步宽松，中债利率中枢将逆势下行",
+   "page": "research_20260921.html"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "美联储加息的六个困惑",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/gjGuuUIMgSc4KrMSFqV9YQ",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "美联储政策",
+    "通胀",
+    "K型分化"
+   ],
+   "etf_sentiment": {
+    "513100": "空",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "9月加息全票通过但存在六大分歧：金融条件模糊、总量重于结构加剧K型分化、通胀确认标准不明",
+   "page": "research_20260921.html"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "外资最新怎么看？利率是最大风险，依然最看好AI",
+   "author": "Kevin策略研究",
+   "url": "https://mp.weixin.qq.com/s/HezGitxWOg7jDN6HnA1P3w",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "外资调查",
+    "AI",
+    "半导体"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.45
+   },
+   "summary": "美银美林9月调查：利率取代AI泡沫成最大风险（33%），53%认为半导体最拥挤，中国内部最看好AI半导体（55%）",
+   "page": "research_20260921.html"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "权益 | 科技修复进行时",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/CQXwdvyIPCgfSsOHCZeAGQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "科技修复",
+    "ETF资金",
+    "AI"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "515880": "多"
+   },
+   "scores": {
+    "total": 4.45
+   },
+   "summary": "科技板块利空钝化+空头衰竭，光通信→PCB→半导体材料设备扩散，处于拐点阶段",
+   "page": "research_20260921.html"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "美元流动性手册：风险识别与应对",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/iccKae2vLLbR9sTISWYBkg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美元流动性",
+    "避险资产"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "518880": "多",
+    "513100": "空"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "提出美元流动性四层框架（货币/离岸/信用/金融市场），构建信用利差抄底策略，美债是离岸冲击中较好避险品种",
+   "page": "research_20260921.html"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "ETF | 半导体反弹，资金兑现",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/eud8-BtG4paIYJJmJl4Ddw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "ETF资金",
+    "半导体",
+    "拥挤度"
+   ],
+   "etf_sentiment": {
+    "512480": "中性",
+    "515880": "多"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "半导体反弹同时资金兑现（净流出10亿），通信为唯一大额净流入方向（集中周五），拥挤度处高位。与《科技修复进行时》同题",
+   "page": "research_20260921.html"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "支出增速再度回落——8月财政数据点评",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/qnbUeBEmzn9S9odtixvnKw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "财政",
+    "基建",
+    "政府债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "财政发力四链条诊断：发债提速但项目回落、资本金拖累，9月新型政策性金融工具开始投放",
+   "page": "research_20260921.html"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "债市又临关键阻力位，TL能否突破前高？",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/5FtgNUOauKTu6JUeM-iMIw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "债市",
+    "机构行为",
+    "降息预期"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "8月社融创新低+降息预期升温，TL主力站上116.6但季末扰动加大，配置盘逢调整布局。与中金中债文同题",
+   "page": "research_20260921.html"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "9月18日美科技股大涨原因，以及对下周A股走势的预判",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/iLzYnZEkQbhNommWhVZeQA",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "美股",
+    "三巫日",
+    "半导体"
+   ],
+   "etf_sentiment": {
+    "512480": "空",
+    "513100": "空"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "美科技股大涨主因三巫日尾盘异动而非基本面，周一美科技股大概率调整→A股512480冲高回落",
+   "page": "research_20260921.html"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "市场配置：如何识别政策信号？",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/YdjTfQu7lSEkQr9WSakQNg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "政策信号",
+    "市场配置"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "510880": "多"
+   },
+   "scores": {
+    "total": 3.75
+   },
+   "summary": "政策划分为稳增长/促产业/防风险三大主线，2025年以来产业政策对科技板块指示性增强，风险防控信号与红利指数共振",
+   "page": "research_20260921.html"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "流动性 | 14天逆回购重启，护航跨节",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/rH3NFiXIrlMxcQMLP-TNIw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "资金面",
+    "央行操作",
+    "政府债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "税期+政府债缴款资金面收敛，央行重启14天逆回购护航跨节，下周超季节性波动概率不高",
+   "page": "research_20260921.html"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "欧美集体加息，人民币可控波动？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/jyXGWazdlbSzRSMDbWnp0Q",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "汇率",
+    "中美利差"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "G10中5家进入加息周期，但人民币稳如泰山，与2022年加息周期四点不同，中期升值方向未反转但进入横盘",
+   "page": "research_20260921.html"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "赛特转债 赛特新材：多元应用打开成长空间",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/T14Uz7g8OpTaZiQjQ9LGBg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "转债",
+    "新材料"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.95
+   },
+   "summary": "真空绝热板龙头转债，导热系数仅传统材料1/10，多元应用打开成长空间但盈利承压",
+   "page": "research_20260921.html"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "哪些地方房价会涨？",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/mM-mRaZlmiz5ZR9QQ4FciA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "房地产",
+    "AI造富"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.45
+   },
+   "summary": "硅谷/首尔/香港AI造富推动核心区房价上涨，中国硅谷之城底部放量",
+   "page": "research_20260921.html"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "【瞎扯】服务消费到底能走多远？",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/FR4dLSDiHFVKxHu2FI2nmQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "消费",
+    "人口结构"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.45
+   },
+   "summary": "日本对比：健康/养老/生活服务是好生意，托育/教育萎缩，服务消费空间主要在老人",
+   "page": "research_20260921.html"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "你手里的房子是卖还是留？",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/NUjwdlzdIfxpwwclFHudUQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "房地产"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.3
+   },
+   "summary": "房产去留：一线核心留、三四线卖；硅谷之城底部放量受益科技造富",
+   "page": "research_20260921.html"
+  },
+  {
+   "date": "2026-09-21",
+   "title": "月饼今年卖不动了",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/O73GXJONY3x5l9eYCesXBw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "消费降级"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.25
+   },
+   "summary": "月饼市场遭遇寒流，高价礼盒滞销，从礼品经济回归食品经济",
+   "page": "research_20260921.html"
+  },
   {
    "date": "2026-09-18",
    "title": "黄金迎加仓",
