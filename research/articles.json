@@ -1,6 +1,243 @@
 {
- "updated": "2026-09-21",
+ "updated": "2026-09-22",
  "articles": [
+  {
+   "date": "2026-09-22",
+   "title": "年底财政发力的三种情景",
+   "author": "一瑜中的（张瑜/华创）",
+   "url": "https://mp.weixin.qq.com/s/SWAAASJteT2KXiRJPmy75Q",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "财政政策",
+    "基建周期",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "512660": "多",
+    "515790": "多"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "10月底为年底vs明年初实物工作量分水岭，9-10月发行>2.2万亿→年底发力，<1.24万亿→甩尾，中间均匀发力",
+   "page": "research_20260922.html"
+  },
+  {
+   "date": "2026-09-22",
+   "title": "摊余债基驱动，信用债涨势或延续",
+   "author": "郁言债市（兴业证券）",
+   "url": "https://mp.weixin.qq.com/s/iRUgHjAk5mUUH8Pmjn1Gkw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "信用债",
+    "摊余债基",
+    "机构配置"
+   ],
+   "etf_sentiment": {
+    "511260": "多",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "首批摊余债基建仓支撑5年AA+信用债，但收益率继续下行将削弱募集→斜率放缓；优选剩余期4.5-5.25年、票息1.8-1.9%品种",
+   "page": "research_20260922.html"
+  },
+  {
+   "date": "2026-09-22",
+   "title": "科技兑现，医药地产接力",
+   "author": "郁见投资（兴业证券）",
+   "url": "https://mp.weixin.qq.com/s/GjgeLHPqxcLWA8Pf7MFjWw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "权益市场",
+    "债市",
+    "大宗商品",
+    "资金流向"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "518880": "中性",
+    "512400": "多",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "9.21权益普涨但科技高开低走（兑现），医药/地产领涨（地缘+政策博弈）；债市资产荒+风偏变化双主线；商品资金从贵金属/能源撤离→碳酸锂/有色",
+   "page": "research_20260922.html"
+  },
+  {
+   "date": "2026-09-22",
+   "title": "关注中美高层会晤",
+   "author": "CSC研究·周君芝团队（中信建投）",
+   "url": "https://mp.weixin.qq.com/s/sPizsk1GjT1ItQn28BWN2A",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "中美关系",
+    "美联储政策",
+    "全球大类资产"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "512400": "多",
+    "512800": "多",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "加息落地后市场焦点应转向本周中美高层会晤，有望释放风偏改善信号，迎来1-2季度友好期；关注AI半导体设备/上游资源/非银金融三条主线",
+   "page": "research_20260922.html"
+  },
+  {
+   "date": "2026-09-22",
+   "title": "需要担心日元套息交易逆转吗？",
+   "author": "川阅全球宏观（国联民生）",
+   "url": "https://mp.weixin.qq.com/s/AkqYljNbZdjAFnvAnDThgQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "套息交易",
+    "全球流动性",
+    "风险传染"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "套息交易集中逆转可控：融资端（日央行谨慎）+汇率端（日元缓升）+资产端（美债美股暂稳）三条件未共振；核心警惕美国资产端尾部风险",
+   "page": "research_20260922.html"
+  },
+  {
+   "date": "2026-09-22",
+   "title": "节前利率债市场多空因素梳理",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/22eOId09mBIm7-kxZegTGA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债",
+    "资金面",
+    "机构行为"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511260": "中性"
+   },
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "债市驱动从配置牛切换为交易市，中小银行配置盘退出只剩基金交易盘支撑；跨节持券优于持币但不宜追高，高抛低吸波段思维",
+   "page": "research_20260922.html"
+  },
+  {
+   "date": "2026-09-22",
+   "title": "股市\"弱转强\"后的转债表现复盘",
+   "author": "固收亮话（国联民生）",
+   "url": "https://mp.weixin.qq.com/s/auD28Jo7H0M3gDC7nCXgZQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "可转债",
+    "估值修复"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "27次震荡/熊市→上涨拐点统计显示转债估值大概率走阔；拐点转债收益=正股贝塔+估值抬升（后者更稳定）",
+   "page": "research_20260922.html"
+  },
+  {
+   "date": "2026-09-22",
+   "title": "技术分析看债市",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/TH68VU8uCUUsonafoe6HZQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "国债期货",
+    "技术分析"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "TL期债区间震荡，低点支撑+前高阻力+量仓配合为波段线索，20日/60日均线黄金交叉对应中期偏多",
+   "page": "research_20260922.html"
+  },
+  {
+   "date": "2026-09-22",
+   "title": "债市能突破吗？",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/pEI1C7fTJQ99U0-0RQFKiw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债",
+    "国债期货",
+    "个券选择"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "供给洪峰证伪+资产荒回归；择券关注26T6/26T3（交易）、30Y地方债（底仓，利差<10bp减配）、农发口行（10年内赔率）；TL2612可做多",
+   "page": "research_20260922.html"
+  },
+  {
+   "date": "2026-09-22",
+   "title": "老登们今天有点飘了",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/mvFSyfAnxbXKxr8NmrwHtA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "科技股",
+    "房地产",
+    "白酒"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "512690": "空"
+   },
+   "scores": {
+    "total": 2.6
+   },
+   "summary": "科技高开低走兑现（预判精准），资金流向医药地产白酒；地产因预售转现房新政→供给缺口→股价短期游资拉高但长期供需两弱；重申长期光通信主线",
+   "page": "research_20260922.html"
+  },
+  {
+   "date": "2026-09-22",
+   "title": "【瞎扯】说好的房住不炒呢？",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/b9ZBSqHqI-t6JzX25FbR9A",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "房地产政策",
+    "楼市小作文"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.2
+   },
+   "summary": "地产小作文点评（财爸贴息50-100bp/万科救助方案），纯个人吐槽无数据支撑，归档",
+   "page": "research_20260922.html"
+  },
   {
    "date": "2026-09-21",
    "title": "美欧日进入加息周期，中国反而可能要适度宽松，中债持续跑赢",
