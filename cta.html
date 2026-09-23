@@ -160,16 +160,16 @@ h1 { font-size: 1.25em; }
 
 <div class="tbl-wrap"><table style="min-width:480px">
 <tr><th>指标</th><th>V16（现役）</th><th>V12-P2（前版）</th></tr>
-<tr><td>年化收益</td><td><b>+11.33%</b></td><td>+10.21%</td></tr>
-<tr><td>夏普比率</td><td><b>1.379</b></td><td>1.271</td></tr>
-<tr><td>最大回撤</td><td>-9.46%</td><td>-9.46%</td></tr>
-<tr><td>卡玛比率</td><td><b>1.19</b></td><td>1.08</td></tr>
-<tr><td>交易频率</td><td>168笔/年</td><td>166笔/年</td></tr>
-<tr><td>11年终值（10万本金）</td><td><b>¥320,607</b></td><td>¥287,215</td></tr>
+<tr><td>年化收益</td><td><b>+11.70%</b></td><td>+10.21%</td></tr>
+<tr><td>夏普比率</td><td><b>1.489</b></td><td>1.271</td></tr>
+<tr><td>最大回撤</td><td>-9.24%</td><td>-9.46%</td></tr>
+<tr><td>卡玛比率</td><td><b>1.27</b></td><td>1.08</td></tr>
+<tr><td>交易频率</td><td>173笔/年</td><td>166笔/年</td></tr>
+<tr><td>11年终值（10万本金）</td><td><b>¥334,704</b></td><td>¥287,215</td></tr>
 </table></div>
 <p class="note">口径：EOD交易层模拟（盘后固定价、万0.5佣金、2000元线、
-每日收敛），10万本金，2015-06 ~ 2026-08（backtest/test_v16.py）。
-分年对比 V16 vs V12-P2：8胜1负3平（仅2021 -2.2pp）。</p>
+每日收敛），10万本金，2015-06 ~ 2026-09。
+V16 vol优化：目标波动率10.5% + scale 10日SMA平滑。</p>
 
 </details>
 
@@ -188,7 +188,7 @@ h1 { font-size: 1.25em; }
 - 单标的自持有高点回撤 <mark class="hl">12% 减半</mark> /
 <mark class="hl">20% 清仓</mark>（权益+商品，债券豁免）<br>
 - 510300 跌破 MA200 时总暴露上限 <mark class="hl">45%</mark><br>
-- 组合波动率目标 <mark class="hl">12%</mark>（20日窗口，超限按比例压缩）<br>
+- 组合波动率目标 <mark class="hl">10.5%</mark>（20日窗口，scale 10日SMA平滑，超限按比例压缩）<br>
 <h3>执行规则</h3>
 - T日15:01收盘数据生成信号 → T日盘后固定价申报
 （<mark class="hl">15:30前</mark>，成交价=当日收盘价）<br>
