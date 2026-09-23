@@ -112,21 +112,21 @@ details[open] > summary { margin-bottom: 10px; }
 <h1>🛡️ 国家队ETF追踪策略</h1>
 <div class="topbar">
 <div class="left">国家队ETF追踪 v2026.08 · 评审起点 2024-08-20</div>
-<div class="right">数据日期 2026-09-22（T-1收盘）· 次交易日收盘执行 · 更新 2026-09-23 16:36</div>
+<div class="right">数据日期 2026-09-22（T-1收盘）· 次交易日收盘执行 · 更新 2026-09-23 16:44</div>
 </div>
 
 <div class="card">
-<h2>明日操作（激进轨，卫星仓位内权重）</h2>
-<div class="sub"><span class="mode aggr">激进轨 · 实盘</span> 卫星仓位占总权益≤20% · 总权益¥100,000 · 卫星配额¥20,000</div>
+<h2>明日操作（激进轨，仓位内权重）</h2>
+<div class="sub"><span class="mode aggr">激进轨 · 实盘</span> 总仓位¥100,000 · 每交易日收盘执行</div>
 <div class="op-grid">
 <div class="op hold">
 <div class="op-head"><span class="op-act">持有</span><b>510500</b> 中证500ETF</div>
-<div class="op-w">权重 50% · 配额 ¥10,000</div>
-<div class="pos"><span>持仓</span><b>1200 股 @ 7.788</b></div><div class="pos"><span>成本 / 现值</span><b>¥9,346 / ¥9,420</b></div><div class="pos"><span>浮盈</span><b>+74 (+0.8%)</b></div>
+<div class="op-w">权重 50% · 配额 ¥50,000</div>
+<div class="pos"><span>持仓</span><b>6400 股 @ 7.788</b></div><div class="pos"><span>成本 / 现值</span><b>¥49,843 / ¥50,240</b></div><div class="pos"><span>浮盈</span><b>+397 (+0.8%)</b></div>
 </div>
 <div class="op flat">
 <div class="op-head"><span class="op-act">空仓</span><b>512100</b> 中证1000ETF</div>
-<div class="op-w">权重 50% · 配额 ¥10,000</div>
+<div class="op-w">权重 50% · 配额 ¥50,000</div>
 <div class="pos"><span>状态</span><b>无仓位</b></div>
 </div>
 </div>
@@ -246,7 +246,7 @@ details[open] > summary { margin-bottom: 10px; }
 <b>复位</b>：砍仓后出现1轮完整周期 c20 最低&lt;-3.5% → 恢复激进轨。<br>
 <b>止损</b>：双轨统一移动止损（盈利≥5%保本，≥10%锁定5%利润，≥20%锁定10%利润，否则15%硬止损），清仓后锁仓至 c20 跌破卖出阈值解锁。<br>
 <b>量能确认</b>：买入时额外要求当日份额增量 > 过去20日日均增量的1.5倍，过滤弱势假突破。<br>
-<b>再平衡</b>：季度末校准当前轨道权重（激进50/50、主轨2:4:4），复核卫星≤总权益20%。监控台账 data/monitor_log.csv 月度评审，只记录不操作。
+<b>再平衡</b>：季度末校准当前轨道权重（激进50/50、主轨2:4:4）。监控台账 data/monitor_log.csv 月度评审，只记录不操作。
 </div>
 </details>
 <p class="note" style="text-align:center">国家队ETF追踪 · 与境内A股ETF策略同链路每日推送 · <a href="index.html">返回主页</a></p>
