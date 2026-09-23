@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22",
+ "updated": "2026-09-23",
  "events": [
   {
    "event": "50年期特别国债发行",
@@ -79,12 +79,12 @@
      "date": "2026-09-10",
      "r1": -0.0002,
      "r3": 0.0009,
-     "r7": null
+     "r7": 0.0051
     }
    ],
    "avg_ret_1d": -0.0002,
    "avg_ret_3d": 0.0009,
-   "avg_ret_7d": null
+   "avg_ret_7d": 0.0051
   },
   {
    "event": "A股光通信板块再度跟随费半",
@@ -121,6 +121,23 @@
    "avg_ret_7d": null
   },
   {
+   "event": "中国9月LPR报价",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-18",
+     "r1": 0.0017,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0017,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
    "event": "中美领导人华盛顿会晤",
    "target": "513100",
    "name": "纳指",
@@ -129,12 +146,12 @@
     {
      "date": "2026-09-16",
      "r1": 0.0009,
-     "r3": null,
+     "r3": 0.0293,
      "r7": null
     }
    ],
    "avg_ret_1d": 0.0009,
-   "avg_ret_3d": null,
+   "avg_ret_3d": 0.0293,
    "avg_ret_7d": null
   },
   {
@@ -232,11 +249,28 @@
      "date": "2026-09-10",
      "r1": -0.0003,
      "r3": 0.0001,
-     "r7": null
+     "r7": -0.0036
     }
    ],
    "avg_ret_1d": -0.0003,
    "avg_ret_3d": 0.0001,
+   "avg_ret_7d": -0.0036
+  },
+  {
+   "event": "日本央行9月议息会议",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-18",
+     "r1": 0.0062,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0062,
+   "avg_ret_3d": null,
    "avg_ret_7d": null
   },
   {
@@ -283,12 +317,12 @@
      "date": "2026-09-10",
      "r1": -0.0154,
      "r3": -0.028,
-     "r7": null
+     "r7": -0.0168
     }
    ],
    "avg_ret_1d": -0.0154,
    "avg_ret_3d": -0.028,
-   "avg_ret_7d": null
+   "avg_ret_7d": -0.0168
   },
   {
    "event": "欧央行议息加息25bp",
@@ -300,12 +334,12 @@
      "date": "2026-09-10",
      "r1": -0.0154,
      "r3": -0.028,
-     "r7": null
+     "r7": -0.0168
     }
    ],
    "avg_ret_1d": -0.0154,
    "avg_ret_3d": -0.028,
-   "avg_ret_7d": null
+   "avg_ret_7d": -0.0168
   },
   {
    "event": "港股通调整交易窗口（8月下旬-9月初）",
@@ -350,12 +384,12 @@
     {
      "date": "2026-09-16",
      "r1": 0.0009,
-     "r3": null,
+     "r3": 0.0293,
      "r7": null
     }
    ],
    "avg_ret_1d": 0.0009,
-   "avg_ret_3d": null,
+   "avg_ret_3d": 0.0293,
    "avg_ret_7d": null
   },
   {
@@ -407,6 +441,23 @@
    ],
    "avg_ret_1d": 0.01,
    "avg_ret_3d": 0.0332,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "美联储议息会议",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-18",
+     "r1": 0.0062,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0062,
+   "avg_ret_3d": null,
    "avg_ret_7d": null
   },
   {
