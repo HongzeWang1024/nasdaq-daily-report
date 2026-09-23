@@ -1,6 +1,194 @@
 {
- "updated": "2026-09-22",
+ "updated": "2026-09-23",
  "articles": [
+  {
+   "date": "2026-09-23",
+   "title": "人民币汇率为什么\"独自美丽\"？（国联民生宏观林彦）",
+   "author": "川阅全球宏观（国联民生·林彦/周至臻）",
+   "url": "https://mp.weixin.qq.com/s/rmb-strong-20260921",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "汇率",
+    "宏观",
+    "结售汇"
+   ],
+   "etf_sentiment": {
+    "518880": "空",
+    "513100": "多"
+   },
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "央行超级周后美元强但人民币不贬，核心在结售汇结构而非利差，结汇周期从冲刺段进入平台段，人民币进入慢牛",
+   "page": "research_20260923.html"
+  },
+  {
+   "date": "2026-09-23",
+   "title": "接连冲高回落",
+   "author": "郁见投资（兴业证券·刘郁）",
+   "url": "https://mp.weixin.qq.com/s/1pnRLlCcDfdToCVXOJ6O5Q",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "权益",
+    "科技",
+    "债市",
+    "商品"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "518880": "空",
+    "512400": "多",
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "A股科技修复反复遇阻共识重建需时间，债牛延续30年国债年内低点，商品新能源链走强贵金属能源偏弱",
+   "page": "research_20260923.html"
+  },
+  {
+   "date": "2026-09-23",
+   "title": "半年报看银行业基本面与债市启示——金融债分析手册系列之十九",
+   "author": "覃汉研究笔记（浙商证券·李艳）",
+   "url": "https://mp.weixin.qq.com/s/bank-h1-20260922",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "银行",
+    "债市",
+    "信用风险"
+   ],
+   "etf_sentiment": {
+    "512800": "多",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "2026H1银行AC占比下降转向交易型，净息差基本企稳，零售不良继续弱化，资本充足率拨备覆盖率双下滑",
+   "page": "research_20260923.html"
+  },
+  {
+   "date": "2026-09-23",
+   "title": "9月FOMC：收紧侧面佐证联储\"非鹰\"",
+   "author": "固收亮话（国联民生·徐亮）",
+   "url": "https://mp.weixin.qq.com/s/fomc-sep-20260922",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "美债",
+    "原油"
+   ],
+   "etf_sentiment": {
+    "513100": "多"
+   },
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "FOMC加息25bp符合预期，SEP上调2027年底利率，长端定价与原油高度挂钩",
+   "page": "research_20260923.html"
+  },
+  {
+   "date": "2026-09-23",
+   "title": "【中金固收·信用】银行次级债不赎回问题研究",
+   "author": "中金固定收益研究（王瑞娟/许艳）",
+   "url": "https://mp.weixin.qq.com/s/G0CjiCbCWSnOJSwKIIRa-w",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债",
+    "银行",
+    "二级资本债"
+   ],
+   "etf_sentiment": {
+    "511260": "中性"
+   },
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "79支二级资本债未赎回估值跳升200bp，未来1年105支进入赎回期总体风险较小",
+   "page": "research_20260923.html"
+  },
+  {
+   "date": "2026-09-23",
+   "title": "加息如何影响中国市场？",
+   "author": "中金点睛（中金公司·Kevin策略研究）",
+   "url": "https://mp.weixin.qq.com/s/LnHdKhXX6fREyl1Xcpmblg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "港股",
+    "宏观"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "美联储加息对中国市场影响取决于幅度时长，短暂预防式加息影响有限，港股对美联储更敏感",
+   "page": "research_20260923.html"
+  },
+  {
+   "date": "2026-09-23",
+   "title": "平陆运河知多少？——每周经济观察第88期",
+   "author": "一瑜中的（华创·张瑜）",
+   "url": "https://mp.weixin.qq.com/s/B1nXN6WcdnVC6yP4Z3rt8Q",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "基建",
+    "区域经济"
+   ],
+   "etf_sentiment": {
+    "512660": "多"
+   },
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "新中国第一条通江达海运河9月16日通航，缩短出海航程560公里，带动GDP1800亿",
+   "page": "research_20260923.html"
+  },
+  {
+   "date": "2026-09-23",
+   "title": "转债指标怎么看，哪些误区要避开——买方视角看转债系列二",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/bond-convertible-20260922",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "转债",
+    "固收"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.8
+   },
+   "summary": "转债定价二元结构，供给收缩+资金涌入推动估值自我强化，指标使用需辨清主导因素",
+   "page": "research_20260923.html"
+  },
+  {
+   "date": "2026-09-23",
+   "title": "关于房贷贴息的传闻，如此弱智，真有人信吗？",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/vO9yFlkHvPigbOzTuVro4w",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "地产",
+    "政策"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.4
+   },
+   "summary": "房贷贴息传闻缺乏可行性不符合政策伦理，怀疑游资炒作地产股",
+   "page": "research_20260923.html"
+  },
   {
    "date": "2026-09-22",
    "title": "年底财政发力的三种情景",
