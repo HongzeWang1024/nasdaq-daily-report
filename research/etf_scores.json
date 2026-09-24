@@ -1,98 +1,58 @@
 {
- "updated": "2026-09-23",
- "date": "2026-09-23",
- "sentiment_index": 84.0,
+ "updated": "2026-09-24",
+ "date": "2026-09-24",
+ "sentiment_index": 80.0,
  "risk_level": {
-  "level": "低",
-  "score": 16,
+  "level": "中",
+  "score": 48,
   "cats": {
-   "宏观流动性": 0.0,
+   "宏观流动性": 5.6,
    "地缘政治": 0.0,
-   "板块情绪": 3.1,
+   "板块情绪": 4.1,
    "估值水平": 0.0
   },
-  "advice": ""
+  "advice": "⚠ 风险等级中等，防御关注：511090（30年国债）、518880（黄金）"
  },
  "scores": [
   {
-   "code": "512400",
-   "name": "有色/铜",
-   "grade": "关注",
-   "score": 83,
-   "delta": 5,
-   "bull": 1,
+   "code": "513100",
+   "name": "纳指",
+   "grade": "强推",
+   "score": 78,
+   "delta": 4,
+   "bull": 3,
    "bear": 0,
    "neutral": 0
+  },
+  {
+   "code": "518880",
+   "name": "黄金",
+   "grade": "关注",
+   "score": 63,
+   "delta": 19,
+   "bull": 1,
+   "bear": 0,
+   "neutral": 3
   },
   {
    "code": "511090",
    "name": "30年国债",
    "grade": "关注",
-   "score": 82,
-   "delta": 11,
-   "bull": 2,
-   "bear": 0,
-   "neutral": 0
-  },
-  {
-   "code": "512800",
-   "name": "银行",
-   "grade": "关注",
-   "score": 80,
-   "delta": 3,
+   "score": 60,
+   "delta": -22,
    "bull": 1,
    "bear": 0,
-   "neutral": 0
+   "neutral": 3
   },
   {
-   "code": "513100",
-   "name": "纳指",
-   "grade": "关注",
-   "score": 74,
-   "delta": 19,
-   "bull": 2,
-   "bear": 0,
-   "neutral": 1
-  },
-  {
-   "code": "512660",
-   "name": "军工",
-   "grade": "关注",
-   "score": 72,
-   "delta": -16,
-   "bull": 1,
-   "bear": 0,
-   "neutral": 0
-  },
-  {
-   "code": "512480",
-   "name": "半导体",
-   "grade": "观望",
-   "score": 63,
-   "delta": -15,
-   "bull": 0,
-   "bear": 0,
-   "neutral": 1
-  },
-  {
-   "code": "511260",
-   "name": "十年国债",
+   "code": "510300",
+   "name": "沪深300",
    "grade": "观望",
    "score": 59,
-   "delta": -10,
+   "delta": null,
    "bull": 0,
    "bear": 0,
-   "neutral": 1
-  },
-  {
-   "code": "518880",
-   "name": "黄金",
-   "grade": "规避",
-   "score": 44,
-   "delta": -12,
-   "bull": 0,
-   "bear": 2,
-   "neutral": 0
+   "neutral": 2
   }
  ]
 }
