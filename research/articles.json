@@ -1,6 +1,315 @@
 {
- "updated": "2026-09-23",
+ "updated": "2026-09-24",
  "articles": [
+  {
+   "date": "2026-09-24",
+   "title": "中金｜资产配置：美联储加息后的市场方向",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/TzcTn9-Cal52EGK9bo6W4A",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储政策",
+    "资产配置",
+    "宏观"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "沃什政策反应函数全面转鹰，与经济周期关联度低、与政治周期关联度高。基本面不支持持续加息，8月非农反弹多为季节因子异常，核心通胀超预期来自手机套餐分项。加息周期可能短而浅，对资产压制有限。",
+   "page": "research_20260924.html"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "中金缪延亮：AI革命如何改变经济与市场",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/no0oT3YhlfJWT9qrYHVrcg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI",
+    "宏观",
+    "资产配置"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "AI革命对通胀与汇率的影响机制不同于以往技术革命——还可通过就业与收入分配渠道影响需求，中长期去通胀力量或强于以往。生产率赢家未必是汇率赢家。",
+   "page": "research_20260924.html"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "张瑜：居民存款活化是关键——张瑜旬度会议纪要No.148",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/yZAGRspmecKeI8-w1I8U8Q",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观",
+    "存款活化",
+    "大类资产"
+   ],
+   "etf_sentiment": {
+    "510300": "中性",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "居民存款活化已达历史偏高程度且边际放缓，企业-居民存款增速差见顶回落。估值修复行情基本告一段落，市场进入务实下半场，未来盈利逻辑比估值逻辑更具确定性，股债重回均衡区间。",
+   "page": "research_20260924.html"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "又见冲高回落",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/lTrBrO-BSwyHoVjAljD4gg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "股债商",
+    "央行政策",
+    "跨季"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "518880": "中性",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "权益缩量下跌、债市30Y强势、原油大跌。央行跨季信号积极，30Y-10Y利差压缩至35-40bp前超长债趋势性行情延续，持券过节占优。",
+   "page": "research_20260924.html"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "美国如何主导全球供应链重构？| 建投宏观 · 周君芝团队",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/Vq0yMKMDn7LHj6V7zUMYvw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "供应链",
+    "地缘"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "回顾1950s至今美国主导的五轮供应链变迁（德日承接→亚洲四小龙→中国→东盟+墨西哥→近岸/友岸），地缘战略+成本双驱动。",
+   "page": "research_20260924.html"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "【中金固收·信用】信用海外掘金——外资G-SIBs债券投资价值分析",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/xb-cNN516T3F2JsnyVR36g",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "海外信用债",
+    "资管全球化"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "外资G-SIBs（全球系统重要性银行）债券具备高评级、高票息优势，中国资管全球化配置背景下值得关注。",
+   "page": "research_20260924.html"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "CNY：如何理解隔夜掉期大跌？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/7yDNEr4hD-SBxyVFXSAO6g",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "汇率",
+    "资金面"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "季末美元资金紧张致隔夜掉期杀跌，TN低至-7pips，利率平价理论值-4.57pips，假期后或复现近结远购机会。",
+   "page": "research_20260924.html"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "未来经济十大趋势",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/qV3Hr84GpDeJx7-3blWhxg",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "宏观",
+    "AI",
+    "大宗商品"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "美联储加息靴子落地利空出尽、AI科技是海啸级红利、大宗元年开启、硅谷之城下一个财富机会。",
+   "page": "research_20260924.html"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "10月债市怎么看？| 市场调查问卷20260923",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/SO3EYaqvFfavgpM8IbcwnQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "债市",
+    "机构调研"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 2.9
+   },
+   "summary": "机构对10月债市分歧加大，长端利率预期分化。",
+   "page": "research_20260924.html"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "【华泰固收】地方收支仍待改善 ——2026年8月财政数据点评",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/G-LQZIBtAcnhAfFBTIMr0Q",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "财政",
+    "地方政府"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 2.8
+   },
+   "summary": "8月财政收入增速回落、支出压力仍大，土地财政低迷拖累地方收支改善。",
+   "page": "research_20260924.html"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "富国基金苗富：量化如何选股？",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/X9V-fhRV8hC7yKyPozBFxQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "量化",
+    "选股"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.8
+   },
+   "summary": "量化选股方法论分享，因子挖掘与组合构建框架。",
+   "page": "research_20260924.html"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "上半年保险资配表现如何？",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/a5TvAhptCbKPW6ZBiAOebg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "保险资配",
+    "大类资产"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.7
+   },
+   "summary": "保险资金固收配置占比高、权益配置谨慎，上半年整体收益稳健。",
+   "page": "research_20260924.html"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "大A今日缩量，节前隔夜逆回购上限加码！",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/emitBPQJOX12kieJ3bXGdA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "央行政策"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.1
+   },
+   "summary": "央行节前操作速评，与又见冲高回落主题重复。",
+   "page": "research_20260924.html"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "重回6.70，人民币独立行情暂缓",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/cLbANB-LJ3Y6Mu9EHaRPOA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "汇率"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.0
+   },
+   "summary": "人民币重回6.70，独立行情暂缓。",
+   "page": "research_20260924.html"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "市场交易了一些新变量。",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/IX7wq6r3OzP7vArY2GMlWw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "市场速评"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.0
+   },
+   "summary": "市场速评短文。",
+   "page": "research_20260924.html"
+  },
+  {
+   "date": "2026-09-24",
+   "title": "【瞎扯】央妈的操作真是越来越准了",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/PMDcbAys1GoVp5F8VcYQ6g",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "央行政策"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.9
+   },
+   "summary": "央行操作吐槽短文，无实质信息增量。",
+   "page": "research_20260924.html"
+  },
   {
    "date": "2026-09-23",
    "title": "人民币汇率为什么\"独自美丽\"？（国联民生宏观林彦）",
