@@ -1,6 +1,145 @@
 {
- "updated": "2026-09-24",
+ "updated": "2026-09-28",
  "articles": [
+  {
+   "date": "2026-09-28",
+   "title": "本轮信用行情和2024年有何不同？",
+   "author": "国联民生证券 徐亮",
+   "url": "https://mp.weixin.qq.com/s/jmJ700It0sAod25WuaKdJg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "信用债",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "2024年是利率下行主导久期行情，2026年是利率+长端利差压缩共同驱动；利差未到极端低位仍有空间，但预期回报从资本利得下调至票息骑乘。",
+   "page": "research_20260928.html"
+  },
+  {
+   "date": "2026-09-28",
+   "title": "量化视角下如何应对市场分歧期？",
+   "author": "浙商证券 章恒豪",
+   "url": "https://mp.weixin.qq.com/s/EGmuQkdOXlKN2YqeqoeLOg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "量化策略",
+    "ETF轮动"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "513100": "多"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "利率中期偏多但短期分歧增加，三十债多头共振强于十债；ETF轮动维持海外科技主攻、债券防守；转债转向低估值低波动。",
+   "page": "research_20260928.html"
+  },
+  {
+   "date": "2026-09-28",
+   "title": "关注例会的两个变化——2026年三季度货币政策委员会例会学习思考",
+   "author": "华创证券 张瑜",
+   "url": "https://mp.weixin.qq.com/s/9DBAnleDBCbQlmae2lkuvw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "货币政策",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多"
+   },
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "三季度货政例会新增综合运用并适时调整货币政策工具和防范汇率羊群效应表述；降息更多缓解利息负担；政策控制人民币升值速度。",
+   "page": "research_20260928.html"
+  },
+  {
+   "date": "2026-09-28",
+   "title": "如果地产股能那样反弹，确实是20年一遇的，甚至百年一遇的",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/vl-xFz7iGNKnQAnIlAWUTw",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "房地产",
+    "AI产业链"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.45
+   },
+   "summary": "质疑李蓓地产20年一遇观点，人口下降+资产负债表衰退+结婚率降55%制约房价，AI产业链胜率更高。",
+   "page": "research_20260928.html"
+  },
+  {
+   "date": "2026-09-28",
+   "title": "机构观点：A债独立走强",
+   "author": "方正证券 李清荷",
+   "url": "https://mp.weixin.qq.com/s/BQUMW1BJZBnP7P7xGZlR0w",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "美联储",
+    "AI产业链"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "22家买方55%偏多债市（+41pp）；美联储加息25bp至3.75-4.00%；AI资本开支未见放缓，推理需求支撑算力。",
+   "page": "research_20260928.html"
+  },
+  {
+   "date": "2026-09-28",
+   "title": "富国基金苗富：量化如何选股？",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/pChYp0iPIrXTLC87MAbihw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "量化策略"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.7
+   },
+   "summary": "量化选股三环节（阿尔法模型-组合优化-交易执行）；AI赋能呈一系列垂直小模型；分散与锐度可并存；过拟合需样本外观察期检验。",
+   "page": "research_20260928.html"
+  },
+  {
+   "date": "2026-09-28",
+   "title": "十大最具幸福感城市",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/vbFAect0tbJiMB3CJVQRaw",
+   "level": "archived",
+   "viewpoint": "观望",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.4
+   },
+   "summary": "十大最具幸福感城市排名，无投资交易含义。",
+   "page": "research_20260928.html"
+  },
   {
    "date": "2026-09-24",
    "title": "中金｜资产配置：美联储加息后的市场方向",
