@@ -1,6 +1,174 @@
 {
- "updated": "2026-09-28",
+ "updated": "2026-09-29",
  "articles": [
+  {
+   "date": "2026-09-29",
+   "title": "中金：四季度如何配置？财报里的胜率赔率线索",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/vSz6EqbcVyW7scpkeNq7GQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "科技配置",
+    "消费分化",
+    "四季度策略"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "512690": "空"
+   },
+   "scores": {
+    "total": 5.0
+   },
+   "summary": "构建胜率赔率框架，四季度综合前五为能源/保险/交运/制药/原材料，半导体第六；消费便宜但缺催化，若科技无催化、政策缺位则回归红利",
+   "page": "research_20260929.html"
+  },
+  {
+   "date": "2026-09-29",
+   "title": "人民币升值的逻辑与债市传导",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/4hQtq9wLYIGyOx0s8qb73Q",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "人民币汇率",
+    "债市配置",
+    "流动性"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.25
+   },
+   "summary": "人民币升值核心驱动是结汇资金流而非中美利差，对债市三渠道利好：资金面投放+宏观流动性充裕+外资配置提升",
+   "page": "research_20260929.html"
+  },
+  {
+   "date": "2026-09-29",
+   "title": "今天上午A股市场大跌原因",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/HxsOcgpOiPz5PY-mmYXWGQ",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "A股大跌",
+    "油价",
+    "光模块法案",
+    "AI基建"
+   ],
+   "etf_sentiment": {
+    "510300": "空",
+    "512480": "空",
+    "501018": "多",
+    "512690": "空"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "A股大跌六大原因：长假避险+油价上涨+公募调仓+光模块法案+AI营收质疑+中美谈判缺进展，部分利空被高估",
+   "page": "research_20260929.html"
+  },
+  {
+   "date": "2026-09-29",
+   "title": "四季度债市投资策略",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/1OkddkzsLbJu32iUJPrUyg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "债市策略",
+    "超长债",
+    "国债期货"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "四季度资本利得在长端，30Y国债有望下行至2.0-2.05%，建议短+超长哑铃型组合，久期中性偏高",
+   "page": "research_20260929.html"
+  },
+  {
+   "date": "2026-09-29",
+   "title": "收益率周报260928：信用债ETF规模创历史新高超7200亿元",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/k3mHApdRM0WZbqb2v48WaA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "信用债",
+    "信用债ETF",
+    "摊余债基"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "信用债ETF规模7232亿创新高，摊余债基建仓+季末ETF冲量带来增量需求，信用债收益率和利差或继续低位运行",
+   "page": "research_20260929.html"
+  },
+  {
+   "date": "2026-09-29",
+   "title": "四季度资金面展望——流动性与同业存单跟踪",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/KGYm0JF5j-4oPR69HhyMxA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "资金面",
+    "同业存单",
+    "短端利率"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "资金面量松价不松，短端为静态曲线只有票息，若不降准1年期CD或破1.50%，对资金面中性偏谨慎",
+   "page": "research_20260929.html"
+  },
+  {
+   "date": "2026-09-29",
+   "title": "【瞎扯】前年今日大A中，指数韭菜相映红",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/kuvhjE5NLM8FFxdEIcqhnA",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "国庆日历效应",
+    "工业利润",
+    "A股"
+   ],
+   "etf_sentiment": {
+    "510300": "空",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "国庆日历效应统计显示节前跌节后涨，小盘股受冲击更大，8月工业利润同比仅4.2%连续下滑，节前仅债市有配置需求",
+   "page": "research_20260929.html"
+  },
+  {
+   "date": "2026-09-29",
+   "title": "熬夜的代价，远超你想象：诺奖发现",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/fT-Oy3waEhSyfBlMTU4ZKw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "健康科普"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.25
+   },
+   "summary": "健康科普类文章，无交易含义",
+   "page": "research_20260929.html"
+  },
   {
    "date": "2026-09-28",
    "title": "本轮信用行情和2024年有何不同？",
