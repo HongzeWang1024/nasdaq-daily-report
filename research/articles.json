@@ -1,6 +1,661 @@
 {
- "updated": "2026-09-29",
+ "updated": "2026-10-08",
  "articles": [
+  {
+   "date": "2026-10-08",
+   "title": "假期海外市场的不寻常",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/fFjcuYzJ170hoqfOmuuw8Q",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储政策",
+    "美债",
+    "AI",
+    "中东地缘"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "511090": "多",
+    "518880": "空"
+   },
+   "scores": {
+    "total": 4.85
+   },
+   "summary": "美债5.3%新高但纳指创新高，本质是美国相对优势>欧洲财政风险>美伊僵局的比价效应，AI盈利预期对冲利率压力",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "美联储副主席Jefferson演讲",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/6lFPpmjtP5B5WGibgMjaSA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美联储政策",
+    "通胀",
+    "加息预期"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "518880": "多",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "Jefferson暗示10月不必急于加息，需更多数据观察窗口，10月加息概率从70%降至22%",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "联合解读居民房贷贴息和结构性货币政策",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/Q0Wxk7NgkyyWJ95e9YTXfA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "政策宽松",
+    "利率债",
+    "地产",
+    "科创"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多",
+    "512690": "中性",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.55
+   },
+   "summary": "三部门联合发布房贷贴息+PSL降息0.25%+再贷款扩容，财政货币协同逆周期调节明确信号",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "美联储理事Cook详解AI对通胀的影响",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/pR531oYYiz744zvFGhlCag",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI",
+    "通胀",
+    "美联储政策"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "513100": "多",
+    "511090": "空"
+   },
+   "scores": {
+    "total": 4.55
+   },
+   "summary": "Cook首次系统性阐述：短期AI投资推升通胀（能源/工资/财富效应），长期生产率繁荣可降温但今年还来不及",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "\"旺季\"来临，9月PMI的信号",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/k-cCj3CXf3PuYqxQAPcZBg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "PMI",
+    "制造业",
+    "消费",
+    "价格"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "512690": "中性",
+    "512660": "多",
+    "512400": "多"
+   },
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "9月PMI回升至扩张区间，消费品重回扩张，购进/出厂价格连续两月回升，PPI环比改善有领先信号",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "市场磨底，聚焦优质科技",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/CqWVC32HyVAbOpCZL8u8Sw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "A股",
+    "科技",
+    "磨底",
+    "AI"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "513100": "多",
+    "512800": "多"
+   },
+   "scores": {
+    "total": 4.25
+   },
+   "summary": "A股底部反复夯实，政策兜底+恐慌释放+筹码衰竭三重支撑，优质科技是核心配置方向",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "928国常会释放的信号",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/XCn-R4bg4SrOEjOUz4NKqQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "政策",
+    "国债",
+    "地产",
+    "货币政策"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多",
+    "512690": "多"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "国常会逆周期调，历史上降准提法9次9次落地，四季度结存限额预计5000亿",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "从房贷贴息看政策脉络",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/gjcoRvxO3VEUO5V9oTa6nw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "政策",
+    "地产",
+    "财政",
+    "货币政策"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "512690": "中性",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "贴息针对三四线刚需而非全面放水，总量工具空间或收敛，结构性精准滴灌为主",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "四季度如何配置？财报里的胜率赔率线索",
+   "author": "Kevin策略研究",
+   "url": "https://mp.weixin.qq.com/s/45x8jZNaf8-RldPef2J4Aw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "配置",
+    "行业比较"
+   ],
+   "etf_sentiment": {
+    "512800": "多",
+    "512400": "多",
+    "512660": "多",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "胜率80%+赔率20%框架，中报兑现泛外需与AI硬件，四季度配置——科技等催化/周期看加息/内需等政策/红利兜底",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "国庆假期不能错过的事",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/xnYNMCP0WcjXKhEphDuXBg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "假期资产",
+    "美联储",
+    "法国财政",
+    "AI",
+    "消费"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "511090": "多",
+    "512690": "中性"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "假期四大主线——加息降温+法债抛售+G7释储+AI景气；国内地产结构性回暖（二线+21%，三线-29.2%）",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "里士满联储主席Barkin：为什么9月加息",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/faMcsm8kGh6jbu8KPA4rXA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储政策",
+    "通胀"
+   ],
+   "etf_sentiment": {
+    "511090": "空",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.75
+   },
+   "summary": "Barkin持鹰派立场，企业重新发现定价杠杆，通胀粘性强于预期",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "AMD 82亿并购 World Labs",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/u6Q4L4zynN6JRoOKXXRFhg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI",
+    "半导体",
+    "并购"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "513100": "多"
+   },
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "AMD并购World Labs布局世界模型，对标英伟达Omniverse+Cosmos，AI芯片公司向下整合趋势",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "利好！美股新高，英伟达新高，非农爆冷",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/jCdzJkpvJ3paji1qzXe7Ng",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "纳指",
+    "英伟达",
+    "AI"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "纳指/英伟达齐创新高，非农爆冷+加息预期降温+AI盈利共振，行情由头部科技权重主导",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "全球农业科技启示录",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/A1pn-kkKI1B-JkfGcPX0rQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "农业科技",
+    "AI"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "生物技术+AI共振开启农业科技新纪元，全球种业557亿美元CR3=50%",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "总量平稳，结构分化——中秋国庆消费点评",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/35t5EvqkivM9nMevlA8rrg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "消费",
+    "出行",
+    "假期"
+   ],
+   "etf_sentiment": {
+    "512690": "中性",
+    "512400": "中性"
+   },
+   "scores": {
+    "total": 3.35
+   },
+   "summary": "假期流动量-0.6%，铁路+10.9%但民航-1.1%，油价+71.7%抑制出行",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "美元指数本轮上涨还能延续多久？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/B8HCEwrC2gKzB6JjJD8bZw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "美元",
+    "美债"
+   ],
+   "etf_sentiment": {
+    "518880": "空",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "美指从低点反弹2.3%，驱动三因子——能源高位+美联储鹰派+欧元政治风险",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "假期回顾 | 国庆假期资产表现与要闻汇总",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/UEeasnLbV-YvklHcdoIyZw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "假期资产",
+    "美联储"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "511090": "空"
+   },
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "（与《郁言债市·国庆假期不能错过的事》同题，保留篇更全面）",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "AI产业链代表企业，发了多少债？",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/2qCOwPL-jRdzHUdDwTCZnQ",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "AI",
+    "科技债",
+    "信用利差"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.1
+   },
+   "summary": "AI科技企业发债激增76%，云厂商占68%，甲骨文/亚马逊已处净负债状态",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "2026年券商自营配置特点观察",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/LHdHNGwYJ73iGBJRVdWQNg",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "券商",
+    "ERP",
+    "机构行为"
+   ],
+   "etf_sentiment": {
+    "511090": "中性",
+    "512800": "多"
+   },
+   "scores": {
+    "total": 3.05
+   },
+   "summary": "券商自营从债市稳定器变趋势放大器，减债增股最陡，ERP是股债切换核心锚",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "应该持汇过节吗",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/k7uQlKHpcBIP0q3gp55CyQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "人民币",
+    "美元"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.05
+   },
+   "summary": "当前人民币在升值通道，国庆假期难以突破6.70，美指仍有望维持强势",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "港股可转债科技股再融资新趋势",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/UeD6GkPWFPrUHYT79GRx-g",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "转债",
+    "港股",
+    "AI融资"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "港股转债AI链贡献520亿港元，零息转债+低票息适配高资本开支AI企业",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "问卷点评 | 10月债市怎么看？",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/y5Ez-wHGbG-b5N8t0WVXTQ",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "债市",
+    "投资者调研"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多"
+   },
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "投资者看好10月债市牛平，偏好超长利率债，降准降息预期偏低",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "转债 | 10月，转债交易机会窗口期",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/W0pTAPKsoG4yGuvchXpwOQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "转债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.95
+   },
+   "summary": "转债遭遇正股+估值双重冲击，估值仍处高位92%+分位，银行/医药抗跌科技回调",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "转债组合怎么建，先账户再策略",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/YgAwaOaGld0IQyImzUVQKg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "转债",
+    "组合管理"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.6
+   },
+   "summary": "转债组合管理方法论：压力测试→可投池→分层配置→delta风险暴露",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "928国常会释放的信号（通俗版）",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/RvUT7FtyaQWEP3SraB4U9w",
+   "level": "archived",
+   "viewpoint": "多",
+   "themes": [
+    "政策",
+    "PSL"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多"
+   },
+   "scores": {
+    "total": 2.55
+   },
+   "summary": "通俗解读PSL降息+再贷款扩容，等同于降准降息",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "AGI时代将至：哈萨比斯七大预判",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/gktZh8pRbjloeC9V15Nv3Q",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "AI"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.2
+   },
+   "summary": "科技前沿无金融数据关联",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "诺奖站在光里",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/5knbe1fZlTYtgbGn1nSaUw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.7
+   },
+   "summary": "诺奖科普无金融关联",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "中国十大最佳旅游度假城市2026",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/qUppptXHL7DWrC4V0xLODg",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.3
+   },
+   "summary": "旅游排行无金融关联",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "总有一款\"鸡蛋\"适合老人",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/VaUXF0MadQQwRkQUDW-1wg",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.3
+   },
+   "summary": "社会话题无金融关联",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "收官，精准跑路",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/6XIdjixEAMnWCoUNhy56WA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.0
+   },
+   "summary": "随笔无实质内容",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "吸引力法则的真相",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/wCMzEas4ZvaXEKA2jb6Hfw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.0
+   },
+   "summary": "鸡汤文无金融关联",
+   "page": "research_20261008.html"
+  },
+  {
+   "date": "2026-10-08",
+   "title": "十月，你好！",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/ih6jzHgQ6lOkRrogkDgeXw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.0
+   },
+   "summary": "节日问候无实质内容",
+   "page": "research_20261008.html"
+  },
   {
    "date": "2026-09-29",
    "title": "中金：四季度如何配置？财报里的胜率赔率线索",
