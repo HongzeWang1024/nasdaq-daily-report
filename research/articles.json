@@ -1,6 +1,203 @@
 {
- "updated": "2026-10-08",
+ "updated": "2026-10-09",
  "articles": [
+  {
+   "date": "2026-10-09",
+   "title": "9月全球投资十大主线",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/jEFsoxL6f-56yYnRofiQew",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "全球资产配置",
+    "债券收益率",
+    "AI资本开支",
+    "中美利差"
+   ],
+   "etf_sentiment": {
+    "512400": "多",
+    "511090": "多",
+    "518880": "中性",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "9月全球资产美元领涨，铜价创历史新高（AI→电力→铜），中美利差360.7bp历史最低，美银将债券收益率无序上升列为最大尾部风险",
+   "page": "research_20261009.html"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "债市 | 10月，政策之后，震荡不空",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/ciZDtG5p2TIbW1UpBL4CIQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "债市",
+    "结构性宽货币",
+    "超长债"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "10月债市'利多落地'但多头逻辑不改，30Y 2.13%是支撑，非银久期5.72年历史新高，超长利差压缩机会仍在",
+   "page": "research_20261009.html"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "墙头草？美联储理事Waller：SEP挺好；支持加息，但反对连续加息",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/LiKi2VINKN84om9uK58Hqw",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "美联储",
+    "加息路径",
+    "通胀"
+   ],
+   "etf_sentiment": {
+    "513100": "空",
+    "518880": "中性",
+    "511090": "空",
+    "501018": "多"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "Waller立场大转变：1月主张降息→现在支持加息但反对连续加息，三重通胀压力（中东油价+AI基建+贸易冲突），5委员认为10月不必加息",
+   "page": "research_20261009.html"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "美元兴，欧元危",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/lUYh2cPgPxgFtnvZoF1ZEA",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "外汇",
+    "美联储",
+    "欧债危机",
+    "油价"
+   ],
+   "etf_sentiment": {
+    "518880": "空",
+    "501018": "多",
+    "513100": "多"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "法国财政危机欧元暴跌，非农爆冷但美联储仍鹰，G7释储vs OPEC+不增产布美价差翻倍",
+   "page": "research_20261009.html"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "中金：一文读懂国庆假期数据",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/ImZIoHghvkm7HD45MT-PVA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "消费",
+    "国庆假期",
+    "旅游"
+   ],
+   "etf_sentiment": {
+    "159928": "多",
+    "512880": "多",
+    "512980": "空"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "国庆消费平稳增长但结构分化：商圈+5.3%自驾-1.1%电影-31.6%，长线游/跨省游/入境游双位数增长",
+   "page": "research_20261009.html"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "国庆消费：账单里的\"星级信号\"",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/mujXJpMRaATzpkWX45Gv6g",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "消费",
+    "国庆假期",
+    "政策"
+   ],
+   "etf_sentiment": {
+    "159928": "中性"
+   },
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "国庆消费'五星游、四星行、三星娱'分化，人均消费缺乏弹性，《求是》聚焦'供强需弱'促消费转向制度性安排",
+   "page": "research_20261009.html"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "持续磨底",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/bDXaF4xstkcZdWwey17EvA",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "A股",
+    "债市",
+    "节后复盘"
+   ],
+   "etf_sentiment": {
+    "588000": "空",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "节后首日万得全A-1.61%科创50-4.82%，银行石油逆势固态电池涨停，债市30Y 2.13%支撑",
+   "page": "research_20261009.html"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "20261008早评（假期后市场与技术面观点）",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/4wj5dDHAmwL6t9z0Dv9Aew",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "全球市场",
+    "A股"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "518880": "空"
+   },
+   "scores": {
+    "total": 2.6
+   },
+   "summary": "假期美债持续走高、美元新高、贵金属走弱铜坚挺，纳指创新高但上涨广度收缩，A搞慢牛排斥热钱",
+   "page": "research_20261009.html"
+  },
+  {
+   "date": "2026-10-09",
+   "title": "叫兽指数全球版20261008：加入多资产多策略量化ETF",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://mp.weixin.qq.com/s/eKFviHV5YJkTwokr97Nrwg",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.45
+   },
+   "summary": "叫兽指数加入贝莱德IALT多资产多策略量化ETF，但境外ETF境内不可交易",
+   "page": "research_20261009.html"
+  },
   {
    "date": "2026-10-08",
    "title": "假期海外市场的不寻常",
