@@ -1,35 +1,25 @@
 {
- "updated": "2026-10-09",
- "date": "2026-10-09",
- "sentiment_index": 56.0,
+ "updated": "2026-10-12",
+ "date": "2026-10-12",
+ "sentiment_index": 83.0,
  "risk_level": {
-  "level": "低",
-  "score": 28,
+  "level": "中",
+  "score": 56,
   "cats": {
    "宏观流动性": 2.4,
-   "地缘政治": 1.2,
-   "板块情绪": 2.1,
-   "估值水平": 0.0
+   "地缘政治": 0.0,
+   "板块情绪": 4.0,
+   "估值水平": 4.8
   },
-  "advice": ""
+  "advice": "⚠ 风险等级中等，防御关注：511090（30年国债）、518880（黄金）"
  },
  "scores": [
   {
    "code": "501018",
    "name": "油气",
    "grade": "关注",
-   "score": 84,
-   "delta": null,
-   "bull": 2,
-   "bear": 0,
-   "neutral": 0
-  },
-  {
-   "code": "511520",
-   "name": "",
-   "grade": "关注",
-   "score": 82,
-   "delta": 10,
+   "score": 78,
+   "delta": -6,
    "bull": 1,
    "bear": 0,
    "neutral": 0
@@ -37,79 +27,99 @@
   {
    "code": "512400",
    "name": "有色/铜",
-   "grade": "关注",
-   "score": 79,
-   "delta": 12,
-   "bull": 1,
+   "grade": "强推",
+   "score": 75,
+   "delta": -3,
+   "bull": 3,
    "bear": 0,
    "neutral": 0
   },
   {
-   "code": "512880",
-   "name": "证券",
+   "code": "512480",
+   "name": "半导体",
    "grade": "关注",
-   "score": 77,
+   "score": 74,
+   "delta": null,
+   "bull": 2,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "512690",
+   "name": "酒",
+   "grade": "关注",
+   "score": 73,
    "delta": null,
    "bull": 1,
    "bear": 0,
    "neutral": 0
   },
   {
-   "code": "511090",
-   "name": "30年国债",
+   "code": "512800",
+   "name": "银行",
+   "grade": "关注",
+   "score": 73,
+   "delta": null,
+   "bull": 1,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "512660",
+   "name": "军工",
    "grade": "关注",
    "score": 72,
-   "delta": 3,
-   "bull": 3,
-   "bear": 1,
-   "neutral": 0
-  },
-  {
-   "code": "159928",
-   "name": "消费",
-   "grade": "关注",
-   "score": 70,
    "delta": null,
-   "bull": 1,
+   "bull": 2,
    "bear": 0,
-   "neutral": 1
+   "neutral": 0
   },
   {
    "code": "513100",
    "name": "纳指",
    "grade": "关注",
-   "score": 65,
+   "score": 70,
+   "delta": 5,
+   "bull": 1,
+   "bear": 0,
+   "neutral": 1
+  },
+  {
+   "code": "511520",
+   "name": "",
+   "grade": "强推",
+   "score": 69,
    "delta": -13,
+   "bull": 4,
+   "bear": 0,
+   "neutral": 4
+  },
+  {
+   "code": "511090",
+   "name": "30年国债",
+   "grade": "关注",
+   "score": 62,
+   "delta": -9,
    "bull": 2,
    "bear": 1,
+   "neutral": 6
+  },
+  {
+   "code": "159928",
+   "name": "消费",
+   "grade": "观望",
+   "score": 50,
+   "delta": -20,
+   "bull": 0,
+   "bear": 0,
    "neutral": 1
   },
   {
    "code": "518880",
    "name": "黄金",
    "grade": "规避",
-   "score": 50,
-   "delta": -9,
-   "bull": 0,
-   "bear": 2,
-   "neutral": 2
-  },
-  {
-   "code": "512980",
-   "name": "传媒",
-   "grade": "规避",
-   "score": 37,
-   "delta": null,
-   "bull": 0,
-   "bear": 1,
-   "neutral": 0
-  },
-  {
-   "code": "588000",
-   "name": "科创50",
-   "grade": "规避",
-   "score": 35,
-   "delta": null,
+   "score": 38,
+   "delta": -12,
    "bull": 0,
    "bear": 1,
    "neutral": 0
