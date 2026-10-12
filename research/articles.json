@@ -1,6 +1,395 @@
 {
- "updated": "2026-10-09",
+ "updated": "2026-10-12",
  "articles": [
+  {
+   "date": "2026-10-12",
+   "title": "华泰资产配置：结构性过热的广谱代价",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/idNChRcOJKBhUhczGnnG-w",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "全球资产配置",
+    "结构性过热",
+    "AI通胀",
+    "能源通胀"
+   ],
+   "etf_sentiment": {
+    "518880": "空",
+    "513100": "多",
+    "511090": "空",
+    "512400": "多",
+    "501018": "多"
+   },
+   "scores": {
+    "total": 4.45
+   },
+   "summary": "全球进入AI+能源结构性过热象限，通胀因子走高流动性因子2024年来首次持续转负，股票和工业品优于债券黄金",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "详解四季度政府债供给规模与期限",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/PBKdPSLefwnaDRfA6bMIzw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "政府债供给",
+    "国债",
+    "地方债",
+    "政金债"
+   ],
+   "etf_sentiment": {
+    "511090": "中性",
+    "511520": "中性"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "四季度政府债净供给3.7万亿环比略降同比+1.41万亿，11月或为高峰，超长期供给环比降低",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "流动性：金融稳定目标下的阶段性资金宽松",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/HotH6rFWT4FLksF53VY9WQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "流动性",
+    "金融稳定",
+    "债市"
+   ],
+   "etf_sentiment": {
+    "511520": "多",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "金融稳定目标下权益波动DR001阶段性宽松至1.31%，若维持1.30%附近债市收益率曲线或走陡",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "汇率思辨和四季度债市前瞻",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/k6D9vBrirTMgoAwdl6VHAQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "汇率",
+    "债市",
+    "中美利差"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "出口超预期是人民币升值核心，四季度债市或先调后涨，维持多头应对思路",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "行业配置：季报中的10月配置线索",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/XLFY2eobVVTuF0ZZMgWTiQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "行业配置",
+    "三季报",
+    "A股"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "512690": "多",
+    "512800": "多",
+    "512660": "多"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "三季报10月披露期，超配三季报盈利改善领域+高股息",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "外需或带动经济回升——9月经济数据前瞻",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/yrvV4ewTerzD8s5s-Ijd1w",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "GDP",
+    "通胀",
+    "外贸"
+   ],
+   "etf_sentiment": {
+    "512400": "多",
+    "512480": "多",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "9月GDP预计回升至4.5%，出口同比27%超预期强，PPI破年内前高4.5%",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "30Y相对价值基本修复，等待10Y突破引领新行情",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/qsMtn-jKVZFXrWx47Y37DQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "债市",
+    "收益率曲线",
+    "机构行为"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "节后债市偏强震荡，结构性降息+地产贴息是定向托底而非总量宽松",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "基金运作办法征求意见稿对固收+的影响",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/nC8mypkxw32B4ObZUG6UeQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "基金监管",
+    "固收+",
+    "ETF"
+   ],
+   "etf_sentiment": {
+    "511520": "中性",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "证监会新规：二级债基股票仓位压缩；持基上限10%→30%→固收+ETF具备政策土壤",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "海外政府债务制约及利息负担对中国政府类债券供给的影响及展望",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/MiTNk51YeR9x7DhiBzELrA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "海外债务",
+    "政府债",
+    "财政可持续性"
+   ],
+   "etf_sentiment": {
+    "511090": "中性",
+    "511520": "中性"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "欧美政府债务易上难下形成负向螺旋，中国需考虑债务可持续性",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "基建高频继续改善——每周经济观察第91期",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/uGnZJXSZLHdGIV9pDs6oyw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "高频数据",
+    "基建",
+    "商品"
+   ],
+   "etf_sentiment": {
+    "512660": "多",
+    "512400": "多",
+    "511520": "多"
+   },
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "基建高频连7周改善，油价金价铜价均上涨，资金面宽松",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "信用：10月关注增量资金利好品种",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/ws-TH0SoiFBeizbWdVkbSw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债",
+    "基金行为"
+   ],
+   "etf_sentiment": {
+    "511520": "中性"
+   },
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "9月长信用领涨但利差已处低位，10月谨慎追涨",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "20261009早评",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/qjVxqbJIkroSDBl6vVlfDw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "市场早评",
+    "汇率"
+   ],
+   "etf_sentiment": {
+    "511090": "中性",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "央行汇率表态怼IMF，纳指半导体跌3.4%，A股1.6万亿成交额撑不起3万亿故事",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "从国庆期间主要经济数据看未来趋势",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/vcSvRMSxywOAmVXUhLPoFA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "国庆消费",
+    "楼市"
+   ],
+   "etf_sentiment": {
+    "159928": "中性"
+   },
+   "scores": {
+    "total": 3.35
+   },
+   "summary": "国庆人流21.42亿+0.6%，奔县游+35%，楼市二八分化",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "近期可转债的交易特征和投资者结构有哪些变化",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/YaZRZ4MJsoU-FXKy9POJ8w",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "可转债",
+    "机构行为"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "9月转债成交大降，年金保险券商自营大幅撤出",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "当前或是购汇套保的好窗口",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/Z1MiJ0Ky-O11UF5VrpHEuw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "汇率"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.55
+   },
+   "summary": "人民币1年期远期购汇跌破6.5，建议进口企业加大套保比例",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "财爸买股央妈买债：优势在我",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/w6BufthMoIpFuhVLN4tfxw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "市场情绪"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.4
+   },
+   "summary": "财爸托底大A深V，央妈表态汇率自主",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "为什么城市大量女性单身",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/-zWzBBIV-PPY6gmf-HvbPA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "人口"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.95
+   },
+   "summary": "人口社会学分析，与ETF无直接关联",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "13年前的债市扫黑风暴重新上演",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/goS25rxvySJD4i5kIBMfWQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.45
+   },
+   "summary": "债市历史八卦",
+   "page": "research_20261012.html"
+  },
+  {
+   "date": "2026-10-12",
+   "title": "吴雅楠：回归热爱坚守初心",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/-fcdW6xC127cu7XxwXanYg",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.15
+   },
+   "summary": "个人入职声明",
+   "page": "research_20261012.html"
+  },
   {
    "date": "2026-10-09",
    "title": "9月全球投资十大主线",
