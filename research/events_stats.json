@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09",
+ "updated": "2026-10-12",
  "events": [
   {
    "event": "15只摊余债基预计开启募集（9月中下旬-10月，审核1-2个月）",
@@ -11,12 +11,12 @@
      "date": "2026-09-20",
      "r1": 0.0003,
      "r3": 0.0003,
-     "r7": null
+     "r7": 0.0002
     }
    ],
    "avg_ret_1d": 0.0003,
    "avg_ret_3d": 0.0003,
-   "avg_ret_7d": null
+   "avg_ret_7d": 0.0002
   },
   {
    "event": "50年期特别国债发行",
@@ -44,12 +44,12 @@
     {
      "date": "2026-09-28",
      "r1": 0.0033,
-     "r3": null,
+     "r3": -0.0032,
      "r7": null
     }
    ],
    "avg_ret_1d": 0.0033,
-   "avg_ret_3d": null,
+   "avg_ret_3d": -0.0032,
    "avg_ret_7d": null
   },
   {
@@ -87,6 +87,23 @@
    "avg_ret_7d": 0.0063
   },
   {
+   "event": "8月政府债发行收官(净发行节奏)",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-30",
+     "r1": -0.0027,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0027,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
    "event": "8月进出口数据",
    "target": "511090",
    "name": "30年国债",
@@ -121,6 +138,40 @@
    "avg_ret_7d": 0.0051
   },
   {
+   "event": "9-10月政府债供给加速放量",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-30",
+     "r1": -0.0027,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0027,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "9月PMI数据",
+   "target": "510300",
+   "name": "沪深300",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-30",
+     "r1": -0.0097,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0097,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
    "event": "9月PMI数据发布",
    "target": "510300",
    "name": "沪深300",
@@ -135,6 +186,57 @@
    ],
    "avg_ret_1d": -0.0217,
    "avg_ret_3d": -0.0184,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "9月下旬地方债发行提速",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-30",
+     "r1": -0.0027,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0027,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "9月政府债净融资放量（预计1.44-1.60万亿）+季末资金面与理财回表",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-30",
+     "r1": -0.0027,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0027,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "AI应用/AI PC新品与Agent订单验证",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-30",
+     "r1": 0.0094,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0094,
+   "avg_ret_3d": null,
    "avg_ret_7d": null
   },
   {
@@ -164,12 +266,12 @@
      "date": "2026-09-21",
      "r1": 0.0067,
      "r3": -0.0201,
-     "r7": null
+     "r7": -0.1245
     }
    ],
    "avg_ret_1d": 0.0067,
    "avg_ret_3d": -0.0201,
-   "avg_ret_7d": null
+   "avg_ret_7d": -0.1245
   },
   {
    "event": "中国8月经济数据",
@@ -187,6 +289,23 @@
    "avg_ret_1d": 0.006,
    "avg_ret_3d": 0.013,
    "avg_ret_7d": -0.0018
+  },
+  {
+   "event": "中国8月金融数据",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-30",
+     "r1": -0.0027,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0027,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "中国9月LPR报价",
@@ -214,12 +333,12 @@
     {
      "date": "2026-09-28",
      "r1": 0.0033,
-     "r3": null,
+     "r3": -0.0032,
      "r7": null
     }
    ],
    "avg_ret_1d": 0.0033,
-   "avg_ret_3d": null,
+   "avg_ret_3d": -0.0032,
    "avg_ret_7d": null
   },
   {
@@ -249,12 +368,12 @@
      "date": "2026-09-20",
      "r1": 0.0067,
      "r3": -0.0201,
-     "r7": null
+     "r7": -0.1245
     }
    ],
    "avg_ret_1d": 0.0067,
    "avg_ret_3d": -0.0201,
-   "avg_ret_7d": null
+   "avg_ret_7d": -0.1245
   },
   {
    "event": "久期MA10是否突破前高",
@@ -376,6 +495,74 @@
    "avg_ret_7d": -0.0036
   },
   {
+   "event": "政治局会议增量政策观察窗口（新一轮地产政策与社融变化）",
+   "target": "510300",
+   "name": "沪深300",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-30",
+     "r1": -0.0097,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0097,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "政策性金融工具集中落地（委托贷款口径入社融）",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-30",
+     "r1": -0.0027,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0027,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "新型政策性金融工具落地投放",
+   "target": "510300",
+   "name": "沪深300",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-30",
+     "r1": -0.0097,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0097,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "新批15只摊余债基（上限1200亿）募集配置进展",
+   "target": "511010",
+   "name": "国债ETF",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-30",
+     "r1": -0.0002,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0002,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
    "event": "日本央行9月议息会议",
    "target": "513100",
    "name": "纳指",
@@ -391,6 +578,23 @@
    "avg_ret_1d": 0.0062,
    "avg_ret_3d": 0.0286,
    "avg_ret_7d": 0.0366
+  },
+  {
+   "event": "日本央行可能加息（最快9月）",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-30",
+     "r1": 0.0094,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0094,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "杰克逊霍尔年会美联储主席沃什主旨演讲（北京时间周五晚）",
@@ -493,6 +697,23 @@
    "avg_ret_1d": -0.0054,
    "avg_ret_3d": -0.0179,
    "avg_ret_7d": -0.0009
+  },
+  {
+   "event": "美国新旧财年交替/CR到期（债务上限变数，至12-11）",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-09-30",
+     "r1": 0.0094,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0094,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "美联储9月FOMC议息（加息概率约90%）",
