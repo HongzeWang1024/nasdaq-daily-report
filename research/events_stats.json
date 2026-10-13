@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12",
+ "updated": "2026-10-13",
  "events": [
   {
    "event": "15只摊余债基预计开启募集（9月中下旬-10月，审核1-2个月）",
@@ -17,6 +17,23 @@
    "avg_ret_1d": 0.0003,
    "avg_ret_3d": 0.0003,
    "avg_ret_7d": 0.0002
+  },
+  {
+   "event": "3000亿注资特别国债预计Q4初落地",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-10-01",
+     "r1": 0.0032,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0032,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "50年期特别国债发行",
@@ -393,6 +410,23 @@
    "avg_ret_7d": 0.011
   },
   {
+   "event": "公积金新规资金入市窗口（Q4起，静态增量2-3万亿，偏好3-5年中短端国开）",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-10-01",
+     "r1": 0.0032,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0032,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
    "event": "十四届全国人大常委会闭幕（政策表态）",
    "target": "510300",
    "name": "沪深300",
@@ -442,6 +476,23 @@
    "avg_ret_1d": 0.0162,
    "avg_ret_3d": 0.0041,
    "avg_ret_7d": -0.0388
+  },
+  {
+   "event": "央行跨季逆回购到期、MLF续作",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-10-08",
+     "r1": 0.0032,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0032,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "央行隔夜逆回购操作(每日≤6000亿)",
@@ -697,6 +748,23 @@
    "avg_ret_1d": -0.0054,
    "avg_ret_3d": -0.0179,
    "avg_ret_7d": -0.0009
+  },
+  {
+   "event": "美国9月非农就业",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-10-02",
+     "r1": 0.0101,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0101,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "美国新旧财年交替/CR到期（债务上限变数，至12-11）",
