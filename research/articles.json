@@ -1,6 +1,163 @@
 {
- "updated": "2026-10-12",
+ "updated": "2026-10-13",
  "articles": [
+  {
+   "date": "2026-10-13",
+   "title": "中金：\"棉花糖\"时代的美国AI",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/mfcvYQrWOV84EzqeHn9Ueg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI产业",
+    "美国金融化",
+    "全球流动性"
+   ],
+   "etf_sentiment": {
+    "513100": "多"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "美国AI兼具科技+类地产双属性，金融化处早期阶段，暂无系统性泡沫风险，但短期美债利率+地缘冲突或扰动流动性",
+   "page": "research_20261013.html"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "【华泰固收】本轮政策宽信用效果评估",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/HtinDhXw8sBBa1nl12TCxg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "债市策略",
+    "稳增长政策",
+    "社融"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "政策性金融工具+地产政策+政府债三管齐下，四季度社融多增2.6万亿，对债市扰动有限，调整是配置机会，3-5年利率债受益于宽松逻辑",
+   "page": "research_20261013.html"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "总结：欧洲对中国的贸易壁垒",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://mp.weixin.qq.com/s/7e0CKbDCJD44HIuwuefcBQ",
+   "level": "brief",
+   "viewpoint": "观望",
+   "themes": [
+    "中欧贸易",
+    "贸易摩擦"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "中欧贸易摩擦从光伏/电动车扩展至化工BDO、轮胎、医疗器械、跨境电商，10月混合动力汽车35万辆配额初步协议",
+   "page": "research_20261013.html"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "当前债券策略的关注点",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/6iSNkx9qE1mX0egGuNcEIg",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "债市策略"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.15
+   },
+   "summary": "哑铃型策略（短+超长）占优，10Y国债下行空间1.65%-1.6%，30Y国债下行至2.0%-2.05%，30-10Y利差压缩至35-40BP",
+   "page": "research_20261013.html"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "【华泰固收】公募基金运作办法修订，债基关注哪些变化？",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/GRTjRSk8Jjx3YyGiqNT6kA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "公募基金",
+    "债基政策"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "12年首次大修，债基产品分类分母改总资产、建仓期缩至3个月、业绩基准全流程管理，杠杆上限维持140%不变",
+   "page": "research_20261013.html"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "机构观点：短端美债或初现价值",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/qy4tlyY62sI3jRzM8T1sZQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "债市策略",
+    "大类资产配置"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "513100": "中性",
+    "518880": "空"
+   },
+   "scores": {
+    "total": 2.85
+   },
+   "summary": "42家买方机构汇总：债市短期震荡中期乐观，A股短期中性中期向好（科技AI主线），美债短端初现价值，黄金短期中性偏空",
+   "page": "research_20261013.html"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "【中金固收·信用】9月境外债月报：美联储加息落地，美债利率明显走高",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/pPzWsHjgzFo6MbspMxUDhw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美债",
+    "中资美元债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.65
+   },
+   "summary": "9月美债全线上行39-54bp（10Y破5.29%），中资美元债-1.11%，点心债表现稳健；美联储加息全票通过，点阵图年内或再加息1次",
+   "page": "research_20261013.html"
+  },
+  {
+   "date": "2026-10-13",
+   "title": "欧元：危机，还是机遇？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/88n4M7n5ysRgDE3nNqml1w",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "外汇",
+    "欧债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.6
+   },
+   "summary": "欧元暴跌至1.12一线，但悲观情绪达历史极值，欧元区银行盈利20年最强+财政健康优于2011年，系统性风险可控，抄底赔率不对称",
+   "page": "research_20261013.html"
+  },
   {
    "date": "2026-10-12",
    "title": "华泰资产配置：结构性过热的广谱代价",
