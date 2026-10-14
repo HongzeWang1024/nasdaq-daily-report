@@ -1,48 +1,58 @@
 {
- "updated": "2026-10-13",
- "date": "2026-10-13",
- "sentiment_index": 82.0,
+ "updated": "2026-10-14",
+ "date": "2026-10-14",
+ "sentiment_index": 71.0,
  "risk_level": {
   "level": "高",
-  "score": 68,
+  "score": 74,
   "cats": {
-   "宏观流动性": 7.8,
+   "宏观流动性": 8.6,
    "地缘政治": 0.0,
-   "板块情绪": 1.0,
-   "估值水平": 4.8
+   "板块情绪": 1.2,
+   "估值水平": 5.0
   },
   "advice": "⚠ 风险等级偏高，防御关注：511090（30年国债）、518880（黄金）"
  },
  "scores": [
   {
+   "code": "510300",
+   "name": "沪深300",
+   "grade": "关注",
+   "score": 76,
+   "delta": null,
+   "bull": 1,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "518880",
+   "name": "黄金",
+   "grade": "关注",
+   "score": 70,
+   "delta": 41,
+   "bull": 1,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
    "code": "511090",
    "name": "30年国债",
    "grade": "关注",
-   "score": 70,
-   "delta": 8,
-   "bull": 3,
-   "bear": 0,
-   "neutral": 1
-  },
-  {
-   "code": "513100",
-   "name": "纳指",
-   "grade": "关注",
-   "score": 64,
-   "delta": -7,
+   "score": 66,
+   "delta": -4,
    "bull": 1,
    "bear": 0,
    "neutral": 1
   },
   {
-   "code": "518880",
-   "name": "黄金",
-   "grade": "规避",
-   "score": 29,
-   "delta": -10,
+   "code": "513130",
+   "name": "",
+   "grade": "观望",
+   "score": 56,
+   "delta": null,
    "bull": 0,
-   "bear": 1,
-   "neutral": 0
+   "bear": 0,
+   "neutral": 1
   }
  ]
 }
