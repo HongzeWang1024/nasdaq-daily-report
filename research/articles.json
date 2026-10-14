@@ -1,6 +1,185 @@
 {
- "updated": "2026-10-13",
+ "updated": "2026-10-14",
  "articles": [
+  {
+   "date": "2026-10-14",
+   "title": "924两年后有何变化？",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/iym-iajU3iIe2Nk-hAsdGw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "港股",
+    "恒生科技",
+    "居民信用周期"
+   ],
+   "etf_sentiment": {
+    "513130": "中性"
+   },
+   "scores": {
+    "total": 4.55
+   },
+   "summary": "恒科距924起点仅7.2%几乎回到原点，根源是居民信用周期下行（3月起低于924起点，居民贷款余额首次净减少）+财政发力转向科技+港股硬件缺失+资金面收紧四重压制，短期赔率突出但胜率不足，需等居民信用修复或924/DeepSeek时刻重现。",
+   "page": "research_20261014.html"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "全球国债利率走高+中国财政加码——张瑜旬度会议纪要No.149",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/xjhyS9HgxfL57514GWjCvw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "全球利率",
+    "财政发力",
+    "居民存款活化"
+   ],
+   "etf_sentiment": {
+    "510300": "多"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "全球国债利率走高短期是央行退出国债市场后的重新定价（日本50%→40%，美国20%→10%），长期是债务纪律与国力衰减的漫长消耗；中国财政加码明确（9-12月一般债3.5万亿超去年2.8万亿），关键观察居民存款活化两大指标。",
+   "page": "research_20261014.html"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "30年国债再迎加速行情",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/j84w7oftr6jBTNpdss7BxA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "30年国债",
+    "债市",
+    "资金面"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "30年国债收益率下行2.15bp至2.09%，由风偏（权益走弱避险）、资金（DR001创三季度新低）、预期（金融街论坛宽货币博弈）三重支撑，行情或尚未至尾声，持仓可继续等待，加仓把握调整机会。",
+   "page": "research_20261014.html"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "科创债场外指数基金上报，怎么看？",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/ogCvuhjVy3LgxKyayuZ6yA",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "科创债",
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "10家中小基金上报首批科创债场外指数基金（预计200亿），跟踪银行间指数，将抹除交易所与银行间科创债约4bp利差，老券估值压缩机会大于新券。",
+   "page": "research_20261014.html"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "美元：短期回调风险抬升",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/dg5ohhWWmcWbcx6ja8Muzg",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "美元",
+    "美联储",
+    "欧洲财政"
+   ],
+   "etf_sentiment": {
+    "518880": "多"
+   },
+   "scores": {
+    "total": 3.15
+   },
+   "summary": "美元连续四周上行至超买区间，10月加息概率从70%降至不足20%，中期选举民主党横扫概率62%利空美元，法德利差和欧元空头极端，关注本周三美国CPI。",
+   "page": "research_20261014.html"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "克利夫兰联储主席Hammack：解释她的反应函数，以及为什么应采取限制性政策",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/-xRcKRMN2pFhGsbTOpckMw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "通胀",
+    "限制性政策"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.15
+   },
+   "summary": "克利夫兰联储主席Hammack强调通胀压力广泛（关税+AI建设需求侧），金融条件中性需限制性政策，但作者判断10月底不加息，若劳动力恶化则修正路径。",
+   "page": "research_20261014.html"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "\"慢牛\"失信后：大A等再平衡，债市防急转弯",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/5kbso-A4QY0SokViwBtVng",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "A股",
+    "债市",
+    "政策急转弯"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 2.9
+   },
+   "summary": "认为险资砸盘导致科技股大跌，慢牛政策失败，预期金融街论坛（10/19-21）或有再平衡政策，债市需防急转弯，建议放缓配置节奏（主观性较强，数据支撑弱）。",
+   "page": "research_20261014.html"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "【中金固收·重磅推荐】中金固收研究2026年重磅报告合集-利率篇",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/WOAxHPF8d4GHus2YT0GjVQ",
+   "level": "archived",
+   "viewpoint": "多",
+   "themes": [
+    "债市",
+    "30年国债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 2.55
+   },
+   "summary": "2026年利率篇年度回顾合集，重申中美融资需求差异驱动债牛，30年国债全年跑赢，非新观点。",
+   "page": "research_20261014.html"
+  },
+  {
+   "date": "2026-10-14",
+   "title": "数学家靠AI炒股做市，身家643亿",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/DOz3JrmCGsQ4bkvjxFH56A",
+   "level": "archived",
+   "viewpoint": "观望",
+   "themes": [
+    "AI做市"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.7
+   },
+   "summary": "XTX Markets格尔科靠AI做市一年涨643亿，科普性质，无具体交易标的。",
+   "page": "research_20261014.html"
+  },
   {
    "date": "2026-10-13",
    "title": "中金：\"棉花糖\"时代的美国AI",
