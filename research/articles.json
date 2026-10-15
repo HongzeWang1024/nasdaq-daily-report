@@ -1,6 +1,275 @@
 {
- "updated": "2026-10-14",
+ "updated": "2026-10-15",
  "articles": [
+  {
+   "date": "2026-10-15",
+   "title": "铜价“脱缰”？供给周期的启示",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/pSYGZs2JbG5AlunqLyxe2Q",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "大宗商品",
+    "铜",
+    "供给周期"
+   ],
+   "etf_sentiment": {
+    "512400": "多"
+   },
+   "scores": {
+    "total": 4.55
+   },
+   "summary": "铜价已完成中枢上台阶，第四轮供给周期弱供给阶段（矿铜CAGR 1.8%）+电网/电气化结构需求接棒，铜价难回旧平台",
+   "page": "research_20261015.html"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "PPI和CPI分化的两大因素——9月通胀数据点评",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/6uMo0NRC-QJamCVOeWHCtg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "通胀",
+    "PPI",
+    "CPI",
+    "输入性通胀"
+   ],
+   "etf_sentiment": {
+    "512400": "多",
+    "515220": "多"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "9月PPI同比5%创四年新高（预期4.3%），CPI仅0.9%，分化源于输入性因素非对称+内外需割裂，PPI定价全球需求与中国供给稀缺度",
+   "page": "research_20261015.html"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "美元破位: 预期差后的不寻常",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/Qg-f5wFZ2qpEPQLUwRvYow",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "美元",
+    "美联储",
+    "汇率",
+    "紧缩"
+   ],
+   "etf_sentiment": {
+    "513100": "空",
+    "518880": "空"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "美元逼近103属紧缩中段加速型（类2000/2022），年内再加息概率高企，新兴市场与法日或首当其冲",
+   "page": "research_20261015.html"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "海外高利率，三大模式",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/fG093B9i4ebjhHbsh52yig",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "海外债市",
+    "美债",
+    "欧债",
+    "日债",
+    "高利率"
+   ],
+   "etf_sentiment": {
+    "513100": "空",
+    "518880": "空"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "海外高利率三模式：美国（增长驱动）、欧洲（财政担忧，法国典型）、日本（范式转变）；美债收益率或仍上行",
+   "page": "research_20261015.html"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "信用 | 机构再配置下利差压缩或延续",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/Y1JcDZfHoYaUzbh-8uwnSw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "信用债",
+    "利率债",
+    "摊余债基",
+    "利差"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "10月信用维持中性偏积极久期，第三批摊余债基或带来约500亿新增配置需求，逢调整增配避免追涨超长信用",
+   "page": "research_20261015.html"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "CPI前瞻：加息胜负手",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/LG4dULO85MbhrGVXkpPHfg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "CPI",
+    "加息"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "明晚CPI是10月加息胜负手，基准情形核心CPI环比难超0.2%，美联储10月按兵不动、12月加息一次",
+   "page": "research_20261015.html"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "从急跌到企稳，三大条件",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/uRmc-aahVQoBnFRAU5vsfg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "A股",
+    "债市",
+    "流动性",
+    "急跌企稳"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "A股企稳需政策+筹码+情绪三条件，当前短板在流动性；10年国债触及1.639%历史低位，超长债或向1.9-2.0%试探",
+   "page": "research_20261015.html"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "波士顿联储银行主席Collins：年底前小幅加息是合适的",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/nJbN18gEo8KpoeHWHP-DOw",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "美联储",
+    "加息"
+   ],
+   "etf_sentiment": {
+    "513100": "空"
+   },
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "Collins（2026年无投票权）支持年底前再加息25bp，通胀持续高于2%目标、AI基建带来价格压力",
+   "page": "research_20261015.html"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "中金 | 地缘经济权力：经济安全与战略产业",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/UfRUxpTXGJvVKHnE2ua9FQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "地缘经济",
+    "战略产业",
+    "人民币国际化"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "构建地缘经济权力指数，美国居首金融优势明显，中国第二但金融维度短板大，战略产业分贸易/金融/经济总量三维度",
+   "page": "research_20261015.html"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "老登资产全线崩塌，年轻人不玩了",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/5CN2b2bb-c4UIy4jBsR4Ow",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "消费",
+    "代际更替",
+    "白酒"
+   ],
+   "etf_sentiment": {
+    "512690": "空"
+   },
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "高端白酒等老登资产因稀缺故事失效+人口结构变化+消费观念换代而崩塌，年轻人转向情绪/体验消费",
+   "page": "research_20261015.html"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "当前经济下的若干问题思考",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/DWY7sj8WdeE-uQMGy4WH1g",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观",
+    "货币政策",
+    "改革"
+   ],
+   "etf_sentiment": {
+    "512800": "多",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 2.8
+   },
+   "summary": "货币政策传导机制已断，降准降息非对症下药；债市利空只能来自政策本身；股市制度不改最好仅区间震荡，强力扶持或利好高股息",
+   "page": "research_20261015.html"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "中金固收·信用篇合集",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/CtDMZwMIekf8jNiXLhdu2A",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.45
+   },
+   "summary": "过往报告索引无新增观点，归档",
+   "page": "research_20261015.html"
+  },
+  {
+   "date": "2026-10-15",
+   "title": "中国大陆居民合法合规交易美股攻略",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://mp.weixin.qq.com/s/hf-f8BgMdV4ghcKDL9WhYA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.0
+   },
+   "summary": "纯攻略链接无分析内容，归档",
+   "page": "research_20261015.html"
+  },
   {
    "date": "2026-10-14",
    "title": "924两年后有何变化？",
