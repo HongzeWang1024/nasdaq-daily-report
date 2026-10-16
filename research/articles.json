@@ -1,6 +1,175 @@
 {
- "updated": "2026-10-15",
+ "updated": "2026-10-16",
  "articles": [
+  {
+   "date": "2026-10-16",
+   "title": "【华泰资产配置】美国中期选举跟踪与影响",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/L4yrmS2JQFidHciOOhLTfQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美国中选",
+    "大类资产配置",
+    "AI监管",
+    "地缘政治"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "518880": "中性",
+    "511090": "多",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "美国中选民主党横扫概率62%，三路径扰动市场（战争油价/AI监管/财政），横扫下美债利率下行、AI情绪降温、传统板块修复；建议增现金仓位，AI逢低配置，短债红利打底。",
+   "page": "research_20261016.html"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "14种主要出口商品量价变化中的投资线索 ——9月进出口数据点评",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/fmmgNIqSpCILS-gDvrGCTw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "出口",
+    "外需",
+    "AI产业链",
+    "中游制造"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "512400": "多"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "9月出口+36.3%大超预期，价格贡献突出；14种商品分七类，景气线索集中于汽车扩量、家电量价修复、集成电路涨价、铝材量价齐升；外需明年或自高位趋缓。",
+   "page": "research_20261016.html"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "美元：CPI，能源冲击的启示",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/GiORecCc30z3b-ae5vY6vg",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "海外通胀",
+    "美债利率",
+    "能源冲击",
+    "美元"
+   ],
+   "etf_sentiment": {
+    "518880": "中性",
+    "513100": "空"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "德银模型显示美国通胀被低估，9月CPI超预期主因能源二轮冲击（油运运价暴涨7-21倍、天然气涨180%）；短期美债利率难言见顶，强美元趋势未结束。",
+   "page": "research_20261016.html"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "9月存款，定期化",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/yDzlqVXGGm8WwudXmz9n5Q",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "金融数据",
+    "债市",
+    "居民缩表",
+    "M1"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "9月居民贷款零新增（9月首次）、存款定期化拖累M1至3.2%；债市仍有发酵空间，30年国债收益率下限1.90-1.95%。",
+   "page": "research_20261016.html"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "2026年1-9月居民缩表规模超过2022-2024年同期（月度更新）",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/sF20MJL8TDesiCBANMXNyQ",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "居民缩表",
+    "消费",
+    "资产负债表衰退"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "9月居民缩表2.41万亿，1-9月累计10.43万亿超2022-2024同期，居民贷款9月零新增，对未来预期更悲观，消费股承压。",
+   "page": "research_20261016.html"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "10 月信用债投资策略",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/bsc4SQlJePBV-RTf2AHOtw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "信用债",
+    "二级资本债",
+    "摊余债基"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "10月信用债供弱需强，季节性下行概率高（二级资本债68.6%），新批5Y摊余债基是需求增量变量，哑铃型策略相对更优，5Y永续性价比高。",
+   "page": "research_20261016.html"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "AI赋能固收（一）：转债低价策略的运用",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/NlPENaUpABBbg5oQFrKHgQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "可转债",
+    "AI量化",
+    "低价策略"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "转债低价策略回测年化12.94%、夏普1.32、最大回撤-21.45%；引入量价因子增强反而劣化（年化10.63%、回撤-24.17%），AI可做数据处理但无法替代人工甄别。",
+   "page": "research_20261016.html"
+  },
+  {
+   "date": "2026-10-16",
+   "title": "讲个开车的故事",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/OH9KEX2fd7reTGnkRL4cJg",
+   "level": "archived",
+   "viewpoint": "观望",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.45
+   },
+   "summary": "寓言故事，隐喻政策紧缩导致刹车失灵，无明确投资标的与数据。",
+   "page": "research_20261016.html"
+  },
   {
    "date": "2026-10-15",
    "title": "铜价“脱缰”？供给周期的启示",
