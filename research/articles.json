@@ -1,6 +1,462 @@
 {
- "updated": "2026-10-16",
+ "updated": "2026-10-19",
  "articles": [
+  {
+   "date": "2026-10-19",
+   "title": "【华泰固收|利率】TL跨期价差的定价逻辑与展望——利率衍生品月报",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/0FN6KUxZt9wQylcjJgpZbA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "资金面",
+    "宏观经济"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "TL跨期负价差需近远月CTD差异作定价基础，当前TL2612-2703仍处常规正区间，债市维持偏多但建议逢调整布局。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "【中金固收·利率】股债跷跷板与市场预期相反，境内外投资者补仓债券推动利率加速下行",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/A1AvSqOxUXiyScnvszxDkQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "宏观经济",
+    "资金面"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "股弱债强反预期，融资需求收缩主导利率下行，境内外配置盘欠配有望推动债券利率加速下行。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "非银机构存款持续回落——2026年9月金融数据观察思考",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/nQrmHAYzoWABkj1r4yzQgg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观经济",
+    "资金面",
+    "利率债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "9月金融数据揭示财政发债吸收非银资金、实体资金被动定期化的传导链条，四季度看财政支出落地与银行购债力度。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "对经营模式的质疑：CoreWeave等新型云公司下跌的逻辑和影响",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/iVMVekoF2nNeCdtxn1zSbw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI产业链",
+    "美股",
+    "信用债"
+   ],
+   "etf_sentiment": {
+    "513100": "空"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "CoreWeave等高杠杆新型云遭股债双杀，本质是市场质疑其\"借钱买卡\"模式而非AI泡沫破裂，超大规模云与算力需求未受实质影响。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "债市或开启高波动、低赔率行情",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/U4RD3mkcCsTrTaNhhClxMg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "宏观经济",
+    "资金面",
+    "信用债"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "债市多头趋势未变但转入高波动、低赔率阶段，维持中性偏长久期、久期优先7~10年，30Y低于2.05%不追涨。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "从流动性到通胀 | 建投宏观·周君芝团队",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/7OuFWTZb2WeX3HDhGTpsGQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观经济",
+    "美股",
+    "大宗商品",
+    "外汇"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "512400": "多",
+    "513100": "空"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "海外主线围绕流动性：通胀扩散叠加AI融资脆弱性，美债利率下行、美股走弱，倾向美联储10月暂停加息，金铜存短期交易性机会。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "美债利率见顶了吗？（国联民生宏观武朔）",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/IXZXUxQtdKJMAcp8sPOOIw",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "宏观经济",
+    "美债利率",
+    "AI产业链"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "513100": "空"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "高通胀下美债利率逆势回落，核心是定价逻辑切向AI信用风险与增长担忧，短期或阶段性见顶但取决于风险演化。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "【华泰固收|利率】情绪的钟摆",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/HsRxbcVZppRraBVLRaC3Hw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "资金面",
+    "宏观经济",
+    "黄金"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "华泰固收10月问卷显示债券重回大类资产首位，10年国债利率预期1.60-1.70%，建议维持超长利率债+5年高等级信用债组合。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "会议背景下的股债观点（含技术辅助推演）",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/fKzekboXvYD63HFlqDQunA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "宏观经济",
+    "资金面",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "510300": "多"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "会议窗口前政策维稳组合拳支持A股短期反抽，但高度取决于10/19-22金融街论坛能否落地具体政策。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "\"替补席\"的经验",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/Kq0yQ8RH-CSz0XWigrp9iQ",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "可转债",
+    "量化择时",
+    "资金面"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "转债大跌后建议用定量模型择时：Beta型仍可持有、稳健型等右侧企稳信号，转债是\"替补席\"工具而非始终配置品种。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "当前超长债怎么看",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/4XRmoAui6wPgpKxGA2QhMA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "资金面",
+    "国债期货",
+    "宏观经济"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "超长债赔率较高，预计30-10Y利差下行至35-40BP、30Y国债接近2.0%，建议短+超长哑铃型组合、久期维持中性。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "熊猫债、点心债扩容，关注配置机会",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/LpTnrz4SYEdftObjd16kXw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "信用债",
+    "利率债",
+    "宏观经济"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "熊猫债/点心债扩容且融资成本下行，主权与金融机构主导下可挖掘境内外利差配置机会。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "老A的转折点在哪？",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://mp.weixin.qq.com/s/HMReA3qNyFyctFK-n6mYCA",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "资金面",
+    "A股策略",
+    "宏观经济"
+   ],
+   "etf_sentiment": {
+    "510300": "空"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "作者看空短期A股，认为郭嘉队需等更大下跌后才入场，以510300累计成交作为观察信号。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "对于债市跨年行情回顾与思考",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/06h3YpfqXQc2B4o5SUPRGw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "资金面"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "跨年行情是季节性顺势现象、需利空共振才能抵消；当前利空不足，跨年行情仍值得期待。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "金融街论坛：回望与期待（国联民生宏观陶川）",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/vGgFzpqJY5KNCP0ukI2xYQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观经济",
+    "政策"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "论坛是政策沟通窗口，关注政策利率是否由7天换锚隔夜、稳市机制能否制度化；总量宽松概率不高。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "哪些期限结构的转债性价比较高",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/tibs7uZT2BpKYVM-C-miIw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "信用债",
+    "可转债"
+   ],
+   "etf_sentiment": {
+    "512100": "多"
+   },
+   "scores": {
+    "total": 3.1
+   },
+   "summary": "次新转债估值处历史高位、临期转债估值回归合理，转债整体性价比上升，看好小盘风格下的相对收益。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "IMF如何看全球经济？——海外周报第162期",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/-s2ojIQoVkp-Umii8TJpbw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观经济",
+    "海外"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.1
+   },
+   "summary": "IMF预计2026全球GDP增速降至3.1%、2027回升3.4%，通胀2026升至4.7%，风险情景偏下行。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "信用 | 高评级骑乘优于下沉",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/pcGqrgo1hVlJ57y-hbUAqA",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "信用债",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.1
+   },
+   "summary": "信用债跟涨不足、利差被动走扩，评级利差处2024年以来极低分位；建议高评级骑乘优于下沉，新增配置聚焦4Y/6Y。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "USD：倒V型反转是什么信号？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/YWgUs0Z-5dokSj0pVzd0nw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观经济",
+    "美股",
+    "汇率"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.8
+   },
+   "summary": "美元CPI后倒V反转，数据利好被股市担忧与联储鸽派表态抵消，后续看美股与中期选举。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "边谈判、边防御：欧盟对华经贸进入\"双轨期\"",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/MWosOGQpTAgxc6glTpgJng",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观经济",
+    "地缘政治",
+    "国际贸易"
+   ],
+   "etf_sentiment": {
+    "512400": "多"
+   },
+   "scores": {
+    "total": 2.7
+   },
+   "summary": "欧盟对华经贸进入\"谈判+防御\"双轨期，短期可妥协、中长期竞争制度化，对混动车出口总量影响有限、行业压力集中。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "网贷正在毁掉年轻人",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/KO8CHnaWwlwu1AoFPyHkRw",
+   "level": "archived",
+   "viewpoint": "观望",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.2
+   },
+   "summary": "社会评论文章，讨论网贷对年轻人的影响，无明确投资标的与交易含义。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "熬夜的代价，远超你想象：诺奖发现",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/hcbSFGozLaXQgPavPMArww",
+   "level": "archived",
+   "viewpoint": "观望",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.3
+   },
+   "summary": "健康科普文章（诺奖昼夜节律研究），无投资标的与交易含义。",
+   "page": "research_20261019.html"
+  },
+  {
+   "date": "2026-10-19",
+   "title": "长寿的十大诀窍",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/vLzrWIp6LLdviW41VSmc1A",
+   "level": "archived",
+   "viewpoint": "观望",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.0
+   },
+   "summary": "健康生活方式科普，无投资标的与交易含义。",
+   "page": "research_20261019.html"
+  },
   {
    "date": "2026-10-16",
    "title": "【华泰资产配置】美国中期选举跟踪与影响",
