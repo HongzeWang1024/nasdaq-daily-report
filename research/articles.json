@@ -1,6 +1,291 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "articles": [
+  {
+   "date": "2026-10-20",
+   "title": "金融街论坛，六大关注",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/CMqnG2Nwwxtw2A7XrFZZ1w",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "金融街论坛",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "513100": "多"
+   },
+   "scores": {
+    "total": 4.45
+   },
+   "summary": "论坛六大信号：政策利率换锚约等于变相降息15bp，10年国债下限调至1.55-1.60%、30年国债至1.90-1.95%，短期快调即加仓机会",
+   "page": "research_20261020.html"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "9月经济回暖，政策加码预期或降温",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/kggxOYkbj0V7MKtlATPvzg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观经济",
+    "AI产业链"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "512200": "空"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "三季度GDP同比4.5%回升、9月投资社零边际改善，但新房销售降幅扩大、居民消费倾向走弱，政策加码紧迫性下降、四季度需结构性政策加力",
+   "page": "research_20261020.html"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "【华泰固收】原油供应链的“新模式”",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/xT8NRuCBvW0W7d3FHEiGkg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "大宗商品",
+    "原油"
+   ],
+   "etf_sentiment": {
+    "501018": "多"
+   },
+   "scores": {
+    "total": 4.25
+   },
+   "summary": "石油供应链从供应中断转向运输效率+炼化产能多重约束，柴油供需缺口最难修复，运费易上难下、原油与成品油价格分化",
+   "page": "research_20261020.html"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "中金：AI高景气能否经住供给考验？",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/X2lqM2MCkePpcBuYw8FUWw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI产业链"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "应从供给侧重新审视AI高景气：供给扩张强度+竞争格局决定回报，警惕缺乏供给纪律的扩张；A股电子、非银金融景气较高",
+   "page": "research_20261020.html"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "【瞎扯】政策利率官宣要换锚了",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/l2JA2eu0np9J2kt2wCYVyA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "金融街论坛",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.45
+   },
+   "summary": "政策利率由1.4%的7天逆回购转为1.25%的隔夜逆回购，货政短期或“翻手”压长端但不会大翻，中长期资金利率仍低位运行",
+   "page": "research_20261020.html"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "重磅！央行创设新工具，证监会引入增量资金",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/DCur30s3qPquUHzqFDN0Ew",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "金融街论坛",
+    "资本市场政策"
+   ],
+   "etf_sentiment": {
+    "510300": "多"
+   },
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "金融街论坛“政策底+监管底”出现：新工具阻断裂下跌—赎回—抛售负反馈，18只主动ETF引入中长期资金、严打违规减持（与《金融街论坛，六大关注》同题）",
+   "page": "research_20261020.html"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "港股通与恒指调整预览（2026-11）",
+   "author": "Kevin策略研究",
+   "url": "https://mp.weixin.qq.com/s/qQijuMa7dJTTQbjvz7Uakg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "港股",
+    "指数调整"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "11月20日盘后公布恒生系列审议结果、12月7日执行；恒科“大改”预计新增20只（宁德时代、长飞光纤光缆、胜宏科技等），港股通或纳入欢创科技、纳真科技及力勤资源/罗博特科/传音控股",
+   "page": "research_20261020.html"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "各地现房新规中的5点观察",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/XN9uzOM4JvRGatqxdKvcJQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "房地产"
+   ],
+   "etf_sentiment": {
+    "512200": "中性"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "7城现房销售细则落地：土地款最长延至两年、现房定金上限1%-5%；10月前两周宅地成交同比回升但溢价率仍低，房企拿地偏审慎",
+   "page": "research_20261020.html"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "别自作多情了，所谓的“应对非银机构大额赎回的流动性支持工具”不是为了稳定股市",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/kucsIUFM0mwFtDuHNnrr5A",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "金融街论坛",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "非银赎回工具目的是建立债券市场稳定机制（稳债市），与稳定股市无关，对AI驱动的股市暴跌无能为力，投资者仍应回归基本面分析",
+   "page": "research_20261020.html"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "美元会否重演7月末行情？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/mSCdNGUwnYLyCYg1AVqK8w",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "汇率",
+    "海外宏观"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.15
+   },
+   "summary": "当前环境与7月FOMC前高度相似，10月FOMC大概率维持不加息，做空美元是短期可考虑策略，右侧关注101.80一带支撑",
+   "page": "research_20261020.html"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "法债：欧债熊市的典型 | 建投宏观·周君芝团队",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/3gItYbNJbM--y0V6DCYAHg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "海外宏观",
+    "海外债市"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.95
+   },
+   "summary": "法债集齐债券熊市四因素（福利财政、政治分裂、支柱产业受冲击、价格敏感持有者占比高），法德利差创欧债危机以来新高，欧元区9月通胀近4%促使央行两次加息",
+   "page": "research_20261020.html"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "债市：要利润还是要前途之抉择",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/VVo1uWNe5Fo9o9u5xx8mKQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债",
+    "金融街论坛"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 2.9
+   },
+   "summary": "央行“枪口指导”自券商扩至信托、股份行限制超长债，机构或“卖掉计划该卖的部分彻底休息”、或日内做多不隔夜，债市需保持政治觉悟",
+   "page": "research_20261020.html"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "摊余债基接续配置需求——四季度信用债市场展望",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/4L6io49VB0C-WTgRUzDkCQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.9
+   },
+   "summary": "四季度信用债市场展望（正文未抓取，仅法律声明，解析异常，本日不计入详读）",
+   "page": "research_20261020.html"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "偷懒的代价",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://mp.weixin.qq.com/s/3N1F0AZ5CZm9QBMsH3wrUQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.45
+   },
+   "summary": "QDII基金吐槽：纳指/标普限购，部分QDII三季度调仓背离境外资产定位，建议通过美股账户/跨境通/港股通等渠道投资",
+   "page": "research_20261020.html"
+  },
+  {
+   "date": "2026-10-20",
+   "title": "国联民生固收徐亮团队丨电话会议邀请",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/Agacm5yD44WTm5Q6VHLRgQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.3
+   },
+   "summary": "债券周策略电话会议邀请（10/19 20:00），主题涵盖后续长端利率节奏、长债个券选择、长信用配置与公募基金运作管理办法影响",
+   "page": "research_20261020.html"
+  },
   {
    "date": "2026-10-19",
    "title": "【华泰固收|利率】TL跨期价差的定价逻辑与展望——利率衍生品月报",
