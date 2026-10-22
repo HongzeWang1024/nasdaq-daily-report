@@ -1,6 +1,352 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-22",
  "articles": [
+  {
+   "date": "2026-10-22",
+   "title": "星星之火",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/-EolrBd2I7cO0LvNZSdfIQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "A股结构",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "510300": "中性",
+    "512480": "多",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "10月21日市场平量下跌但分歧延续，光通信/文化传媒/数据要素局部收涨、宽基ETF尾盘多次承接；做多力量未持续占优，修复需消化兑现压力，三季报是后续重要线索",
+   "page": "research_20261022.html"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "深度：AI高景气能持续多久？",
+   "author": "Kevin策略研究",
+   "url": "https://mp.weixin.qq.com/s/MUjx-oII3uF19YSctyeDqg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI产业链",
+    "半导体"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "从供给视角判断AI景气持续性：当前投资规模不构成全面压力，中国半导体设备/电网设备有利，数字芯片设计承压，光模块与PCB阶段性受益",
+   "page": "research_20261021.html"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "机构行为 | 基金要久期，政策要曲线",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/D2IHUitvf9RssvAWSA2AlQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "机构行为"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "基金长端做平、政策短端托底长端限速，资产荒+跨年配置支撑震荡偏强，长端赔率压缩，交易可阶段止盈、配置每调买机",
+   "page": "research_20261021.html"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "AI龙头是当前唯一值得买入的板块",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/iHGOUG8Ya8j-Da0MfW1rXw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI产业链",
+    "A股结构"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "513100": "多",
+    "512690": "空",
+    "512660": "空",
+    "512400": "空"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "AI龙头是当前唯一值得买入的板块，龙头2027年动态PE已低于10倍、业绩增速普遍70%-100%+，消费/军工/有色/电力设备均无系统性机会",
+   "page": "research_20261021.html"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "美债拐点因何故？",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/NYPH8u2OxZxUdi4mmVcFIw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美债",
+    "美联储"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "美债触高回落源于加息预期降温与前期超卖，Q4利空出尽、右侧配置价值显现，但通胀粘性下10Y持续下探概率小",
+   "page": "research_20261021.html"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "安本投资罗勋：如何把握全球资产的贝塔机会",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/Zty2Eaco8LGVSuLprpF7gA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "大类资产配置",
+    "美债",
+    "黄金"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "513100": "多",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "后周期阶段股票方向做多最优，科技股相对便宜等契机、美债高位等时机、黄金不拥挤可能还有一波；不做直接做多久期，只做曲线趋平等相对价值",
+   "page": "research_20261021.html"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "美国经济的“K”型二阶段：“C”型",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/J6LXdXqyrs7PtQ5mGc2PMg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美国经济",
+    "AI产业链"
+   ],
+   "etf_sentiment": {
+    "510300": "中性",
+    "513100": "空"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "美国经济由K型转向C型收敛，两端斜率同步放缓但缺口未实质缩小，市场定价从景气叙事回归业绩验证，低估值板块迎修复窗口",
+   "page": "research_20261021.html"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "从CoreWeave裂缝看美债：加息拐点？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/bpMbWKIv96LA7DR2ZZIylw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "AI信用风险",
+    "美债"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "CoreWeave事件加速银行信贷条件收紧，年内加息节奏放缓但慎言拐点，明年二季度美国信贷增速见顶才是关键信号",
+   "page": "research_20261021.html"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "油价和股市，谁来决定加息",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/XsL5Bo3btPRHUywoOz741w",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "能源"
+   ],
+   "etf_sentiment": {
+    "513100": "空"
+   },
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "10月加息概率仅15%，油价111美元使年底headline CPI或近4%，AI情绪杀跌支持加息延后，但紧缩停止言之尚早",
+   "page": "research_20261021.html"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "透视银行债券投资：规模、结构及边际变化",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/Hu2ck5thxYC09lY7Iglufg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "机构行为",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "Q2银行存贷款环比均不足1%、净息差企稳；中小行买短卖长久期转防守，长端买盘更多依赖保险与非银",
+   "page": "research_20261021.html"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "【瞎扯】妈见打的债市",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/4PQPKA8uKsIVj-4E7EQdiA",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "利率债",
+    "货币政策"
+   ],
+   "etf_sentiment": {
+    "511090": "空"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "隔夜逆回购仅800亿、禁买长债扩至农商行，四季度只需4.2%即可达标，央行有充足空间毒打债市、不让曲线走平",
+   "page": "research_20261021.html"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "【华泰固收】投资与消费无需非此即彼",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/moBwgr3a9mJCyVO73vYZog",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观经济",
+    "内需"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "投资与消费非对立，关键是经济循环与收益分配；投资率无统一最优比例，当前仍需维持一定投资率服务安全与转型，重点是投资效率与供需匹配",
+   "page": "research_20261021.html"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "市场基本见底，结构性行情将展开",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/Sq3U--WgUSBv13DDN51oQQ",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "A股结构",
+    "AI产业链"
+   ],
+   "etf_sentiment": {
+    "510300": "多",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "政策底监管底明确、市场底值得期待，中期围绕科技展开结构性行情，AI行业进入淘汰赛、强者恒强",
+   "page": "research_20261021.html"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "换锚、指导、股市、技术形态。",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/a-iOy5DIHNDZFq5xA7bqBA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债",
+    "A股结构"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "换锚未必等于降息关键看隔夜逆回购定价，城商行与头部基金再被指导，TL2612站上118.02才进多头进攻区，A股偏多震荡但不宜过高预期",
+   "page": "research_20261021.html"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "【瞎扯】狂飙的债市和哭泣的保险",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/Ldmc2Xv2rQktrCSVMMpyig",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债",
+    "保险"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.15
+   },
+   "summary": "30年国债期货破118创年内新高、长端信用债狂下，机构把换锚当降息；保险三季度股票投资按β测算大亏但整体仍盈利",
+   "page": "research_20261021.html"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "【中金固收·信用】股权投资类主体研究-关注变现与退出约束",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/BJjOgRTzMesDmmV3Q-BjvA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债",
+    "股权投资"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.05
+   },
+   "summary": "股权投资2026H1募资同比+95.8%、国资占近半、过半资金流向硬科技；国有创投盈利修复但变现效率低、资金缺口扩大，1-3年品种性价比更高",
+   "page": "research_20261021.html"
+  },
+  {
+   "date": "2026-10-21",
+   "title": "中金 • 全球研究 | 拉美数字经济：规模增长、渗透提升与信贷机遇",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/QaAN4fPULJs5rTye7dJWEw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "海外研究",
+    "数字经济"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.75
+   },
+   "summary": "拉美电商2025-2027年CAGR 22.9%、渗透率升至14%，美客多在巴西/墨西哥/阿根廷份额37%/29%/73%，数字信贷是下一增长点",
+   "page": "research_20261021.html"
+  },
   {
    "date": "2026-10-20",
    "title": "金融街论坛，六大关注",
