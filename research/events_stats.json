@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "events": [
   {
    "event": "15只摊余债基预计开启募集（9月中下旬-10月，审核1-2个月）",
@@ -265,12 +265,12 @@
     {
      "date": "2026-10-15",
      "r1": 0.0019,
-     "r3": null,
+     "r3": 0.0154,
      "r7": null
     }
    ],
    "avg_ret_1d": 0.0019,
-   "avg_ret_3d": null,
+   "avg_ret_3d": 0.0154,
    "avg_ret_7d": null
   },
   {
@@ -316,11 +316,28 @@
     {
      "date": "2026-10-15",
      "r1": -0.0071,
-     "r3": null,
+     "r3": -0.0131,
      "r7": null
     }
    ],
    "avg_ret_1d": -0.0071,
+   "avg_ret_3d": -0.0131,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "中国1年期LPR报价",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-10-20",
+     "r1": -0.0028,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0028,
    "avg_ret_3d": null,
    "avg_ret_7d": null
   },
@@ -374,6 +391,23 @@
    "avg_ret_1d": 0.0017,
    "avg_ret_3d": 0.0046,
    "avg_ret_7d": 0.0069
+  },
+  {
+   "event": "中国9月社零、Q3 GDP、9月工业增加值",
+   "target": "510300",
+   "name": "沪深300",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-10-19",
+     "r1": -0.0047,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0047,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "中秋国庆跨季资金面",
@@ -486,12 +520,12 @@
     {
      "date": "2026-10-15",
      "r1": -0.0098,
-     "r3": null,
+     "r3": -0.0166,
      "r7": null
     }
    ],
    "avg_ret_1d": -0.0098,
-   "avg_ret_3d": null,
+   "avg_ret_3d": -0.0166,
    "avg_ret_7d": null
   },
   {
@@ -843,12 +877,12 @@
     {
      "date": "2026-10-15",
      "r1": 0.0151,
-     "r3": null,
+     "r3": 0.0056,
      "r7": null
     }
    ],
    "avg_ret_1d": 0.0151,
-   "avg_ret_3d": null,
+   "avg_ret_3d": 0.0056,
    "avg_ret_7d": null
   },
   {
@@ -1003,6 +1037,40 @@
    "avg_ret_1d": 0.001,
    "avg_ret_3d": 0.0031,
    "avg_ret_7d": 0.0065
+  },
+  {
+   "event": "金融街论坛（政策再平衡风险，10/19-21）",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-10-19",
+     "r1": 0.0067,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0067,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "金融街论坛（潜在债市再平衡政策）",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-10-19",
+     "r1": 0.0067,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0067,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "长江存储科创板IPO进程",
