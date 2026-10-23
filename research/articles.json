@@ -1,6 +1,158 @@
 {
- "updated": "2026-10-22",
+ "updated": "2026-10-23",
  "articles": [
+  {
+   "date": "2026-10-23",
+   "title": "资产配置：如何对冲AI风险？",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/wIEuj2yAkhXjBrfLENfoKw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI产业链",
+    "黄金与美元",
+    "大类资产配置"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "510880": "多",
+    "511010": "多",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.55
+   },
+   "summary": "仍看好AI资产回报，但建议增配黄金布局美元贬值交易对冲AI风险，同时保留AI上涨敞口；AI资本开支增速预期由90%降至36%",
+   "page": "research_20261023.html"
+  },
+  {
+   "date": "2026-10-23",
+   "title": "日债破3%后回落，后续如何演绎？",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/wzGcdW9NObkVfYzeC19q9w",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "日本国债",
+    "全球利率锚",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "空",
+    "510880": "多",
+    "511010": "中性"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "10Y日债最高触及3.11%创1996年新高，定价权由央行转向财政、财政风险溢价贡献0.60pp；长端主权债从避险资产变回久期风险资产，A债方向仍由国内决定",
+   "page": "research_20261023.html"
+  },
+  {
+   "date": "2026-10-23",
+   "title": "近期什么债券ETF规模在增长？",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/Xin4PKCLWWum-jt4hUg3iQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "债券ETF资金流",
+    "信用债",
+    "超长利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "空"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "10月债券ETF净增132.62亿元，增量约95%来自信用债与超长期国债，政金债净流出45.47亿元；资金由普遍申购转向结构性轮动，交易性仓位建议逐步止盈",
+   "page": "research_20261023.html"
+  },
+  {
+   "date": "2026-10-23",
+   "title": "三季度理财规模继续高增，投资端持续增持公募基金",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/hKA-PJzh26JmeDDsMHmwPQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "银行理财",
+    "信用债需求"
+   ],
+   "etf_sentiment": {
+    "511010": "中性"
+   },
+   "scores": {
+    "total": 3.65
+   },
+   "summary": "9月末理财规模35.37万亿元、同比+10.08%，三季度增持同业存单与公募基金；短期存款比价效应支撑规模、负反馈概率降低，信用债需求有支撑",
+   "page": "research_20261023.html"
+  },
+  {
+   "date": "2026-10-23",
+   "title": "全球市场或将进入中期选举剧本",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/W5NWLLvBlKkaH0rLwaXsEA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "债券资金面",
+    "美国中期选举",
+    "A股护盘"
+   ],
+   "etf_sentiment": {
+    "511090": "中性",
+    "513100": "中性",
+    "510300": "空"
+   },
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "临近中期选举全球不确定性上升；央行隔夜逆回购仅800亿、1.25%匿名隔夜消失变300亿@1.26%持续敲打债市多头；A股护盘托而不举，更易震荡阴跌",
+   "page": "research_20261023.html"
+  },
+  {
+   "date": "2026-10-23",
+   "title": "利好频出，日元为何麻木？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/R7XWfrSUN3UwFSUDKjxamw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "日元套息",
+    "日本央行"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "东京核心CPI 2.7%、日央行官员转鹰、避险情绪三重利好下USDJPY仅收跌30pips，carry成本与已定价的12月加息使即期做多赔率不足，宜用期权布局3-6M升值",
+   "page": "research_20261023.html"
+  },
+  {
+   "date": "2026-10-23",
+   "title": "【瞎扯】打了，跑了，完了",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/kM1crzlOqLho8Gnwxtb2bg",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "A股资金流",
+    "固收+赎回"
+   ],
+   "etf_sentiment": {
+    "510300": "空"
+   },
+   "scores": {
+    "total": 2.7
+   },
+   "summary": "沪指跌破护守已久的3700、回到9.24点位；偏股基金降仓集中于科技、杠杆与散户同步撤离形成负反馈；固收+8月以来跌2.8%，超40%产品年内收益转负，赎回链是隐患",
+   "page": "research_20261023.html"
+  },
   {
    "date": "2026-10-22",
    "title": "星星之火",
