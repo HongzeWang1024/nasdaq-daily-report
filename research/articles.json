@@ -1,6 +1,321 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-26",
  "articles": [
+  {
+   "date": "2026-10-26",
+   "title": "反弹聚焦优质科技",
+   "author": "兴业证券·刘郁/田乐蒙",
+   "url": "https://mp.weixin.qq.com/s/cUoH3Wl3u4STCMmNKUn-uw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "A股底部确认与风格切换"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "588000": "多",
+    "510300": "多"
+   },
+   "scores": {
+    "total": 4.6
+   },
+   "summary": "10/23午后放量反弹三信息：下跌抵抗明显、稳市信号支撑、防御向超跌科技切换；历史16样本T+20中位数+4.34%，聚焦国产算力（芯片设计/半导体设备/先进封装）优先级高于海外算力",
+   "page": "research_20261026.html"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "本轮股债跷跷板评估",
+   "author": "华泰证券固收·张继强",
+   "url": "https://mp.weixin.qq.com/s/1Gr6EdDgVa4S-HigW1nzZw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "政策利率换锚与债牛延续"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多"
+   },
+   "scores": {
+    "total": 4.5
+   },
+   "summary": "股市避险资金涌入国债ETF与货基（30年ETF份额四日增10%），债市风险不大但赔率降低+监管态度变化，建议保持持仓、小幅止盈，品种转向5-7Y政金债/长久期地方债/浮息债",
+   "page": "research_20261026.html"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "如何看后续利率节奏和债券策略",
+   "author": "国联民生·徐亮",
+   "url": "https://mp.weixin.qq.com/s/Sd7ZyeJZluhsRuUks0cVIQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "政策利率换锚与债牛延续"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "短端已交易完换锚预期，长债受监管关注短期震荡；四季度30-10Y利差有望压缩至35-40BP，30Y有望突破2.0%；哑铃型配置+久期中性，交易关注26T6",
+   "page": "research_20261026.html"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "全球科技股调整与避险情绪升温",
+   "author": "华泰证券固收·张继强",
+   "url": "https://mp.weixin.qq.com/s/lx1MXGjynbLDDhqEbNQrLw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI融资约束与全球科技股重定价"
+   ],
+   "etf_sentiment": {
+    "513100": "空",
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "AI融资担忧+中东地缘双驱动避险，10Y美债单日-17BP创硅谷银行事件以来最大；黄金被动跟随科技股抛售但相对美债性价比上升；美股超卖但CTA仓位未出清",
+   "page": "research_20261026.html"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "宽基ETF单周净流入1500亿+，创年内新高",
+   "author": "兴业证券·刘郁",
+   "url": "https://mp.weixin.qq.com/s/Ee9-20UDYBcL7FYb85R9vg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "A股底部确认与风格切换"
+   ],
+   "etf_sentiment": {
+    "510300": "多",
+    "512480": "空",
+    "515220": "空"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "宽基ETF单周净流入1534亿创年内新高，大跌日流入显著放大稳市意愿强化；行业/主题ETF净流出存量博弈，半导体设备/煤炭流出最大，通信周五转流入",
+   "page": "research_20261026.html"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "资金面宽松的现实、原因和预期",
+   "author": "浙商证券·胡建文（覃汉团队）",
+   "url": "https://mp.weixin.qq.com/s/6xmbEim5BS-DFnN4IuQyog",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "政策利率换锚与债牛延续"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "量价指标确认资金面宽松（金融稳定说+换锚说），北交所市值配售每周减少约1万亿资金摩擦+DR挂钩贷款是实在利好，宽松格局持续，债市杠杆率延续回升",
+   "page": "research_20261026.html"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "支出增速下行趋势或暂告一段落——9月财政数据点评",
+   "author": "华创证券·张瑜",
+   "url": "https://mp.weixin.qq.com/s/u79-Gfw9cEfntpVyGrrHcQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "四季度财政发力"
+   ],
+   "etf_sentiment": {
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "持续13个月的广义财政支出增速下行趋势今年底或暂告一段落，四季度财政发力为同期五年最强（同比增量1.79万亿）；卖地收入-23.2%仍是核心拖累",
+   "page": "research_20261026.html"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "非美经济会比预期还差吗？",
+   "author": "国联民生·林彦",
+   "url": "https://mp.weixin.qq.com/s/LtqjBEqd0iRDjGF2UU9d5w",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "海外财政风险与强美元"
+   ],
+   "etf_sentiment": {
+    "518880": "空",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "非美经济没有比预期差（欧日出清收尾、制造业PMI重回扩张），真正变差的是定价环境；美元四层预期差决定非美资产短期难有趋势性机会，储备配置或从黄金向美元回摆",
+   "page": "research_20261026.html"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "摊余债基募集提速，优选高评级骑乘",
+   "author": "兴业证券·姜丹/黄佳苗",
+   "url": "https://mp.weixin.qq.com/s/bWazWKTRG6VvBH56IPOzig",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "政策利率换锚与债牛延续"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "政策利率调整后10Y国债1.60%-1.65%或成新可接受区间；信用债利差已偏低，高评级骑乘优于下沉，重点挖4Y/6Y；摊余债基第二批10/26启动募集",
+   "page": "research_20261026.html"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "转债正股三季报有哪些亮点",
+   "author": "国联民生·徐亮",
+   "url": "https://mp.weixin.qq.com/s/4nu82TyDAQTGmULre0zC4g",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "A股三季报盈利分化"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "48只已披露正股中本川智能/奥士康/三诺生物/春风动力三维最扎实，PCB产业链景气延续且或加速；转债估值回落趋向合理化",
+   "page": "research_20261026.html"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "2021年债市行情与当下对比与启示",
+   "author": "浙商证券·覃汉",
+   "url": "https://mp.weixin.qq.com/s/4p8KGqTKgERWC6wQnFECQA",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "政策利率换锚与债牛延续"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "2026与2021同为基本面为锚+宽而克制的慢牛，但本轮最大回撤仅6BP看多一致性更强；2027扭转债牛比2022年更困难，建议把握当下布局跨年行情",
+   "page": "research_20261026.html"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "AI赋能固收（二）：新老券利差策略的运用",
+   "author": "方正证券·李清荷",
+   "url": "https://mp.weixin.qq.com/s/lxrboH8PWyZnHwrGAkjm5w",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "固收量化策略"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.1
+   },
+   "summary": "以10Y国债/30Y国债/10Y国开构建四类新老券利差交易策略，121笔回测中利差转正策略2累计毛收益最高，提示事后极值选点策略历史胜率不可直接外推实盘",
+   "page": "research_20261026.html"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "为什么要对AI产业链那么苛刻？",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/tipDV80idpKBWQdezzLgEg",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "AI融资约束与全球科技股重定价"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.7
+   },
+   "summary": "认为市场已到底部，列举市场对AI资本开支/利润兑现/国产供应链的六重质疑，认为投资者对高增长科技行业苛刻程度史无前例，行情是走出来的",
+   "page": "research_20261026.html"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "既视感",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://mp.weixin.qq.com/s/XVgVIOh-GSUzyusOpFTvTw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "A股底部确认与风格切换"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.6
+   },
+   "summary": "认为周五大奇迹日是国家队手笔，剧情类似2024年1月底，技术反弹可期但重新牛市需924强度政策利好，可部分入场吃反弹",
+   "page": "research_20261026.html"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "没强平都能跌成这样？股民：这才是最大的噩耗（20261023早评）",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/8eZ4SUUSxNEjxjUnEmPO7A",
+   "level": "archived",
+   "viewpoint": "空",
+   "themes": [
+    "AI融资约束与全球科技股重定价"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.2
+   },
+   "summary": "早评：抱团股多杀多惨烈，纳指暴跌但医药消费逆势，30y美债收益率爆下13BP，认为没强平都能跌说明还没跌透",
+   "page": "research_20261026.html"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "中金 • 全球研究 | 日本地方银行风险化解",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/JN1Q0YGOsE56MBajJ2w5vQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "海外财政风险与强美元"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.9
+   },
+   "summary": "复盘日本90年代地方银行不良债权化解历程：公共资本注入/临时国有化/过桥银行等处置工具与长效风险防范体系建设",
+   "page": "research_20261026.html"
+  },
+  {
+   "date": "2026-10-26",
+   "title": "中金分析师Skill如何炼成？投研蒸馏器Skill开源啦！",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/pcfHWQMTfMvEzdTVncAwYg",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.5
+   },
+   "summary": "中金点睛发布投研蒸馏器Skill，将知识蒸馏方法封装助力投研人员打造专属知识库",
+   "page": "research_20261026.html"
+  },
   {
    "date": "2026-10-23",
    "title": "资产配置：如何对冲AI风险？",
