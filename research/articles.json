@@ -1,6 +1,130 @@
 {
- "updated": "2026-10-26",
+ "updated": "2026-10-27",
  "articles": [
+  {
+   "date": "2026-10-27",
+   "title": "AI从传统需求的\"朋友\"到\"敌人\"？",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/te2fH3vbsZw-zz6eFhGcQQ",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "AI产业链融资约束",
+    "宏观经济"
+   ],
+   "etf_sentiment": {
+    "513100": "空"
+   },
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "中美AI云厂商Q2自由现金流转负、需外部融资，AI开始向全社会汲取资源；测算美国整体可承受利率约5.5-6%（AI板块7-7.5%、传统部门4%），AI正从拉动传统需求的\"朋友\"滑向挤出的\"敌人\"，破局关键在大模型迭代与回报兑现",
+   "page": "research_20261027.html"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "资金挪仓低拥挤方向",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/t4TX9ZbZ6yWJrvUdHjK9qQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "A股资金结构",
+    "债市宽松预期"
+   ],
+   "etf_sentiment": {
+    "510300": "多",
+    "512800": "多",
+    "512480": "空",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "10/26权益缩量分化，算力拥挤度与估值同步出清、资金挪仓红利/银行/交运；债市税期资金边际收敛但避险+降息猜想支撑长端，跨月后DR001能否稳在1.25%是新一轮行情的检测指标",
+   "page": "research_20261027.html"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "量化 | 择时信号视角下的债市交易压力思考",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/XCn46TI1bhAIvN8XyL4dUQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "债市宽松预期",
+    "ETF轮动"
+   ],
+   "etf_sentiment": {
+    "513100": "空",
+    "512800": "多",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "债市周频VPIN与隔夜共振同步转空、交易压力向长周期扩散，不宜机械视为买点；ETF轮动触发纳指波动率控制降权至28.78%，境内权益2.50%预算换防红利低波/银行/国企，固收防守仓六成",
+   "page": "research_20261027.html"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "【中金固收·综合】权益市场波动加剧，交易型机构债券配置需求加码——2026年9月中债登、上清所债券托管数据点评",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/DQBMlsmhiHxGLXq1jngs1A",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "债市宽松预期",
+    "机构行为"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "9月广义基金增持8177亿成最大增持机构（利率债+同业存单为主），权益波动推动避险资金入市，配置盘仍欠配，债券配置需求依然较高、利于利率下行",
+   "page": "research_20261027.html"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "宽松可能是上帝视角的\"预告\"",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/RZsP3YDesum6j-9fV6q1bA",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "A股资金结构",
+    "债市宽松预期"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "这轮杀跌主因筹码结构而非业绩，公募成科技\"墓园\"、资金绕开机构票；公募久期3.44年处100%分位、债市如堰塞湖；11月审议的税收征管法修订与基金免税无关，宽松是前瞻铺安全垫防尾部风险",
+   "page": "research_20261027.html"
+  },
+  {
+   "date": "2026-10-27",
+   "title": "是烂尾，不是过剩：马斯克和Chamath对新云公司算力建设的看法",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/katFYGzmcpGBI7VfthBs5Q",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "AI产业链融资约束"
+   ],
+   "etf_sentiment": {
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 2.8
+   },
+   "summary": "马斯克预警大量\"烂尾算力\"被困未完工数据中心，Chamath预计2027年烂尾+库存算力远超预测、200多家新云厂商将\"孔雀鱼级别\"整合；作者强调是烂尾而非过剩，算力需求仍旺盛",
+   "page": "research_20261027.html"
+  },
   {
    "date": "2026-10-26",
    "title": "反弹聚焦优质科技",
