@@ -1,6 +1,193 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-28",
  "articles": [
+  {
+   "date": "2026-10-28",
+   "title": "央行设立BNSF，四点关注",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/MHgg8TPw6w8iwwVwovwDHw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "债市宽松预期",
+    "货币政策工具"
+   ],
+   "etf_sentiment": {
+    "511520": "多",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "央行10/26设立BNSF债市非银大额赎回互换便利，只针对赎回潮第二阶段（流动性枯竭致折价抛售）、启用权在央行，以央票替代现金规避法律限制；准入从按机构类型收窄为按系统性影响，直接效果更利多信用板块，预期作用大于实际规模",
+   "page": "research_20261028.html"
+  },
+  {
+   "date": "2026-10-28",
+   "title": "10月FOMC前瞻：预期之外的交易线索在哪里？（国联民生宏观林彦）",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/7qH5OUnoXOvlcHh6lypTRw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储政策",
+    "全球利率"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "10月暂停加息已被充分定价，真正交易线索在声明措辞、鹰派反对票数与沃什五大改革工作组进展；暂停应理解为紧缩节奏调整而非终点，曲线形态、信用利差与利率波动率比单一收益率方向更有信息量",
+   "page": "research_20261028.html"
+  },
+  {
+   "date": "2026-10-28",
+   "title": "深度｜AI是下一轮增长引擎还是放大结构矛盾？",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/BgAtIqzIFYbBYtXxcPL9PQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI产业链融资约束",
+    "宏观经济"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "518880": "多",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "全球债务94.7%高位、传统化债路径收窄，以增长稀释债务成唯一解；AI投入期已启动（2026年支出2.59万亿美元），但劳动份额降至53.8%历史低位，红利若继续向资本集中将导致需求塌陷、r≥g下债务率反升；技术决定上限、制度决定落点，哑铃配置AI产业链与分配修复方向",
+   "page": "research_20261028.html"
+  },
+  {
+   "date": "2026-10-28",
+   "title": "Anthropic的S-1招股书披露的主要财务数据，与市场的质疑",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/SGztmXnQqlSxPCMimyBOkA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI产业链融资约束",
+    "AI公司基本面"
+   ],
+   "etf_sentiment": {
+    "513100": "空",
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "Anthropic 10/26递交S-1，营收两年半增长约400倍；账面净亏损807.48亿美元主要来自可转债公允价值变动（723.88亿），实际经营亏损仅6.93亿、调整后营业利润+16.18亿、经营现金流+39.3亿；真正风险是约6000亿美元刚性算力承诺与弹性收入错配",
+   "page": "research_20261028.html"
+  },
+  {
+   "date": "2026-10-28",
+   "title": "中金：美国中期选举的潜在影响",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/E3FYWmXOPmc4LyQuuXAICg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美国政治与地缘",
+    "AI产业链融资约束"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "501018": "多",
+    "512660": "空"
+   },
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "11/3中期选举大概率形成分裂国会，将约束军事行动、压缩财政扩张空间并把焦点转向债务上限，AI监管难在联邦层面全面收紧；选举落地后政策不确定性下降，或成风险出清契机，但过渡期内油价仍有冲高风险",
+   "page": "research_20261028.html"
+  },
+  {
+   "date": "2026-10-28",
+   "title": "【华泰固收】一般预算支出小幅回补——2026年9月财政数据点评",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/12fs2OjsCnQicujOdLQd6Q",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "财政政策",
+    "宏观经济"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.35
+   },
+   "summary": "9月一般预算收入同比首次转负（-0.1%）、支出基本持平（+0.03%），两本账支出合计降幅由-6.7%收窄至-3.7%、基建支出局部改善；土地出让-23.2%仍是主要拖累，地方两本账本级或短收约1.14万亿，10月5500亿结存限额落地后四季度支出有望回补",
+   "page": "research_20261028.html"
+  },
+  {
+   "date": "2026-10-28",
+   "title": "港币：息差交易会否逆转？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/2Y062OCxm-ALoNUObtCVPw",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "汇率与港股"
+   ],
+   "etf_sentiment": {
+    "513180": "空"
+   },
+   "scores": {
+    "total": 3.1
+   },
+   "summary": "10/22 USDHKD急跌120点属避险驱动的套息平仓，总结余540亿港元历史低位放大波动；基本面与息差逻辑未逆转，历史上1-10月偏强且结余破千亿的年份年末多见300-800点止盈假摔，跨年后利差重开港币重回弱方，港股短期缺乏走强动力",
+   "page": "research_20261028.html"
+  },
+  {
+   "date": "2026-10-28",
+   "title": "AI：从传统需求的“朋友”到“敌人”？",
+   "author": "Kevin策略研究",
+   "url": "https://mp.weixin.qq.com/s/oHhT1Li3DZeuSAWQLsxHgw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "AI产业链融资约束",
+    "宏观经济"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 3.05
+   },
+   "summary": "与10/27日报详读篇同题（中金同一报告由Kevin策略研究转发，增量有限）：中美云厂商自由现金流已转负需外部融资，AI从拉动传统需求的“朋友”滑向挤出的“敌人”，测算美国整体可承受利率约5.5-6%",
+   "page": "research_20261028.html"
+  },
+  {
+   "date": "2026-10-28",
+   "title": "【瞎扯】扎心一针",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/oHFyMVNL91YS8H3gAKAFeA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "A股情绪与风格",
+    "债市宽松预期"
+   ],
+   "etf_sentiment": {
+    "588000": "多",
+    "512480": "多",
+    "510880": "空"
+   },
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "科创尾盘放量砸盘、科技类VIX近90%分位、创业板/红利比价回落至历史低位，短期反转概率上升但比价未长期筑底；央行7天4120亿+隔夜逆回购1万亿、净投放1140亿，10Y逼近央行合意区间1.6%-1.7%下限，需防隔夜投放随时回笼",
+   "page": "research_20261028.html"
+  },
   {
    "date": "2026-10-27",
    "title": "AI从传统需求的\"朋友\"到\"敌人\"？",
