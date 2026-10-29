@@ -1,6 +1,190 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "articles": [
+  {
+   "date": "2026-10-29",
+   "title": "美国劳动参与率为何趋势下行？",
+   "author": "川阅全球宏观（国联民生林彦）",
+   "url": "https://mp.weixin.qq.com/s/bkM66HmPSqiuEwpp5q3E4A",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美国劳动市场",
+    "美联储货币政策",
+    "人口老龄化"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "2026年美国劳动参与率罕见系统性下行，三因素共振（技术修订+婴儿潮退休+移民收缩+周期性需求走弱），失业率下行≠就业强，美联储10月难连续加息",
+   "page": "research_20261029.html"
+  },
+  {
+   "date": "2026-10-29",
+   "title": "近期货币政策要点分析",
+   "author": "固收亮话（国联民生）",
+   "url": "https://mp.weixin.qq.com/s/kpwjFrbYomzRGeiXJzAylw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "货币政策",
+    "债市",
+    "利率切锚"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多"
+   },
+   "scores": {
+    "total": 4.45
+   },
+   "summary": "央行一揽子新政落地：BNSF切断赎回负反馈链+政策利率7DOMO→隔夜OMO切锚+贷款利率定价基准改革，10Y国债收益率估值1.50%-1.75%",
+   "page": "research_20261029.html"
+  },
+  {
+   "date": "2026-10-29",
+   "title": "中美利率背离：底层逻辑和2027年走向",
+   "author": "CSC研究 宏观团队（周君芝）",
+   "url": "https://mp.weixin.qq.com/s/5dZhKQgEt4lSQMk0CwiKwg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "中美利率",
+    "债市",
+    "财政模式"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多",
+    "513100": "空"
+   },
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "中美利率背离本质是生产型政府vs福利型政府——中债牛市源于资产荒+低通胀，美债熊市源于续滚压力+供给端通胀，高利率还是低利率取决于债务用途",
+   "page": "research_20261029.html"
+  },
+  {
+   "date": "2026-10-29",
+   "title": "中期选举如何影响美元指数",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/-x3aggLH2C7GUtP3waNyAg",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "美国中期选举",
+    "美元指数",
+    "财政政策"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "518880": "多",
+    "501018": "多"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "11/3中期选举民主党大概率拿下众议院，国会分裂对AI监管趋严+财政约束加大，美指短期下行压力但加息周期内货币政策主导趋势",
+   "page": "research_20261029.html"
+  },
+  {
+   "date": "2026-10-29",
+   "title": "利润增长集中度偏高——9月工业企业利润点评",
+   "author": "一瑜中的（华创张瑜）",
+   "url": "https://mp.weixin.qq.com/s/cqws21xDOD3wSqkwVvweAw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "工业企业利润",
+    "内需结构",
+    "制造业"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "510300": "中性",
+    "512100": "空"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "9月工业企业利润同比+14.4%但增长高度集中，电子设备贡献76.2%，19个行业拖累，内需结构仍不均衡，宽基难有全面行情",
+   "page": "research_20261029.html"
+  },
+  {
+   "date": "2026-10-29",
+   "title": "2026Q3公募REITs季报出炉，分化延续",
+   "author": "兴业证券 姜丹/郑日诚",
+   "url": "https://mp.weixin.qq.com/s/FrnF1hdGKSl5eUUun-eDmw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "公募REITs",
+    "产业园区",
+    "数据中心"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "产权REITs利差299bp历史95%分位赔率很高，产业园区承压，数据中心/消费设施/高速公路基本面良好",
+   "page": "research_20261029.html"
+  },
+  {
+   "date": "2026-10-29",
+   "title": "美国能承受多高的利率？",
+   "author": "Kevin策略研究",
+   "url": "https://mp.weixin.qq.com/s/NWKfxxv-Q2Nxw3T76-Cq3A",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储货币政策",
+    "美债利率",
+    "AI融资"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.05
+   },
+   "summary": "FOMC如期按兵不动，9月加息后金融条件已收紧（CoreWeave CDS/垃圾债利差走高），连续大幅加息无必要，美债利率似在筑顶",
+   "page": "research_20261029.html"
+  },
+  {
+   "date": "2026-10-29",
+   "title": "短期内修复值得期待，情绪上可稍作切换",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/rHc2dDv13nvqxopyfew2sQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.9
+   },
+   "summary": "纯技术面判断，债市近期赚太爽可止盈，老A修复反弹看到下周二",
+   "page": "research_20261029.html"
+  },
+  {
+   "date": "2026-10-29",
+   "title": "中金图说中国：2026年四季度",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/Hf5GuruPWslcnMRiliBRpg",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.15
+   },
+   "summary": "中金四季度图说中国，110余页图册汇总，纯转发预告性质",
+   "page": "research_20261029.html"
+  },
   {
    "date": "2026-10-28",
    "title": "央行设立BNSF，四点关注",
