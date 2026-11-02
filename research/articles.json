@@ -1,6 +1,631 @@
 {
- "updated": "2026-10-29",
+ "updated": "2026-11-02",
  "articles": [
+  {
+   "date": "2026-11-02",
+   "title": "中金：AI“次贷”的金融裂缝",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/bwHiFusW1PHX1VoOEd-L9g",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "AI产业链",
+    "信用风险",
+    "Neocloud"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "512480": "空"
+   },
+   "scores": {
+    "total": 4.25
+   },
+   "summary": "CoreWeave无抵押债收益率15%、CDS破1100bp，Neocloud类似AI融资次贷，但基准情形为局部信用收缩",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "从信用事件到流动性冲击，变与不变",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/oXJydXEHuua0ikCO2BDVAQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "信用风险",
+    "利率债",
+    "固收+赎回"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "华发舆情经固收+赎回传导，利率债调整最小最先修复；信用债等利率债企稳后参与短久期中高评级",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "ETF | 股票ETF周度净流入1091亿，年内第三高",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/kzgdQaxuN4P3RWIASRbmdg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "ETF资金流",
+    "A股"
+   ],
+   "etf_sentiment": {
+    "510300": "多",
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "10/26-30股票ETF净流入1091亿、年内第三高，宽基承接1048.76亿，资金卖涨买跌逆势布局超跌科技",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "隔夜逆回购利率正式成为政策利率，同时小幅降息",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/w-aSFwdJSe8HdtaK9UbBCg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "政策利率换锚",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "11/2起隔夜逆回购1.25%成为主要政策利率，7天逆回购边缘化，实质降息15bp",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "【华泰固收】供需有所反复——2026年10月官方PMI点评",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/fD5GbNdweodacWmNEuQlbg",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "宏观经济",
+    "PMI",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "510300": "空",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "10月PMI供需两端同步走弱、价格降温，四季度经济平稳；债市持仓微调，股市分批小仓位回补",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "【华泰资产配置】CoreWeave融资担忧的解析和影响",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/twYr-phL9OwElLh4bTzBKw",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "AI产业链",
+    "信用风险"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "510880": "多"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "CoreWeave有息债务约350亿美元、无担保债收益率15-16%，极端情形明年初现金流断裂，但违约更多是情绪扰动",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "如何看待本轮超长债行情？",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/dsilWasDs2luQmfqR59iBg",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "政策利率换锚"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "7月以来三段行情，10月转平行下移，30Y-10Y利差41bp，换锚后短端定价锚清晰",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "10月PMI重回“淡季”",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/jPb4BWFFz3efqU7EqJ0Wdg",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "宏观经济",
+    "PMI"
+   ],
+   "etf_sentiment": {
+    "510300": "空",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "PMI回落超季节性，9-10月合并仍弱于往年，四季度内需修复需政策接力（与华泰PMI同题）",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "加息暂停键能按多久？（国联民生宏观武朔）",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/cK-QSSkLMcd6J1FfxuzbJg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "利率路径"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.45
+   },
+   "summary": "沃什倾向数据依赖的走走停停，预计12月再加息、明年上半年收尾，跟踪三驾马车口风",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "原油：一根绳上牵着许多蚂蚱",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/BBVC4rLOvB1BXptPwiqeFw",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "大宗商品",
+    "油价"
+   ],
+   "etf_sentiment": {
+    "501018": "多",
+    "512400": "空",
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 3.45
+   },
+   "summary": "年末利率、汇率、商品均系于油价，美伊重启冲突概率约60%，亚系货币为避风港",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "美国中期选举与大类资产前瞻",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/qAxsXJ0nGYzwuFIiN2kpyA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美国中期选举",
+    "大类资产"
+   ],
+   "etf_sentiment": {
+    "513100": "空",
+    "518880": "多",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.45
+   },
+   "summary": "民主党拿下众议院概率94%，利好美债/黄金；共和党占优则利多美股，基准情形为共和党至少丢众院",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "流动性 | 信用事件冲击下的利率策略研判",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/qhTKBDZnvytp4-XXxLbk9w",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "信用风险",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.45
+   },
+   "summary": "本轮属未被预期的突发型事件，央行被动宽松+超调即买点，偏利率品种不改中期利多（与郁言同题）",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "10月FOMC：鹰派暂停，鸽派解读",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/iO9h-jkTjaCj6sDJp7UJQA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "10:2票型、未强化12月指引，市场解读略鸽于预期，美指102.5回落至102.1",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "美联储暂停加息，三个信号",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/s1j5jJWtCONumZeJYEqi5w",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "美联储",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "上调经济评估、金融条件收紧待确认、市场下调2027年加息预期，美债曲线走陡",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "风险暴露上升，政策利率行动对冲可期。",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/cXJY6izdKYqJGnWB3uz4SA",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "债市",
+    "A股",
+    "信用风险"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "512800": "多"
+   },
+   "scores": {
+    "total": 3.35
+   },
+   "summary": "地产+AI双泡沫共振破裂，政策对冲必要性上升，TL第一压力118.92-119.06",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "一步步剖析周五国债期货巨阴之“变与不变”",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/yswCNmXZhxtiosb6uLrjWw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "债市",
+    "信用风险"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.35
+   },
+   "summary": "久期3.44年处100%分位、信用利差极低，华发风险定价触发多头减仓3.2万手，利率债中期逻辑未变",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "中金·转债 | Anthropic的可转换本票是什么？",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/BNe66zPaewOgMkbStk1IEA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "AI产业链",
+    "转债"
+   ],
+   "etf_sentiment": {
+    "511380": "中性"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "Amazon存量62亿美元本票公允价值1086亿，按H轮9折转股稀释约4.7%，经济实质接近折价增发+计息过桥",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "基金久期增长，但分歧度有所分化",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/3Vz1vu0zG41InCAAtux8hg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "债基持仓",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "Q3债基久期升至2023年来最高、杠杆整体下降，中长期纯债久期分歧度边际提升",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "担忧资本开支可持续性导致的暴跌：10月30日美科技股暴跌分析",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/9op-GZqxTOlKqv0l2d2iUQ",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "AI产业链",
+    "美股"
+   ],
+   "etf_sentiment": {
+    "513100": "空"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "英特尔单日-28.58%、亚马逊TTM自由现金流转负424亿美元，AI需求真实但兑现代价被抛售",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "新动能较快增长，内外需边际回落——10月PMI数据点评",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/vEsFuP9Ga2xXuKpMsOC6hQ",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "宏观经济",
+    "PMI"
+   ],
+   "etf_sentiment": {
+    "510300": "空"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "新出口订单48.7、建筑业新订单40，内外需同步回落；服务消费受节假日支撑保持韧性",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "【瞎扯】当用红利的视角来要求科技",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/ftc5D9KUcfyvkuee9I66bw",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "AI产业链",
+    "A股风格"
+   ],
+   "etf_sentiment": {
+    "512480": "空",
+    "510880": "多"
+   },
+   "scores": {
+    "total": 3.15
+   },
+   "summary": "谷歌净利-34%、自由现金流连续两季为负，市场用红利视角审视科技，反成红利风格上行推力",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "【瞎扯】“固收-”的拖累与正式换锚的债市",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/d-Vg40EthfJ1vyjUxC8quQ",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "债市",
+    "固收+赎回",
+    "政策利率换锚"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.15
+   },
+   "summary": "固收-赎回约2000亿砸股债双市，BNSF+隔夜1.25%呵护，赎回结束后利率逢高配置",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "隔壁将延续修复（早评若干分享）",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/978YQ84ukahHezKefadhBQ",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "A股",
+    "美联储"
+   ],
+   "etf_sentiment": {
+    "510300": "多"
+   },
+   "scores": {
+    "total": 3.05
+   },
+   "summary": "A股筹码底部真空、短期反弹延续但空间依赖政策，TL2612支撑118.33",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "关于结存限额的五个问题",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/aHLrD6Rct9REGyXoThKrag",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "财政政策",
+    "地方债"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 2.95
+   },
+   "summary": "5500亿结存限额用后仍有约1.17万亿空间，10月实际使用仅约417亿",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "美联储不加息，沃什更清晰地阐述货币政策思路，并将改革FOMC会议议程",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/TFA1UfVsnI1pT8elR7FR5g",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "FOMC改革"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 2.85
+   },
+   "summary": "2027年秋起改革FOMC议程，强调数据依赖、拒绝前瞻指引，10票赞成2票反对",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "【华泰资产配置】沃什式模糊 ——10 月 FOMC 点评",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/c21B912CBB4Kd9X0o14yQQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "FOMC改革"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 2.85
+   },
+   "summary": "沃什式模糊、增量信息有限，2027年1次会议专议战略，五大工作组年底部分交卷",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "耐心的结果",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/GKaTLiczmv9f2wHWTof6eQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "转债"
+   ],
+   "etf_sentiment": {
+    "511380": "中性"
+   },
+   "scores": {
+    "total": 2.6
+   },
+   "summary": "转债10个交易日未新低，交易窗口已关闭，再需2周平稳或2%级反弹可解除风险信号",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "中金机构间REITs市场调查反馈（2026）",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/2i1Mrl-KA0IuzpjkfbatDw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "REITs"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.2
+   },
+   "summary": "56份问卷显示保险与理财为主力，保租房、数据中心、交通为已投前三大资产",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "跳出治乱兴衰历史周期率的答案——学习二十届五中全会公报",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/KSU2qcT2LFF25kdLaBtY8w",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "政策",
+    "五中全会"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.15
+   },
+   "summary": "五中全会专题研究全面从严治党，《决定》全文或于11月上旬公布",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "谁会成为下一只30Y国债活跃券",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/NdyUlm55Ls1MICc3C7JX5Q",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.05
+   },
+   "summary": "26T6已结束发行，仍可能在12月底前成为活跃券；2621年内两次续发规模或仅750-950亿",
+   "page": "research_20261102.html"
+  },
+  {
+   "date": "2026-11-02",
+   "title": "如何识别&应对情绪交易与技术交易",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/h2IaRTQYh8tzvS29RlyLyw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "交易方法"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.75
+   },
+   "summary": "区分技术市与情绪市，情绪市应对关键词是等与看、盯事件与政策灭火进度",
+   "page": "research_20261102.html"
+  },
   {
    "date": "2026-10-29",
    "title": "美国劳动参与率为何趋势下行？",
