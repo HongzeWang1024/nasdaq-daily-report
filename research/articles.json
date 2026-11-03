@@ -1,6 +1,209 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "articles": [
+  {
+   "date": "2026-11-03",
+   "title": "华发舆情冲击下的信用债市场关注与投资应对",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/QWAhum1Fnck-n-qnBHitmQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债",
+    "赎回负反馈",
+    "涉房国企"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "华发舆情属信仰重定价而非实质违约，冲击小于永煤大于万科展期；信用债向高等级倾斜、减少下沉、换仓中等久期，等待错杀机会",
+   "page": "research_20261103.html"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "量化 | 择时信号视角下的债市交易压力思考",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/Ufa6GIVZ6dXGwlFoxH6GXg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "多资产轮动",
+    "固收防御",
+    "债市择时"
+   ],
+   "etf_sentiment": {
+    "513100": "空",
+    "512800": "多",
+    "501018": "多"
+   },
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "利率择时与多资产轮动共振指向跨月防守：固收底仓近九成，触发纳指100 ETF退出信号，权益向银行+央企红利收敛并增配油气能化",
+   "page": "research_20261103.html"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "呵护加码",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/eXBTxUDNI1R2JgGaVEcYTg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "政策呵护",
+    "A股企稳",
+    "债市赎回"
+   ],
+   "etf_sentiment": {
+    "588000": "多",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "回购增持再贷款转长期制度降息至1%、SFISF第三批1000亿，政策托底制度化；短期更可能是下跌速率缓解而非趋势反转，债市仍处赎回观察期",
+   "page": "research_20261103.html"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "美国中期选举：如何定价",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/hOW2WkCMOKeJbqV1m60RNA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美国中期选举",
+    "美债",
+    "美股"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "中期选举三情景：Blue Wave为基准，分立政府利好美债利空美股；未被计价的Red Wall为唯一尾部预期差",
+   "page": "research_20261103.html"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "以退为进：出口退税的再定价（国联民生宏观钟渝梅、陶川）",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/MyFY60cwEE3COs4anJq36w",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "财政政策",
+    "出口退税",
+    "新三样"
+   ],
+   "etf_sentiment": {
+    "515790": "中性"
+   },
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "出口退税从稳外贸切换为财政+产业双重再定价杠杆，新三样退坡倒逼产能出清，头部企业相对受益",
+   "page": "research_20261103.html"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "【华泰固收|年度展望】谋定而后动——2027年转债市场展望",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/8krzhyBm9HSJomdA-jHw5A",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "转债",
+    "年度展望",
+    "A股"
+   ],
+   "etf_sentiment": {
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "2027年股指下有底上有顶、防守反击仓位有条件提升；转债高估值低性价比+到期大年，建议中性偏低仓位、个券仅关注低价权重",
+   "page": "research_20261103.html"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "中国财政：转型期逻辑和2027年展望",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/t0sgW5Hk3Y5SQxlsDr6hgg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "财政政策",
+    "化债",
+    "2027展望"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "2022-2027财政承前启后转型期，27万亿+10万亿双锚稳住地方财政，不应过度担忧2027财政收缩",
+   "page": "research_20261103.html"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "AI股涨跌，正在决定美元？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/NeQ7uztlpINTBQzIxohEpQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美元",
+    "AI股",
+    "日元"
+   ],
+   "etf_sentiment": {
+    "513100": "空"
+   },
+   "scores": {
+    "total": 3.1
+   },
+   "summary": "AI股取代油价成为美元定价新锚，类比2000年互联网泡沫期美股美元同向；若AI下跌演变为对美国增长优势的重新评估，美元面临新一轮下跌，交易上看多日元",
+   "page": "research_20261103.html"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "2015年的问题再现：救指数还是救科技（流动性）？",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/uhXV5btTerFnzuBg9WzkxQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "救市",
+    "科技股流动性"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.8
+   },
+   "summary": "11/2早盘银证保拉升而科技被砸，复刻2015年7月稳指数未救流动性一幕；若科技继续下跌预计类似证金申购公募的政策出台",
+   "page": "research_20261103.html"
+  },
+  {
+   "date": "2026-11-03",
+   "title": "【瞎扯】农历的「9.24」你们也信？",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/JXzRWqH-T45OpPdacyqgTQ",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "政策呵护",
+    "SFISF"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.7
+   },
+   "summary": "三部门座谈会无新增撒币工具，3000亿存量工具常态化有益但画虎不成反类犬，平准梦想破灭",
+   "page": "research_20261103.html"
+  },
   {
    "date": "2026-11-02",
    "title": "中金：AI“次贷”的金融裂缝",
