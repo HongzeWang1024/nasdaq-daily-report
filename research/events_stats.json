@@ -1,6 +1,35 @@
 {
- "updated": "2026-11-02",
+ "updated": "2026-11-03",
  "events": [
+  {
+   "event": "美联储10月议息会议",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 3,
+   "history": [
+    {
+     "date": "2026-10-29",
+     "r1": -0.0223,
+     "r3": null,
+     "r7": null
+    },
+    {
+     "date": "2026-10-29",
+     "r1": -0.0223,
+     "r3": null,
+     "r7": null
+    },
+    {
+     "date": "2026-10-29",
+     "r1": -0.0223,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0223,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
   {
    "event": "30年国债新券260021发行",
    "target": "511090",
@@ -34,17 +63,34 @@
      "date": "2026-10-21",
      "r1": -0.0212,
      "r3": -0.0325,
-     "r7": null
+     "r7": -0.0312
     },
     {
      "date": "2026-10-21",
      "r1": -0.0212,
      "r3": -0.0325,
-     "r7": null
+     "r7": -0.0312
     }
    ],
    "avg_ret_1d": -0.0212,
    "avg_ret_3d": -0.0325,
+   "avg_ret_7d": -0.0312
+  },
+  {
+   "event": "10月FOMC决议与沃什发布会（关注声明措辞、反对票数、五大改革工作组进展）",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-10-29",
+     "r1": -0.0099,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0099,
+   "avg_ret_3d": null,
    "avg_ret_7d": null
   },
   {
@@ -380,12 +426,12 @@
      "date": "2026-10-20",
      "r1": -0.0028,
      "r3": -0.0079,
-     "r7": null
+     "r7": -0.0005
     }
    ],
    "avg_ret_1d": -0.0028,
    "avg_ret_3d": -0.0079,
-   "avg_ret_7d": null
+   "avg_ret_7d": -0.0005
   },
   {
    "event": "中国8月经济数据",
@@ -454,6 +500,23 @@
    "avg_ret_1d": -0.0047,
    "avg_ret_3d": -0.0314,
    "avg_ret_7d": -0.0208
+  },
+  {
+   "event": "中国9月规模以上工业企业利润",
+   "target": "510300",
+   "name": "沪深300",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-10-28",
+     "r1": -0.0099,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0099,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "中秋国庆跨季资金面",
@@ -668,12 +731,12 @@
     {
      "date": "2026-10-26",
      "r1": 0.0043,
-     "r3": null,
+     "r3": 0.0042,
      "r7": null
     }
    ],
    "avg_ret_1d": 0.0043,
-   "avg_ret_3d": null,
+   "avg_ret_3d": 0.0042,
    "avg_ret_7d": null
   },
   {
@@ -889,12 +952,12 @@
     {
      "date": "2026-10-27",
      "r1": -0.0001,
-     "r3": null,
+     "r3": -0.01,
      "r7": null
     }
    ],
    "avg_ret_1d": -0.0001,
-   "avg_ret_3d": null,
+   "avg_ret_3d": -0.01,
    "avg_ret_7d": null
   },
   {
@@ -957,12 +1020,12 @@
     {
      "date": "2026-10-27",
      "r1": 0.0293,
-     "r3": null,
+     "r3": -0.0044,
      "r7": null
     }
    ],
    "avg_ret_1d": 0.0293,
-   "avg_ret_3d": null,
+   "avg_ret_3d": -0.0044,
    "avg_ret_7d": null
   },
   {
@@ -998,6 +1061,40 @@
    "avg_ret_1d": 0.0094,
    "avg_ret_3d": 0.0204,
    "avg_ret_7d": 0.0017
+  },
+  {
+   "event": "美联储/欧洲央行利率决议；美国Q3 GDP及9月PCE",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-10-29",
+     "r1": -0.0223,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0223,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "美联储10月FOMC会议",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-10-29",
+     "r1": -0.0223,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0223,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "美联储9月FOMC议息（加息概率约90%）",
