@@ -1,46 +1,26 @@
 {
- "updated": "2026-11-02",
- "date": "2026-11-02",
- "sentiment_index": 56.0,
+ "updated": "2026-11-03",
+ "date": "2026-11-03",
+ "sentiment_index": 26.0,
  "risk_level": {
   "level": "高",
-  "score": 78,
+  "score": 100,
   "cats": {
-   "宏观流动性": 6.0,
-   "地缘政治": 3.6,
-   "板块情绪": 3.0,
-   "估值水平": 3.0
+   "宏观流动性": 4.8,
+   "地缘政治": 0.0,
+   "板块情绪": 9.6,
+   "估值水平": 7.6
   },
   "advice": "⚠ 风险等级偏高，防御关注：511090（30年国债）、518880（黄金）"
  },
  "scores": [
   {
-   "code": "511520",
-   "name": "",
+   "code": "588000",
+   "name": "科创50",
    "grade": "关注",
-   "score": 82,
-   "delta": -3,
-   "bull": 2,
-   "bear": 0,
-   "neutral": 0
-  },
-  {
-   "code": "511090",
-   "name": "30年国债",
-   "grade": "关注",
-   "score": 74,
-   "delta": 0,
-   "bull": 11,
-   "bear": 0,
-   "neutral": 2
-  },
-  {
-   "code": "510880",
-   "name": "红利",
-   "grade": "关注",
-   "score": 74,
+   "score": 81,
    "delta": null,
-   "bull": 2,
+   "bull": 1,
    "bear": 0,
    "neutral": 0
   },
@@ -48,8 +28,8 @@
    "code": "512800",
    "name": "银行",
    "grade": "关注",
-   "score": 73,
-   "delta": null,
+   "score": 77,
+   "delta": 3,
    "bull": 1,
    "bear": 0,
    "neutral": 0
@@ -58,38 +38,28 @@
    "code": "501018",
    "name": "油气",
    "grade": "关注",
-   "score": 67,
-   "delta": -7,
+   "score": 77,
+   "delta": 7,
    "bull": 1,
    "bear": 0,
    "neutral": 0
   },
   {
-   "code": "518880",
-   "name": "黄金",
-   "grade": "关注",
-   "score": 57,
-   "delta": -25,
-   "bull": 1,
+   "code": "515790",
+   "name": "光伏",
+   "grade": "观望",
+   "score": 62,
+   "delta": null,
+   "bull": 0,
    "bear": 0,
    "neutral": 1
   },
   {
    "code": "510300",
    "name": "沪深300",
-   "grade": "规避",
-   "score": 53,
-   "delta": -2,
-   "bull": 2,
-   "bear": 3,
-   "neutral": 0
-  },
-  {
-   "code": "511380",
-   "name": "可转债",
    "grade": "观望",
-   "score": 50,
-   "delta": null,
+   "score": 59,
+   "delta": 6,
    "bull": 0,
    "bear": 0,
    "neutral": 2
@@ -98,31 +68,11 @@
    "code": "513100",
    "name": "纳指",
    "grade": "规避",
-   "score": 49,
-   "delta": -11,
-   "bull": 0,
-   "bear": 2,
-   "neutral": 6
-  },
-  {
-   "code": "512480",
-   "name": "半导体",
-   "grade": "规避",
-   "score": 43,
-   "delta": null,
+   "score": 41,
+   "delta": -8,
    "bull": 0,
    "bear": 2,
    "neutral": 1
-  },
-  {
-   "code": "512400",
-   "name": "有色/铜",
-   "grade": "规避",
-   "score": 27,
-   "delta": null,
-   "bull": 0,
-   "bear": 1,
-   "neutral": 0
   }
  ]
 }
