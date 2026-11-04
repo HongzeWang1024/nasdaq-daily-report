@@ -1,22 +1,32 @@
 {
- "updated": "2026-11-03",
- "date": "2026-11-03",
- "sentiment_index": 26.0,
+ "updated": "2026-11-04",
+ "date": "2026-11-04",
+ "sentiment_index": 66.0,
  "risk_level": {
-  "level": "高",
-  "score": 100,
+  "level": "中",
+  "score": 46,
   "cats": {
-   "宏观流动性": 4.8,
+   "宏观流动性": 1.2,
    "地缘政治": 0.0,
-   "板块情绪": 9.6,
-   "估值水平": 7.6
+   "板块情绪": 8.0,
+   "估值水平": 0.0
   },
-  "advice": "⚠ 风险等级偏高，防御关注：511090（30年国债）、518880（黄金）"
+  "advice": "⚠ 风险等级中等，防御关注：511090（30年国债）、518880（黄金）"
  },
  "scores": [
   {
-   "code": "588000",
-   "name": "科创50",
+   "code": "512890",
+   "name": "",
+   "grade": "关注",
+   "score": 87,
+   "delta": null,
+   "bull": 1,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "518880",
+   "name": "黄金",
    "grade": "关注",
    "score": 81,
    "delta": null,
@@ -25,54 +35,64 @@
    "neutral": 0
   },
   {
-   "code": "512800",
-   "name": "银行",
+   "code": "510300",
+   "name": "沪深300",
    "grade": "关注",
-   "score": 77,
-   "delta": 3,
+   "score": 81,
+   "delta": 22,
    "bull": 1,
    "bear": 0,
    "neutral": 0
   },
   {
-   "code": "501018",
-   "name": "油气",
+   "code": "511090",
+   "name": "30年国债",
    "grade": "关注",
-   "score": 77,
-   "delta": 7,
-   "bull": 1,
+   "score": 80,
+   "delta": null,
+   "bull": 2,
    "bear": 0,
    "neutral": 0
   },
   {
-   "code": "515790",
-   "name": "光伏",
+   "code": "512480",
+   "name": "半导体",
+   "grade": "关注",
+   "score": 78,
+   "delta": null,
+   "bull": 2,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "512100",
+   "name": "中证1000",
    "grade": "观望",
-   "score": 62,
+   "score": 67,
    "delta": null,
    "bull": 0,
    "bear": 0,
    "neutral": 1
   },
   {
-   "code": "510300",
-   "name": "沪深300",
-   "grade": "观望",
-   "score": 59,
-   "delta": 6,
-   "bull": 0,
-   "bear": 0,
-   "neutral": 2
-  },
-  {
    "code": "513100",
    "name": "纳指",
-   "grade": "规避",
-   "score": 41,
-   "delta": -8,
+   "grade": "观望",
+   "score": 61,
+   "delta": 20,
    "bull": 0,
-   "bear": 2,
+   "bear": 0,
    "neutral": 1
+  },
+  {
+   "code": "512690",
+   "name": "酒",
+   "grade": "规避",
+   "score": 40,
+   "delta": null,
+   "bull": 0,
+   "bear": 1,
+   "neutral": 0
   }
  ]
 }
