@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "events": [
   {
    "event": "美联储10月议息会议",
@@ -510,12 +510,12 @@
     {
      "date": "2026-10-28",
      "r1": -0.0099,
-     "r3": null,
+     "r3": -0.0161,
      "r7": null
     }
    ],
    "avg_ret_1d": -0.0099,
-   "avg_ret_3d": null,
+   "avg_ret_3d": -0.0161,
    "avg_ret_7d": null
   },
   {
@@ -840,6 +840,23 @@
    "avg_ret_1d": 0.0062,
    "avg_ret_3d": 0.0286,
    "avg_ret_7d": 0.0366
+  },
+  {
+   "event": "日本央行利率决议",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-10-30",
+     "r1": 0.0022,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0022,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "日本央行可能加息（最快9月）",
