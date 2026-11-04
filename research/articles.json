@@ -1,6 +1,193 @@
 {
- "updated": "2026-11-03",
+ "updated": "2026-11-04",
  "articles": [
+  {
+   "date": "2026-11-04",
+   "title": "市场如何见底？",
+   "author": "中金公司·刘刚",
+   "url": "https://mp.weixin.qq.com/s/G1XE6qjr0ylhsnanjI8g0g",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "A股市场见底",
+    "居民信用周期",
+    "港股周期规律"
+   ],
+   "etf_sentiment": {
+    "512100": "中性",
+    "512890": "多"
+   },
+   "scores": {
+    "total": 4.55
+   },
+   "summary": "港股领先A股见顶见底约8-9个月，三年一轮周期由信用周期+资金供求+政策传导决定；当前估值未到2024极端水平，见底核心在居民信用周期实质改善，需财政向居民部门倾斜重现924时刻。",
+   "page": "research_20261104.html"
+  },
+  {
+   "date": "2026-11-04",
+   "title": "2026年美国中选：政策校准与地缘风险再定价",
+   "author": "国联民生·林彦",
+   "url": "https://mp.weixin.qq.com/s/i6pFg3UIipGKIZvWkWhWIQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美国中期选举",
+    "美伊冲突",
+    "AI数据中心成本",
+    "对华科技管制"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "513100": "中性",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "民主党或赢众院，特朗普政策延续但施政力度受拨款制衡；美伊冲突短期难一致，能源风险溢价支撑油价；AI数据中心企业自付新增供电成本压缩运营商现金流；对华芯片管制或延伸至境外云算力与设备维保。",
+   "page": "research_20261104.html"
+  },
+  {
+   "date": "2026-11-04",
+   "title": "抛压未消",
+   "author": "兴业证券·郁见投资",
+   "url": "https://mp.weixin.qq.com/s/3F4bV-wqTu47dDsEGON9Cw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "A股市场复盘",
+    "债市走强",
+    "超长利差"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "510300": "多"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "11/3光通信因迈威尔收购Lumentum暴跌6.34%，算力抛压未消；10年国债1.60%距历史低点不足1bp，央行10月购债1500亿，30Y-10Y利差43bp再压缩机会值得把握；信用债系统性修复。",
+   "page": "research_20261104.html"
+  },
+  {
+   "date": "2026-11-04",
+   "title": "消费股牛市只存在于幻想之中：反驳《为什么持续下跌？》的观点",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/4B8FzmRxDDT55axntPeOrw",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "消费股",
+    "财政政策",
+    "资产负债表衰退",
+    "中性利率"
+   ],
+   "etf_sentiment": {
+    "512690": "空"
+   },
+   "scores": {
+    "total": 3.75
+   },
+   "summary": "反驳10万亿特别国债带来消费牛市观点：A股牛市核心驱动力是AI产业链而非人民币升值；中国当前相当于1990年后日本（资产负债表衰退）；2026年底前绝无可能增发10万亿特别国债；中性利率1.3%下长期慢牛不成立。",
+   "page": "research_20261104.html"
+  },
+  {
+   "date": "2026-11-04",
+   "title": "11月2日隔壁政策组合拳的用处、难处与无奈",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/sp1z66LWmW0r7Fo4nt8wLw",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "政策托底",
+    "互换便利",
+    "两融松绑",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.65
+   },
+   "summary": "11/2四发政策本质都是有成本负债非白给钱；五道执行难关（筹码结构/问责不对称/银行算术不成立/回购义务端/两融折算率盲区）下治标不治本；利率债将成为吸纳避险资金的温馨港湾。",
+   "page": "research_20261104.html"
+  },
+  {
+   "date": "2026-11-04",
+   "title": "26Q3，固收+基金净申购延续",
+   "author": "兴业证券·郁言债市",
+   "url": "https://mp.weixin.qq.com/s/yt5yfMMle7WoWD05DyuZ1Q",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "固收+基金",
+    "转债持仓",
+    "二级债基"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.65
+   },
+   "summary": "26Q3固收+承压但需求延续，二级债基净申购555亿创历史新高；一级债基净赎回+转债仓位下调（银行自营暂离）；主动转债基金仓位被动回升；公募减仓科技加仓公用农牧底仓。",
+   "page": "research_20261104.html"
+  },
+  {
+   "date": "2026-11-04",
+   "title": "人民币掉期：如何理解掉期与Basis的上行？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/R3CaCsomz6H07qoFtomrdA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "人民币掉期",
+    "外汇"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "USDCNY 1Y掉期点反弹200点（年内最大），利率平价贡献仅50%，basis回升至0上方；远期汇率6.45接近历史极值，远期购汇力量上升推升掉期与basis。",
+   "page": "research_20261104.html"
+  },
+  {
+   "date": "2026-11-04",
+   "title": "11月十大转债",
+   "author": "固收亮话·国联民生",
+   "url": "https://mp.weixin.qq.com/s/HE6vk7zrme0ekiRPaTgIDg",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "转债推荐",
+    "国产替代"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "推荐颀中、赛特、长高、精测转2、天润、岱美、金帝、和邦、炬申、福22转债；看好国产替代科技中长期机会，转债估值回落性价比上升。",
+   "page": "research_20261104.html"
+  },
+  {
+   "date": "2026-11-04",
+   "title": "3Q26基金持仓ABS点评 —规模止跌回升，泛消金大幅增配",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/OsIJk8bcRLORlqwqTKMavg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "ABS持仓",
+    "泛消金"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.65
+   },
+   "summary": "公募ABS持仓241.3亿环比+3.3%（2Q25以来首次回升）；泛消金增配+89%跃居第二（度小满增持12.4亿）；应收供应链仍居首（49.4亿）；类REITs减持-42%。",
+   "page": "research_20261104.html"
+  },
   {
    "date": "2026-11-03",
    "title": "华发舆情冲击下的信用债市场关注与投资应对",
