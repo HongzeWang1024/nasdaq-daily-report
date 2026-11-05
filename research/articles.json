@@ -1,6 +1,108 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "articles": [
+  {
+   "date": "2026-11-05",
+   "title": "信用扰动显现，赎回主线待验",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/rNK2KCwaDnIeDvs06ue7cg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "债市信用与赎回",
+    "债券市场"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多",
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "华发信用扰动与永煤性质不同，BNSF+隔夜逆回购制度防线下跌回影响或可控；情景测算股债双杀下固收+潜在净赎回最高约2155亿元；修复沿利率债→二永债→信用分化展开。",
+   "page": "research_20261105.html"
+  },
+  {
+   "date": "2026-11-05",
+   "title": "蓝潮横扫的风险与机遇（国联民生宏观武朔）",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/656oUCkB4dy3cr8AT42vDg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美国中期选举",
+    "美国宏观经济"
+   ],
+   "etf_sentiment": {
+    "510300": "多",
+    "518880": "多",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "民主党横扫两院但制度决定难有政策急转弯，府院持久僵局下不确定性出清利好权益；A股港股估值充分压缩后配置性价比凸显有望迎修复窗口，黄金长线配置价值良好。",
+   "page": "research_20261105.html"
+  },
+  {
+   "date": "2026-11-05",
+   "title": "进入政策效果观察期——10月经济数据前瞻",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/BYXZIHCfxSRrsqhznPvV1Q",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观数据前瞻",
+    "物价与PPI",
+    "进出口"
+   ],
+   "etf_sentiment": {
+    "512400": "多"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "四季度经济进入政策效果观察期：PPI预计升至5.4%、出口+29%高位回落、社融1万亿同比多增、固投-7%降幅微收窄，8000亿政策性金融工具已投放完毕。",
+   "page": "research_20261105.html"
+  },
+  {
+   "date": "2026-11-05",
+   "title": "选举落地下的远古巨阳是为何&债市当前观点",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/Auh-pzuoO5-vUYaBnoLp-A",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "美国中期选举",
+    "债券市场"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.05
+   },
+   "summary": "选举日A股午后IM猛拉300点系全球同步深V，疑为反向收割空头+汪汪队托市消化套牢盘；国债期货多头趋势不变，现券震荡等待新一轮下行（与《蓝潮横扫》同题：中期选举）。",
+   "page": "research_20261105.html"
+  },
+  {
+   "date": "2026-11-05",
+   "title": "外汇存款准备金上调，如何解读",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/NAEfoh8eIZYK7qTr18oWNQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "人民币汇率"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "央行上调外准率2pp冻结超200亿美元流动性、抬升美元融资成本，属逆周期纠偏单边升值预期；历史上该类调整曾对应汇率阶段性顶部，升值趋势暂缓但未扭转。",
+   "page": "research_20261105.html"
+  },
   {
    "date": "2026-11-04",
    "title": "市场如何见底？",
