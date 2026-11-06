@@ -1,6 +1,47 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "events": [
+  {
+   "event": "美国中期选举",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 5,
+   "history": [
+    {
+     "date": "2026-10-27",
+     "r1": 0.0293,
+     "r3": -0.0044,
+     "r7": null
+    },
+    {
+     "date": "2026-11-03",
+     "r1": 0.0205,
+     "r3": null,
+     "r7": null
+    },
+    {
+     "date": "2026-11-03",
+     "r1": 0.0205,
+     "r3": null,
+     "r7": null
+    },
+    {
+     "date": "2026-11-03",
+     "r1": 0.0205,
+     "r3": null,
+     "r7": null
+    },
+    {
+     "date": "2026-11-03",
+     "r1": 0.0205,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0223,
+   "avg_ret_3d": -0.0044,
+   "avg_ret_7d": null
+  },
   {
    "event": "A股三季报披露截止",
    "target": "510300",
@@ -752,6 +793,23 @@
    "avg_ret_7d": null
   },
   {
+   "event": "央行开展第三次SFISF操作（1000亿、1年期可展期）",
+   "target": "510300",
+   "name": "沪深300",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-03",
+     "r1": 0.0203,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0203,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
    "event": "央行跨季逆回购到期、MLF续作",
    "target": "511090",
    "name": "30年国债",
@@ -812,12 +870,12 @@
      "date": "2026-10-26",
      "r1": 0.0043,
      "r3": 0.0042,
-     "r7": null
+     "r7": 0.0027
     }
    ],
    "avg_ret_1d": 0.0043,
    "avg_ret_3d": 0.0042,
-   "avg_ret_7d": null
+   "avg_ret_7d": 0.0027
   },
   {
    "event": "摊余成本法债基审批/发行结果",
@@ -930,12 +988,12 @@
     {
      "date": "2026-10-30",
      "r1": 0.0022,
-     "r3": null,
+     "r3": 0.0013,
      "r7": null
     }
    ],
    "avg_ret_1d": 0.0022,
-   "avg_ret_3d": null,
+   "avg_ret_3d": 0.0013,
    "avg_ret_7d": null
   },
   {
@@ -1109,20 +1167,20 @@
    "avg_ret_7d": -0.0863
   },
   {
-   "event": "美国中期选举",
+   "event": "美国中期选举(川普对加息态度)",
    "target": "513100",
    "name": "纳指",
    "samples": 1,
    "history": [
     {
-     "date": "2026-10-27",
-     "r1": 0.0293,
-     "r3": -0.0044,
+     "date": "2026-11-03",
+     "r1": 0.0205,
+     "r3": null,
      "r7": null
     }
    ],
-   "avg_ret_1d": 0.0293,
-   "avg_ret_3d": -0.0044,
+   "avg_ret_1d": 0.0205,
+   "avg_ret_3d": null,
    "avg_ret_7d": null
   },
   {
@@ -1141,6 +1199,74 @@
    "avg_ret_1d": 0.0151,
    "avg_ret_3d": 0.0056,
    "avg_ret_7d": -0.0366
+  },
+  {
+   "event": "美国中期选举投票日",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-03",
+     "r1": 0.0205,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0205,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "美国中期选举投票（众议院全改选+参议院35席）",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-03",
+     "r1": 0.0205,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0205,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "美国中期选举（民主党全面占优或下修AI资本开支预期）",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-03",
+     "r1": 0.0205,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0205,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "美国国会中期选举",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-03",
+     "r1": 0.0205,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0205,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "美国新旧财年交替/CR到期（债务上限变数，至12-11）",
