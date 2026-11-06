@@ -1,6 +1,128 @@
 {
- "updated": "2026-11-05",
+ "updated": "2026-11-06",
  "articles": [
+  {
+   "date": "2026-11-06",
+   "title": "民主党\"横扫\"的资产含义",
+   "author": "Kevin策略研究",
+   "url": "https://mp.weixin.qq.com/s/ANehfsi0qIVQKIHlVqmzDw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美国中期选举",
+    "资产配置"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "513180": "多",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.45
+   },
+   "summary": "民主党横扫大超预期，但60票门槛+否决权决定政策难急转弯；短期以\"纠偏式制衡\"为主利好权益，市场交易阻力最小方向汇聚恒科与黄金；债务上限2027Q2触及、X-date约2027Q4；AI监管看地方、联邦立法难",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "今晚美股似乎在反映AI产业崩盘导致经济衰退",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/NxLpoelN61glFt2TayM9TQ",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "美股AI产业链",
+    "美国经济衰退"
+   ],
+   "etf_sentiment": {
+    "513100": "空"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "昨夜美股跌幅远超高通/ARM财报可解释范围，道指标普同跌+油价涨+美债利率跌且跌幅不匹配，指向资金正定价\"AI数据中心建设放缓→AI产业崩盘→经济衰退\"；费半盘中-11.85%为史上第二大跌幅",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "国产链占优",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/g5BnkyX-DjodzH-CxwM9lg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "A股结构轮动",
+    "利率债",
+    "信用债"
+   ],
+   "etf_sentiment": {
+    "510300": "多",
+    "512480": "多",
+    "515790": "多",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "权益放量上涨三大特点：赚钱效应延续、国产算力强于海外算力（半导体设备材料+4.55% vs 光通信大跌）、新能源+AI应用多元活跃，风险偏好修复短期有望延续；10Y国债1.59%创历史新低后长端震荡，30Y弹性更足",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "如果真的想救，科技股只能走出尖V形底，不会是L形底",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/cK68R10rVPsFatAVRPofhg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "A股科技股"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.35
+   },
+   "summary": "拆解某队目标函数（托市断恶性循环/帮保险解困/让回购公司赚钱/高位全身而退）推演科技股只能尖V短拉四五十个百分点，L底必致慢熊；算力供不应求+估值便宜使尖V可行",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "美股风向有变？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/YNoZuZDkfYs2N28-j5-r7A",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美股AI监管",
+    "外汇市场"
+   ],
+   "etf_sentiment": {
+    "513100": "多"
+   },
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "Ban ASI法案+民主党议员\"首日议程\"发声引发AI监管恐慌（纳指跌超4%近300日线），但AI是国策、监管落地是慢变量；德银测算科技持仓已处历史中性水平、跌多了是机会；外汇上澳元逢低加仓、美债中性",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "【中金固收·信用】中国短期融资券及中期票据信用分析周报261104",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/R8EkVe22YbJDEkzWn4hVhA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.1
+   },
+   "summary": "常规信用周报：本周短融中票发行1230.86亿元、城投占比15.82%，本周不涉及中金评分调整",
+   "page": "research_20261106.html"
+  },
   {
    "date": "2026-11-05",
    "title": "信用扰动显现，赎回主线待验",
