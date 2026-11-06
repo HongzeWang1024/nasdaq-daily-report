@@ -3,6 +3,27 @@
  "articles": [
   {
    "date": "2026-11-06",
+   "title": "中期选举，已交易的和未解决的 | 建投宏观 · 周君芝团队",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/--WGOX7NUnGGfz_A5N069g",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美国中期选举",
+    "美债利率",
+    "板块轮动"
+   ],
+   "etf_sentiment": {
+    "513100": "多"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "民主党全面转蓝超预期，市场交易通胀与停战而非具体政策；美股短期风偏修复、美债利率阶段性见顶、美元偏弱。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
    "title": "民主党\"横扫\"的资产含义",
    "author": "Kevin策略研究",
    "url": "https://mp.weixin.qq.com/s/ANehfsi0qIVQKIHlVqmzDw",
@@ -45,6 +66,131 @@
   },
   {
    "date": "2026-11-06",
+   "title": "输入性风险！它超雄（熊）！",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/961UhOcTg1d_gNRm29J3nA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美股AI暴跌",
+    "国产替代"
+   ],
+   "etf_sentiment": {
+    "513100": "空",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "中期选举引发AI基建审批担忧，纳指100单日跌6.4%、费半跌12%；冲击具结构性，科技含量低的板块与国产替代方向相对占优。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "中金：民主党“横扫”的资产含义",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/JNlRMc7Kc6JP_kX--Cq9yQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美国中期选举",
+    "美债美元",
+    "财政赤字"
+   ],
+   "etf_sentiment": {
+    "513100": "多"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "中金：民主党预计横扫两院（众院260席、参院56席），短期以纠偏交易为主，美股有支撑、美债利率与美元小幅走弱；2027年赤字率约6.14%，AI监管难落联邦层面。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "【华泰固收|信用】信用利差重定价与分化",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/ZWB_7oUyVBSPIh1iPwuopw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债",
+    "华发事件",
+    "城投化债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "华泰固收：华发事件引发10月30日理财预防式赎回，利率债、二永债大跌，10月城投利差走阔3-10BP；建议以3-5年高等级信用债为主、降杠杆缩久期，规避弱城投、地产、建工。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "中金：市场如何见底？",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/xc38EEk1U7_Ix_WohgOOGQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "港股",
+    "A股",
+    "信用周期"
+   ],
+   "etf_sentiment": {
+    "513180": "中性"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "恒科较2025年10月高点回撤44%、动态PE 13.1倍、ERP 3.9%，尚未回到2024年初极值。港股通常领先A股见顶见底8-9个月，低估值仅构成反弹赔率。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "市场焦点从流动性转移至科技产业 | 建投宏观·周君芝团队",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/pGsw2HimcJC_2LNBvOD9wg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "全球宏观",
+    "AI产业链",
+    "大类资产"
+   ],
+   "etf_sentiment": {
+    "518880": "中性",
+    "513180": "空"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "市场焦点从流动性转向科技产业叙事，本周上证跌2.48%、科创50跌13.73%，黄金周跌约2.7%。A股估值安全边际抬升、可逢低布局业绩确定性方向，港股维持谨慎。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "债市会重演赎回潮吗？",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/VfQfpNqKcQoA8F6T6ww_mQ",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "信用债ETF",
+    "赎回负反馈",
+    "理财"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "本周债市先扬后抑，周五信用事件引发理财预防性赎回，30Y国债上行超4BP重回2.09%、信用债ETF净赎回超百亿。当前更似机构交易性冲击而非2022式赎回潮，不急于抄底。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
    "title": "国产链占优",
    "author": "郁见投资",
    "url": "https://mp.weixin.qq.com/s/g5BnkyX-DjodzH-CxwM9lg",
@@ -65,6 +211,424 @@
     "total": 4.3
    },
    "summary": "权益放量上涨三大特点：赚钱效应延续、国产算力强于海外算力（半导体设备材料+4.55% vs 光通信大跌）、新能源+AI应用多元活跃，风险偏好修复短期有望延续；10Y国债1.59%创历史新低后长端震荡，30Y弹性更足",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "中金 | REITs三季报点评：稳中择优，弱中寻变",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/stoV_GGKUVjHQNAclb1CrA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "REITs",
+    "保租房",
+    "消费零售"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.25
+   },
+   "summary": "91只REITs三季报显示基本面分化：零售收入+4.2%、高速通行费+1%趋稳，产业园-8.8%仍在探底。建议优选保租房、零售头部与公用事业，产业园、物流精选左侧配置。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "民主党横扫之后，资产“讲政治”与逻辑参考（20261105早评分享）",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/_UmJTVDMffNK4PmP8eLFTQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美国中期选举",
+    "贵金属",
+    "A股反弹"
+   ],
+   "etf_sentiment": {
+    "518880": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "民主党横扫后美股“讲政治”，云厂商涨、费半承压；贵金属因美债收益率与加息预期双降反抽；A股反弹看上证3666上方。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "中金 | 美国中期选举：资金轮动下，如何配置全球？",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/mpAn-MvmwdpKUOdXPmlBQQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美国中期选举",
+    "全球资产配置"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "501018": "空"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "民主党赢下中期选举，若AI资本开支放缓、收益率与油价下行，欧洲市场最受益；贵金属弹性最大，2027上半年油价底部支撑约90美元/桶。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "【华泰固收|年度展望】低位起波澜——2027年债市展望",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/MIgwhBLaEvmEW_XYJfrxFQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "债市",
+    "利率债",
+    "信用利差"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "判断2027年债市趋势未改、赔率降低、行为趋同，10年国债核心区间1.50%-1.75%、30年1.80%-2.20%。策略排序为票息与品种选择优于波段、久期、杠杆和信用下沉。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "11月债市投资策略",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/t7_eCCioiW1yASlBXCluTw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "债市",
+    "超长债",
+    "利率策略"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "10月PMI回落至49.3%，政策利率换锚后资金中枢下移，判断11月长债震荡下行，10年国债区间1.6%-1.65%，30-10Y利差有望压至35-40BP、30Y或突破2.0%。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "【华泰固收】公募基金加速布局REITs——10月REITs月报",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/pTzD84vmXcQzBXLtO0ML4w",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "REITs",
+    "公募基金配置"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "10月公募REITs全收益指数跌0.37%、跑赢沪深300的-8.35%；三季度FOF持仓升至3.20亿元、环比增33.8%，结构性机会优于指数性机会。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "张瑜：如何理解央行上调外汇存款准备金率？",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/NW9z5N1pd_SkeJh7rR3yRA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "人民币汇率",
+    "外汇存准率"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "央行11月15日起将外汇存款准备金率由4%上调至6%，约冻结240亿美元流动性，信号意义大于实质；人民币已升值18个月、即期破6.65，后续升值空间有限。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "中金 | AI十年展望（三十一）：Personal Agent——消费级AI的破晓时分",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/1AmpuFAxvk5_tqruxFZEOQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI应用",
+    "消费级AI",
+    "算力需求"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "中金测算Personal Agent中度用户月耗3.6亿Token、硬件成本约23美元，2030年中国市场规模有望达5142亿元，其中交易抽佣3918亿元、订阅838亿元。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "2026Q3财报 | 算力动能放缓，AI应用初现",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/tt_1pMLiR0HtEsVFRDOVHQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "三季报业绩",
+    "AI算力",
+    "红利资产"
+   ],
+   "etf_sentiment": {
+    "512800": "多",
+    "515220": "多"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "2026Q3全A归母净利润同比降14.55%，AI算力营收增50.21%但利润增速回落60.65个百分点、毛利率环比降1.21个百分点，消费净利降15.1%，银行煤炭石油石化增长。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "张瑜：“蓝色风暴”下的特朗普执政后半程——美国中选的七问七答",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/e6_yPOfNo4fdgMlpgIu0Ww",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美国中期选举",
+    "美国财政",
+    "AI监管"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "华创张瑜：民主党夺两院（参院54席、众院228席），特朗普支持率仅39%；府院分治下重大立法受阻，但财政未必单边收缩，交换式妥协反而可能推高支出。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "人心思涨",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/hLvB7Vr9YOWCLKCa-3C_dA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "A股反弹",
+    "国产算力",
+    "债市利率"
+   ],
+   "etf_sentiment": {
+    "588000": "多",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "11月4日万得全A涨3.32%、成交2.05万亿，科创50涨9.92%；历史三次同类反弹T+5均涨、T+20分化，建议聚焦国产算力。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "【中金固收·信用】低风险债券先企稳，低资质利差或走阔——近期信用债市场波动点评",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/eueWX2J5cRXiDd_10OQ2zw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债",
+    "赎回负反馈",
+    "化债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "信用风险由点及面演化为赎回负反馈，10月30日30年国债期货主力跌0.94%；认为流动性投放兑现后无风险及低风险债券自短至长率先企稳，低资质利差将走阔。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "【中金固收·信用】10月境外债月报：美联储暂停加息，美债利率高位回落",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/34VpzN_MAY6x8wv7NAXiMw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "中资美元债",
+    "点心债",
+    "美债利率"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "10月美联储暂停加息，10年美债利率回落35bp至4.94%，中资美元债回报0.70%、高收益-2.38%；维持美元债中短久期防御，建议加大点心债配置。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "转债条款怎么看，判断发行人意愿——买方视角看转债系列四",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/-_GB9aop92nZuPvj9TfbgA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "可转债",
+    "条款博弈"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "条款博弈核心是判断发行人意愿；余额20亿元以上转债赎回冲击后约10个交易日企稳，稀释率15%以上冲击超10%，宜提前规避。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "美国中期选举，对美股和A股走势有什么影响？",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/JxVLlffaTyE6wKRu_ap4oA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美国中期选举",
+    "AI监管",
+    "A股"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "民主党大概率掌控两院：对AI股短期仅情绪冲击、中期受总统否决权制约、长期利率下行利好估值；A股已脱离基本面，跟跌空间有限。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "会的一些小消息和午评简评",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/k9okp_OOw7wTJIb4d8L9Vg",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "国债期货",
+    "债市"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "11月2日基金预防性赎回砸盘后二永债出现买盘、利率债快速修复，TL2612未破117.13支撑；建议多空维持日内操作，利率债敢砸就敢配。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "【瞎扯】债市跌倒，大A吃饱",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/ovCSlRUJBGvEas2_kuWuvg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "股债跷跷板",
+    "科创50",
+    "险资"
+   ],
+   "etf_sentiment": {
+    "588000": "中性"
+   },
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "大A午后急拉、科创50盘中涨停，作者判断仅为超跌反弹而非反转；央行3000亿买断式逆回购对冲5000亿到期、净缩量2000亿，股债后续大概率震荡。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "【瞎扯】搞了半天，救的是债市",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/271bLk1sAeV_EdO5jRf0ww",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "债市走强",
+    "外汇存准率",
+    "股债跷跷板"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "大A全天未翻红、收在3600点上，债市全面走强；央行10月净买入国债1500亿、当日1000亿SFISF落地，并近5年首次上调外汇存款准备金率。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "年内美债怎么看",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/Uhnu7NV0S3rwiW_y3kTs_g",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "美债",
+    "美联储",
+    "通胀"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "美联储10月维持利率3.75%-4.00%并偏鹰观望，Q3 GDP增3.4%、核心PCE回升至3.1%；年内剩余两月美债整体偏多。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "话说得再明白一点",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://mp.weixin.qq.com/s/NP0YcuBI3J_L4Ksuob_u6Q",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "AI监管",
+    "美股半导体"
+   ],
+   "etf_sentiment": {
+    "513100": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "称民主党AI数据中心提案是9月旧闻、市场反应过度，选择加仓纳指，但不建议加仓半导体。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "机构观点：债市重回震荡偏强",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/iCS3B2OJQ_dipaxQbPlE7A",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "债市策略",
+    "机构观点"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "方正汇总58家买方观点：仅24%偏多，10月PMI回落至49.3%，华发赎回扰动下债市重回偏强震荡；A股短期中性偏多、黄金短空中多。",
    "page": "research_20261106.html"
   },
   {
@@ -108,6 +672,49 @@
   },
   {
    "date": "2026-11-06",
+   "title": "【瞎扯】央妈的胡萝卜与大棒",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/sUkU_2JfNEOXfv6ENXeroQ",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "央行货币政策",
+    "债市"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "央行3000亿买断式逆回购利率由1.4%降至1.35%，喊话式调控被认为难落地，债市天平仍占优、长期震荡向下。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "中期选举结束之后",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://mp.weixin.qq.com/s/2XWqqAhwfhwg816QB1_llQ",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "美国中期选举",
+    "黄金",
+    "半导体"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "513100": "多",
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "民主党夺取参众两院并翻转得州等地席位；据1974年以来统计选举后半年标普纳指多数上涨，美债收益率与黄金受益，半导体需防监管风险。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
    "title": "【中金固收·信用】中国短期融资券及中期票据信用分析周报261104",
    "author": "中金固定收益研究",
    "url": "https://mp.weixin.qq.com/s/R8EkVe22YbJDEkzWn4hVhA",
@@ -121,6 +728,40 @@
     "total": 2.1
    },
    "summary": "常规信用周报：本周短融中票发行1230.86亿元、城投占比15.82%，本周不涉及中金评分调整",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "【会议邀请】2027年度策略会 | 重磅地缘专家 · 全球资产配置讨论",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/3hNHDNonNcy3xIx_x1xCPw",
+   "level": "archived",
+   "viewpoint": "观望",
+   "themes": [
+    "策略会"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.3
+   },
+   "summary": "中信建投宏观团队2027年度策略会会议邀请，正文仅含免责声明与投资者适当性提示。",
+   "page": "research_20261106.html"
+  },
+  {
+   "date": "2026-11-06",
+   "title": "惜别银行间外汇市场",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/tiR4Jl48_wVlMNdsJG8QwA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "外汇市场"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.0
+   },
+   "summary": "作者告别十余年银行间外汇交易岗位、转赴跨境金融部，全文为个人感怀，无市场观点与数据。",
    "page": "research_20261106.html"
   },
   {
