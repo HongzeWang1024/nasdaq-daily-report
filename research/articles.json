@@ -1,6 +1,556 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-09",
  "articles": [
+  {
+   "date": "2026-11-09",
+   "title": "【华泰资产配置】中期选举政策预期重塑AI资本开支交易",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/arJr775rJd~3atWmKFtmCQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美国中期选举",
+    "AI资本开支",
+    "波动率"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "中选后限制数据中心声浪放大，抛售由AI链向宽基扩散、波动率放大被动去杠杆；2027年交付项目约四分之三在建、冲击有限，2028年及以后才是核心变量，跟踪州级审批暂停时长与云厂商资本开支调整。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "换锚之后，债市还有多少空间？",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/FHK7egyUEyBcO~qyZPd4tw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "超长债",
+    "机构行为"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "换锚首周长端持续刷新低位，10Y下破1.6%最低至1.565%、30Y创上市新低；机构由同向做多转为交易盘止盈、配置盘承接，超长端拥挤、赔率下行，机会转向期限结构再定价。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "全球美元信用退潮仍在路上 | 建投宏观·周君芝团队",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/KIoTdbVtbHyUh52tp8F5Cg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "大类资产",
+    "A/H股",
+    "中债"
+   ],
+   "etf_sentiment": {
+    "513100": "空",
+    "501018": "空",
+    "510300": "中性",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "美国选票全面转蓝、'反战反通胀'驱动流动性资产崛起与油气下行；A股海外算力链下行、国产链与新能源强势，港股向互联网平台与创新药切换；中债10Y下破1.6%，但非农再度提示全球美元信用退潮仍在路上。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "【华泰固收|利率】债市年底行情能否延续？",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/2exoUMn0tSlK~4BxxT5sDA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "货币政策",
+    "机构行为"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "赎回风波修复快于以往，货币政策实质偏呵护（利率走廊下移至1.0%-1.5%、10月国债净买入1500亿为年内最高）；中期方向仍有利但赔率下降，10Y 1.55%附近阻力增大、继续下行逐步止盈，警惕政府债利息所得税恢复。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "中金：美股跌到位了吗？",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/uzlOPU~RCOsAqJUpVKWG0Q",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "美股",
+    "AI产业链",
+    "估值"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "快速出清有助消化过高预期与仓位，但重拾上行需AI突破或美联储结束紧缩；估值已大幅回落，AI收入落后投资、自由现金流转负、边际ROIC降至6.1%，明年一季度为关键验证点，短期谨慎观望。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "【中金固收·利率】美国中期选举后，美债利率逐步见顶回落",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/KpTXbbQ-LTMSqXYAKr8RpQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美债",
+    "美国中期选举",
+    "美国财政"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.45
+   },
+   "summary": "推高美债利率的四座'大山'中选后边际转弱，AI融资放缓与避险资金回流改善供需；但能源通胀与财政刚性支出制约下行速度，10Y 5.3%-5.4%高点不易再破，建议现在到明年上半年逐步增配美债。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "年内利率节奏和策略怎么看",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/AoDE6z4soWdOfv7WlR72IA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "利率策略",
+    "收益率曲线",
+    "机构成本"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.45
+   },
+   "summary": "短端下行空间约5BP（1Y存单乐观至1.35%），长端节奏取决于监管是否关注；年内10Y低点约1.55%、30Y约1.95%及以下；建议短+中长+超长均衡、久期中性偏高，每调买机、底仓30年地方债。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "ETF | 宽基ETF周流入创2025年以来新高",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/90g-BE237zerGfJZT~SeuA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "ETF资金流",
+    "宽基指数",
+    "行业轮动"
+   ],
+   "etf_sentiment": {
+    "510300": "多",
+    "588000": "多",
+    "515790": "多",
+    "515220": "空",
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "宽基ETF单周净流入首破2000亿、创2025年以来新高，但92%集中在周一至周三，周五回调未放量承接；行业ETF延续卖涨，资金转向拥挤度低的传媒、光伏与电池，半导体设备三周净流出51.94亿。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "权益 | 反弹有力，未入坦途",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/jdIg6k~2~YG47rjKU80H2A",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "A股反弹",
+    "国产算力",
+    "基金持仓"
+   ],
+   "etf_sentiment": {
+    "588000": "多",
+    "512480": "多",
+    "515790": "多",
+    "510300": "多"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "连续两日放量上涨，稳市预期巩固与海外利空落地驱动风险偏好回升；历史三个案例T+5均涨、T+20分化，本轮更接近2022年3月，持续性看首次回落后融资余额能否承接，博弈反弹国产链优先于海外链。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "非农对后市影响大吗？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/am~unx8yQ9tPqtUVUYfJ3g",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美国就业",
+    "美债美元",
+    "人民币汇率"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "非农大超预期且前值上修，'维持失业率不变所需新增就业'已由约15万/月降至约4万/月，数据整体偏强；但美联储以物价为首要，就业信号意义有限，叙事仍支持收益率与美元下行，强非农可作入场机会。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "信用 | 关注信用调整后的修复机会",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/4jiSrElOo51uWZkqdUAgQQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "信用债",
+    "二永债",
+    "华发事件"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "11月债牛核心预期不变、跨年行情可期；二永债核心配置窗口或在11月上旬，3-5年品种性价比最高；紧盯华发处置与理财赎回节奏，若演化为地方国企信用重定价需及时下修仓位与久期。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "流动性 | 换锚首周，存单收益率创历史新低",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/~WbqlM8rVBHLslYs3TcBEw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "资金面",
+    "同业存单",
+    "超储"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "换锚首周DR001中枢1.28%、仍高于新锚，10月已提前交易换锚预期；银行融出维持5.33万亿高位、存单量价齐落并创历史新低；下周处缴税未至的空窗期，资金面大概率均衡偏松。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "10月全球投资十大主线",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/Ah73nExVNI0g-ZSZrAk8wg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "全球大类资产",
+    "欧洲财政",
+    "资金流向"
+   ],
+   "etf_sentiment": {
+    "510300": "空"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "10月大宗商品>全球债券>人民币>美元>全球股票，股债双升反映风险偏好扩张；法国10Y利率高于名义GDP增速约2.45个百分点，'r>g'成欧洲核心国家常态；铜油比低位或预示沪深300仍承压。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "全球流动性与信用风险指标走弱——全球货币转向跟踪第17期",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/zWP9lP7uZYigpZNgfYZsvQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "全球央行",
+    "美元流动性",
+    "信用溢价"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "26个主要经济体7个加息、无降息，美欧日12月或同步加息；非银流动性指标10月下旬起连续转正走阔，全球信用风险溢价同步上行；中国实际利率-0.89%仍为全球13个经济体中最低。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "民主党监管AI只是为了分钱和夺权，现在暴跌已经结束，下周可以好受一点",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/OzA4hVUBVQDBAid1BoAskw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美股AI",
+    "监管预期",
+    "稳市政策"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "民主党监管AI意在捞选票、分利益，不会真正禁止AI，得州候任州长亦表态允许已批准数据中心继续建设；11/6科技股反弹切断'暴跌-强平-抛售'负反馈，叠加国常会稳市表述，判断本轮暴跌已结束。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "对当前市场三个热点问题的思考",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/3igv3Nfq-WLr7SR4D8tyag",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美国中期选举",
+    "人民币汇率",
+    "债市"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "518880": "多",
+    "513100": "空"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "民主党大胜利好美债与黄金、利空科技股，短期或演绎利空落地与波动放大；外汇存准率上调影响升值斜率而非方向；本轮债市调整源于空间限制与止盈动机，与永煤、2022年赎回不可比，建议抓大放小、抓趋势轻波段。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "金价短期没机会，中长期也没机会",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/zwK3ivsKhsnTzueyfdCn8w",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "黄金",
+    "美国实际利率"
+   ],
+   "etf_sentiment": {
+    "518880": "空"
+   },
+   "scores": {
+    "total": 3.75
+   },
+   "summary": "短期避险强度不足，美股暴跌两天金价合计仅涨约4%，真遇金融风暴投资者会抢现金；中长期框架为美国TFP→中性利率→实际利率，AI抬升生产率压制金价，美伊停战仅带来短期反弹。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "近期转债走强背后的估值和资金特征",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/Dsb1qvSb4ClmSQoE~QY-fg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "可转债",
+    "估值",
+    "资金流"
+   ],
+   "etf_sentiment": {
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "中证转债一周涨2.45%，隐波抬升集中于中大市值、中高余额、中高评级与偏债平衡区间，增量资金或部分来自公募；风偏仍低，估值回落至合理区间后性价比上升，若修复叠加小盘风格走强有望跑赢沪深300。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "流动性 | 同业存单能有效突破1.4%吗",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/m5VgENJZ30iE-33xUlAEsQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "同业存单",
+    "资金面"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "换锚与现管类产品扩容推动1Y存单下破1.40%，但'1年CD-DR001'利差仅10bp、票息保护有限，1.4%以内下行空间或有限；上行风险来自A股回升带动资金迁移与央行对资金面的阶段性管控。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "“困境反转”的错位机会",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/attJN~fk6wkBq9ACFaHbLA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "困境反转",
+    "量化策略",
+    "固收+"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "提出'基本面绝对水平不差、边际下滑但市场预期抬升'的错位型困境反转，避开筑底期消耗，近年年化约14%且与主流策略低相关，可作为固收+指增策略矩阵的补充。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "【中金固收·信用】关注融资变化，风险事件扰动——10月城投债券月报",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/6-iU28HxaSo0mSePYzUKCg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "城投债",
+    "信用债供给",
+    "化债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "10月城投债发行3037亿、净增394亿转正，1-10月累计发行3.20万亿（同比-15%）、净增-1766亿；置换隐债专项债发行进度98.3%，低资质利差或继续走阔，关注风险事件扰动。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "关于隔壁三个指数与国债期货四个品种的点评",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/CNqtw-ypwUhsWJkEhRAlcA",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "技术面",
+    "股指",
+    "国债期货"
+   ],
+   "etf_sentiment": {
+    "510300": "多",
+    "512100": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "上证站稳3717可确认周线脱离底部（途中阻力3693），创业板需站上2793，中证1000已率先脱底、多头防线最扎实；国债期货TL2612压力119.07-119.14、支撑118.53-118.59。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "6月底来，哪些标的在上涨？",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/~JaiNGzWPwUMyaO7A-ztjQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "银行",
+    "红利资产",
+    "市场结构"
+   ],
+   "etf_sentiment": {
+    "512800": "多"
+   },
+   "scores": {
+    "total": 3.35
+   },
+   "summary": "6月底以来市场极度分化，仅23.5%个股上涨，银行上涨面97.6%居首、电子与电新低至4.7%/5.2%；77只涨幅≥15%且市值≥300亿的标的以银行等五大行业为主，平均股息率3.2%高于全A的2.1%。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "【华泰固收】转型期下的产控平台审视——信用债行业系列框架报告之二",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/SeDGSf2fUsmIDzt7-5B~fQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "产控平台",
+    "信用债",
+    "主体分化"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.35
+   },
+   "summary": "构建564家发债产控主体样本，利差中位数27.5BP、较同评级城投超额5.6BP；未折价区域可适度挖掘，建议高等级底仓+中等评级下沉+3-5年期限，关注山东、河南、湖北主体分化。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "量化 | 多头共振后的债市参与节奏再思考",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/hyYAqTX6D~HU3MOszkL1ag",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "量化择时",
+    "国债期货",
+    "ETF轮动"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.15
+   },
+   "summary": "十债与三十债期货已收复10月30日跌幅，日频与周频重回多头共振；但超买与突破缺量能意味着配置窗口不等于追涨机会，建议等回调再介入，ETF轮动模型固收仓升至九成以上。",
+   "page": "research_20261109.html"
+  },
+  {
+   "date": "2026-11-09",
+   "title": "十一月九日新上港股通ETF点评。",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://mp.weixin.qq.com/s/Q03Fqf9~SHy6oqdvK6vBnw",
+   "level": "archived",
+   "viewpoint": "观望",
+   "themes": [
+    "港股通ETF",
+    "产品评价"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.45
+   },
+   "summary": "点评新纳入港股通的ETF产品，认为华夏港美AI（恒科与纳指六四开）定位模糊、缺乏Alpha，单押港科的高股息替代产品更具性价比，对新品不建议参与。",
+   "page": "research_20261109.html"
+  },
   {
    "date": "2026-11-06",
    "title": "中期选举，已交易的和未解决的 | 建投宏观 · 周君芝团队",
