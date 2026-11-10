@@ -1,6 +1,197 @@
 {
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "articles": [
+  {
+   "date": "2026-11-10",
+   "title": "信用债修复路径",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/rZGMnpSQ02OW_Q-QQhiCpg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "信用债修复分化"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.55
+   },
+   "summary": "华发冲击后信用债修复分化，中高评级及二永率先修复、弱资质滞后（云贵仅9%/8%）；聚焦中高评级骑乘，二永优先高评级4年，一级遇冷印证弱资质风险溢价重估",
+   "page": "research_20261110.html"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "科技大厂发债潮：押注未来还是信用透支？",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/_CzXQ-3bDEr1cxAz6ZIAhg",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "AI资本开支与科技信用"
+   ],
+   "etf_sentiment": {
+    "513100": "空",
+    "512480": "空"
+   },
+   "scores": {
+    "total": 4.25
+   },
+   "summary": "AI资本开支吞噬自由现金流，2026年科技发债潮（3050.67亿美元、2.23倍），FCF转负是透支分界点，信用利差走阔与纳指/费半下跌同步，估值叙事转向'开支能产生现金流'",
+   "page": "research_20261110.html"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "【中金固收】PPI和CPI剪刀差进一步扩大，仍需政策刺激中下游需求——10月通胀数据点评",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/rQzfRO-xNyoohbpoKI_LYA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "10月通胀与PPI顶点"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "能化涨价推升PPI创年内新高、食品拖累CPI回落，剪刀差扩大；11-12月通胀回落将加快货币宽松，10年国债收益率仍有下行空间，继续推荐30年国债（30-10利差有望压缩）",
+   "page": "research_20261110.html"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "明年通胀的四条主线——10月通胀数据点评",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/LCyfecuBmndOsJAcOEl_ag",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "10月通胀与PPI顶点"
+   ],
+   "etf_sentiment": {
+    "512400": "空"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "10月大概率为本轮PPI同比顶点，明年油价由拉动转拖累、铜过剩扩大、AI涨价趋弱、国内供需转弱，PPI/CPI中枢均回落；今年Q4–明年Q1利润有韧性、明年Q2趋于下行",
+   "page": "research_20261110.html"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "配置 | 美国中期选举后资产配置逻辑迎来新变化",
+   "author": "覃汉研究笔记",
+   "url": "https://mp.weixin.qq.com/s/is-NlmDPDIFLGePGBd1C4w",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "中期选举后跨资产配置"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "518880": "多",
+    "513100": "空",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "民主党超预期横扫两院，短线'美股承压、美债与黄金受益'但提防超调后均值回归；国内债市处顺风窗口，以避免踏空跨年行情为首要考量；黄金短期震荡、下行空间可控",
+   "page": "research_20261110.html"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "科技股反弹，但有短线资金流出：今天A股值得注意的点",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/L_-eYMBKuHofGTkNGGxqRA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI资本开支与科技信用"
+   ],
+   "etf_sentiment": {
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "11/9科技股反弹但新能源、半导体设备、算力出海、内需板块短线资金流出；PCB为通信中景气度最高子行业（业绩与2027预期好、估值便宜）；黄仁勋事件对英伟达业绩无实质影响",
+   "page": "research_20261110.html"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "【华泰固收】PPI与CPI剪刀差继续扩大——2026年10月通胀点评",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/yPWrs3cRag6aIPdWpUXJbA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "10月通胀与PPI顶点"
+   ],
+   "etf_sentiment": {
+    "511090": "中性",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "（与《中金固收通胀点评》同题）通胀'上游强于下游、输入性强于内生性'，债市方向有利但赔率偏低、拥挤度提升、慢涨快跌；股市政策底明确但趋势性行情需等增量资金",
+   "page": "research_20261110.html"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "PPI：冲顶路径与2027年中枢推演（国联民生宏观钟渝梅）",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/bQU-8bTUDCrXg6h5am1-PA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "10月通胀与PPI顶点"
+   ],
+   "etf_sentiment": {
+    "501018": "空"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "（与《一瑜中的通胀点评》同题）模型预测11月PPI达5.8%年度峰值后回落、2027年中枢约2%，高物价不会固化；油价'战争溢价'随中选落地抽离",
+   "page": "research_20261110.html"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "行业层面就业分化持续收敛——美国10月非农数据点评",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/BI_Y4omW-vx_gdnTYlo30Q",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储加息与就业"
+   ],
+   "etf_sentiment": {
+    "513100": "空"
+   },
+   "scores": {
+    "total": 2.95
+   },
+   "summary": "（与昨日《非农对后市影响大吗？》同题）10月非农16.5万大超预期、失业率降至4.1%，就业偏强不是加息理由但为美联储提供'保护垫'，12月加息概率67%→76%",
+   "page": "research_20261110.html"
+  },
+  {
+   "date": "2026-11-10",
+   "title": "【吃瓜】身份成谜的黄女郎",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/A2_YPXV0_BlANEQvXCPVog",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.0
+   },
+   "summary": "八卦吃瓜类文章，无投资分析框架；仅'英伟达向MegaSpeed出口46亿美元显卡未装机'细节对算力出口合规议题有边际信息价值",
+   "page": "research_20261110.html"
+  },
   {
    "date": "2026-11-09",
    "title": "【华泰资产配置】中期选举政策预期重塑AI资本开支交易",
