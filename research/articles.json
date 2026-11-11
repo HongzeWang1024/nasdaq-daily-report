@@ -1,6 +1,275 @@
 {
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "articles": [
+  {
+   "date": "2026-11-11",
+   "title": "美股跌\"到位\"了吗？",
+   "author": "Kevin策略研究",
+   "url": "https://mp.weixin.qq.com/s/o70Rx5oiNC50TSK8e5MqGA",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "美股",
+    "AI产业链"
+   ],
+   "etf_sentiment": {
+    "513100": "空",
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 4.25
+   },
+   "summary": "美股快速出清后估值回落但缺催化，需AI突破或美联储转向二选一，明年一季度为关键验证点，短期建议观望并优先AI敞口低或估值低的云厂商与计算芯片",
+   "page": "research_20261111.html"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "不要怕，只是加息预期强化",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/QMRLQWkNAj33g7rb7m1fog",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储政策",
+    "通胀"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "518880": "空"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "Waller讲话+核心CPI 0.3%只是强化而非创造加息预期，作者判断12月只加25BP（油价回落+政治博弈），对股市冲击有限，黄金短期承压",
+   "page": "research_20261111.html"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "债市纠偏",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/BDXmEE9n8Hfc6wihzl_Ufw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "债市",
+    "流动性"
+   ],
+   "etf_sentiment": {
+    "511090": "空",
+    "512100": "多",
+    "501018": "空"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "股市修复+央行资金面微调双重压力下债市延续纠偏，10Y合理区间1.60%-1.65%，若R001重回1.30%-1.35%长端或重新企稳；AI应用为当日权益最强主线",
+   "page": "research_20261111.html"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "进口增速反超出口，谁的贡献？",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/gYjLYv8UIfV81m4P7DnF4Q",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "外贸"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "10月出口+35.2%维持高位但动能向AI电子链集中（拉动13.6pct），进口+41.6%反超主因能源涨价（贡献一半升幅），顺差收窄，11-12月出口难再加速",
+   "page": "research_20261111.html"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "11月大类资产配置展望",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/HeE8bDsbitW8A43DOI-Wqw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "大类资产配置",
+    "债市",
+    "A股"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "510300": "多",
+    "518880": "中性",
+    "513100": "中性",
+    "501018": "多"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "债逢调整增配（中枢下移判断不变）、A股政策托底阶段性反弹（红利打底科技等右侧）、美股重视AI投资回报重估、原油高位震荡、黄金短期观望中长期等待",
+   "page": "research_20261111.html"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "从区域分化看2027年出口新中枢",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/dv0Mg8ZBrVjC1Xq3uO5_VA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "外贸"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "本轮出口高增是AI机遇+政策红利在部分区域集中释放，Q4或为AI出口峰值，2027年中枢回落至13%但动能向更广区域扩散、中期韧性仍在",
+   "page": "research_20261111.html"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "大转折和大浪潮 ｜ 2027年宏观及资产展望",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/qOmq6tOAAqZ67xNiRT9P0Q",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "2027年度展望",
+    "汇率",
+    "AI产业链",
+    "中国地产"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "511090": "空",
+    "501018": "空"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "2027年三大定价转折：AI融资风险溢价抬升、美元潮汐逆流、中国地产磨底缩表告一段落；先农产品后黄金、弱美元撬动港股、中债利率或触底、人民币偏强韧",
+   "page": "research_20261111.html"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "【瞎扯】既然不能看多，那就只能看空了",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/zxd9LgFczIeQYlCgrpCMqw",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "债市"
+   ],
+   "etf_sentiment": {
+    "511090": "空"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "央行备好收紧流动性预案（放风+删看多研报），债市高杠杆+长久期突破中枢易踩踏，短期坚决看空；但资金不能紧太久贵太多，长期制约亦有限",
+   "page": "research_20261111.html"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "隔夜美股科技股如期大涨，参议院通过BAAJA法案终止辩论投票",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/CFkgNdVUWzBpwtHIa5tgoQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI产业链",
+    "美股"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "513100": "多"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "11/9美股暴力反弹确认AI监管担忧消退，BAAJA法案73:25通过终辩（门槛60票），民主党只求利益重分配而非禁数据中心，未来建设流程简化加速",
+   "page": "research_20261111.html"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "中金：PPI同比拐点或已现——2026年10月物价数据点评",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/wNB7t_I2P64L81DVwcHm3w",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "物价",
+    "通胀"
+   ],
+   "etf_sentiment": {
+    "501018": "空"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "10月PPI同比5.7%或为本轮高点（能源化工链贡献八成环比涨幅），11月油煤回落后趋势走弱；CPI 0.7%温和，上游涨价或更多挤压中下游利润率而非推升终端价格",
+   "page": "research_20261111.html"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "【中金固收·信用】中长期债基占比继续上升，摊余债基占比由降转升——2026年三季度理财重仓资产分析",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/bZU4aEPRvO5EPv4EYoFXXw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "债市",
+    "理财"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "理财重仓穿透后资管产品占比63.09%创新高，中长期纯债与摊余债基占比上升，利率债久期拉长——理财通过公募基金拉久期的配置诉求仍在",
+   "page": "research_20261111.html"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "AI风格切换，如何影响外汇市场？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/nrgVjexiXRIGM9WVJSJjmg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "外汇",
+    "AI产业链"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "de硬件in软件资金潮汐：硬件股-24% vs 软件股-4%、KOSPI-44% vs 恒指+6%；美元强现实+弱预期难有清晰趋势，瑞郎最优避险，澳元中期空间受限但短期空头拥挤",
+   "page": "research_20261111.html"
+  },
+  {
+   "date": "2026-11-11",
+   "title": "潮流、企稳、切换、调控（20261110早评分享）",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/JbW54Z9IZyrJi9_TqgK57g",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "债市",
+    "大宗商品"
+   ],
+   "etf_sentiment": {
+    "511090": "空"
+   },
+   "scores": {
+    "total": 2.6
+   },
+   "summary": "美伊核谈判进展重挫油价、加息概率降低下金银铜反弹；AI产业逻辑不因监管逆转；债市YM择机风险缓释（TL2612支撑118.42/118.05）——与《债市纠偏》同题的央行调控视角",
+   "page": "research_20261111.html"
+  },
   {
    "date": "2026-11-10",
    "title": "信用债修复路径",
