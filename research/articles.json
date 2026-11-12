@@ -1,6 +1,235 @@
 {
- "updated": "2026-11-11",
+ "updated": "2026-11-12",
  "articles": [
+  {
+   "date": "2026-11-12",
+   "title": "【华泰固收】资管信托新规如何重塑理财-信托合作",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/QtXC8O-SzYywmgxN_3cYQw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "理财监管",
+    "信用债",
+    "债券市场"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.55
+   },
+   "summary": "《资产管理信托管理办法》2027年施行，理财-信托合作结构重塑，理财净值波动加大、赎回压力上升，私募债/弱区域城投/长久期信用债利差存走阔压力",
+   "page": "research_20261112.html"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "“光”亮了",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/EVdgOiPWJq1mXLbm2YVJCg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI算力",
+    "光通信",
+    "债券市场",
+    "流动性"
+   ],
+   "etf_sentiment": {
+    "515880": "多",
+    "588000": "多",
+    "159915": "多",
+    "562500": "多",
+    "510300": "多",
+    "512690": "空",
+    "511090": "空"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "11/11权益放量上涨，光通信大涨6.79%（微软游说+CoreWeave超预期），科技修复参与价值提高；债市资金紧+货政报告扰动，10Y压力线1.60%利率慢修正",
+   "page": "research_20261112.html"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "美联储12月：50bp加息的胜率与赔率（国联民生宏观武朔）",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/CTPct5DmTAdfWRdLLJqMng",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "美国通胀",
+    "大类资产"
+   ],
+   "etf_sentiment": {
+    "513100": "空"
+   },
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "12月加息50bp属尾部情景（概率13.2%、投票门槛高），当前与2022年本质不同；若50bp兑现后联储转观察反而利好风险资产，延续鹰派则流动性资产调整持续",
+   "page": "research_20261112.html"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "中金：通胀粘性未退，支持美联储继续加息",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/ZOLmaEexldYteESqLoCiAw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "美国通胀"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.0
+   },
+   "summary": "10月核心CPI环比0.3%连续第三个月，通胀粘性支持继续加息，但金融条件已边际收紧、无加速迹象，维持12月加息25bp基准判断，紧缩仍渐进温和",
+   "page": "research_20261112.html"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "怎么看换锚后的货币政策态度",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/CLjovovRfO63DXHkyGtleg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "流动性",
+    "地方债",
+    "货币政策"
+   ],
+   "etf_sentiment": {
+    "511090": "空"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "国债净买入放量与买断式缩量并存系到期对冲不宜过度解读；DR001持续高于1.30%才是收紧信号；30Y地方债品种利差价值更高，抢配行情下或向5bp内突破",
+   "page": "research_20261112.html"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "张瑜：中游三大因素探讨：汇率走势、欧贸纷争、出口退税调整——张瑜旬度会议纪要No.151",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/mW9kn06_4zNaLKXTLauETg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "出口链",
+    "中游制造",
+    "汇率",
+    "贸易政策"
+   ],
+   "etf_sentiment": {
+    "159996": "中性"
+   },
+   "scores": {
+    "total": 3.75
+   },
+   "summary": "出口链三风险“一假一真一转向”：欧洲经贸摩擦是假风险（中国处量价双涨战略强势期）、出口退税是真风险（设备/家电/元件/基础配件或先调）、汇率升值近尾声转向双向波动",
+   "page": "research_20261112.html"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "化债以来，城投债务压力有何变化？",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/iZtGiDnLdwCEJ41LhGXOCg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "城投债",
+    "化债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.05
+   },
+   "summary": "化债三年：城投有息债务增速降至6%、融资成本降至5%附近、2025年净融资转负；多数省份利差仍下行但部分有舆情区域区县级主体利差已分化",
+   "page": "research_20261112.html"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "【瞎扯】央妈颠倒，财爸吃饱",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/coH_Cy9JvXEKGaXDHApT_Q",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "债券市场",
+    "货币政策"
+   ],
+   "etf_sentiment": {
+    "511090": "空"
+   },
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "央行合意10Y国债约1.65%，国债免税鬼故事+财爸离岸信托个税大增收，央妈财爸对债市都不友善，纯债基金已现大额净赎回",
+   "page": "research_20261112.html"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "通胀爆表，12月加息似成定局",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/bll1upal-2nsCrF10V4j0A",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "美联储",
+    "美国通胀",
+    "外汇"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.95
+   },
+   "summary": "（与《通胀粘性未退》同题）10月CPI超预期令12月加息概率打满，美指和美元利率重回上行通道，年末交易主线聚焦明年加息预期",
+   "page": "research_20261112.html"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "外围市场表现与国内股债观点&技术面",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/iKMUacJqo67Yk0GTGpG1EA",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "宏观",
+    "AI算力",
+    "技术面"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "515880": "多",
+    "518880": "中性",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 2.75
+   },
+   "summary": "10月CPI定价的是过往（11月油价已跌20%），纳指V回韧性还在；微软施压白宫利好光模块企稳；中国制造吃到AI基建红利；债市敬畏极端交易风险",
+   "page": "research_20261112.html"
+  },
+  {
+   "date": "2026-11-12",
+   "title": "【中金固收·信用】中国短期融资券及中期票据信用分析周报20261111",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/QrBh5XVOZ6btTPJKcg2Upw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.6
+   },
+   "summary": "本周短融中票发行831.3亿元（环比减少399.56亿），城投占比16.13%，1项评分调整（盈峰集团5上调至5+）",
+   "page": "research_20261112.html"
+  },
   {
    "date": "2026-11-11",
    "title": "美股跌\"到位\"了吗？",
