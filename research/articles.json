@@ -1,6 +1,319 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "articles": [
+  {
+   "date": "2026-11-13",
+   "title": "Q3货政报告，七点关注",
+   "author": "郁言债市（兴证刘郁）",
+   "url": "https://mp.weixin.qq.com/s/Mfmq4L86jmIO0-eiKfJe6g",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "货政报告",
+    "利率债",
+    "税收政策"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.5
+   },
+   "summary": "货政报告延续稳增长，国债免税表述是焦点，若新券恢复征税理论收益率上行40-70bp，大概率新老划断最快明年上半年",
+   "page": "research_20261113.html"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "走过八大枢纽，再看\"算电协同\"之路",
+   "author": "中金点睛（郑宽/陈济）",
+   "url": "https://mp.weixin.qq.com/s/uNMVn86s2uEz4i2dg_na0w",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI算力",
+    "算电协同",
+    "电力"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "八大算力枢纽调研：电价是布局第一驱动，西部一口价模式可持续性存疑，水取代电成为部分节点核心约束",
+   "page": "research_20261113.html"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "继续适度宽松，利率仍有下行空间",
+   "author": "中金固定收益研究（耿安琪/陈健恒）",
+   "url": "https://mp.weixin.qq.com/s/U-kkfD26ljHSXVBNUHDe1w",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "货政报告",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.25
+   },
+   "summary": "货政报告延续适度宽松，利率换锚完成，存款利率下行为贷款利率下行腾空间，利率仍有下行空间",
+   "page": "research_20261113.html"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "关注税收相关表述——2026年三季度货币政策执行报告点评",
+   "author": "华泰证券固收研究（张继强）",
+   "url": "https://mp.weixin.qq.com/s/0v2RHHZD_eQa1MTVvRuyoQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "货政报告",
+    "税收政策",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.25
+   },
+   "summary": "专栏2首次提及国债免税对利率影响，为后续政策调整提供铺垫；删除关注长债收益率表述",
+   "page": "research_20261113.html"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "外资观点：中期选举后的资产配置逻辑",
+   "author": "固收荷语（方正李清荷）",
+   "url": "https://mp.weixin.qq.com/s/SGMXXFcVfwjC-jPLWTjCWQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "海外宏观",
+    "中期选举",
+    "AI产业链",
+    "大类资产"
+   ],
+   "etf_sentiment": {
+    "510300": "多",
+    "512480": "多",
+    "513100": "中性",
+    "518880": "空"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "民主党获胜约束财政扩张，AI配置转向盈利兑现，A股短期中性偏多，红利底仓+调整后科技",
+   "page": "research_20261113.html"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "信用组合如何对冲市场尾部风险？",
+   "author": "固收亮话（国联民生徐亮）",
+   "url": "https://mp.weixin.qq.com/s/cLXpDqgxBUuCTZxVuuEZMw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "信用债",
+    "对冲策略",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "IRS只能对冲利率尾部风险，20日同向无底仓策略最优（年化4.47%、回撤3.53%），信用尾部风险无有效工具",
+   "page": "research_20261113.html"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "先易后难，稳扎稳打——2027年固定收益年度策略展望",
+   "author": "覃汉研究笔记（浙商覃汉）",
+   "url": "https://mp.weixin.qq.com/s/MfC4jUHCHPHm6FSqBb4mfw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "年度策略",
+    "利率债",
+    "信用债",
+    "可转债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "2027债市先易后难，上半年偏强下半年波动放大，超长债供给收缩是明确多头叙事",
+   "page": "research_20261113.html"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "消化利空",
+   "author": "郁见投资（兴证固收）",
+   "url": "https://mp.weixin.qq.com/s/eMQXc5RLBXfg5MWkqQjKLQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "A股策略",
+    "利率债",
+    "科技板块"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "512480": "中性",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 3.75
+   },
+   "summary": "A股冲高回落科技分化，债市政金债信用债因国债免税担忧调整，关注R001<1.35%企稳信号",
+   "page": "research_20261113.html"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "关注居民部门的变化",
+   "author": "一瑜中的（华创张瑜）",
+   "url": "https://mp.weixin.qq.com/s/Q0CALJ6LkHtz_KdRWVtogw",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "居民部门",
+    "宏观经济",
+    "消费"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.75
+   },
+   "summary": "居民减负债减消费减投资增定期存款，三类贷款净增均为2004年来首次负增",
+   "page": "research_20261113.html"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "财政增收下一站：三条线索看2027",
+   "author": "川阅全球宏观（国联民生陶川）",
+   "url": "https://mp.weixin.qq.com/s/emfUYlkHQnvsmzCLNAiaEg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "财政政策",
+    "宏观经济"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "2026财政收入三大特征（价格/央地/质量），2027收入增速中枢下移至2%-4%",
+   "page": "research_20261113.html"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "如果监管想知道基金持仓情况，需要基金公司自己上报吗？",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/TobxcwNu0x_xp2owt_1vxw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "AI产业链",
+    "监管"
+   ],
+   "etf_sentiment": {
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 3.05
+   },
+   "summary": "澄清监管核查AI敞口传闻，证监会通过托管人日频报送即可掌握持仓",
+   "page": "research_20261113.html"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "黄仁勋辞职避风头，对AI产业链没啥影响，对新云公司股价短期影响较大",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/PxZkCydLa9AFspnY3ykULA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "AI产业链",
+    "英伟达"
+   ],
+   "etf_sentiment": {
+    "512480": "中性",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 2.95
+   },
+   "summary": "黄仁勋辞英伟达CEO，长期战略不变，短期冲击新云公司股价",
+   "page": "research_20261113.html"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "以色列大选如何影响美伊冲突",
+   "author": "CSC研究 宏观团队（中信建投周君芝）",
+   "url": "https://mp.weixin.qq.com/s/6tuKERrOYSkvsj7ZKXPsbA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "地缘政治",
+    "油价"
+   ],
+   "etf_sentiment": {
+    "518880": "中性",
+    "501018": "中性"
+   },
+   "scores": {
+    "total": 2.9
+   },
+   "summary": "以色列大选反对派对伊强硬战略不变，短期对油价影响有限",
+   "page": "research_20261113.html"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "听说有人12月要加息50bp？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/AxEIWAQ9E3et4oMuvaJLEw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "海外宏观"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 2.35
+   },
+   "summary": "个人判断美联储12月加息25bp基准，50bp概率<5%，数据不足",
+   "page": "research_20261113.html"
+  },
+  {
+   "date": "2026-11-13",
+   "title": "【瞎扯】当央妈开始研究零利率",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/UfDJ7AIw9fHAkwTj3lfONA",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "货政报告"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.25
+   },
+   "summary": "个人解读货政报告专栏，角度有趣但缺乏数据支撑",
+   "page": "research_20261113.html"
+  },
   {
    "date": "2026-11-12",
    "title": "【华泰固收】资管信托新规如何重塑理财-信托合作",
