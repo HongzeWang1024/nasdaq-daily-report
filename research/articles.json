@@ -1,6 +1,506 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-16",
  "articles": [
+  {
+   "date": "2026-11-16",
+   "title": "英伟达，5300亿美元的\"循环担保\"",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/cRkuFq6GnFSM-46CLXbgBA",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "AI算力",
+    "英伟达事件",
+    "海外信用"
+   ],
+   "etf_sentiment": {
+    "513100": "空",
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "英伟达5300亿表外循环担保拆解，黄仁勋出走或与担保链有关，11-17财报指引是算力链胜负手",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "税收优惠政策调整对债市定价影响几何？",
+   "author": "固收亮话（国联民生徐亮）",
+   "url": "https://mp.weixin.qq.com/s/Df2nY1BbOXl_0YIxKgezhw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债",
+    "税收政策",
+    "政金债"
+   ],
+   "etf_sentiment": {
+    "511520": "中性",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "25%所得税下10Y国债理论补偿53bp，但新老划断下存量券实际或仅4-16bp，存量免税老券稀缺性受益",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "债市 | \"黄金坑\"正在形成",
+   "author": "郁言债市（兴证刘郁）",
+   "url": "https://mp.weixin.qq.com/s/YhzYUL36TIGd1B3HlqYUhw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "赎回压力",
+    "税收政策"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "调整本质是筹码交换+赎回压力，国开利差已至中性分位初步企稳，黄金坑正在形成，关注税期投放与信用ETF资金回流信号",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "权益 | 有反弹，也有挑战",
+   "author": "郁见投资（兴证刘郁）",
+   "url": "https://mp.weixin.qq.com/s/qAiaHuG9tPpvp0Xjoc2eww",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "A股策略",
+    "国产算力",
+    "红利",
+    "AI应用"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "512800": "多",
+    "515220": "多",
+    "515880": "中性"
+   },
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "指数磨底，关注国产链（弹性+韧性+机构回补）、AI应用（持仓轻）、红利扩散（银行破前高）三条线",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "ETF | 宽基ETF转为净流出，半导体设备重获青睐",
+   "author": "郁见投资（兴证刘郁）",
+   "url": "https://mp.weixin.qq.com/s/n-Q0_WzyQwr85UHgqwihhA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "A股ETF资金流",
+    "半导体",
+    "通信"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "515880": "多"
+   },
+   "scores": {
+    "total": 4.25
+   },
+   "summary": "宽基ETF结束八周净流入，但半导体设备ETF五日全净流入30.8亿显抄底意愿，资金高低切换而非离场",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "资管新规后时代首部专项规章：《资产管理信托管理办法》落地",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/whrgYw1NdXdRn4z4LB-1BQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "监管政策",
+    "信用债",
+    "理财"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "首部资管专项规章2027年施行，存量平滑机制受限→理财净值波动放大→债市赎回循环风险上升",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "留点空间给来年",
+   "author": "华泰证券固收研究（张继强）",
+   "url": "https://mp.weixin.qq.com/s/uy9B6xO1wmXv2rqisWk6Sw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债",
+    "税收政策",
+    "赎回压力"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "【同主题降级】问卷焦点转向赎回/信用/监管/税收，波段操作重回首位，建议短期防守降杠杆、10Y接近1.55%或止盈",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "当前债市边际定价者：止盈 & 赎回",
+   "author": "固收荷语（方正李清荷）",
+   "url": "https://mp.weixin.qq.com/s/GEk4jZgU7SpU_DjjWnUqUA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债",
+    "机构行为",
+    "赎回压力"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.95
+   },
+   "summary": "【同主题降级】配置盘全面进场（银行保险）vs 交易盘集中止盈（基金券商），国债抗跌政金债补跌",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "张瑜：补库的强度观察",
+   "author": "一瑜中的（华创张瑜）",
+   "url": "https://mp.weixin.qq.com/s/lz4oLCRFriO8Yrr85dq6SA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观经济",
+    "库存周期",
+    "中游制造"
+   ],
+   "etf_sentiment": {
+    "510500": "多"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "库存周期三重错位，补库强度不足，但中游装备三重验证（库存高+产销率新高+投资韧性）是唯一亮点，战略看多中游装备",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "张瑜：不一样的欧债\"危机\"",
+   "author": "一瑜中的（华创张瑜）",
+   "url": "https://mp.weixin.qq.com/s/KHwqSBOnWzS0ZyRzm8lLUg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "海外宏观",
+    "欧债风险",
+    "法国"
+   ],
+   "etf_sentiment": {
+    "518880": "多"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "本轮欧债风险源是法国而非PIIGS：制造业疲弱+赤字恶化+海外持有54%+日本抛售+社会动乱五重压力",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "中金10月金融数据点评",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/ljCXKQp5fNj3YXpVYjCReg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "宏观经济",
+    "金融数据",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "私人部门信贷2004年来首次转负，政府债是社融唯一引擎，宽货币+弱信用延续，继续推荐30年国债",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "信用风险事件的冲击与传导",
+   "author": "华泰证券固收研究（张继强）",
+   "url": "https://mp.weixin.qq.com/s/hEtPWSbNQ27dB0XqxJpTYg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债",
+    "华发事件",
+    "赎回压力"
+   ],
+   "etf_sentiment": {
+    "511520": "中性"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "华发事件信用传导四阶段复盘：当前处于第二向第三阶段过渡，外部支持改善但筹码结构仍需时间消化",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "固收+：ETF的\"突破\"如何构成组合",
+   "author": "中金固定收益研究（杨冰等）",
+   "url": "https://mp.weixin.qq.com/s/r1-nDJX_u85t6pBlMJZehw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "量化策略",
+    "固收+",
+    "A股ETF轮动"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "突破信号的价值在尾部视角而非均值视角，2×ATR止损+0.1%风险预算构成固收+增强组件，年化5.5%回撤<3.5%",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "张瑜：三视角评估债券的做多空间",
+   "author": "一瑜中的（华创张瑜）",
+   "url": "https://mp.weixin.qq.com/s/3EhZ2h0GLRv40VPBuSDaVA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债",
+    "宏观框架"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "库存高企+GDP-居民收入缺口+政策利率约束三框架下，债券进一步打开空间需央行货币宽松兑现",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "二永债供需新格局再审视之供给篇",
+   "author": "覃汉研究笔记（浙商覃汉）",
+   "url": "https://mp.weixin.qq.com/s/6u2FES8PjboAYgEX6WPDow",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "二永债",
+    "银行资本"
+   ],
+   "etf_sentiment": {
+    "511520": "中性"
+   },
+   "scores": {
+    "total": 3.5
+   },
+   "summary": "明年二永供给1.7-2万亿，国有大行TLAC缺口为核心驱动，供给压力上升但可控",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "社融影响不及机构行为——10月金融数据点评",
+   "author": "华泰证券固收研究（张继强）",
+   "url": "https://mp.weixin.qq.com/s/R9jyLsGT4Hz-oTt5sf_a3w",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观经济",
+    "金融数据"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "【同题降级】与中金点评同题，亮点在11-12月融资有望延续政策带动分项修复的判断，机构行为影响大于数据本身",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "关注临期转债的到期节奏",
+   "author": "固收亮话（国联民生徐亮）",
+   "url": "https://mp.weixin.qq.com/s/xgQwWeUcVRsx2qm8PRzXLw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "转债",
+    "临期偿债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "2027年到期转债41只/1321亿，关注低评级+低转换价值转债偿债能力，部分临期券或下修促转股存在个券机会",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "对三季度货政报告的三点思考",
+   "author": "覃汉研究笔记（浙商覃汉）",
+   "url": "https://mp.weixin.qq.com/s/kwC3IhjCWKVCypwkstExAQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "货币政策",
+    "利率债"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.15
+   },
+   "summary": "宽松未变但更关注低利率下的风险与定价约束，国债免税提及仅是学术对比，债市进一步下行需新催化",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "不确定性中的确定性：同业存单的避险价值",
+   "author": "覃汉研究笔记（浙商胡建文）",
+   "url": "https://mp.weixin.qq.com/s/8csgyyT4NL-d25ihEkmFGw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "流动性",
+    "存单",
+    "税收政策"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.15
+   },
+   "summary": "税收/信用事件扰动扩大，存单久期短+信用风险低+回购利率上行有限，是相对收益投资者的确定性避险选择",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "税期将至，央行投放至关重要",
+   "author": "郁言债市（兴证刘郁）",
+   "url": "https://mp.weixin.qq.com/s/AED0R6YFUk1vHjgUQGyH7g",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "流动性",
+    "资金面"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.1
+   },
+   "summary": "税期叠加累计回笼3000亿中长期资金，下周央行7天逆回购与买断式续作规模是资金面企稳关键",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "老黄，叫兽指数20261113",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://mp.weixin.qq.com/s/zuzjBNUBObcxYnMcG1Wkig",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "AI算力",
+    "英伟达事件",
+    "半导体"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.05
+   },
+   "summary": "黄仁勋出走对NVDA长期不良、利好AVGO/AMD竞争叙事，对A股半导体设备利好（国产替代加速）",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "溃不成军的债市",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/TVwrIGsp2dUcbpfzUy8CSg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "利率债",
+    "赎回压力"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "赎回潮归因：央行连续回笼+赎回自我强化，周五买断式缩量千亿再补刀；短期赔率上升但负反馈未失控",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "CGI视点 | \"AI+\"的产业重构逻辑初探：以汽车为例",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/rDIPUax2jWu64vfRrOaKig",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "AI产业链",
+    "智能制造"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.85
+   },
+   "summary": "AI Tokenization重构汽车价值链，整车厂重心从制造转向AI定义产品+生态运营，中国制造+人才红利有望复制丰田大众跃迁",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "阿三崛起？聊聊印度卢比的升值",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/OKDcEW7OtGIe0Saq4QUQPg",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "外汇"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.4
+   },
+   "summary": "印度卢比升值，无境内交易标的",
+   "page": "research_20261116.html"
+  },
+  {
+   "date": "2026-11-16",
+   "title": "别哭，四季度已经是你未来N年投资的\"高光时刻\"了",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/bffjuGMCneAZVUZMJiD3Rw",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "随笔"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.45
+   },
+   "summary": "251字随感，缺乏数据支撑",
+   "page": "research_20261116.html"
+  },
   {
    "date": "2026-11-13",
    "title": "Q3货政报告，七点关注",
