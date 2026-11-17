@@ -1,6 +1,285 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "articles": [
+  {
+   "date": "2026-11-17",
+   "title": "叫兽指数基金版20261116：防守一波",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://mp.weixin.qq.com/s/Nb-cYDV4OyZKGys-WmibgQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "红利",
+    "QDII溢价",
+    "资产配置"
+   ],
+   "etf_sentiment": {
+    "513100": "空"
+   },
+   "scores": {
+    "total": 4.5
+   },
+   "summary": "国内长期通缩+AI短期波动难免疫，基金版指数调整配置红利资产防守；A股红利涨幅大且银行资产质量、煤炭周期存问题，倾向欧美和香港本地高分红/高现金流标的；纳指标普QDII全面限购+场内溢价离谱（大跌后溢价不跌反涨）",
+   "page": "research_20261117.html"
+  },
+  {
+   "date": "2026-11-17",
+   "title": "内需下行速度提升，债牛趋势未改——10月经济数据分析",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/Rq_4fGcrXMTKkQOJnk0g",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "10月经济数据"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "投资放缓对应社融回落→银行配置需求加快释放→利率中枢下行，债牛趋势未改；年底配置行情下继续推荐30年国债、30-10利差继续压缩；同题数据点评按去重规则降级速览",
+   "page": "research_20261117.html"
+  },
+  {
+   "date": "2026-11-17",
+   "title": "10月\"降温\"，Q4经济或先抑后扬",
+   "author": "郁言债市（兴业证券）",
+   "url": "https://mp.weixin.qq.com/s/rICg8Y5udEJo7mXXGphffQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "10月经济数据",
+    "利率债",
+    "红利"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "512800": "多",
+    "515220": "多"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "10月数据降温主因投资偏弱而生产不弱；11-12月政府债净融资空间同比多约7300亿推动年末修复，Q4 GDP或加快至4.6-4.7%；股市AI硬件观望、红利平滑波动，债市逢高仍是买入机会",
+   "page": "research_20261117.html"
+  },
+  {
+   "date": "2026-11-17",
+   "title": "消费或在供给出清——10月经济数据点评",
+   "author": "一瑜中的（华创证券）",
+   "url": "https://mp.weixin.qq.com/s/KDZzt9WWbWbWwCANtVlNiA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "消费",
+    "供给侧出清",
+    "10月经济数据"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "需求侧外需强内需弱，关注点转移至供给侧——下游消费三低（低总资产/固定资产/资本开支增速）下供给或在出清、供需均衡度接近2019年高点（需求投资增速差11.3% vs 上轮高点11.7%），部分消费龙头值得优先布局",
+   "page": "research_20261117.html"
+  },
+  {
+   "date": "2026-11-17",
+   "title": "低就业增量下，黄金怎样交易非农？",
+   "author": "早安汇市（浙商银行）",
+   "url": "https://mp.weixin.qq.com/s/hI5wB5oyEUESeuwkD_vx_w",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "贵金属",
+    "美国就业"
+   ],
+   "etf_sentiment": {
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "劳动力增长放慢使稳住失业率所需月增岗位降至不足1万，同样8.9万人的非农偏离超过市场预期月均增量；非农公布第一分钟金价九次全反向但追单不可取，九次中到收盘仅三次沿原方向走得更远",
+   "page": "research_20261117.html"
+  },
+  {
+   "date": "2026-11-17",
+   "title": "利率调整后怎么应对",
+   "author": "固收亮话（国联民生）",
+   "url": "https://mp.weixin.qq.com/s/ZRzrD7o8SwlvW8-zVhTezg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "利率债",
+    "债市策略"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "短端没有明显上行基础依然具备持有价值；10Y国债1.6%以上值得关注、调整后可能是机会，年内10Y看1.55%、30Y看1.95%；四季度后期30-10Y利差有下行至35-40BP可能，年底跨年配置行情可期",
+   "page": "research_20261117.html"
+  },
+  {
+   "date": "2026-11-17",
+   "title": "等待变化",
+   "author": "郁见投资（兴业证券）",
+   "url": "https://mp.weixin.qq.com/s/NLVrmwF-03_cYjAENEIFZQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "权益",
+    "债市",
+    "红利"
+   ],
+   "etf_sentiment": {
+    "512480": "空",
+    "512800": "多",
+    "515220": "多",
+    "511090": "多",
+    "518880": "多",
+    "512690": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "权益缩量普跌、AI硬件抛压集中（电子-5.99%/通信-7.06%），红利反弹（银行+1.91%/煤炭+1.89%）承接避险；债市日内反转、利空敏感切至利多敏感，超跌信号显现，央行加大投放后优先长久期利率债修复机会",
+   "page": "research_20261117.html"
+  },
+  {
+   "date": "2026-11-17",
+   "title": "10月经济：回落的跨周期信号",
+   "author": "川阅全球宏观（陶川）",
+   "url": "https://mp.weixin.qq.com/s/Kq_2fGcrXMTKkQOJnk0g",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观经济",
+    "10月经济数据"
+   ],
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "10月数据是季末冲量季初回调的节奏性回调而非趋势走弱，跨年政策为2027Q1蓄力；高技术工增17.6%为绝对支撑、基建'含科量'提升；同题数据点评按去重规则降级速览",
+   "page": "research_20261117.html"
+  },
+  {
+   "date": "2026-11-17",
+   "title": "资金节奏与供需反复——2026年10月经济数据点评",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/Tq_5fGcrXMTKkQOJnk0g",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "10月经济数据",
+    "债市",
+    "权益配置"
+   ],
+   "etf_sentiment": {
+    "511090": "中性",
+    "512800": "多"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "10月供需低于预期源于资金腾挪与跨年摆布，经济内生企稳动能待强化；债市大方向未逆转但短期略防守降杠杆；权益维持中低仓位、红利底仓+医药出海/船舶独立景气，科技小仓位找错杀；同题降级速览",
+   "page": "research_20261117.html"
+  },
+  {
+   "date": "2026-11-17",
+   "title": "外围风险的短期释放&国内债市负反馈的阻断期待",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/8q_1fGcrXMTKkQOJnk0g",
+   "level": "brief",
+   "viewpoint": "观望",
+   "themes": [
+    "债市",
+    "国债期货"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "老黄事件情绪周末已释放（黄金暗盘收复全部跌幅、比特币修复大半），A债负反馈关键看税期YM态度与资金面，TL2612看117.35为短期底部；外盘风险短期释放后关注周三英伟达财报与美零售数据",
+   "page": "research_20261117.html"
+  },
+  {
+   "date": "2026-11-17",
+   "title": "中金｜全球研究：债市风波中的法国",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/2Ue31qDzFBWnY0m3f7vQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "海外债市",
+    "欧洲财政"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "法国国债利率飙升由财政赤字担忧与政治风险驱动，法德利差超意大利接近欧债危机高位，欧央行干预概率低（TPI/OMT从未动用），法德利差或维持高位；CAC40前向PE 12.6倍处十年27%分位但维持谨慎",
+   "page": "research_20261117.html"
+  },
+  {
+   "date": "2026-11-17",
+   "title": "【瞎扯】危着危着就变成机了",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/pQ_3fGcrXMTKkQOJnk0g",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "债市"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "股债双杀后债市利空出尽迹象——央妈净投放960亿+财爸国债做市+10Y利率回到合意区间1.6%-1.65%，唯一风险是固收-赎回何时停止",
+   "page": "research_20261117.html"
+  },
+  {
+   "date": "2026-11-17",
+   "title": "居民缩表的力度（月度更新）",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/nqY7b9CwPmRwQvXk2LpQ",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "内需",
+    "居民资产负债表"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.1
+   },
+   "summary": "2026年1-10月居民缩表9.95万亿、缩表力度23.89%与2023/2024年相当未见好转，未来5年消费难好转、通缩延续",
+   "page": "research_20261117.html"
+  },
+  {
+   "date": "2026-11-17",
+   "title": "中国城市95后人才吸引力排名：2026",
+   "author": "泽平宏观",
+   "url": "https://mp.weixin.qq.com/s/Sq_6fGcrXMTKkQOJnk0g",
+   "level": "archived",
+   "viewpoint": "观望",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.0
+   },
+   "summary": "人才流动年度榜单：95后倾向前往广东及长三角，一二线城市人才集聚、流动性下降；无交易含义，归档",
+   "page": "research_20261117.html"
+  },
   {
    "date": "2026-11-16",
    "title": "英伟达，5300亿美元的\"循环担保\"",
