@@ -1,6 +1,183 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "articles": [
+  {
+   "date": "2026-11-18",
+   "title": "深度 | 时间证明城投债的价值",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/fOItJg95Ri1cTOZTOWqYLw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "城投信用分化",
+    "债市修复"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "华发事件下城投债ETF贴水0.79%创2024年来新高，相当于35bp利差上行定价、已超过化债前极端情景测算，持仓江浙中高评级恰在修复最快一端；利率债企稳后高评级强区域中短久期先修复，弱资质不宜过早左侧",
+   "page": "research_20261118.html"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "债市快修复",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/KUAbOdvxPJf8Q-FPguX0mw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "债市修复",
+    "A股缩量"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "512480": "多",
+    "512800": "多"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "赎回压力放缓+央行税期净投放1540亿，债市快修复、10Y/30Y回到1.59%/2.04%修复近半；10Y破1.60%后赔率收窄，超长债利差与政金品种利差更值得博弈，3-5年高等级信用债性价比提升；权益缩量观望",
+   "page": "research_20261118.html"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "中金11月数说资产",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/jZ0J4PnarsE63lfza-SERA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "10月经济数据",
+    "宏观经济"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "10月基建落地偏慢为投资最大拖累（政金工具资金到实物量存在时滞），非汽车社零2.5%持平7-8月好于表观；电子制造业投资+9.9%与高技术工增17.6%成绝对支撑，商品内需欠佳、地产投资-33.2%继续寻底",
+   "page": "research_20261118.html"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "国内如何消化原油供给冲击的影响？",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/DgS8sjin7zXKfUeroThVPw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "原油供给冲击",
+    "宏观经济"
+   ],
+   "etf_sentiment": {
+    "501018": "中性"
+   },
+   "scores": {
+    "total": 3.65
+   },
+   "summary": "中国进口减量消化中东原油供给冲击的94.3%，经暂缓补库、动用库存、炼化产品线调整、减少成品油出口、压缩用能五途径吸收；CPI温和（0.9% vs 美3.7%），负面集中在油气链生产（Q3工增拉动仅0.08%）与燃油车销售",
+   "page": "research_20261118.html"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "银行理财重仓ABS点评: 结构扩张，类REITs与泛消金双轮驱动",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/A7h0HksENfmd-MQvDZBppw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "固收资产配置"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.35
+   },
+   "summary": "3Q26理财重仓ABS达1627亿、占比升至7%为债券类提升最显著子类，类REITs（37%，国电投+华能占45%）与泛消金（蚂蚁系111亿居首）双轮驱动，四大AMC系列162亿成核心配置",
+   "page": "research_20261118.html"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "【瞎扯】大A它没有底啊",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/s0TE1Jl3H4LXS3x0JJ5rkg",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "A股缩量",
+    "股市资金面"
+   ],
+   "etf_sentiment": {
+    "510300": "空"
+   },
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "汪汪队2024年2月2600点入市、今年一季度4000点全身而退现已清仓，机构信托/资管/保险仓位顶配，唯一有生力量理财最怕波动不会入场——无边际资金下大A或重现缩量阴跌",
+   "page": "research_20261118.html"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "美债：加息进程中的曲线策略研究",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/N-WhE3dB7yWKXgJmym3hww",
+   "level": "brief",
+   "viewpoint": "观望",
+   "themes": [
+    "美债利率",
+    "美联储加息"
+   ],
+   "etf_sentiment": {
+    "513100": "空"
+   },
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "近五次加息周期SOFR 3*12利差规律为'先上-后平-再下'，首次加息后20-30交易日触顶、顶部多为50bp左右；当前45bp已入'击球区'，加息进程中做平3*12（Pay 3M+Receive 12M）较裸多美债进可攻退可守",
+   "page": "research_20261118.html"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "关于A股和A债的风险释放与运行规律。",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/NYmanLdKfRMrFcv5jYq-1Q",
+   "level": "brief",
+   "viewpoint": "空",
+   "themes": [
+    "风险释放",
+    "债市修复"
+   ],
+   "etf_sentiment": {
+    "510300": "空",
+    "513100": "空",
+    "511090": "空"
+   },
+   "scores": {
+    "total": 3.05
+   },
+   "summary": "市场风险须靠自然释放（前90交给市场、后10监管救为最优解），监管万能是幻觉；城投ZF信仰与股市抱团均为逆规律累积的风险，反噬一旦形成只能'托而无法举'；沃什三情景中若美联储开始应对'AI回报不达预期'即官方确认泡沫",
+   "page": "research_20261118.html"
+  },
+  {
+   "date": "2026-11-18",
+   "title": "国联民生固收徐亮团队丨电话会议邀请",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/FFJj3hFqT4GGulJAMzAFSg",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.3
+   },
+   "summary": "纯电话会议预告（债券周策略第64期），无实质内容",
+   "page": "research_20261118.html"
+  },
   {
    "date": "2026-11-17",
    "title": "叫兽指数基金版20261116：防守一波",
