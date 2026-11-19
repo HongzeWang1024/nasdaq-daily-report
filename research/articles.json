@@ -1,6 +1,207 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "articles": [
+  {
+   "date": "2026-11-19",
+   "title": "英伟达2027FYQ3业绩、电话会议全扫描",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/0cl9LWuYVPxaAmcu5oEcAQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI算力",
+    "英伟达财报"
+   ],
+   "etf_sentiment": {
+    "513100": "多",
+    "512480": "多"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "英伟达FY27Q3营收1158亿美元超预期+103%，Q4指引1261-1339亿再超预期，云积压订单升至2.5万亿美元，管理层就表外担保给出验收后才生效等系统性处理方案，AI瓶颈在供给端而非需求端",
+   "page": "research_20261119.html"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "美国地产量价分离如何看？当前美债配置价值怎么看？",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/7OpMRE0_yvjSjxtojPH4LQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "美联储与美债",
+    "美国地产",
+    "海外宏观"
+   ],
+   "etf_sentiment": {
+    "518880": "空"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "美国住宅量价分离源于买方结构变化（重复购房者占78%主导定价），房价租金上行难逆转、核心通胀走强；10Y美债5.15%，Q4维持逢高配置判断，5.3%-5.5%为高性价比区间",
+   "page": "research_20261119.html"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "再现地量",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/E_1bQeem0VVDmJUhsDehNw",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "A股策略",
+    "利率债与信用债",
+    "国产替代"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "512800": "多",
+    "515220": "多",
+    "515880": "空",
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "A股缩量至1.38万亿年内新低、观望情绪浓，BIS新规下国产算力链跑赢海外算力链，红利防御韧性突出；债市资金转松延续修复，10年国债1.6%下方多头趋于谨慎，阶段性重视赔率",
+   "page": "research_20261119.html"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "腾讯财报简析：难言乐观",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://mp.weixin.qq.com/s/4hNswrKbuF5ryW03B24dOA",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "腾讯财报",
+    "港股科技"
+   ],
+   "etf_sentiment": {
+    "513180": "空"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "腾讯Q3营收2073亿低于预期、增速放缓，860亿算力预付+651亿资本开支吞噬现金流（FCF仅169亿），游戏面临AI降低门槛与字节分流双重压力，难言乐观",
+   "page": "research_20261119.html"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "政策利率换锚：利率市场化的里程碑",
+   "author": "中金缪延亮",
+   "url": "https://mp.weixin.qq.com/s/vXCfP4MOBKIsdXiTf2a8jQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "宏观政策",
+    "利率市场化"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "央行政策利率正式换锚隔夜、DR001确立目标利率地位，是利率市场化里程碑；带来控得准/看得懂/传得通三大好处，短端利率中枢下移15bp已被市场定价，DR001或逐渐取代LPR成为信贷与债券定价基准",
+   "page": "research_20261119.html"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "英伟达的业绩的最后高光？&A债和A股的观点。",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/wLe4ZXTjxrtA3wKU9CanKQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "AI算力",
+    "英伟达财报",
+    "利率债与信用债",
+    "A股策略"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "与《英伟达2027FYQ3业绩、电话会议全扫描》同题（英伟达财报部分）；独立观点：董事会设国安委员会后安全高于发展、本份财报或为未来N年最好；A债信用债砸一轮利率债修复一轮或反复、配置盘无需等待；A股科技参与需快进快出",
+   "page": "research_20261119.html"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "深度 | 2027，六张网投资怎么看？",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/AFOBgvRXAEfLcb2sVirHXQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "基建投资",
+    "六张网",
+    "2027展望"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "六张网将传统基建补短板与新基建纳入统一框架，十五五投资超26万亿；2026年尚未带动总投资回升（固投-7.2%），改善集中在新型网；地方债务约束下2027年增量或更多来自新型政策性金融工具与PSL等准财政工具",
+   "page": "research_20261119.html"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "美股下跌，但美元不跟了",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/6BuGd_tCrHMfMy_mQyXVdA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "外汇",
+    "美联储与美债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.3
+   },
+   "summary": "AI支撑的美股-美元相关性消失，美指无视美股回调升破103.5年内新高，源于基本面与加息定价回归；人民币受结汇惯性独立升值至6.66，需防双向波动",
+   "page": "research_20261119.html"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "【中金固收·信用】中国短期融资券及中期票据信用分析周报261118",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/_TLhyf06sB1GnElKttqSMg",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "信用债一级"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.8
+   },
+   "summary": "本周短融中票发行1425.63亿环比大增，电力/铁路/城投居前；2项评分调整：金融街4→4-（销售量价持续下滑、持续亏损、债务压力较重）、滁州同创5→5+",
+   "page": "research_20261119.html"
+  },
+  {
+   "date": "2026-11-19",
+   "title": "【瞎扯】不可不防的交易对手方风险",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/-SxVJ1C061AxWxHbzm6eDw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "债市微观结构"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.6
+   },
+   "summary": "债市毁约/卷款/过桥灰产等交易对手方风险案例盘点；某E机构毁约反印证债基赎回负反馈已结束",
+   "page": "research_20261119.html"
+  },
   {
    "date": "2026-11-18",
    "title": "深度 | 时间证明城投债的价值",
