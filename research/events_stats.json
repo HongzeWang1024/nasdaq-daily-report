@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "events": [
   {
    "event": "美国中期选举",
@@ -249,6 +249,40 @@
    "avg_ret_7d": -0.0125
   },
   {
+   "event": "11月税期资金面考验（关注DR001是否持续高于1.30%）",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-15",
+     "r1": 0.008,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.008,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "11月税期（16-18日），资金面阶段性扰动",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-16",
+     "r1": 0.008,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.008,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
    "event": "15只摊余债基预计开启募集（9月中下旬-10月，审核1-2个月）",
    "target": "511010",
    "name": "国债ETF",
@@ -292,12 +326,12 @@
      "date": "2026-11-06",
      "r1": 0.0001,
      "r3": -0.0084,
-     "r7": null
+     "r7": -0.0091
     }
    ],
    "avg_ret_1d": 0.0001,
    "avg_ret_3d": -0.0084,
-   "avg_ret_7d": null
+   "avg_ret_7d": -0.0091
   },
   {
    "event": "50年期特别国债发行",
@@ -342,12 +376,12 @@
     {
      "date": "2026-11-12",
      "r1": -0.0015,
-     "r3": null,
+     "r3": -0.0026,
      "r7": null
     }
    ],
    "avg_ret_1d": -0.0015,
-   "avg_ret_3d": null,
+   "avg_ret_3d": -0.0026,
    "avg_ret_7d": null
   },
   {
@@ -929,6 +963,23 @@
    "avg_ret_7d": -0.0388
   },
   {
+   "event": "外汇存款准备金率由4%上调至6%",
+   "target": "510300",
+   "name": "沪深300",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-15",
+     "r1": -0.003,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.003,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
    "event": "央行10.21-11.2隔夜逆回购操作窗口结束",
    "target": "511090",
    "name": "30年国债",
@@ -944,6 +995,23 @@
    "avg_ret_1d": 0.006,
    "avg_ret_3d": 0.0071,
    "avg_ret_7d": 0.0032
+  },
+  {
+   "event": "央行上调外汇存款准备金率2pp（4%→6%）正式生效",
+   "target": "510300",
+   "name": "沪深300",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-15",
+     "r1": -0.003,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.003,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "央行开展第三次SFISF操作（1000亿、1年期可展期）",
@@ -1252,6 +1320,23 @@
    "avg_ret_7d": -0.0168
   },
   {
+   "event": "深圳APEC中美元首会晤",
+   "target": "512480",
+   "name": "半导体",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-15",
+     "r1": 0.0134,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0134,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
    "event": "港股通调整交易窗口（8月下旬-9月初）",
    "target": "513050",
    "name": "中概互联",
@@ -1267,6 +1352,23 @@
    "avg_ret_1d": -0.0067,
    "avg_ret_3d": -0.0372,
    "avg_ret_7d": -0.0324
+  },
+  {
+   "event": "税期资金面+央行逆回购/买断式续作（至11-20）",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-16",
+     "r1": 0.008,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.008,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "缴税截止日，关注税期资金面",
@@ -1295,12 +1397,12 @@
      "date": "2026-11-06",
      "r1": -0.0074,
      "r3": 0.0348,
-     "r7": null
+     "r7": 0.0037
     }
    ],
    "avg_ret_1d": -0.0074,
    "avg_ret_3d": 0.0348,
-   "avg_ret_7d": null
+   "avg_ret_7d": 0.0037
   },
   {
    "event": "美国7月PCE物价指数",
@@ -1533,12 +1635,12 @@
      "date": "2026-11-06",
      "r1": -0.0074,
      "r3": 0.0348,
-     "r7": null
+     "r7": 0.0037
     }
    ],
    "avg_ret_1d": -0.0074,
    "avg_ret_3d": 0.0348,
-   "avg_ret_7d": null
+   "avg_ret_7d": 0.0037
   },
   {
    "event": "美联储9月FOMC议息（加息概率约90%）",
@@ -1607,6 +1709,40 @@
    "avg_ret_1d": 0.01,
    "avg_ret_3d": 0.0332,
    "avg_ret_7d": 0.0528
+  },
+  {
+   "event": "美联储生产率与就业工作组听证会",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-16",
+     "r1": -0.0105,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0105,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "美联储生产率与就业工作组首次实地听证会",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-16",
+     "r1": -0.0105,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0105,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "美联储议息会议",
