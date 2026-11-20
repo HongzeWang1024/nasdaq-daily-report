@@ -1,6 +1,258 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "articles": [
+  {
+   "date": "2026-11-20",
+   "title": "债券ETF贴水后会反转吗？",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/P~pSXFoIm7gkGw6VUnoS0g",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "债券ETF",
+    "信用债",
+    "赎回冲击"
+   ],
+   "etf_sentiment": {
+    "511090": "空"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "债券ETF折溢价信号非对称：信用债ETF深折≥0.5%后10日平均收敛收益25.77bp、正收益占比84.8%，普通折价修复收益极薄；30年国债ETF溢价0.22%处历史94%分位应回避追高",
+   "page": "research_20261120.html"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "中金：推升人民币的资金从何而来？",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/8HjBRVNztnT4elUGfuTMwQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "人民币汇率",
+    "结售汇",
+    "宏观经济"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.3
+   },
+   "summary": "结售汇顺差最大边际驱动是购汇率降至59.4%历史低位而非结汇增加，购汇率继续下降空间有限，人民币升值斜率将放缓",
+   "page": "research_20261120.html"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "为什么最近黄金价格跌跌不休？",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/3yHAmhVNO5a4h69ibaRtwg",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "黄金",
+    "美联储",
+    "实际利率"
+   ],
+   "etf_sentiment": {
+    "518880": "空"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "AI→中性利率↑→实际利率↑→金价↓，中期金价缺乏系统性上涨机会，3700美元附近或横盘，仅可博小反弹",
+   "page": "research_20261120.html"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "【华泰资产配置】跨资产相关性正在变化",
+   "author": "华泰证券固收研究",
+   "url": "https://mp.weixin.qq.com/s/jStb1ZpB6WilrWSRwgizsQ",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "资产配置",
+    "跨资产相关性",
+    "AI产业链",
+    "红利"
+   ],
+   "etf_sentiment": {
+    "512800": "多",
+    "510300": "空",
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "美国股债相关性转负、黄金跟科技股不跟美债、国内股债商金同跌，流动性冲击迹象已现；建议持币+红利对冲（银行），医药、港股等独立逻辑资产值得关注",
+   "page": "research_20261120.html"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "资金松，超预期",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/I5eHai-5t4KJ9TMpPyFkdQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "债市资金面",
+    "长久期",
+    "A股缩量",
+    "国产算力"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "512480": "多",
+    "512800": "多",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "税期后资金面超预期宽松，10Y国债1.58%、30Y 2.02%，纯债基金恢复净申购，可保持长久期仓位；权益缩量普跌，国产算力延续反弹、红利相对占优",
+   "page": "research_20261120.html"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "2027年大宗通胀：商品轮动，物价传导",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/55bnvqe1J9zz0oVS0P2f4Q",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "大宗商品",
+    "通胀",
+    "黄金",
+    "PPI-CPI剪刀差"
+   ],
+   "etf_sentiment": {
+    "518880": "多"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "油价中枢难回50-60美元则全球面临1970-80s式供给型通胀，大宗轮动2027年切换回金（弱美元受益资产）；中国2027年或见证CPI向PPI靠拢的物价由上及下传导",
+   "page": "research_20261120.html"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "机构观点：资产荒到信用重定价",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/fkPeBspBdkCD0hAvmqjjnA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "债市机构观点",
+    "税收重定价",
+    "AI产业链",
+    "美债"
+   ],
+   "etf_sentiment": {
+    "510300": "中性",
+    "513100": "中性",
+    "518880": "中性",
+    "501018": "中性"
+   },
+   "scores": {
+    "total": 3.7
+   },
+   "summary": "债市主线切换为税收预期重定价+交易盘止盈，买方偏多占比降至17%；短期定价围绕税制预期、资金面与赎回反复，信用不宜过度下沉；外资看AI资本开支2026-28年1.0/1.4/1.5万亿美元",
+   "page": "research_20261120.html"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "供需的画像：拆解10月结售汇数据",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/qrcaND3a0fUW10-8K2ygdQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "结售汇",
+    "人民币汇率"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "10月净结汇652亿美元但结汇意愿边际转弱，增长靠少购而非多结，人民币升值方向不变但速度温和（与《推升人民币的资金从何而来？》同题）",
+   "page": "research_20261120.html"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "交保护费就能建数据中心？&很鹰的美联储&股债观点",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/RLfcma3XW9qbjR6NY9J9Dw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "AI债务融资",
+    "债市增量资金"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "518880": "中性"
+   },
+   "scores": {
+    "total": 3.1
+   },
+   "summary": "美联储纪要几乎全体官员支持继续加息；科技股下跌引发流动性挤兑卖贵金属；平安保险拟加大固收配置、第三批16只摊余成本法债基获批，债市迎增量资金",
+   "page": "research_20261120.html"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "【瞎扯】大A三天挨打，债市上房揭瓦",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/zUoYU5W8AQ8rGDtBBfP74g",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "A股缩量",
+    "债市资金面",
+    "AI基建"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "央行净投放1600亿+税期结束，DR001回落至1.25%创近6个月新低，10Y国债下至1.57%；腾讯Q3自由现金流因算力采购转负，国内AI基建算力缺口可见",
+   "page": "research_20261120.html"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "2027年财政支出：劲往何处使？",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/IYwyL7lKvrscf3Pf~nEEIw",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "财政政策",
+    "2027展望"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.0
+   },
+   "summary": "2027年财政支出基准增速4.5%，换届收官+审批常态化推动节奏适当前置，民生主轴+基建有效回补",
+   "page": "research_20261120.html"
+  },
+  {
+   "date": "2026-11-20",
+   "title": "【中金固收·信用】中国公司债及企业债信用分析周报20261119",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/Kz6rz~KcGgHC6KaUM-KZcQ",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.4
+   },
+   "summary": "公司债发行308亿环比减107亿，高等级城投集中，南方泵业中金评分5上调至5+",
+   "page": "research_20261120.html"
+  },
   {
    "date": "2026-11-19",
    "title": "英伟达2027FYQ3业绩、电话会议全扫描",
