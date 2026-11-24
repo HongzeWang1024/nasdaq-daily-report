@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "events": [
   {
    "event": "美国中期选举",
@@ -145,6 +145,29 @@
    "avg_ret_1d": -0.0212,
    "avg_ret_3d": -0.0325,
    "avg_ret_7d": -0.0312
+  },
+  {
+   "event": "美联储公布10月FOMC会议纪要",
+   "target": "513100",
+   "name": "纳指",
+   "samples": 2,
+   "history": [
+    {
+     "date": "2026-11-19",
+     "r1": -0.0464,
+     "r3": null,
+     "r7": null
+    },
+    {
+     "date": "2026-11-19",
+     "r1": -0.0464,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": -0.0464,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "10月CPI/PPI数据（华创预测PPI 5.4%/CPI 0.7%，预计发布日）",
@@ -1719,12 +1742,12 @@
     {
      "date": "2026-11-17",
      "r1": 0.0005,
-     "r3": null,
+     "r3": -0.0425,
      "r7": null
     }
    ],
    "avg_ret_1d": 0.0005,
-   "avg_ret_3d": null,
+   "avg_ret_3d": -0.0425,
    "avg_ret_7d": null
   },
   {
