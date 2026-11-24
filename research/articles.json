@@ -1,6 +1,286 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "articles": [
+  {
+   "date": "2026-11-24",
+   "title": "Gamma挤压放大了上周美股的跌幅",
+   "author": "DeepVan的逃生地牢",
+   "url": "https://mp.weixin.qq.com/s/fmYS5JLGCm0LiFAdq774-A",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美股",
+    "期权对冲机制",
+    "AI产业链"
+   ],
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.75
+   },
+   "summary": "上周美股暴跌被做市商负Gamma对冲显著放大（SPY每跌1%需追加155亿美元对冲卖单+390亿杠杆ETF再平衡）；负Gamma已明显缓解故周一大幅反弹，后续监控纳指100与SOXX期权Gamma、换月是重点",
+   "page": "research_20261124.html"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "中金2027年度展望 | 全球市场：行到转折处",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/xg73ZxsDVn4oSEiapfSKPA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "全球宏观",
+    "AI产业链",
+    "黄金",
+    "2027展望"
+   ],
+   "etf_sentiment": {
+    "513100": "中性",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 4.55
+   },
+   "summary": "AI投资'至暗时刻'（边际ROIC 6%<WACC 10%）后2027资本开支增速回落，反而或倒逼美联储转向宽松；美股先抑后扬（标普8100-8500、极端回调10-15%），黄金是'看多期权'（4000-4500美元）",
+   "page": "research_20261124.html"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "信用债砸盘，A股修复：今天的股债市场，各自在算什么账？",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/k3ozB324B2FEw7DP_ejz_w",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "当日复盘",
+    "股债跷跷板",
+    "信用债"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.15
+   },
+   "summary": "周一股涨债跌并非跷跷板：债市主要压力是信用债砸盘（定价1BP）；A股修复靠外围回暖（纳指/铜/金高开2%+）+筹码出清+微盘企稳，谈不上趋势反转",
+   "page": "research_20261124.html"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "稳市，反弹",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/jXkGYV1gTPPkudSzOVD4ow",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "当日复盘",
+    "AI产业链",
+    "债市资金面",
+    "稳市政策"
+   ],
+   "etf_sentiment": {
+    "512660": "多",
+    "513100": "空",
+    "518880": "多"
+   },
+   "scores": {
+    "total": 4.1
+   },
+   "summary": "11/23放量普涨（万得全A+1.45%），黄仁勋回归预期是科技反弹核心催化（通信+4.34%）；指数压力或缓解但结构需平衡：海外/国产算力均处高波区间，机器人、太空算力、AI应用、军工等低拥挤方向持续性更好",
+   "page": "research_20261124.html"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "【瞎扯】这一篮子措施真的有用吗？",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/p9VfM22O4si3Z6GC77PI4A",
+   "level": "detail",
+   "viewpoint": "观望",
+   "themes": [
+    "稳市政策",
+    "A股资金面",
+    "债市"
+   ],
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "周末稳市措施效果存疑：2023年8月同类保证金下调后90个交易日A股-5.6%、今年1月上调后反+5.9%，措施与涨跌无因果关系；A股增量资金匮乏未解，债市相对确定（待MLF态度）",
+   "page": "research_20261124.html"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "哪些行业主体数量在减少？",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/dOEZLdrkN8LyFOeuTh2WZw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "消费供给出清",
+    "中观景气"
+   ],
+   "etf_sentiment": {
+    "512690": "多"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "消费板块单位数量/用工双降（-5.2%/-4.6%）降幅最大、酒饮料-10.4%，是供给出清标志，延续'消费或在供给出清'判断，为消费中期格局改善补充供给端证据",
+   "page": "research_20261124.html"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "弱美元受益者：2027年港股展望 | 建投宏观 · 周君芝团队",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/IW4OmgKKipFJNh7v3fUUbQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "港股",
+    "2027展望",
+    "弱美元",
+    "AI产业链"
+   ],
+   "etf_sentiment": {
+    "518880": "多",
+    "512690": "多"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "2027港股改善先看流动性反转（弱美元交易或是全球最有价值主线）再看内需触底；配置互联网/创新药/黄金权益（弱美元）+低估值低持仓消费（内需触底）",
+   "page": "research_20261124.html"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "深度 | 化债临近尾声，2027债务压力几何",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/PexhJA67bF2B5Z4QUVgMfw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "化债",
+    "地方债务",
+    "土地财政"
+   ],
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "化债'化存遏增'成效明确（隐债降至约3万亿、退平台-92%、置换债进度98.29%），但债务置换未减本金，土地财政退坡使综合付息覆盖倍数降至0.87（25省不足1倍），债务压力仍在",
+   "page": "research_20261124.html"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "人民币汇率波动放大，如何解读？",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/EN3eCIcsTptGg5ETzav94w",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "人民币汇率",
+    "全球流动性"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "上周四夜USDCNH直线拉升近300点突破6.6950系拥挤空头平仓+夜盘流动性差所致；人民币稳定向好格局未变，12月进入季节性结汇高峰",
+   "page": "research_20261124.html"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "稳中寻迹，以券破局——2027年转债&固收+年度策略",
+   "author": "固收荷语",
+   "url": "https://mp.weixin.qq.com/s/645n5OLbr1Vqb2SID6qlwQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "转债",
+    "固收+",
+    "2027展望"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "转债估值仍偏贵但缩量趋势下供需有支撑，明年更多是结构性机会，弹性方向为AI产业链、基础化工、创新药出海；固收+规模明年预计继续增长",
+   "page": "research_20261124.html"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "2027年基建：一场有选择的修复（国联民生宏观钟渝梅）",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/I_HKvdkEmW8YfmPl51EVMg",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "基建",
+    "2027展望",
+    "化债"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.25
+   },
+   "summary": "2027基建有望实质反转：化债松绑（资金腾挪）+换届收官（执行提速）+十五五第二年（项目放量）三重共振，增速回升至5.0%；算力网、水网是'六张网'中景气度最高方向",
+   "page": "research_20261124.html"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "美联储坚守2%的通胀目标是刻舟求剑，应该提高到3%，以挽救AI和美国经济",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/Zllg0-fBzYIkezOqM6mcVA",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储政策",
+    "AI产业链"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.2
+   },
+   "summary": "2%通胀目标无严格学术基础；AI降温背景下美联储应将通胀目标提高至3%，即可避免加息、挽救AI与美国经济——对加息压力减轻路径的政策建议",
+   "page": "research_20261124.html"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "【中金固收·重磅推荐】债务增长约束下，中美债券利率殊途同归——2027年中美经济及债市展望",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/R24y6XU3DKDgFi8MV0BRZQ",
+   "level": "archived",
+   "viewpoint": "观望",
+   "themes": [
+    "债市展望"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.3
+   },
+   "summary": "正文仅摘要与分析师名单、实质内容在小程序内，无法总结（归档处理）",
+   "page": "research_20261124.html"
+  },
+  {
+   "date": "2026-11-24",
+   "title": "国联民生固收徐亮团队丨电话会议邀请",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/h8tNqQt0iq0YK_4FX3_VfA",
+   "level": "archived",
+   "viewpoint": "观望",
+   "themes": [],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 1.15
+   },
+   "summary": "债券周策略电话会议邀请通知，无实质研究内容",
+   "page": "research_20261124.html"
+  },
   {
    "date": "2026-11-23",
    "title": "政府债券税收利差的来龙和去脉",
