@@ -50,11 +50,53 @@ details .fold-body { margin: 6px 0 6px 6px; padding-left: 10px; border-left: 2px
 .gap-item { background: #fafafa; padding: 8px 12px; border-radius: 6px; margin: 8px 0; }
 a.etf-link { color: #d6336c; text-decoration: none; border-bottom: 1px dashed #d6336c; font-weight: 600; }
 a.etf-link:hover { background: #ffe3e3; }
+.page-meta { color: #888; font-size: .85em; margin: -6px 0 14px; }
+.tldr { background: linear-gradient(135deg, #faf5ff, #fff8f0); border: 1px solid #ece0f8; border-left: 4px solid #6f42c1; border-radius: 8px; padding: 12px 18px; margin: 14px 0; }
+.tldr-h { font-weight: bold; color: #6f42c1; margin-bottom: 4px; }
+.tldr-h .tldr-sub { color: #999; font-weight: normal; font-size: .8em; margin-left: 6px; }
+.tldr ul { margin: 4px 0 0; padding-left: 20px; }
+.tldr li { margin: 5px 0; line-height: 1.65; }
+.mp-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 14px; }
+.mp-head h2 { margin: 0; border-left: 5px solid #6f42c1; padding-left: 10px; }
+.mp-badge { font-size: .75em; padding: 2px 8px; border-radius: 10px; background: #fff3cd; color: #856404; }
+.mp-badge.err { background: #ffe3e3; color: #c0392b; }
+.mp-asof { color: #999; font-size: .8em; margin-left: auto; }
+.mp-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 14px 0 6px; }
+.mp-kpi { border: 1px solid #ece0f8; border-radius: 8px; padding: 10px 14px; background: #fcfaff; }
+.mp-label { color: #777; font-size: .82em; }
+.mp-val { font-size: 1.85em; font-weight: bold; color: #333; line-height: 1.15; margin: 2px 0 4px; font-family: "SF Mono", Consolas, monospace; }
+.mp-val .unit { font-size: .5em; font-weight: normal; color: #888; margin-left: 3px; }
+.mp-sub { color: #666; font-size: .82em; }
+.mp-sub2 { color: #999; font-size: .76em; margin-top: 2px; }
+.up { color: #d6336c; } .down { color: #2e8b57; }
+.mp-pct { margin: 16px 0 6px; }
+.pct-head { display: flex; justify-content: space-between; align-items: baseline; font-size: .85em; color: #666; margin-bottom: 6px; gap: 8px; }
+.pct-head b { font-size: 1.05em; }
+.pct-track { position: relative; height: 16px; border-radius: 8px; background: linear-gradient(90deg, #d7efdf 0%, #f1f1f1 50%, #f9d7d7 100%); border: 1px solid #eee; }
+.pct-marker { position: absolute; top: -5px; bottom: -5px; width: 3px; background: #333; border-radius: 2px; transform: translateX(-50%); box-shadow: 0 0 0 2px #fff; }
+.pct-marker::after { content: ""; position: absolute; left: 50%; top: -4px; width: 9px; height: 9px; background: #333; border-radius: 50%; transform: translateX(-50%); }
+.pct-ref { position: absolute; top: 0; bottom: 0; border-left: 1px dashed #888; }
+.pct-ref span { position: absolute; top: -17px; left: 0; transform: translateX(-50%); font-size: .68em; color: #777; white-space: nowrap; }
+.pct-axis { display: flex; justify-content: space-between; color: #aaa; font-size: .72em; margin-top: 4px; }
+.mp-chart { width: 100%; height: auto; display: block; margin: 10px 0 2px; }
+.mp-chart-cap { color: #777; font-size: .8em; margin-top: 14px; }
+.mp-note { color: #8a8a8a; font-size: .76em; line-height: 1.65; margin: 8px 0 0; }
+.mp-note b { color: #666; }
+.mp-missing { background: #fff8e1; border-left: 4px solid #ffc107; border-radius: 0 6px 6px 0; padding: 10px 14px; color: #7a5d00; font-size: .9em; }
+.tbl-fold summary { cursor: pointer; color: #6f42c1; font-weight: bold; font-size: .88em; padding: 6px 0; }
 @media (max-width: 760px) {
   body { padding: 12px 10px; }
-  .nav { flex-direction: column; gap: 4px; text-align: center; }
-  .cards .card { min-width: 45%; }
-  .bar-label { width: 110px; font-size: 0.8em; }
+  h1 { font-size: 1.4em; }
+  h2 { font-size: 1.12em; margin-top: 22px; }
+  .nav { flex-direction: row; gap: 6px; text-align: center; font-size: .9em; }
+  .cards .card { min-width: 100%; }
+  .bar-label { width: 96px; font-size: .78em; }
+  th, td { padding: 6px 8px; font-size: .86em; }
+  .table-wrap { -webkit-overflow-scrolling: touch; }
+  .mp-grid { grid-template-columns: 1fr; }
+  .mp-asof { margin-left: 0; width: 100%; }
+  .mp-val { font-size: 1.6em; }
+  .tldr { padding: 10px 12px; }
 }
 </style>
 </head>
@@ -62,17 +104,77 @@ a.etf-link:hover { background: #ffe3e3; }
 <p class="back"><a href="index.html">← 检索/列表</a> · <a href="indicators.html">指标追踪</a> · <a href="authors.html">机构观点</a> · <a href="themes.html">主题专题</a> · <a href="../index.html">主页</a></p>
 <div class="nav"><a href="research_20260831.html">← 前一天</a><span style="color:#666;font-weight:bold;">2026-09-01</span><a href="research_20260902.html">后一天 →</a></div>
 <h1>研报日报 2026-09-01</h1>
+<div class="page-meta">研报内容截至 2026-09-01 ｜ 两融数据 2026-08-31（T-1） ｜ 指标/ETF 数据日期见各卡片</div>
+<div class="tldr"><div class="tldr-h">📌 今日要点<span class="tldr-sub">先看这 3 条</span></div><ul><li>【兴业/刘郁】AI行情正从算力硬件向AI应用/端侧/具身切换，A股或跟进美股交易&quot;AI商业化叙事&quot;，但叙事未稳固、对个股筛选要求高，可配银行/煤炭/公用对冲波动（<a class="etf-link" href="index.html?etf=513100">513100</a>/<a class="etf-link" href="index.html?etf=512480">512480</a>）</li><li>【泽平/任泽平】英伟达Q2营收962亿美元+106%、独披露35亿违约担保与1085亿表外基建承诺，AI高增聚焦于&quot;能否持续/循环融资/AI商业闭环&quot;三大争议（<a class="etf-link" href="index.html?etf=513100">513100</a>）</li><li>【国联民生/徐亮】8月央行公开市场重隔夜逆回购（占比78%），观察政策取向应看DR001而非操作量，月末资金面承压、债市低位震荡（<a class="etf-link" href="index.html?etf=511090">511090</a>）</li></ul></div>
 <div class="dash"><div class="cards"><div class="card" style="min-width:230px"><div class="c-name">🧭 卖方情绪指数</div><div class="c-val" style="font-size:1.9em;color:#d6336c">73.0 <span style="color:#d6336c;font-weight:bold">▲ +11</span></div><div class="c-meta">0-100 · 60%看多占比+40%评分归一 · 较上期变化</div></div><div class="card"><div class="c-name">📚 今日收录</div><div class="c-val">18 篇</div><div class="c-meta">详读 4 · 速览 5 · 归档 9</div></div><div class="card"><div class="c-name">⚡ 今日预期差</div><div class="c-val">1 个</div><div class="c-meta">详见下方卡片</div></div><div class="card"><div class="c-name">⚠ 市场风险等级</div><div class="c-val" style="color:#e67e22">中（52）</div><div class="c-meta">四类因子加权 · 宏观流动性 6.8、估值水平 3.6</div></div></div></div>
 <div class="dash" style="background:#fff8f0;border-left:4px solid #e67e22">⚠ 风险等级中等，防御关注：511090（30年国债）、518880（黄金）</div>
 <div class="dash"><h2 style="margin-top:0">🎯 当日 ETF 配置清单</h2><div class="table-wrap"><table><tr><th>代码</th><th>名称</th><th>评级</th><th>综合分(0-100)</th><th>看多</th><th>看空</th><th>中性</th><th>提及文章均分</th></tr><tr><td><a href="index.html?etf=512480">512480</a></td><td>半导体</td><td><span class="grade g-strong">强推</span></td><td><b>84</b></td><td style="color:#d6336c">+3</td><td style="color:#2e8b57">-0</td><td style="color:#999">0</td><td>4.1</td></tr><tr><td><a href="index.html?etf=513100">513100</a></td><td>纳指</td><td><span class="grade g-watch">关注</span></td><td><b>86</b> <span style="color:#d6336c;font-size:.85em">▲+35</span> <span style="background:#ffe3e3;color:#c0392b;padding:0 8px;border-radius:10px;font-size:.78em">⚡ 观点升级</span></td><td style="color:#d6336c">+2</td><td style="color:#2e8b57">-0</td><td style="color:#999">0</td><td>4.5</td></tr><tr><td><a href="index.html?etf=518880">518880</a></td><td>黄金</td><td><span class="grade g-watch">关注</span></td><td><b>72</b> <span style="color:#d6336c;font-size:.85em">▲+1</span></td><td style="color:#d6336c">+2</td><td style="color:#2e8b57">-0</td><td style="color:#999">0</td><td>3.2</td></tr><tr><td><a href="index.html?etf=511090">511090</a></td><td>30年国债</td><td><span class="grade g-watch">关注</span></td><td><b>77</b> <span style="color:#d6336c;font-size:.85em">▲+32</span> <span style="background:#ffe3e3;color:#c0392b;padding:0 8px;border-radius:10px;font-size:.78em">⚡ 观点升级</span></td><td style="color:#d6336c">+1</td><td style="color:#2e8b57">-0</td><td style="color:#999">0</td><td>3.9</td></tr><tr><td><a href="index.html?etf=511010">511010</a></td><td>国债ETF</td><td><span class="grade g-watch">关注</span></td><td><b>72</b> <span style="color:#d6336c;font-size:.85em">▲+3</span></td><td style="color:#d6336c">+1</td><td style="color:#2e8b57">-0</td><td style="color:#999">0</td><td>3.2</td></tr></table></div><p class="dim" style="font-size:.85em;margin-bottom:0">评级规则：净看多≥3 且均分≥3.5 强推 ｜ 净看多≥1 关注 ｜ 无净倾向 观望 ｜ 净看空 规避 ｜ 综合分 = 观点方向40% + 研报重要性30% + 机构准确率20% + 主题热度10%，环比±15分标注升级/降级</p></div>
 <div class="dash"><h2 style="margin-top:0">⚡ 今日预期差事件（超额收益来源）</h2><div class="gap-item" style="border-left:4px solid #d6336c"><div style="font-weight:bold">↓ 英伟达表外担保与循环融资 <span style="color:#d6336c">［差于预期］</span></div><div style="font-size:.9em;color:#555"></div><div style="font-size:.85em;color:#888">标的：- · 解读：-</div></div></div>
-<div class="dash"><h2 style="margin-top:0">💼 持仓看板（518880 黄金）</h2><p style="margin:4px 0">今日研报倾向：<span style="color:#d6336c;font-weight:bold">利多 2</span> / <span style="color:#2e8b57;font-weight:bold">利空 0</span> · 提及 2 篇</p><div class="table-wrap"><table><tr><th>代码</th><th>名称</th><th>最新价</th><th>浮盈%</th><th>成本</th><th>数量</th><th>市值</th><th>浮动盈亏</th></tr><tr><td><a href="index.html?etf=518880">518880</a></td><td>黄金</td><td>7.282 <span class="dim" style="font-size:.8em">2026-11-20</span></td><td class="dim">未设成本</td><td class="dim">—</td><td class="dim">—</td><td class="dim">—</td><td class="dim">—</td></tr></table></div><ul style="margin:8px 0 4px 0"><li><a href="https://mp.weixin.qq.com/s/vDOJDCf1ra7isgF3VTJ9zA" target="_blank">美债风暴会否引发金融危机？</a> <span style="color:#d6336c;font-weight:bold">［多］</span> <span style="color:#6f42c1">518880↑</span></li><li><a href="https://mp.weixin.qq.com/s/a0PcITN7ySTnXLl6nIDImw" target="_blank">低波红利/高自由现金流/股东回报ETF：境外篇</a> <span style="color:#999;font-weight:bold">［中性］</span> <span style="color:#6f42c1">518880↑</span></li></ul><p class="dim" style="font-size:.85em;margin-bottom:0">持仓与成本可在 研报分析/config.yaml portfolio 配置（code/cost/shares）；行情由 fetch_etf_prices.py 每日更新</p></div>
+<div class="dash"><h2 style="margin-top:0">💼 持仓看板（518880 黄金）</h2><p style="margin:4px 0">今日研报倾向：<span style="color:#d6336c;font-weight:bold">利多 2</span> / <span style="color:#2e8b57;font-weight:bold">利空 0</span> · 提及 2 篇</p><div class="table-wrap"><table><tr><th>代码</th><th>名称</th><th>最新价</th><th>浮盈%</th><th>成本</th><th>数量</th><th>市值</th><th>浮动盈亏</th></tr><tr><td><a href="index.html?etf=518880">518880</a></td><td>黄金</td><td>7.396 <span class="dim" style="font-size:.8em">2026-11-23</span></td><td class="dim">未设成本</td><td class="dim">—</td><td class="dim">—</td><td class="dim">—</td><td class="dim">—</td></tr></table></div><ul style="margin:8px 0 4px 0"><li><a href="https://mp.weixin.qq.com/s/vDOJDCf1ra7isgF3VTJ9zA" target="_blank">美债风暴会否引发金融危机？</a> <span style="color:#d6336c;font-weight:bold">［多］</span> <span style="color:#6f42c1">518880↑</span></li><li><a href="https://mp.weixin.qq.com/s/a0PcITN7ySTnXLl6nIDImw" target="_blank">低波红利/高自由现金流/股东回报ETF：境外篇</a> <span style="color:#999;font-weight:bold">［中性］</span> <span style="color:#6f42c1">518880↑</span></li></ul><p class="dim" style="font-size:.85em;margin-bottom:0">持仓与成本可在 研报分析/config.yaml portfolio 配置（code/cost/shares）；行情由 fetch_etf_prices.py 每日更新</p></div>
 <div class="dash"><h2 style="margin-top:0">📊 ETF 情绪共识分布</h2><div class="bar-row"><span class="bar-label">512480 半导体ETF</span><span class="bar"><span class="seg bull" style="width:210px"></span><span class="seg neutral" style="width:70px"></span><span class="seg bear" style="width:0px"></span></span><span class="bar-num">多 3 / 中 1 / 空 0</span></div>
 <div class="bar-row"><span class="bar-label">518880 黄金ETF</span><span class="bar"><span class="seg bull" style="width:140px"></span><span class="seg neutral" style="width:0px"></span><span class="seg bear" style="width:0px"></span></span><span class="bar-num">多 2 / 中 0 / 空 0</span></div>
 <div class="bar-row"><span class="bar-label">513100 纳指ETF</span><span class="bar"><span class="seg bull" style="width:140px"></span><span class="seg neutral" style="width:70px"></span><span class="seg bear" style="width:0px"></span></span><span class="bar-num">多 2 / 中 1 / 空 0</span></div>
 <div class="bar-row"><span class="bar-label">511090 30年国债ETF</span><span class="bar"><span class="seg bull" style="width:70px"></span><span class="seg neutral" style="width:70px"></span><span class="seg bear" style="width:0px"></span></span><span class="bar-num">多 1 / 中 1 / 空 0</span></div>
 <div class="bar-row"><span class="bar-label">511010 国债ETF</span><span class="bar"><span class="seg bull" style="width:70px"></span><span class="seg neutral" style="width:0px"></span><span class="seg bear" style="width:0px"></span></span><span class="bar-num">多 1 / 中 0 / 空 0</span></div></div>
-<div class="dash"><h2 style="margin-top:0">📈 核心指标看板</h2><div class="cards"><div class="card"><div class="c-name">10年国债收益率</div><div class="c-val">1.588 <span class="c-delta"><span style="color:#2e8b57;font-weight:bold">▼ -0.002</span></span></div><div class="c-meta">2026-11-18 · 郁见投资</div></div><div class="card"><div class="c-name">30年国债收益率</div><div class="c-val">2.04 <span class="c-delta"><span style="color:#999">→ 持平</span></span></div><div class="c-meta">2026-11-18 · 郁见投资</div></div><div class="card"><div class="c-name">DR001</div><div class="c-val">1.26 <span class="c-delta"><span style="color:#d6336c;font-weight:bold">▲ +0.01</span></span></div><div class="c-meta">2026-11-22 · 覃汉研究笔记</div></div><div class="card"><div class="c-name">R001</div><div class="c-val">1.34 <span class="c-delta"><span style="color:#d6336c;font-weight:bold">▲ +0.01</span></span></div><div class="c-meta">2026-11-22 · 郁言债市</div></div><div class="card"><div class="c-name">10Y国债收益率 <span style="background:#ffe3e3;color:#c0392b;padding:0 6px;border-radius:8px;font-size:.78em">⚠ 大幅变动</span></div><div class="c-val">1.58 <span class="c-delta"><span style="color:#2e8b57;font-weight:bold">▼ -0.04</span></span></div><div class="c-meta">2026-11-22 · 郁言债市</div></div><div class="card"><div class="c-name">10年期美债收益率</div><div class="c-val">5.15 <span class="c-delta"><span style="color:#d6336c;font-weight:bold">▲ +0.05</span></span></div><div class="c-meta">2026-11-17 · 固收荷语</div></div><div class="card"><div class="c-name">30Y国债收益率</div><div class="c-val">2.04 <span class="c-delta"><span style="color:#2e8b57;font-weight:bold">▼ -0.02</span></span></div><div class="c-meta">2026-11-22 · 郁言债市</div></div><div class="card"><div class="c-name">10年期国债收益率</div><div class="c-val">1.58 <span class="c-delta"><span style="color:#999">→ 持平</span></span></div><div class="c-meta">2026-11-19 · 郁见投资</div></div></div><p class="dim" style="font-size:.85em;margin-bottom:0">最新值及较上次变化；⚠ = 超该指标历史波幅 3 倍中位 · <a href="indicators.html">全部指标趋势 →</a></p></div>
+<div class="dash"><h2 style="margin-top:0">📈 核心指标看板</h2><div class="cards"><div class="card"><div class="c-name">10年国债收益率</div><div class="c-val">1.59 <span class="c-delta"><span style="color:#d6336c;font-weight:bold">▲ +0.002</span></span></div><div class="c-meta">2026-11-23 · 郁见投资</div></div><div class="card"><div class="c-name">30年国债收益率</div><div class="c-val">2.06 <span class="c-delta"><span style="color:#d6336c;font-weight:bold">▲ +0.02</span></span></div><div class="c-meta">2026-11-23 · 郁见投资</div></div><div class="card"><div class="c-name">DR001</div><div class="c-val">1.26 <span class="c-delta"><span style="color:#d6336c;font-weight:bold">▲ +0.01</span></span></div><div class="c-meta">2026-11-22 · 覃汉研究笔记</div></div><div class="card"><div class="c-name">R001</div><div class="c-val">1.34 <span class="c-delta"><span style="color:#d6336c;font-weight:bold">▲ +0.01</span></span></div><div class="c-meta">2026-11-22 · 郁言债市</div></div><div class="card"><div class="c-name">10Y国债收益率 <span style="background:#ffe3e3;color:#c0392b;padding:0 6px;border-radius:8px;font-size:.78em">⚠ 大幅变动</span></div><div class="c-val">1.58 <span class="c-delta"><span style="color:#2e8b57;font-weight:bold">▼ -0.04</span></span></div><div class="c-meta">2026-11-22 · 郁言债市</div></div><div class="card"><div class="c-name">10年期美债收益率</div><div class="c-val">5.15 <span class="c-delta"><span style="color:#d6336c;font-weight:bold">▲ +0.05</span></span></div><div class="c-meta">2026-11-17 · 固收荷语</div></div><div class="card"><div class="c-name">30Y国债收益率</div><div class="c-val">2.04 <span class="c-delta"><span style="color:#2e8b57;font-weight:bold">▼ -0.02</span></span></div><div class="c-meta">2026-11-22 · 郁言债市</div></div><div class="card"><div class="c-name">10年期国债收益率</div><div class="c-val">1.58 <span class="c-delta"><span style="color:#999">→ 持平</span></span></div><div class="c-meta">2026-11-19 · 郁见投资</div></div></div><p class="dim" style="font-size:.85em;margin-bottom:0">最新值及较上次变化；⚠ = 超该指标历史波幅 3 倍中位 · <a href="indicators.html">全部指标趋势 →</a></p></div>
+<div class="dash" id="margin">
+<div class="mp-head">
+<h2>💳 两融杠杆温度计</h2><span class="mp-badge">数据日期距今 85 天</span> 
+<span class="mp-asof">数据日期 2026-08-31（周一，T-1） · 抓取 2026-11-24 11:15</span>
+</div>
+<div class="mp-grid">
+<div class="mp-kpi">
+<div class="mp-label">两融余额（沪深合计）</div>
+<div class="mp-val">2.66<span class="unit">万亿</span></div>
+<div class="mp-sub">26,647 亿元 · 较 08-28 <span class="up">▲ 56 亿（+0.21%）</span></div>
+<div class="mp-sub2">融资 26,355 亿 · 融券 293 亿</div>
+</div>
+<div class="mp-kpi">
+<div class="mp-label">占 A 股流通市值</div>
+<div class="mp-val">2.63<span class="unit">%</span></div>
+<div class="mp-sub">流通市值 101.29 万亿 · 环比 <span class="down">-0.01pp</span></div>
+<div class="mp-sub2">其中融资余额占比 2.60%（东财口径）</div>
+</div>
+<div class="mp-kpi">
+<div class="mp-label">近 5 年分位</div>
+<div class="mp-val" style="color:#c0392b">91.2<span class="unit">%</span></div>
+<div class="mp-sub">样本 1,212 个交易日 · 区间 1.88%–2.92%</div>
+<div class="mp-sub2">当前：极热</div>
+</div>
+</div>
+<div class="mp-pct">
+<div class="pct-head"><span>当前占比在近 5 年中的位置</span>
+<b style="color:#c0392b">91.2% 分位 · 极热</b></div>
+<div class="pct-track">
+<div class="pct-marker" style="left:91.2%"></div>
+<div class="pct-ref" style="left:70.8%"><span>2.5%参考</span></div>
+</div>
+<div class="pct-axis"><span>0 冷</span><span>25</span><span>50 中性</span><span>75</span><span>100 热</span></div>
+</div>
+<div class="mp-chart-cap">近一年两融余额占 A 股流通市值（%）</div>
+<svg class="mp-chart" viewBox="0 0 720 168" role="img" aria-label="近一年两融余额占流通市值走势">
+<defs><linearGradient id="mpArea" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#6f42c1" stop-opacity=".20"/>
+<stop offset="100%" stop-color="#6f42c1" stop-opacity="0"/>
+</linearGradient></defs>
+<line x1="40" y1="30.8" x2="704" y2="30.8" stroke="#eee" stroke-dasharray="3,3"/>
+<line x1="40" y1="129.2" x2="704" y2="129.2" stroke="#eee" stroke-dasharray="3,3"/>
+<path d="M40.0,144.0 L40.0,129.2 L42.8,126.1 L45.5,120.0 L48.3,114.8 L51.0,122.0 L53.8,119.5 L56.5,114.9 L59.3,114.7 L62.0,121.1 L64.8,118.0 L67.6,114.2 L70.3,111.6 L73.1,111.7 L75.8,106.6 L78.6,106.0 L81.3,103.9 L84.1,102.1 L86.8,104.5 L89.6,102.2 L92.3,101.4 L95.1,106.4 L97.9,115.8 L100.6,111.8 L103.4,106.6 L106.1,104.1 L108.9,98.2 L111.6,104.4 L114.4,102.2 L117.1,96.6 L119.9,100.5 L122.7,105.2 L125.4,102.7 L128.2,104.0 L130.9,107.4 L133.7,108.5 L136.4,104.9 L139.2,107.4 L141.9,104.3 L144.7,103.6 L147.5,104.4 L150.2,101.2 L153.0,102.8 L155.7,106.5 L158.5,106.4 L161.2,107.3 L164.0,104.3 L166.7,104.0 L169.5,108.3 L172.2,105.5 L175.0,102.7 L177.8,97.8 L180.5,98.5 L183.3,97.0 L186.0,89.0 L188.8,91.3 L191.5,95.8 L194.3,94.8 L197.0,94.9 L199.8,97.4 L202.6,99.6 L205.3,96.7 L208.1,94.4 L210.8,93.8 L213.6,98.9 L216.3,99.2 L219.1,95.1 L221.8,94.1 L224.6,90.6 L227.4,94.4 L230.1,90.5 L232.9,84.2 L235.6,91.7 L238.4,91.5 L241.1,93.6 L243.9,95.7 L246.6,93.3 L249.4,94.9 L252.1,96.9 L254.9,98.3 L257.7,96.1 L260.4,96.1 L263.2,98.7 L265.9,102.9 L268.7,107.2 L271.4,102.8 L274.2,99.8 L276.9,103.7 L279.7,102.3 L282.5,96.0 L285.2,93.4 L288.0,88.2 L290.7,84.4 L293.5,87.9 L296.2,89.0 L299.0,88.3 L301.7,89.5 L304.5,93.1 L307.3,90.7 L310.0,91.5 L312.8,88.7 L315.5,89.1 L318.3,89.1 L321.0,77.6 L323.8,86.8 L326.5,92.7 L329.3,90.5 L332.0,92.9 L334.8,100.9 L337.6,102.1 L340.3,104.8 L343.1,105.7 L345.8,110.6 L348.6,109.4 L351.3,109.4 L354.1,106.1 L356.8,107.4 L359.6,106.7 L362.4,100.4 L365.1,97.9 L367.9,100.4 L370.6,104.5 L373.4,101.1 L376.1,104.8 L378.9,105.6 L381.6,103.4 L384.4,101.7 L387.2,99.4 L389.9,94.9 L392.7,97.3 L395.4,89.6 L398.2,87.0 L400.9,69.2 L403.7,80.4 L406.4,87.8 L409.2,81.8 L412.0,87.9 L414.7,87.1 L417.5,82.7 L420.2,90.3 L423.0,87.1 L425.7,84.5 L428.5,86.0 L431.2,99.3 L434.0,94.6 L436.7,98.6 L439.5,96.8 L442.3,99.2 L445.0,96.0 L447.8,99.6 L450.5,99.8 L453.3,98.1 L456.0,97.1 L458.8,98.1 L461.5,94.4 L464.3,94.4 L467.1,92.9 L469.8,90.3 L472.6,95.0 L475.3,98.7 L478.1,99.1 L480.8,97.5 L483.6,94.7 L486.3,95.6 L489.1,90.7 L491.9,91.6 L494.6,80.8 L497.4,76.8 L500.1,73.5 L502.9,76.5 L505.6,74.0 L508.4,63.9 L511.1,70.7 L513.9,71.3 L516.6,68.3 L519.4,60.8 L522.2,62.0 L524.9,61.1 L527.7,60.1 L530.4,63.1 L533.2,62.8 L535.9,58.2 L538.7,55.7 L541.4,47.8 L544.2,56.5 L547.0,52.4 L549.7,51.2 L552.5,56.8 L555.2,64.5 L558.0,61.4 L560.7,59.0 L563.5,56.3 L566.2,60.3 L569.0,49.8 L571.8,49.3 L574.5,48.4 L577.3,37.7 L580.0,43.0 L582.8,46.3 L585.5,46.9 L588.3,35.2 L591.0,41.9 L593.8,40.8 L596.5,34.7 L599.3,32.6 L602.1,43.7 L604.8,40.0 L607.6,30.8 L610.3,42.5 L613.1,42.5 L615.8,38.5 L618.6,32.5 L621.3,45.1 L624.1,58.3 L626.9,56.0 L629.6,60.6 L632.4,54.4 L635.1,63.1 L637.9,58.4 L640.6,67.2 L643.4,67.8 L646.1,73.7 L648.9,73.4 L651.7,77.4 L654.4,83.2 L657.2,82.7 L659.9,87.1 L662.7,87.4 L665.4,83.7 L668.2,85.2 L670.9,81.2 L673.7,82.3 L676.4,87.6 L679.2,86.3 L682.0,74.8 L684.7,77.6 L687.5,79.9 L690.2,75.4 L693.0,76.8 L695.7,80.3 L698.5,84.7 L701.2,84.7 L704.0,87.4 L704.0,144.0 Z" fill="url(#mpArea)"/>
+<polyline points="40.0,129.2 42.8,126.1 45.5,120.0 48.3,114.8 51.0,122.0 53.8,119.5 56.5,114.9 59.3,114.7 62.0,121.1 64.8,118.0 67.6,114.2 70.3,111.6 73.1,111.7 75.8,106.6 78.6,106.0 81.3,103.9 84.1,102.1 86.8,104.5 89.6,102.2 92.3,101.4 95.1,106.4 97.9,115.8 100.6,111.8 103.4,106.6 106.1,104.1 108.9,98.2 111.6,104.4 114.4,102.2 117.1,96.6 119.9,100.5 122.7,105.2 125.4,102.7 128.2,104.0 130.9,107.4 133.7,108.5 136.4,104.9 139.2,107.4 141.9,104.3 144.7,103.6 147.5,104.4 150.2,101.2 153.0,102.8 155.7,106.5 158.5,106.4 161.2,107.3 164.0,104.3 166.7,104.0 169.5,108.3 172.2,105.5 175.0,102.7 177.8,97.8 180.5,98.5 183.3,97.0 186.0,89.0 188.8,91.3 191.5,95.8 194.3,94.8 197.0,94.9 199.8,97.4 202.6,99.6 205.3,96.7 208.1,94.4 210.8,93.8 213.6,98.9 216.3,99.2 219.1,95.1 221.8,94.1 224.6,90.6 227.4,94.4 230.1,90.5 232.9,84.2 235.6,91.7 238.4,91.5 241.1,93.6 243.9,95.7 246.6,93.3 249.4,94.9 252.1,96.9 254.9,98.3 257.7,96.1 260.4,96.1 263.2,98.7 265.9,102.9 268.7,107.2 271.4,102.8 274.2,99.8 276.9,103.7 279.7,102.3 282.5,96.0 285.2,93.4 288.0,88.2 290.7,84.4 293.5,87.9 296.2,89.0 299.0,88.3 301.7,89.5 304.5,93.1 307.3,90.7 310.0,91.5 312.8,88.7 315.5,89.1 318.3,89.1 321.0,77.6 323.8,86.8 326.5,92.7 329.3,90.5 332.0,92.9 334.8,100.9 337.6,102.1 340.3,104.8 343.1,105.7 345.8,110.6 348.6,109.4 351.3,109.4 354.1,106.1 356.8,107.4 359.6,106.7 362.4,100.4 365.1,97.9 367.9,100.4 370.6,104.5 373.4,101.1 376.1,104.8 378.9,105.6 381.6,103.4 384.4,101.7 387.2,99.4 389.9,94.9 392.7,97.3 395.4,89.6 398.2,87.0 400.9,69.2 403.7,80.4 406.4,87.8 409.2,81.8 412.0,87.9 414.7,87.1 417.5,82.7 420.2,90.3 423.0,87.1 425.7,84.5 428.5,86.0 431.2,99.3 434.0,94.6 436.7,98.6 439.5,96.8 442.3,99.2 445.0,96.0 447.8,99.6 450.5,99.8 453.3,98.1 456.0,97.1 458.8,98.1 461.5,94.4 464.3,94.4 467.1,92.9 469.8,90.3 472.6,95.0 475.3,98.7 478.1,99.1 480.8,97.5 483.6,94.7 486.3,95.6 489.1,90.7 491.9,91.6 494.6,80.8 497.4,76.8 500.1,73.5 502.9,76.5 505.6,74.0 508.4,63.9 511.1,70.7 513.9,71.3 516.6,68.3 519.4,60.8 522.2,62.0 524.9,61.1 527.7,60.1 530.4,63.1 533.2,62.8 535.9,58.2 538.7,55.7 541.4,47.8 544.2,56.5 547.0,52.4 549.7,51.2 552.5,56.8 555.2,64.5 558.0,61.4 560.7,59.0 563.5,56.3 566.2,60.3 569.0,49.8 571.8,49.3 574.5,48.4 577.3,37.7 580.0,43.0 582.8,46.3 585.5,46.9 588.3,35.2 591.0,41.9 593.8,40.8 596.5,34.7 599.3,32.6 602.1,43.7 604.8,40.0 607.6,30.8 610.3,42.5 613.1,42.5 615.8,38.5 618.6,32.5 621.3,45.1 624.1,58.3 626.9,56.0 629.6,60.6 632.4,54.4 635.1,63.1 637.9,58.4 640.6,67.2 643.4,67.8 646.1,73.7 648.9,73.4 651.7,77.4 654.4,83.2 657.2,82.7 659.9,87.1 662.7,87.4 665.4,83.7 668.2,85.2 670.9,81.2 673.7,82.3 676.4,87.6 679.2,86.3 682.0,74.8 684.7,77.6 687.5,79.9 690.2,75.4 693.0,76.8 695.7,80.3 698.5,84.7 701.2,84.7 704.0,87.4" fill="none" stroke="#6f42c1" stroke-width="2"/>
+<circle cx="704.0" cy="87.4" r="4.5" fill="#fff" stroke="#2e8b57" stroke-width="2.5"/>
+<text x="704" y="24" text-anchor="end" font-size="11" fill="#999">最新 2.63%</text>
+<text x="2" y="34.8" font-size="10" fill="#aaa">2.92%</text>
+<text x="2" y="129.2" font-size="10" fill="#aaa">2.42%</text>
+<text x="40" y="162" font-size="10" fill="#aaa">25/09</text>
+<text x="373.4" y="162" text-anchor="middle" font-size="10" fill="#aaa">26/03</text>
+<text x="704" y="162" text-anchor="end" font-size="10" fill="#aaa">26/08</text>
+</svg>
+<p class="mp-note">
+<b>口径</b>：两融余额 = 融资余额 + 融券余额；交易所 T 日收盘汇总、T+1 早间公布，本页取报告日前一交易日（T-1）。占比 = 两融余额 ÷ A 股流通市值（沪深合计，东方财富数据中心口径），由两项原始数据自行相除，并非交易所直接发布值，故与东财「融资余额占流通市值」列（2.60%）略有差异。
+<br><b>参考</b>：全市场两融余额占流通市值<b>没有正式的监管红线</b>；2.5% / 3.0% 为市场惯用观察阈值（2.5% 约对应近 5 年 71% 分位），历史峰值 4.70%（2015-07-03）。正式规则中的比例口径不同：单只标的融资余额（或信用账户担保物市值）占其流通市值达 25% 时，交易所可暂停其融资买入；维持担保比例 130% 为最低维持担保比例（平仓线），150% 为券商常用警戒线（非交易所统一规定），详见沪深交易所《融资融券交易实施细则》。
+<br><b>数据</b>：沪、深交易所分别公布，本页取东方财富数据中心汇总的沪深合计值 · 数据日期 2026-08-31（周一，T-1） · 本地抓取 2026-11-24 11:15 · 报告日 2026-09-01
+</p>
+</div>
 <blockquote>
 <p>收录 18 篇 | 详读 4 | 速览 5 | 归档 9</p>
 </blockquote>
