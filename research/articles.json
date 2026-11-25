@@ -1,6 +1,267 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "articles": [
+  {
+   "date": "2026-11-25",
+   "title": "张瑜：藏锋破浪——2027年宏观展望报告",
+   "author": "一瑜中的",
+   "url": "https://mp.weixin.qq.com/s/ghAhsy8ztmHunp-rh60tFQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "全球宏观",
+    "2027展望",
+    "A股策略",
+    "黄金",
+    "有色金属"
+   ],
+   "etf_sentiment": {
+    "510300": "空",
+    "518880": "中性",
+    "512400": "空",
+    "511090": "空"
+   },
+   "scores": {
+    "total": 4.85
+   },
+   "summary": "2027基准情形＝全球流动性紧缩（美欧日首次同步加息+缩表）＋AI仅按产业升级假设；A股居民存款搬家力度趋弱、胜率趋降，建议配置低相关红利或持币观望；A债做多空间小；铜价下行风险大于上行；黄金十年战略看多但短期受流动性压制",
+   "page": "research_20261125.html"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "中金2027年度展望 | 港股市场：不破难立",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/BKzRyFnwepdp8mIKbL32Uw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "2027展望",
+    "港股",
+    "AI产业链",
+    "南向资金"
+   ],
+   "etf_sentiment": {
+    "513180": "空",
+    "512800": "多",
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "港股破局关键在修复居民资产负债表，转机可能要待明年年中；当前类似2023下半年至2024年初、正逐步接近价格底，仍可能凭回调早、分红多而领先修复且始于分红资产；配置高股东回报（银行、必需消费）、成本下降（航空、消费电子）、人民币走弱受益出口链",
+   "page": "research_20261125.html"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "黄金何时迎来转机？",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/uvUqHay60jl4051LXp~xig",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "黄金",
+    "美联储",
+    "流动性"
+   ],
+   "etf_sentiment": {
+    "518880": "空"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "黄金本轮弱势源于流动性而非央行卖盘：通胀黏性制约联储转松、美元与实际利率高位使避险资金优先流向美债，金价大跌再触发解杠杆；央行与实物ETF仍在承接；短期反弹看加息预期下修（12月会议），2027年更持久机会看弱美元交易",
+   "page": "research_20261125.html"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "黄仁勋事件的本质：美国党争和芯片管制",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/PMyUOJ7IKtCkovzHmJJ8sQ",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "AI产业链",
+    "中美科技博弈",
+    "半导体",
+    "国产替代"
+   ],
+   "etf_sentiment": {
+    "512480": "多",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.7
+   },
+   "summary": "黄仁勋复职是特朗普与科技圈联手对抗民主党围剿的结果，但中期选举后党争才刚开幕；美国芯片管制已从按国家划线升级为按圈划线（BIS新规扩5国+封堵远程算力），英伟达Q4指引不含任何中国数据中心收入；国产替代加速——国产AI卡份额超60%、DeepSeek V4全量昇腾训练",
+   "page": "research_20261125.html"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "加息迷局：美联储双重目标的再平衡",
+   "author": "川阅全球宏观",
+   "url": "https://mp.weixin.qq.com/s/W~It-E2NFnbC65ZDT2dWgA",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "加息路径",
+    "美国就业",
+    "美国通胀"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "本轮加息是对通胀的预防性操作而非针对过热的逆周期收紧：利率不敏感行业占新增非农近60%（医疗保健单一贡献58.6%），温和加息下就业失速风险有限；加息核心目标是遏制住房通胀反弹（贡献核心CPI六成以上）；加息周期有望明年上半年收官，首轮降息最早明年年底",
+   "page": "research_20261125.html"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "金银铜价继续下跌的风险并未完全解除",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/S4YqNA3MTdprt8MCfbLikA",
+   "level": "detail",
+   "viewpoint": "空",
+   "themes": [
+    "黄金",
+    "有色金属",
+    "美联储",
+    "大宗商品"
+   ],
+   "etf_sentiment": {
+    "518880": "空",
+    "512400": "空",
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "11/23金银铜反弹仅是黄仁勋复职降低不确定性的短暂反应且已回落；除副主席外9名表态票委全部主张12月加息，Williams强调持续压通胀；加息预期未消→美债实际收益率易涨难跌→美元强势，金银铜12月中旬前易跌难涨、抄底需谨慎；美股AI科技股继续剧烈波动并将传导A股",
+   "page": "research_20261125.html"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "高开低走",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/AAje7AJfTRuRPqqrxCZzoA",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "债市",
+    "政金债",
+    "A股复盘",
+    "AI产业链"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "511520": "多",
+    "510300": "中性",
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 3.85
+   },
+   "summary": "11/24权益高开回落、主导力量是内资而非外盘情绪（海外算力链筹码拥挤借利好兑现，中际旭创高开11%收跌0.05%）；债市走强、10Y/30Y下行至1.58%/2.02%；政金债因税收新政猜想午后调整，但公募所得税恢复征收可能性不大，非理性调整是修复机会；算力反弹空间受限，资金或挖掘AI应用端，红利避险仍值得配置",
+   "page": "research_20261125.html"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "化债下半程：多方资源协同支撑债务有序化解",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/tx5e1hzZDJovUchmZ3uxhw",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "化债",
+    "城投债",
+    "信用债"
+   ],
+   "etf_sentiment": {
+    "511520": "多"
+   },
+   "scores": {
+    "total": 3.8
+   },
+   "summary": "化债重心从隐性债务转向平台经营性债务（名单内经营性金融债务较2023年3月末减少79%）；财政+银行+国资协同具备支撑基础，静态测算对银行净息差年化影响仅收窄0.8-1.7bp；城投公开债偿付秩序稳定有望延续，配置基础进一步夯实",
+   "page": "research_20261125.html"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "从极鸽到极鹰，耿直还是邀宠：美联储理事Waller观点的演变",
+   "author": "丹湖渔翁",
+   "url": "https://mp.weixin.qq.com/s/3HdFJxsHdGBOEhgHRbGvDQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美联储",
+    "加息路径"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.55
+   },
+   "summary": "梳理Waller一年内从极鸽（按数据办事）转向极鹰（主张12月加50bp并连续加息收回全部降息）的全过程，判断其转向实质是在向新主席沃什邀宠；与《加息迷局》同题，观点演变脉络有增量",
+   "page": "research_20261125.html"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "美债：加息进程中的曲线策略研究（2）",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/oKTd1Dvx2sSMT2kUyhpJbQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美债",
+    "加息路径",
+    "曲线策略"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 3.15
+   },
+   "summary": "1s2s利差回落快于3m12m、远端已酝酿降息预期；3m-1s-2s蝶式利差30bp处历史高位，若非超级加息周期可用蝶式交易把握1年部位相对价值；境内无可直接交易标的，仅作美债曲线参考",
+   "page": "research_20261125.html"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "黄仁勋复职对股债技术目标的影响",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/nRCbJiK2yrLEK6JtlwRBlw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "技术分析",
+    "国债期货",
+    "A股复盘"
+   ],
+   "etf_sentiment": {
+    "511090": "多",
+    "510300": "中性"
+   },
+   "scores": {
+    "total": 2.75
+   },
+   "summary": "纳指AI逻辑回归或给A债带来短线情绪冲击，TL2703回踩117.09附近可布局大波段多头；上证最大反弹值看3581；与《黄仁勋事件的本质》同题，技术点位参考为主",
+   "page": "research_20261125.html"
+  },
+  {
+   "date": "2026-11-25",
+   "title": "【瞎扯】债市也能复辟吗？",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/d7YaaF97reBR9W4wUM9Wjg",
+   "level": "archived",
+   "viewpoint": "中性",
+   "themes": [
+    "债市",
+    "资金面"
+   ],
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.3
+   },
+   "summary": "闲聊式复盘MLF缩量续作、非银存款分层与临时流动性安排，观点增量与数据密度均低，仅计数归档",
+   "page": "research_20261125.html"
+  },
   {
    "date": "2026-11-24",
    "title": "Gamma挤压放大了上周美股的跌幅",
