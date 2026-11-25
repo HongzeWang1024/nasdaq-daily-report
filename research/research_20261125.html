@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>研报日报 2026-11-25</title>
+<style>
+body { font-family: -apple-system, "Microsoft YaHei", sans-serif; padding: 30px 40px; background: #f5f5f5; color: #222; }
+h1 { color: #6f42c1; border-bottom: 3px solid #6f42c1; padding-bottom: 10px; }
+h2 { color: #333; border-left: 5px solid #6f42c1; padding-left: 10px; margin-top: 30px; }
+h3 { color: #444; margin-top: 22px; }
+p { line-height: 1.75; margin: 10px 0; }
+ul { line-height: 1.85; padding-left: 24px; }
+li { margin: 4px 0; }
+blockquote { background: #fff8e1; border-left: 5px solid #ffc107; padding: 12px 16px; margin: 12px 0; color: #555; border-radius: 0 6px 6px 0; }
+code { background: #f0f0f0; padding: 2px 6px; border-radius: 3px; font-family: Consolas, monospace; font-size: 0.92em; }
+strong { color: #d6336c; }
+em { color: #6f42c1; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; margin: 12px 0; background: white; }
+th, td { padding: 8px 12px; text-align: center; border-bottom: 1px solid #e0e0e0; font-size: 0.95em; }
+th { background: #6f42c1; color: white; }
+tr:hover td { background: #faf5ff; }
+.back { margin-bottom: 16px; }
+.back a { color: #6f42c1; text-decoration: none; font-weight: bold; }
+.nav { display: flex; justify-content: space-between; margin: 0 0 18px 0; padding: 10px 16px; background: white; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+.nav a { color: #6f42c1; text-decoration: none; font-weight: bold; }
+.dim { color: #bbb; }
+.meta { background: white; padding: 12px 18px; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); margin: 16px 0; color: #666; font-size: 0.9em; }
+details { margin: 2px 0; }
+details summary { cursor: pointer; color: #6f42c1; font-weight: bold; user-select: none; }
+details .fold-body { margin: 6px 0 6px 6px; padding-left: 10px; border-left: 2px solid #e5d5f5; }
+.dash { background: white; padding: 16px 20px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); margin: 16px 0; }
+.cards { display: flex; flex-wrap: wrap; gap: 10px; }
+.card { border: 1px solid #ece0f8; border-radius: 8px; padding: 10px 14px; min-width: 190px; flex: 1; }
+.c-name { font-weight: bold; color: #444; font-size: 0.92em; }
+.c-val { font-size: 1.2em; margin: 4px 0; }
+.c-delta { font-size: 0.78em; margin-left: 6px; }
+.c-meta { color: #999; font-size: 0.8em; }
+.bar-row { display: flex; align-items: center; gap: 10px; margin: 6px 0; }
+.bar-label { width: 150px; text-align: right; font-size: 0.88em; color: #444; white-space: nowrap; }
+.bar { display: inline-flex; height: 14px; border-radius: 4px; overflow: hidden; background: #f3f3f3; min-width: 2px; }
+.seg.bull { background: #d6336c; } .seg.neutral { background: #c9c9c9; } .seg.bear { background: #2e8b57; }
+.bar-num { font-size: 0.8em; color: #777; white-space: nowrap; }
+.grade { padding: 2px 10px; border-radius: 10px; font-size: 0.85em; font-weight: bold; }
+.g-strong { background: #ffe3e3; color: #c0392b; }
+.g-watch { background: #fff3cd; color: #856404; }
+.g-hold { background: #eee; color: #888; }
+.g-avoid { background: #e2f3e8; color: #2e8b57; }
+.gap-item { background: #fafafa; padding: 8px 12px; border-radius: 6px; margin: 8px 0; }
+a.etf-link { color: #d6336c; text-decoration: none; border-bottom: 1px dashed #d6336c; font-weight: 600; }
+a.etf-link:hover { background: #ffe3e3; }
+.page-meta { color: #888; font-size: .85em; margin: -6px 0 14px; }
+.tldr { background: linear-gradient(135deg, #faf5ff, #fff8f0); border: 1px solid #ece0f8; border-left: 4px solid #6f42c1; border-radius: 8px; padding: 12px 18px; margin: 14px 0; }
+.tldr-h { font-weight: bold; color: #6f42c1; margin-bottom: 4px; }
+.tldr-h .tldr-sub { color: #999; font-weight: normal; font-size: .8em; margin-left: 6px; }
+.tldr ul { margin: 4px 0 0; padding-left: 20px; }
+.tldr li { margin: 5px 0; line-height: 1.65; }
+.mp-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 14px; }
+.mp-head h2 { margin: 0; border-left: 5px solid #6f42c1; padding-left: 10px; }
+.mp-badge { font-size: .75em; padding: 2px 8px; border-radius: 10px; background: #fff3cd; color: #856404; }
+.mp-badge.err { background: #ffe3e3; color: #c0392b; }
+.mp-asof { color: #999; font-size: .8em; margin-left: auto; }
+.mp-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 14px 0 6px; }
+.mp-kpi { border: 1px solid #ece0f8; border-radius: 8px; padding: 10px 14px; background: #fcfaff; }
+.mp-label { color: #777; font-size: .82em; }
+.mp-val { font-size: 1.85em; font-weight: bold; color: #333; line-height: 1.15; margin: 2px 0 4px; font-family: "SF Mono", Consolas, monospace; }
+.mp-val .unit { font-size: .5em; font-weight: normal; color: #888; margin-left: 3px; }
+.mp-sub { color: #666; font-size: .82em; }
+.mp-sub2 { color: #999; font-size: .76em; margin-top: 2px; }
+.up { color: #d6336c; } .down { color: #2e8b57; }
+.mp-pct { margin: 16px 0 6px; }
+.pct-head { display: flex; justify-content: space-between; align-items: baseline; font-size: .85em; color: #666; margin-bottom: 6px; gap: 8px; }
+.pct-head b { font-size: 1.05em; }
+.pct-track { position: relative; height: 16px; border-radius: 8px; background: linear-gradient(90deg, #d7efdf 0%, #f1f1f1 50%, #f9d7d7 100%); border: 1px solid #eee; }
+.pct-marker { position: absolute; top: -5px; bottom: -5px; width: 3px; background: #333; border-radius: 2px; transform: translateX(-50%); box-shadow: 0 0 0 2px #fff; }
+.pct-marker::after { content: ""; position: absolute; left: 50%; top: -4px; width: 9px; height: 9px; background: #333; border-radius: 50%; transform: translateX(-50%); }
+.pct-ref { position: absolute; top: 0; bottom: 0; border-left: 1px dashed #888; }
+.pct-ref span { position: absolute; top: -17px; left: 0; transform: translateX(-50%); font-size: .68em; color: #777; white-space: nowrap; }
+.pct-axis { display: flex; justify-content: space-between; color: #aaa; font-size: .72em; margin-top: 4px; }
+.mp-chart { width: 100%; height: auto; display: block; margin: 10px 0 2px; }
+.mp-chart-cap { color: #777; font-size: .8em; margin-top: 14px; }
+.mp-note { color: #8a8a8a; font-size: .76em; line-height: 1.65; margin: 8px 0 0; }
+.mp-note b { color: #666; }
+.mp-missing { background: #fff8e1; border-left: 4px solid #ffc107; border-radius: 0 6px 6px 0; padding: 10px 14px; color: #7a5d00; font-size: .9em; }
+.tbl-fold summary { cursor: pointer; color: #6f42c1; font-weight: bold; font-size: .88em; padding: 6px 0; }
+@media (max-width: 760px) {
+  body { padding: 12px 10px; }
+  h1 { font-size: 1.4em; }
+  h2 { font-size: 1.12em; margin-top: 22px; }
+  .nav { flex-direction: row; gap: 6px; text-align: center; font-size: .9em; }
+  .cards .card { min-width: 100%; }
+  .bar-label { width: 96px; font-size: .78em; }
+  th, td { padding: 6px 8px; font-size: .86em; }
+  .table-wrap { -webkit-overflow-scrolling: touch; }
+  .mp-grid { grid-template-columns: 1fr; }
+  .mp-asof { margin-left: 0; width: 100%; }
+  .mp-val { font-size: 1.6em; }
+  .tldr { padding: 10px 12px; }
+}
+</style>
+</head>
+<body>
+<p class="back"><a href="index.html">← 检索/列表</a> · <a href="indicators.html">指标追踪</a> · <a href="authors.html">机构观点</a> · <a href="themes.html">主题专题</a> · <a href="../index.html">主页</a></p>
+<div class="nav"><a href="research_20261124.html">← 前一天</a><span style="color:#666;font-weight:bold;">2026-11-25</span><span class=dim>后一天 →</span></div>
+<h1>研报日报 2026-11-25</h1>
+<div class="page-meta">研报内容截至 2026-11-25 ｜ 两融数据 2026-11-24（T-1） ｜ 行情指标以卡片标注日期为准</div>
+<div class="tldr"><div class="tldr-h">📌 今日要点<span class="tldr-sub">先看这 3 条</span></div><ul><li>【一瑜中的】2027 基准情形＝全球流动性紧缩＋AI 仅产业升级：A 股胜率趋降，建议配置低相关红利或持币观望，黄金十年看多但短期受流动性压制（<a class="etf-link" href="index.html?etf=510300">510300</a>）</li><li>【中金点睛】港股 2027&quot;不破难立&quot;：基准恒指 25,000-26,000、恒科 4,500，转机或在明年年中，配置以高股东回报打底（<a class="etf-link" href="index.html?etf=512800">512800</a>、<a class="etf-link" href="index.html?etf=513180">513180</a>）</li><li>【泽平宏观】黄仁勋复职不改变党争本质，芯片管制已&quot;按圈划线&quot;，国产 AI 卡份额超 60%，国产替代加速是长期主线（<a class="etf-link" href="index.html?etf=512480">512480</a>）</li></ul></div>
+<div class="dash"><div class="cards"><div class="card" style="min-width:230px"><div class="c-name">🧭 卖方情绪指数</div><div class="c-val" style="font-size:1.9em;color:#d6336c">69.0 <span style="color:#2e8b57;font-weight:bold">▼ -15</span></div><div class="c-meta">0-100 · 60%看多占比+40%评分归一 · 较上期变化</div></div><div class="card"><div class="c-name">📚 今日收录</div><div class="c-val">12 篇</div><div class="c-meta">详读 8 · 速览 3 · 归档 1</div></div><div class="card"><div class="c-name">⚡ 今日预期差</div><div class="c-val">1 个</div><div class="c-meta">详见下方卡片</div></div><div class="card"><div class="c-name">⚠ 市场风险等级</div><div class="c-val" style="color:#d6336c">高（93）</div><div class="c-meta">四类因子加权 · 宏观流动性 10.8、板块情绪 7.8</div></div></div></div>
+<div class="dash" style="background:#fff8f0;border-left:4px solid #e67e22">⚠ 风险等级偏高，防御关注：511090（30年国债）、518880（黄金）</div>
+<div class="dash"><h2 style="margin-top:0">⚡ 今日预期差事件（超额收益来源）</h2><div class="gap-item" style="border-left:4px solid #d6336c"><div style="font-weight:bold">↓ 黄仁勋复职英伟达单日+31.48%、纳指+6.51% <span style="color:#d6336c">［差于预期］</span></div><div style="font-size:.9em;color:#555"></div><div style="font-size:.85em;color:#888">标的：- · 解读：-</div></div></div>
+<div class="dash"><h2 style="margin-top:0">📊 ETF 情绪共识分布</h2><div class="bar-row"><span class="bar-label">512480 半导体</span><span class="bar"><span class="seg bull" style="width:93px"></span><span class="seg neutral" style="width:187px"></span><span class="seg bear" style="width:0px"></span></span><span class="bar-num">多 1 / 中 2 / 空 0</span></div>
+<div class="bar-row"><span class="bar-label">511090 30年国债</span><span class="bar"><span class="seg bull" style="width:187px"></span><span class="seg neutral" style="width:0px"></span><span class="seg bear" style="width:93px"></span></span><span class="bar-num">多 2 / 中 0 / 空 1</span></div>
+<div class="bar-row"><span class="bar-label">511520 政金债</span><span class="bar"><span class="seg bull" style="width:93px"></span><span class="seg neutral" style="width:0px"></span><span class="seg bear" style="width:0px"></span></span><span class="bar-num">多 1 / 中 0 / 空 0</span></div>
+<div class="bar-row"><span class="bar-label">512800 银行</span><span class="bar"><span class="seg bull" style="width:93px"></span><span class="seg neutral" style="width:0px"></span><span class="seg bear" style="width:0px"></span></span><span class="bar-num">多 1 / 中 0 / 空 0</span></div>
+<div class="bar-row"><span class="bar-label">513100 纳指</span><span class="bar"><span class="seg bull" style="width:0px"></span><span class="seg neutral" style="width:187px"></span><span class="seg bear" style="width:0px"></span></span><span class="bar-num">多 0 / 中 2 / 空 0</span></div>
+<div class="bar-row"><span class="bar-label">513180 恒生科技</span><span class="bar"><span class="seg bull" style="width:0px"></span><span class="seg neutral" style="width:0px"></span><span class="seg bear" style="width:93px"></span></span><span class="bar-num">多 0 / 中 0 / 空 1</span></div>
+<div class="bar-row"><span class="bar-label">510300 沪深300</span><span class="bar"><span class="seg bull" style="width:0px"></span><span class="seg neutral" style="width:187px"></span><span class="seg bear" style="width:93px"></span></span><span class="bar-num">多 0 / 中 2 / 空 1</span></div>
+<div class="bar-row"><span class="bar-label">518880 黄金</span><span class="bar"><span class="seg bull" style="width:0px"></span><span class="seg neutral" style="width:93px"></span><span class="seg bear" style="width:187px"></span></span><span class="bar-num">多 0 / 中 1 / 空 2</span></div>
+<div class="bar-row"><span class="bar-label">512400 有色/铜</span><span class="bar"><span class="seg bull" style="width:0px"></span><span class="seg neutral" style="width:0px"></span><span class="seg bear" style="width:187px"></span></span><span class="bar-num">多 0 / 中 0 / 空 2</span></div></div>
+<div class="dash"><h2 style="margin-top:0">📈 核心指标看板</h2><div class="cards"><div class="card"><div class="c-name">10年国债收益率</div><div class="c-val">1.59 <span class="c-delta"><span style="color:#d6336c;font-weight:bold">▲ +0.002</span></span></div><div class="c-meta">2026-11-23 · 郁见投资</div></div><div class="card"><div class="c-name">30年国债收益率</div><div class="c-val">2.06 <span class="c-delta"><span style="color:#d6336c;font-weight:bold">▲ +0.02</span></span></div><div class="c-meta">2026-11-23 · 郁见投资</div></div><div class="card"><div class="c-name">DR001</div><div class="c-val">1.26 <span class="c-delta"><span style="color:#d6336c;font-weight:bold">▲ +0.01</span></span></div><div class="c-meta">2026-11-22 · 覃汉研究笔记</div></div><div class="card"><div class="c-name">10Y国债收益率</div><div class="c-val">1.58 <span class="c-delta"><span style="color:#999">→ 持平</span></span></div><div class="c-meta">2026-11-24 · 郁见投资</div></div><div class="card"><div class="c-name">30Y国债收益率</div><div class="c-val">2.02 <span class="c-delta"><span style="color:#2e8b57;font-weight:bold">▼ -0.02</span></span></div><div class="c-meta">2026-11-24 · 郁见投资</div></div><div class="card"><div class="c-name">R001</div><div class="c-val">1.34 <span class="c-delta"><span style="color:#d6336c;font-weight:bold">▲ +0.01</span></span></div><div class="c-meta">2026-11-22 · 郁言债市</div></div><div class="card"><div class="c-name">10年期美债收益率</div><div class="c-val">5.15 <span class="c-delta"><span style="color:#d6336c;font-weight:bold">▲ +0.05</span></span></div><div class="c-meta">2026-11-17 · 固收荷语</div></div><div class="card"><div class="c-name">10年期国债收益率</div><div class="c-val">1.58 <span class="c-delta"><span style="color:#999">→ 持平</span></span></div><div class="c-meta">2026-11-19 · 郁见投资</div></div></div><p class="dim" style="font-size:.85em;margin-bottom:0">最新值及较上次变化；⚠ = 超该指标历史波幅 3 倍中位 · <a href="indicators.html">全部指标趋势 →</a></p></div>
+<div class="dash" id="margin">
+<div class="mp-head">
+<h2>💳 两融杠杆温度计</h2>
+<span class="mp-asof">数据日期 2026-11-24（周二，T-1） · 抓取 2026-11-25 08:59</span>
+</div>
+<div class="mp-grid">
+<div class="mp-kpi">
+<div class="mp-label">两融余额（沪深合计）</div>
+<div class="mp-val">2.17<span class="unit">万亿</span></div>
+<div class="mp-sub">21,718 亿元 · 较 11-23 <span class="up">▲ 6 亿（+0.03%）</span></div>
+<div class="mp-sub2">融资 21,422 亿 · 融券 296 亿</div>
+</div>
+<div class="mp-kpi">
+<div class="mp-label">占 A 股流通市值</div>
+<div class="mp-val">2.52<span class="unit">%</span></div>
+<div class="mp-sub">流通市值 86.03 万亿 · 环比 <span class="down">-0.00pp</span></div>
+<div class="mp-sub2">其中融资余额占比 2.49%（东财口径）</div>
+</div>
+<div class="mp-kpi">
+<div class="mp-label">近 5 年分位</div>
+<div class="mp-val" style="color:#e67e22">74.2<span class="unit">%</span></div>
+<div class="mp-sub">样本 1,213 个交易日 · 区间 1.88%–2.92%</div>
+<div class="mp-sub2">当前：偏热</div>
+</div>
+</div>
+<div class="mp-pct">
+<div class="pct-head"><span>当前占比在近 5 年中的位置</span>
+<b style="color:#e67e22">74.2% 分位 · 偏热</b></div>
+<div class="pct-track">
+<div class="pct-marker" style="left:74.2%"></div>
+<div class="pct-ref" style="left:70.7%"><span>2.5%参考</span></div>
+</div>
+<div class="pct-axis"><span>0 冷</span><span>25</span><span>50 中性</span><span>75</span><span>100 热</span></div>
+</div>
+<div class="mp-chart-cap">近一年两融余额（万亿元，沪深合计） · 末端为最新值</div>
+<svg class="mp-chart" viewBox="0 0 720 168" role="img" aria-label="近一年两融余额走势">
+<defs><linearGradient id="mpArea" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#6f42c1" stop-opacity=".20"/>
+<stop offset="100%" stop-color="#6f42c1" stop-opacity="0"/>
+</linearGradient></defs>
+<line x1="44" y1="30.8" x2="704" y2="30.8" stroke="#eee" stroke-dasharray="3,3"/>
+<line x1="44" y1="129.2" x2="704" y2="129.2" stroke="#eee" stroke-dasharray="3,3"/>
+<path d="M44.0,144.0 L44.0,96.4 L46.7,95.9 L49.5,95.2 L52.2,94.9 L54.9,94.7 L57.6,93.5 L60.4,93.2 L63.1,93.6 L65.8,93.5 L68.5,93.8 L71.3,91.6 L74.0,90.5 L76.7,90.0 L79.5,90.7 L82.2,91.5 L84.9,91.0 L87.6,91.1 L90.4,91.3 L93.1,91.7 L95.8,91.2 L98.5,89.8 L101.3,88.1 L104.0,86.9 L106.7,86.5 L109.5,86.7 L112.2,85.7 L114.9,85.3 L117.6,87.0 L120.4,84.7 L123.1,82.5 L125.8,79.7 L128.5,77.9 L131.3,77.1 L134.0,71.8 L136.7,70.8 L139.5,69.0 L142.2,66.7 L144.9,65.2 L147.6,66.2 L150.4,67.7 L153.1,66.4 L155.8,66.0 L158.5,66.1 L161.3,65.9 L164.0,66.1 L166.7,63.9 L169.5,64.3 L172.2,67.1 L174.9,67.8 L177.6,68.1 L180.4,69.6 L183.1,71.0 L185.8,73.0 L188.5,72.9 L191.3,73.3 L194.0,75.2 L196.7,75.0 L199.5,81.6 L202.2,77.6 L204.9,74.9 L207.6,72.6 L210.4,72.3 L213.1,71.8 L215.8,74.4 L218.5,75.4 L221.3,74.3 L224.0,75.0 L226.7,75.0 L229.5,73.9 L232.2,73.2 L234.9,72.8 L237.6,74.3 L240.4,73.2 L243.1,74.3 L245.8,74.0 L248.5,74.5 L251.3,76.5 L254.0,77.9 L256.7,78.7 L259.5,78.2 L262.2,78.3 L264.9,79.2 L267.6,78.3 L270.4,79.2 L273.1,79.1 L275.8,80.4 L278.5,82.4 L281.3,82.0 L284.0,80.1 L286.7,79.2 L289.5,78.6 L292.2,76.7 L294.9,74.8 L297.6,73.6 L300.4,72.4 L303.1,72.1 L305.8,68.8 L308.5,68.0 L311.3,66.4 L314.0,66.0 L316.7,67.4 L319.5,65.6 L322.2,65.6 L324.9,65.1 L327.6,67.1 L330.4,62.3 L333.1,58.9 L335.8,57.1 L338.5,53.5 L341.3,51.6 L344.0,48.9 L346.7,47.9 L349.5,48.7 L352.2,46.8 L354.9,46.2 L357.6,45.4 L360.4,46.4 L363.1,46.1 L365.8,43.1 L368.5,42.2 L371.3,41.8 L374.0,41.1 L376.7,44.5 L379.5,45.5 L382.2,45.3 L384.9,44.3 L387.6,43.6 L390.4,45.2 L393.1,47.9 L395.8,47.4 L398.5,48.3 L401.3,49.0 L404.0,49.0 L406.7,46.2 L409.5,43.1 L412.2,39.9 L414.9,38.5 L417.6,35.1 L420.4,34.4 L423.1,32.8 L425.8,30.8 L428.5,33.2 L431.3,34.1 L434.0,32.2 L436.7,31.1 L439.5,31.9 L442.2,34.2 L444.9,35.4 L447.6,36.9 L450.4,39.1 L453.1,39.5 L455.8,40.8 L458.5,44.8 L461.3,46.0 L464.0,47.4 L466.7,50.7 L469.5,60.0 L472.2,66.8 L474.9,66.7 L477.6,66.6 L480.4,67.6 L483.1,70.2 L485.8,69.0 L488.5,72.3 L491.3,75.3 L494.0,79.5 L496.7,78.9 L499.5,79.9 L502.2,78.5 L504.9,77.0 L507.6,75.7 L510.4,74.8 L513.1,73.1 L515.8,73.0 L518.5,71.9 L521.3,71.6 L524.0,71.8 L526.7,69.7 L529.5,69.0 L532.2,72.5 L534.9,72.7 L537.6,73.3 L540.4,73.8 L543.1,73.8 L545.8,74.2 L548.5,72.8 L551.3,73.5 L554.0,72.8 L556.7,72.6 L559.5,73.3 L562.2,73.8 L564.9,75.9 L567.6,74.6 L570.4,74.4 L573.1,74.7 L575.8,74.9 L578.5,76.6 L581.3,77.2 L584.0,77.1 L586.7,76.0 L589.5,75.8 L592.2,75.9 L594.9,74.2 L597.6,73.8 L600.4,74.0 L603.1,76.0 L605.8,79.0 L608.5,79.2 L611.3,83.7 L614.0,83.2 L616.7,84.8 L619.5,85.4 L622.2,86.4 L624.9,87.7 L627.6,91.3 L630.4,92.9 L633.1,93.7 L635.8,93.9 L638.5,94.0 L641.3,96.7 L644.0,99.5 L646.7,100.1 L649.5,102.0 L652.2,101.7 L654.9,104.8 L657.6,109.6 L660.4,111.0 L663.1,114.6 L665.8,114.5 L668.5,113.7 L671.3,116.4 L674.0,115.0 L676.7,115.1 L679.5,114.2 L682.2,114.2 L684.9,116.0 L687.6,118.5 L690.4,120.6 L693.1,121.6 L695.8,123.4 L698.5,128.2 L701.3,129.2 L704.0,129.2 L704.0,144.0 Z" fill="url(#mpArea)"/>
+<polyline points="44.0,96.4 46.7,95.9 49.5,95.2 52.2,94.9 54.9,94.7 57.6,93.5 60.4,93.2 63.1,93.6 65.8,93.5 68.5,93.8 71.3,91.6 74.0,90.5 76.7,90.0 79.5,90.7 82.2,91.5 84.9,91.0 87.6,91.1 90.4,91.3 93.1,91.7 95.8,91.2 98.5,89.8 101.3,88.1 104.0,86.9 106.7,86.5 109.5,86.7 112.2,85.7 114.9,85.3 117.6,87.0 120.4,84.7 123.1,82.5 125.8,79.7 128.5,77.9 131.3,77.1 134.0,71.8 136.7,70.8 139.5,69.0 142.2,66.7 144.9,65.2 147.6,66.2 150.4,67.7 153.1,66.4 155.8,66.0 158.5,66.1 161.3,65.9 164.0,66.1 166.7,63.9 169.5,64.3 172.2,67.1 174.9,67.8 177.6,68.1 180.4,69.6 183.1,71.0 185.8,73.0 188.5,72.9 191.3,73.3 194.0,75.2 196.7,75.0 199.5,81.6 202.2,77.6 204.9,74.9 207.6,72.6 210.4,72.3 213.1,71.8 215.8,74.4 218.5,75.4 221.3,74.3 224.0,75.0 226.7,75.0 229.5,73.9 232.2,73.2 234.9,72.8 237.6,74.3 240.4,73.2 243.1,74.3 245.8,74.0 248.5,74.5 251.3,76.5 254.0,77.9 256.7,78.7 259.5,78.2 262.2,78.3 264.9,79.2 267.6,78.3 270.4,79.2 273.1,79.1 275.8,80.4 278.5,82.4 281.3,82.0 284.0,80.1 286.7,79.2 289.5,78.6 292.2,76.7 294.9,74.8 297.6,73.6 300.4,72.4 303.1,72.1 305.8,68.8 308.5,68.0 311.3,66.4 314.0,66.0 316.7,67.4 319.5,65.6 322.2,65.6 324.9,65.1 327.6,67.1 330.4,62.3 333.1,58.9 335.8,57.1 338.5,53.5 341.3,51.6 344.0,48.9 346.7,47.9 349.5,48.7 352.2,46.8 354.9,46.2 357.6,45.4 360.4,46.4 363.1,46.1 365.8,43.1 368.5,42.2 371.3,41.8 374.0,41.1 376.7,44.5 379.5,45.5 382.2,45.3 384.9,44.3 387.6,43.6 390.4,45.2 393.1,47.9 395.8,47.4 398.5,48.3 401.3,49.0 404.0,49.0 406.7,46.2 409.5,43.1 412.2,39.9 414.9,38.5 417.6,35.1 420.4,34.4 423.1,32.8 425.8,30.8 428.5,33.2 431.3,34.1 434.0,32.2 436.7,31.1 439.5,31.9 442.2,34.2 444.9,35.4 447.6,36.9 450.4,39.1 453.1,39.5 455.8,40.8 458.5,44.8 461.3,46.0 464.0,47.4 466.7,50.7 469.5,60.0 472.2,66.8 474.9,66.7 477.6,66.6 480.4,67.6 483.1,70.2 485.8,69.0 488.5,72.3 491.3,75.3 494.0,79.5 496.7,78.9 499.5,79.9 502.2,78.5 504.9,77.0 507.6,75.7 510.4,74.8 513.1,73.1 515.8,73.0 518.5,71.9 521.3,71.6 524.0,71.8 526.7,69.7 529.5,69.0 532.2,72.5 534.9,72.7 537.6,73.3 540.4,73.8 543.1,73.8 545.8,74.2 548.5,72.8 551.3,73.5 554.0,72.8 556.7,72.6 559.5,73.3 562.2,73.8 564.9,75.9 567.6,74.6 570.4,74.4 573.1,74.7 575.8,74.9 578.5,76.6 581.3,77.2 584.0,77.1 586.7,76.0 589.5,75.8 592.2,75.9 594.9,74.2 597.6,73.8 600.4,74.0 603.1,76.0 605.8,79.0 608.5,79.2 611.3,83.7 614.0,83.2 616.7,84.8 619.5,85.4 622.2,86.4 624.9,87.7 627.6,91.3 630.4,92.9 633.1,93.7 635.8,93.9 638.5,94.0 641.3,96.7 644.0,99.5 646.7,100.1 649.5,102.0 652.2,101.7 654.9,104.8 657.6,109.6 660.4,111.0 663.1,114.6 665.8,114.5 668.5,113.7 671.3,116.4 674.0,115.0 676.7,115.1 679.5,114.2 682.2,114.2 684.9,116.0 687.6,118.5 690.4,120.6 693.1,121.6 695.8,123.4 698.5,128.2 701.3,129.2 704.0,129.2" fill="none" stroke="#6f42c1" stroke-width="2"/>
+<circle cx="704.0" cy="129.2" r="4.5" fill="#fff" stroke="#2e8b57" stroke-width="2.5"/>
+<text x="704" y="24" text-anchor="end" font-size="11" fill="#999">最新 2.17 万亿</text>
+<text x="2" y="34.8" font-size="10" fill="#aaa">3.03</text>
+<text x="2" y="129.2" font-size="10" fill="#aaa">2.17</text>
+<text x="44" y="162" font-size="10" fill="#aaa">25/11</text>
+<text x="374.0" y="162" text-anchor="middle" font-size="10" fill="#aaa">26/05</text>
+<text x="704" y="162" text-anchor="end" font-size="10" fill="#aaa">26/11</text>
+</svg>
+<p class="mp-note">
+<b>口径</b>：两融余额 = 融资余额 + 融券余额；交易所 T 日收盘汇总、T+1 早间公布，本页取报告日前一交易日（T-1）。占比 = 两融余额 ÷ A 股流通市值（沪深合计，东方财富数据中心口径），由两项原始数据自行相除，并非交易所直接发布值，故与东财「融资余额占流通市值」列（2.49%）略有差异。
+<br><b>参考</b>：全市场两融余额占流通市值<b>没有正式的监管红线</b>；2.5% / 3.0% 是部分市场观点常用的偏热 / 高位观察线（非监管规定，2.5% 约对应近 5 年 71% 分位），历史峰值 4.70%（2015-07-03）。正式规则中的比例口径不同：单只标的融资余额（或信用账户担保物市值）占其流通市值达 25% 时，交易所可暂停其融资买入；维持担保比例 130% 为最低维持担保比例（平仓线），150% 为券商常用警戒线（非交易所统一规定），详见沪深交易所《融资融券交易实施细则》。
+<br><b>数据</b>：沪、深交易所分别公布，本页取东方财富数据中心汇总的沪深合计值 · 数据日期 2026-11-24（周二，T-1） · 本地抓取 2026-11-25 08:59 · 报告日 2026-11-25
+</p>
+</div>
+<blockquote>
+<p>收录 12 篇（含 11-24 早间至今日凌晨堆积） | 详读 8 | 速览 3 | 归档 1</p>
+</blockquote>
+<blockquote>
+<p>⚠️ 正文缺口 13 篇（环境校验类 12 / URL 类 1）：已进入待补抓队列自动重试，明细见文末「附：待补抓清单」。</p>
+</blockquote>
+<h2>〇、今日核心风险</h2>
+<ul>
+<li>美联储加息与全球流动性紧缩（近7日频次 6 次，升温 ⚠️）：Waller 主张 12 月加 50bp 并连续加息、Williams 暗示&quot;持续加息&quot;压通胀，除副主席外 9 名表态票委全部主张 12 月加息；美欧日共振紧缩为 20 年来首次</li>
+<li>AI 产业链重定价与资本开支收缩（近7日频次 5 次，持平）：黄仁勋复职缓和短线情绪，但云厂商边际 ROIC 已低于 WACC、Neocloud 杠杆超 600%，2027 年资本开支增速回落是共识，听证会与管制风险未消</li>
+<li>中美科技博弈与芯片管制升级（近7日频次 3 次，升温 ⚠️）：BIS 新规从&quot;按国家划线&quot;转向&quot;按圈划线&quot;，12 月 1-3 日国会三场听证会临近，民主党 80% 议员支持收紧对华芯片管制</li>
+<li>黄金/大宗流动性抛压（近7日频次 3 次，升温 ⚠️）：伦敦金跌破 3600 美元，避险资金分流美债+杠杆解仓双重卖压，机构一致提示短期弱势未解除、抄底需谨慎</li>
+<li>国内居民信用收缩（近7日频次 2 次，持平）：前三季度居民贷款净偿还 1 万亿元创纪录，居民净资产增速时隔八个季度再度回落，存款重新定期化</li>
+</ul>
+<h2>一、今日要点（3-5 条，每条一句话）</h2>
+<ul>
+<li>【一瑜中的】2027 基准情形＝全球流动性紧缩＋AI 仅产业升级：A 股胜率趋降，建议配置低相关红利或持币观望，黄金十年看多但短期受流动性压制（<a class="etf-link" href="index.html?etf=510300">510300</a>）</li>
+<li>【中金点睛】港股 2027&quot;不破难立&quot;：基准恒指 25,000-26,000、恒科 4,500，转机或在明年年中，配置以高股东回报打底（<a class="etf-link" href="index.html?etf=512800">512800</a>、<a class="etf-link" href="index.html?etf=513180">513180</a>）</li>
+<li>【泽平宏观】黄仁勋复职不改变党争本质，芯片管制已&quot;按圈划线&quot;，国产 AI 卡份额超 60%，国产替代加速是长期主线（<a class="etf-link" href="index.html?etf=512480">512480</a>）</li>
+<li>【建投宏观】黄金弱势源于流动性而非央行卖盘（Q3 央行净购金 321 吨），短期仍可能反复探底，12 月联储会议或提供喘息空间（<a class="etf-link" href="index.html?etf=518880">518880</a>）</li>
+<li>【川阅全球宏观】本轮加息属预防性、累计或仅 3-4 次，就业结构对利率不敏感、深度衰退概率不高，加息周期有望明年上半年收官</li>
+</ul>
+<h2>二、ETF 情绪共识矩阵</h2>
+<div class="table-wrap"><table>
+<tr><th>ETF</th><th>名称</th><th>看多</th><th>看空</th><th>中性</th><th>净倾向</th></tr>
+<tr><td><a class="etf-link" href="index.html?etf=518880">518880</a></td><td>黄金</td><td>0</td><td>2</td><td>1</td><td>偏空（短期）</td></tr>
+<tr><td><a class="etf-link" href="index.html?etf=512400">512400</a></td><td>有色/铜</td><td>0</td><td>2</td><td>0</td><td>偏空</td></tr>
+<tr><td><a class="etf-link" href="index.html?etf=513180">513180</a></td><td>恒生科技</td><td>0</td><td>1</td><td>0</td><td>偏空</td></tr>
+<tr><td><a class="etf-link" href="index.html?etf=510300">510300</a></td><td>沪深300</td><td>0</td><td>1</td><td>2</td><td>中性偏空</td></tr>
+<tr><td><a class="etf-link" href="index.html?etf=513100">513100</a></td><td>纳指</td><td>0</td><td>0</td><td>2</td><td>中性</td></tr>
+<tr><td><a class="etf-link" href="index.html?etf=512480">512480</a></td><td>半导体</td><td>1</td><td>0</td><td>2</td><td>略偏多</td></tr>
+<tr><td><a class="etf-link" href="index.html?etf=511090">511090</a></td><td>30年国债</td><td>2</td><td>1</td><td>0</td><td>略偏多</td></tr>
+<tr><td><a class="etf-link" href="index.html?etf=511520">511520</a></td><td>政金债</td><td>1</td><td>0</td><td>0</td><td>偏多</td></tr>
+<tr><td><a class="etf-link" href="index.html?etf=512800">512800</a></td><td>银行</td><td>1</td><td>0</td><td>0</td><td>偏多</td></tr>
+</table></div>
+<h2>三、主题聚类：共识与分歧</h2>
+<h3 id="a1">主题1：美联储加息路径与全球流动性紧缩</h3>
+<ul>
+<li><strong>共识</strong>：12 月加息 25bp 几成定局（9 名表态票委中 8 人主张）；本轮为预防性克制加息，累计 3-4 次、明年上半年收官；就业结构对加息不敏感（利率不敏感行业占新增非农近 60%），深度衰退概率低；美债实际收益率近 3% 分流黄金避险需求。</li>
+<li><strong>分歧</strong>：加息节奏——Waller 主张 12 月加 50bp 并连续加息收回全部 75bp&quot;保险式降息&quot; vs 洛根主张三次后暂停观察 vs 林彦/丹湖渔翁倾向季度节奏（12 月/1 月/3 月各 25bp）；首轮降息时点——林彦推算最早明年年底，市场部分预期年中。</li>
+</ul>
+<h3 id="a2">主题2：黄金与大宗——流动性挤压下的弱势</h3>
+<ul>
+<li><strong>共识</strong>：金价下跌源于流动性收敛（强美元+高实际利率+杠杆解仓+避险分流美债）而非央行卖盘；短期弱势未解除，12 月会议或给喘息；2027 年配置机会看&quot;弱美元交易&quot;。</li>
+<li><strong>分歧</strong>：中期方向——建投（美股若再跌且美债失效，海外资金降美元敞口将带来持久买盘）vs 丹湖渔翁（看空至 2027Q1，LME 铜 2027 或跌破 13000 甚至 12000 美元，抄底千万谨慎）vs 张瑜（十年战略看多，短期流动性权重上升）。</li>
+</ul>
+<h3 id="a3">主题3：黄仁勋复职与 AI 产业链</h3>
+<ul>
+<li><strong>共识</strong>：复职短线提振情绪（英伟达 +31.48%、单日市值 +9524 亿美元创纪录，纳指 +6.51%），但英伟达问题未解决（12 月听证会、管制、Q4 对华收入归零）；A 股算力链高开低走显示筹码兑现压力；2027 年 AI 资本开支增速回落是共识。</li>
+<li><strong>分歧</strong>：AI 定性——泽平（第四次科技革命、康波周期方兴未艾）vs 张瑜（更像产业升级而非科技革命，投入天花板隐现：美国数据中心年回报需求 3.55 万亿美元≈GDP 的 11.5%、四大云厂商自由现金流合计 -264 亿美元）。</li>
+</ul>
+<h3 id="a4">主题4：2027 年度展望——港股与 A 股配置</h3>
+<ul>
+<li><strong>共识</strong>：全球流动性紧缩压制估值；居民信用收缩制约内需修复；配置以红利/高股东回报打底。</li>
+<li><strong>分歧</strong>：中金（港股回调早、分红多，可能领先修复且始于分红资产，明年年中是转机节点）vs 张瑜（A 股居民存款搬家力度趋弱、PB 与胜率面临回落，低相关红利已涨 14%，建议持币观望）。</li>
+</ul>
+<h2>四、重要研报详读（总分≥3.6）</h2>
+<h3 id="a5">1. 《张瑜：藏锋破浪——2027年宏观展望报告》—— 一瑜中的 ｜ 综合 4.9★（增量5·数据5·交易5·时效4）</h3>
+<ul>
+<li><strong>核心观点</strong>：2027 基准情形＝流动性紧（美欧日首次同步加息+缩表、中国居民存款活化降速）＋AI 仅按产业升级假设；A股胜率趋降，抱团瓦解后低相关红利相对收益最佳但已涨 14%，增量资金建议持币观望</li>
+<li><strong>关键数据</strong>：美国 2025-2032 规划数据中心年回报需求约 3.55 万亿美元（占 GDP 11.5%）；四大云厂商 2026Q3 自由现金流合计约 -264 亿美元；Neocloud 杠杆率超 600%；CoreWeave CDS 利差峰值 1241bp；预计 2027 年 GDP 4.5%、社融/M2 增速均降至 6.4%、出口 7.1%、PPI 0.1%、社零 2.1%、地产投资 -23.3%</li>
+<li><details><summary>逻辑链条</summary><div class="fold-body">全球紧缩抗通胀决心强化（通胀预期 2000 年来高位）→ 流动性压制港股/黄金/有色估值；AI 投入回报/融资/落地三环节均现约束 → 投资增速放缓 → 出口回落 → 国内以财政限额余额与中游制造投资对冲</div></details></li>
+<li><strong>投资启示</strong>：A 股配置低相关红利（好于高相关红利）或持币；A 债做多空间小，打开需央行降息；铜价下行风险大于上行；黄金短期承压、十年战略看多；人民币双向波动（<a class="etf-link" href="index.html?etf=510300">510300</a>、<a class="etf-link" href="index.html?etf=511090">511090</a>、<a class="etf-link" href="index.html?etf=512400">512400</a>、<a class="etf-link" href="index.html?etf=518880">518880</a>）</li>
+<li><details><summary>风险提示</summary><div class="fold-body">油价下行不畅（地缘运价 32 美元/桶 vs 年初 3.2 美元）；法国债务风波；中欧贸易摩擦扩围</div></details></li>
+<li><strong>原文</strong>：<a href="https://mp.weixin.qq.com/s/ghAhsy8ztmHunp-rh60tFQ" target="_blank">链接</a></li>
+</ul>
+<h3 id="a6">2. 《中金2027年度展望 | 港股市场：不破难立》—— 中金点睛 ｜ 综合 4.7★（增量5·数据5·交易5·时效3）</h3>
+<ul>
+<li><strong>核心观点</strong>：港股破局关键在修复居民资产负债表，需财政倾斜发力，转机可能要待明年年中；当前更类似 2023 下半年至 2024 年初，正逐步接近&quot;价格底&quot;，仍可能凭回调早、分红多而领先修复（始于分红资产）</li>
+<li><strong>关键数据</strong>：基准恒指 25,500/恒科 4,500（悲观 21,000/3,300、乐观 28,500/5,100）；2027 港股盈利增速 2-3%（低于市场预期 10%）；居民贷款余额 82.24 万亿、同比 -2.0%，前三季度净偿还 1 万亿；2027 年 1 月解禁约 2700 亿港元；南向 2026 年流入 4039 亿 vs 2025 年 1.4 万亿港元</li>
+<li><details><summary>逻辑链条</summary><div class="fold-body">K 型分化（企业强居民弱）→ 居民信用周期跌破 924 起点 → 港股&quot;大号消费&quot;弹性最大；美国云厂商边际 ROIC≈WACC → AI 资本开支若放缓 → 政策转向内需的契机在明年年中</div></details></li>
+<li><strong>投资启示</strong>：配置三思路——高股东回报（银行、必需消费）、成本下降（航空、消费电子）、人民币走弱受益出口链（工程机械、家电）；国产算力靠估值驱动波动放大（<a class="etf-link" href="index.html?etf=512800">512800</a>、<a class="etf-link" href="index.html?etf=513180">513180</a>）</li>
+<li><details><summary>风险提示</summary><div class="fold-body">美联储加息超预期；2027 年 1 月解禁高峰；盈利下修</div></details></li>
+<li><strong>预期差</strong>：市场一致预期 2027 港股盈利约 10%，中金测算仅 2-3%</li>
+<li><strong>原文</strong>：<a href="https://mp.weixin.qq.com/s/BKzRyFnwepdp8mIKbL32Uw" target="_blank">链接</a></li>
+</ul>
+<h3 id="a7">3. 《黄金何时迎来转机？》—— CSC研究 宏观团队 ｜ 综合 4.7★（增量5·数据5·交易4·时效5）</h3>
+<ul>
+<li><strong>核心观点</strong>：黄金本轮弱势的答案在流动性——通胀黏性制约联储转松、美元与实际利率高位使部分资金转持美债，金价大跌又触发解杠杆；央行与实物 ETF 仍在承接（Q3 央行净购金 321 吨、10 月 ETF 持金增 19 吨），卖压来自期货多头退出（管理基金净多仓 9/29-10/27 减少 12.3%，六成来自多头平仓）</li>
+<li><strong>关键数据</strong>：9 月底至 11/20 伦敦金累计 -14.5%（超标普 -9.7%）；11/16-20 实际利率回落 15bp 金价反跌 8.0%；10Y TIPS 2.77%（11/20）；高收益债利差单周扩 27bp vs 投资级仅 4bp</li>
+<li><details><summary>逻辑链条</summary><div class="fold-body">美股调整源于企业盈利/融资担忧 → 避险优先流向美债（保留利息收入）→ 黄金无息+流动性好反成筹现对象 → 2006 年 5-6 月（金 -19.1%、10Y 美债 -22bp）为相同剧本</div></details></li>
+<li><strong>投资启示</strong>：短期反弹看加息预期下修（12 月会议）；2027 年更持久机会看&quot;弱美元交易&quot;——美债若无力对冲美股、海外资金降美元敞口；关注 2027 年 2 月下旬至 3 月核心通胀验证（<a class="etf-link" href="index.html?etf=518880">518880</a>）</li>
+<li><details><summary>风险提示</summary><div class="fold-body">AI 拥挤度去杠杆放大波动；沃什沟通框架生变；地缘反复</div></details></li>
+<li><strong>原文</strong>：<a href="https://mp.weixin.qq.com/s/uvUqHay60jl4051LXp~xig" target="_blank">链接</a></li>
+</ul>
+<h3 id="a8">4. 《黄仁勋事件的本质：美国党争和芯片管制》—— 泽平宏观展望 ｜ 综合 4.7★（增量5·数据5·交易4·时效5）</h3>
+<ul>
+<li><strong>核心观点</strong>：黄仁勋复职是特朗普（股指失血、产业链代价、开源路线制衡）与科技圈联手对抗民主党围剿的结果，但中期选举后党争才刚开幕；美国芯片管制已从&quot;按国家划线&quot;升级为&quot;按圈划线&quot;（BIS 新规扩至 5 国+封堵远程算力），英伟达 Q4 指引不含任何中国数据中心收入</li>
+<li><strong>关键数据</strong>：英伟达单日市值 +9524 亿美元创全球纪录；2026H1 中国 AI 加速卡出货 200.8 万张，国产份额首次超英伟达（国产整体超 60%）；中国 AI 芯片自给率 2026E 45%→2027E 68%→2030E 95%；DeepSeek V4 全量基于昇腾训练</li>
+<li><details><summary>逻辑链条</summary><div class="fold-body">民主党掌控两院 → 听证/调查/立法加强管制 → 英伟达对华收入占比降至约 7% → 国产替代加速：用超节点系统级工程弥补单卡性能差距（昇腾 960 可扩展至 4096 卡）</div></details></li>
+<li><strong>投资启示</strong>：AI 长期是第四次科技革命，国产算力国产替代是长期战略主线；短期关注 12 月 1-3 日三场听证会扰动（<a class="etf-link" href="index.html?etf=512480">512480</a>、<a class="etf-link" href="index.html?etf=513100">513100</a>）</li>
+<li><details><summary>风险提示</summary><div class="fold-body">党争不确定性上升；AI 监管加强；中美关系阶段性扰动</div></details></li>
+<li><strong>原文</strong>：<a href="https://mp.weixin.qq.com/s/PMyUOJ7IKtCkovzHmJJ8sQ" target="_blank">链接</a></li>
+</ul>
+<h3 id="a9">5. 《加息迷局：美联储双重目标的再平衡》—— 川阅全球宏观 ｜ 综合 4.4★（增量5·数据5·交易3·时效5）</h3>
+<ul>
+<li><strong>核心观点</strong>：本轮加息是对通胀的预防性操作而非针对过热的逆周期收紧；利率不敏感行业占新增非农近 60%（医疗保健单一行业贡献 58.6%），温和加息下就业失速风险有限；加息核心目标是遏制住房通胀反弹（住房贡献核心 CPI 六成以上）</li>
+<li><strong>关键数据</strong>：历史弹性为政策利率每上行 1pp 非农月均新增回落 4.8 万人，本轮 75-100bp 对应静态回落 3.6-4.8 万，而 2026 年 1-10 月非农月均新增 8.6 万；10 月 CPI 年化环比&gt;3% 分项占比 54.5%（8 月仅 36.3%）；加息终点至首轮降息平均间隔约 9 个月</li>
+<li><details><summary>逻辑链条</summary><div class="fold-body">就业结构利率钝化 + 通胀扩散苗头 → 美联储可从容加息 3-4 次 → 通胀明年基数抬升回落 → 加息上半年收官，降息最早明年年底</div></details></li>
+<li><strong>投资启示</strong>：紧缩脉冲温和、衰退概率低——对美债/黄金的压制时间可能长于市场预期；关注 2027 年 1 月/3 月 FOMC 节奏（<a class="etf-link" href="index.html?etf=513100">513100</a>、<a class="etf-link" href="index.html?etf=518880">518880</a>）</li>
+<li><details><summary>风险提示</summary><div class="fold-body">财政压力推升长端利率；油价与通胀超预期上行</div></details></li>
+<li><strong>原文</strong>：<a href="https://mp.weixin.qq.com/s/W~It-E2NFnbC65ZDT2dWgA" target="_blank">链接</a></li>
+</ul>
+<h3 id="a10">6. 《金银铜价继续下跌的风险并未完全解除》—— 丹湖渔翁 ｜ 综合 4.2★（增量4·数据3·交易5·时效5）</h3>
+<ul>
+<li><strong>核心观点</strong>：11/23 金银铜反弹仅是黄仁勋复职带来的不确定性下降的短暂反应，随后已回落；除副主席外 9 名表态票委全部主张 12 月加息（12 月加息概率 100%），Williams 强调&quot;持续地&quot;将通胀恢复到 2%，加息预期将像幽灵一样继续压制金融资产</li>
+<li><strong>关键数据</strong>：今晚 21:30 公布 10 月 PCE，预期同比 3.3%；作者预判美联储 2026 年 12 月、2027 年 1 月、3 月各加 25bp；LME 铜 2027 年可能跌破 13000 甚至 12000 美元/吨</li>
+<li><details><summary>逻辑链条</summary><div class="fold-body">加息预期未消 → 美债名义/实际收益率易涨难跌 → 美元强势 → 金银铜弱势、易跌难涨，且 12 月加息不构成利空出尽（市场将纠结 2027 年路径）</div></details></li>
+<li><strong>投资启示</strong>：黄金、白银、LME 铜 12 月中旬前易跌难涨，抄底有风险千万谨慎；美股 AI 科技股剧烈波动并将传导 A 股（<a class="etf-link" href="index.html?etf=518880">518880</a>、<a class="etf-link" href="index.html?etf=512400">512400</a>、<a class="etf-link" href="index.html?etf=513100">513100</a>）</li>
+<li><details><summary>风险提示</summary><div class="fold-body">作者个人观点风格鲜明，节奏判断存在主观性</div></details></li>
+<li><strong>原文</strong>：<a href="https://mp.weixin.qq.com/s/S4YqNA3MTdprt8MCfbLikA" target="_blank">链接</a></li>
+</ul>
+<h3 id="a11">7. 《高开低走》—— 郁见投资（兴业固收刘郁团队） ｜ 综合 3.9★（增量3·数据4·交易4·时效5）</h3>
+<ul>
+<li><strong>核心观点</strong>：11/24 权益高开回落（创业板指高开 3.88% 收跌 0.05%），主导力量是内资而非外盘情绪——海外算力链机构持仓拥挤、资金借利好兑现筹码（中际旭创高开 11% 收跌 0.05%）；债市顺势走强，10Y/30Y 国债收益率下行至 1.58%/2.02%；政金债因税收新政猜想午后调整，但公募所得税恢复征收可能性不大，非理性调整或是修复机会</li>
+<li><strong>关键数据</strong>：全 A 成交 1.67 万亿（+1038 亿）；R001/R007 上行至 1.36%/1.42%；25 日央行将投放 5000 亿 7 天逆回购、MLF 缩量续作 2000 亿（&quot;收长放短&quot;）；大行 11 月累计净买入 2921 亿</li>
+<li><details><summary>逻辑链条</summary><div class="fold-body">A 股风偏修复曲折 → 股债跷跷板利好债市；监管&quot;拉平利率下行斜率&quot;对 10Y/30Y 约束更强，但政金债利差压缩空间仍在</div></details></li>
+<li><strong>投资启示</strong>：债市关注政金债修复机会与跨月资金面；权益端算力反弹空间受限，资金或沿 AI 产业链挖掘应用端（物理 AI、机器人、短剧、传媒），红利避险属性仍值得关注（<a class="etf-link" href="index.html?etf=511090">511090</a>、<a class="etf-link" href="index.html?etf=511520">511520</a>、<a class="etf-link" href="index.html?etf=512480">512480</a>）</li>
+<li><details><summary>风险提示</summary><div class="fold-body">基本面修复超预期；流动性收紧超预期</div></details></li>
+<li><strong>预期差</strong>：黄仁勋复职后 A 股算力链表现显著弱于外盘预期</li>
+<li><strong>原文</strong>：<a href="https://mp.weixin.qq.com/s/AAje7AJfTRuRPqqrxCZzoA" target="_blank">链接</a></li>
+</ul>
+<h3 id="a12">8. 《化债下半程：多方资源协同支撑债务有序化解》—— 固收亮话（国联民生固收徐亮团队） ｜ 综合 3.8★（增量4·数据5·交易3·时效3）</h3>
+<ul>
+<li><strong>核心观点</strong>：化债重心正从隐性债务转向平台经营性债务（2026 年 6 月末名单内经营性金融债务约 4 万亿、较 2023 年 3 月末减少 79%）；财政+银行+国资协同具备支撑基础，静态测算对银行净息差影响有限（年化收窄 0.8-1.7bp），城投公开债偿付秩序稳定有望延续</li>
+<li><strong>关键数据</strong>：特殊新增专项债+置换债累计发行 8.29 万亿（约 54% 置换银行贷款）；城投有息债务 67.3 万亿（2025 末，增速降至 6.3%）；城投债平均发行利率接近 2%；全国城商行理论新增贷款空间约 8.27 万亿</li>
+<li><details><summary>逻辑链条</summary><div class="fold-body">隐债置换接近完成 → 经营性债务成新重点 → 银行承接（贷款 60%/债券 30%/非标 10%）+财政国资分担 → 融资成本下降与偿债资源改善相互促进</div></details></li>
+<li><strong>投资启示</strong>：城投债配置基础有望进一步夯实，关注资源统筹有力、接续方案明确、现金流改善的主体；公开债（含政金债利差逻辑外溢）配置价值延续（<a class="etf-link" href="index.html?etf=511520">511520</a>）</li>
+<li><details><summary>风险提示</summary><div class="fold-body">银行承接意愿不足；地方财力修复不及预期；信用风险暴露超预期</div></details></li>
+<li><strong>原文</strong>：<a href="https://mp.weixin.qq.com/s/tx5e1hzZDJovUchmZ3uxhw" target="_blank">链接</a></li>
+</ul>
+<h2>五、次要速览（2.6~3.5 分，每篇一行）</h2>
+<ul>
+<li>【丹湖渔翁·3.6】《从极鸽到极鹰，耿直还是邀宠：美联储理事Waller观点的演变》：梳理 Waller 一年内从极鸽转向极鹰的全过程，判断其转向是在向新主席沃什&quot;邀宠&quot;，与《加息迷局》同题</li>
+<li>【早安汇市·3.2】《美债：加息进程中的曲线策略研究（2）》：1s2s 利差回落快于 3m12m、远端已酝酿降息预期，3m-1s-2s 蝶式利差 30bp 历史高位，若非超级加息周期可用蝶式交易把握 1 年部位相对价值</li>
+<li>【虎投虎脑Tips·2.8】《黄仁勋复职对股债技术目标的影响》：纳指 AI 逻辑回归或给 A 债带来短线情绪冲击，TL2703 回踩 117.09 附近可布局大波段多头；上证最大反弹值看 3581，与《黄仁勋事件的本质》同题</li>
+</ul>
+<h2>六、预期差事件（无则写&quot;今日无明显预期差事件&quot;）</h2>
+<ul>
+<li>事件：黄仁勋复职英伟达单日 +31.48%、纳指 +6.51%，但 A 股海外算力链高开低走（中际旭创高开 11.03% 收跌 0.05%）｜标的：<a class="etf-link" href="index.html?etf=512480">512480</a> 算力链｜方向：实际差于预期（机构筹码拥挤借利好兑现）</li>
+</ul>
+<h2>七、未来催化日历（未来 1-4 周）</h2>
+<div class="table-wrap"><table>
+<tr><th>日期</th><th>事件</th><th>关联标的</th></tr>
+<tr><td>2026-11-25 21:30</td><td>美国 10 月 PCE（预期同比 3.3%）</td><td><a class="etf-link" href="index.html?etf=518880">518880</a>、<a class="etf-link" href="index.html?etf=512400">512400</a></td></tr>
+<tr><td>2026-12-01~03</td><td>众议院闭门听证/总法律顾问听证/参议院公开听证（英伟达出口管制）</td><td><a class="etf-link" href="index.html?etf=512480">512480</a>、<a class="etf-link" href="index.html?etf=513100">513100</a></td></tr>
+<tr><td>2026-12-05</td><td>市场传自律会议召开，同业存款利率或下调</td><td><a class="etf-link" href="index.html?etf=511090">511090</a>、<a class="etf-link" href="index.html?etf=511520">511520</a></td></tr>
+<tr><td>2026-12-09~10</td><td>美联储 FOMC 议息（12 月加息 25bp 几成定局）</td><td><a class="etf-link" href="index.html?etf=513100">513100</a>、<a class="etf-link" href="index.html?etf=518880">518880</a></td></tr>
+<tr><td>2026-12-初</td><td>恒生科技指数扩容 30→50 只落地</td><td><a class="etf-link" href="index.html?etf=513180">513180</a></td></tr>
+<tr><td>2027-01</td><td>港股解禁高峰约 2700 亿港元</td><td><a class="etf-link" href="index.html?etf=513180">513180</a></td></tr>
+</table></div>
+<h2>八、归档（&lt;2.6 分，仅计数）</h2>
+<p>共 1 篇：《【瞎扯】债市也能复辟吗？》（吐槽吖：闲聊式复盘 MLF 缩量与非银资金分层，观点增量与数据密度均低）</p>
+<h2>附：待补抓清单</h2>
+<blockquote>
+<p>自动生成：正文补齐后本清单自动消失，无需手工维护。</p>
+</blockquote>
+<details class="tbl-fold"><summary>表格 13 行 · 点击展开</summary><div class="table-wrap"><table>
+<tr><th>标题</th><th>来源</th><th>失败类型</th><th>已重试</th><th>下次重试</th></tr>
+<tr><td><a href="https://mp.weixin.qq.com/s/ulCbmPKoCDCFi~v1gJeMmw" target="_blank">金价短期仍看美股</a></td><td>郁言债市</td><td>环境校验类（env_verify）</td><td>5 次</td><td>2026-11-25 15:29</td></tr>
+<tr><td><a href="https://mp.weixin.qq.com/s/C05SZaa3amQ1ZtplMg-JpQ" target="_blank">人民币狂贬是为何？</a></td><td>虎投虎脑Tips</td><td>URL 类（bad_link）</td><td>10 次</td><td>2026-11-26 03:30</td></tr>
+<tr><td><a href="https://mp.weixin.qq.com/s/8W75X-Tvrwofge26cO6Sog" target="_blank">黄仁勋回归与美股大涨</a></td><td>Kevin策略研究</td><td>环境校验类（env_verify）</td><td>12 次</td><td>2026-11-26 07:29</td></tr>
+<tr><td><a href="https://mp.weixin.qq.com/s/b48cL9eWquJ4okuVNoRT-g" target="_blank">ETF跟踪 ｜ 宽基指数ETF净流入170亿元</a></td><td>郁见投资</td><td>环境校验类（env_verify）</td><td>12 次</td><td>2026-11-26 07:30</td></tr>
+<tr><td><a href="https://mp.weixin.qq.com/s/mgdYvkSZTAX-8OI8oB0N6w" target="_blank">陕西新兴产业全景调研·年度策略会特别策划</a></td><td>中金点睛</td><td>环境校验类（env_verify）</td><td>20 次</td><td>2026-11-26 07:30</td></tr>
+<tr><td><a href="https://mp.weixin.qq.com/s/QRrCET6mgn~wdQ06TncirQ" target="_blank">中金热点解读 ｜ 政策利率换锚</a></td><td>中金点睛</td><td>环境校验类（env_verify）</td><td>22 次</td><td>2026-11-26 07:30</td></tr>
+<tr><td><a href="https://mp.weixin.qq.com/s/dW9oxB0poMZS2~sGNZWSkg" target="_blank">【周二15:30】2027年全球市场展望</a></td><td>Kevin策略研究</td><td>环境校验类（env_verify）</td><td>24 次</td><td>2026-11-26 07:30</td></tr>
+<tr><td><a href="https://mp.weixin.qq.com/s/HbseGhVZ4dBhYWWcg4lEVw" target="_blank">科创ETF成分券，性价比显现</a></td><td>郁言债市</td><td>环境校验类（env_verify）</td><td>24 次</td><td>2026-11-26 07:30</td></tr>
+<tr><td><a href="https://mp.weixin.qq.com/s/A4nooXeLce8wyN4V1Iiy~A" target="_blank">本周动态：市场跌到哪了？</a></td><td>Kevin策略研究</td><td>环境校验类（env_verify）</td><td>31 次</td><td>2026-11-26 07:30</td></tr>
+<tr><td><a href="https://mp.weixin.qq.com/s/bXZbLBYr3HPaV16cqfce8Q" target="_blank">中金点睛「量化择时Skill」正式上线！</a></td><td>中金点睛</td><td>环境校验类（env_verify）</td><td>35 次</td><td>2026-11-26 07:30</td></tr>
+<tr><td><a href="https://mp.weixin.qq.com/s/VuEy17I7q50s6kqrYMFgAQ" target="_blank">【宏观策略周论EP91】市场跌到哪了？</a></td><td>Kevin策略研究</td><td>环境校验类（env_verify）</td><td>56 次</td><td>2026-11-26 07:30</td></tr>
+<tr><td><a href="https://mp.weixin.qq.com/s/Ynv0JdhG~5As4dCowfDGcg" target="_blank">中金点睛「量化择时Skill」正式上线！</a></td><td>中金点睛</td><td>环境校验类（env_verify）</td><td>61 次</td><td>2026-11-26 07:30</td></tr>
+<tr><td><a href="https://mp.weixin.qq.com/s/Mptu3po~14JsjPwVWXXe~w" target="_blank">ETF跟踪 ｜ 宽基指数ETF净流入478亿元</a></td><td>郁见投资</td><td>环境校验类（env_verify）</td><td>61 次</td><td>2026-11-26 07:30</td></tr>
+</table></div></details>
+<blockquote>
+<p>另有已放弃 41 篇（发布日期超过 5 天，停止自动重试）：环境校验 38 / 正文过短 2 / 链接失效 1。归档见 <code>output/retry_archive.json</code>，不在本清单占版面。</p>
+</blockquote>
+<blockquote>
+<p>抓取对账：3 个信号（url_transcribe_tilde 1 / fetch_env_verify 1 / url_bad_link 1），详见 <code>output/capture_audit.json</code>。</p>
+</blockquote>
+<style>
+.term { border-bottom: 1px dashed #b08fd0; cursor: help; position: relative; }
+.term:hover::after { content: attr(data-tip); position: absolute; left: 0; bottom: 130%; z-index: 99;
+  background: #333; color: #fff; padding: 6px 10px; border-radius: 6px; font-size: 12px; line-height: 1.5;
+  max-width: 340px; width: max-content; white-space: normal; box-shadow: 0 2px 8px rgba(0,0,0,.3); }
+</style>
+<script>
+(function(){
+  const G = {"DR001": "银行间存款类机构隔夜质押式回购加权利率，资金面松紧的核心观测指标", "DR007": "银行间存款类机构7天质押式回购加利率，央行重点关注的市场利率", "社融": "社会融资规模：实体经济从金融体系获得的融资总额，衡量信用扩张力度", "M2": "广义货币供应量，反映全社会货币总量", "M1": "狭义货币供应量（现金+单位活期存款），反映资金活化程度", "PMI": "采购经理指数，50为荣枯线，高于50代表景气扩张", "荣枯线": "PMI 的 50 分界线，之上扩张、之下收缩", "CPI": "居民消费价格指数，衡量通胀水平", "PPI": "工业生产者出厂价格指数，衡量上游工业品价格", "摊余成本法": "按买入成本+应计利息计价的估值方法，净值波动小，与市值法相对", "二永债": "二级资本债与永续债的合称，银行补充资本的信用债品种", "买断式逆回购": "央行买入债券并约定日后卖回的操作，向市场投放中长期流动性", "逆回购": "央行向一级交易商买入债券并约定未来卖回，向市场投放短期流动性", "久期": "债券价格对利率变动的敏感度，久期越长利率风险越大", "资产荒": "优质高收益资产稀缺、资金追逐有限资产的格局", "K型分化": "总量平稳但内部一部分向上、另一部分向下的分化形态", "城投债": "地方政府融资平台发行的债券", "ARR": "年度经常性收入（Annual Recurring Income），SaaS/AI 公司核心景气指标", "REITs": "不动产投资信托基金，以租金等稳定现金流为收益来源", "可转债": "可按约定价格转股的债券，兼具债性与股性", "转债": "可转换债券的简称，可按约定转股，兼具债性与股性", "活跃券": "某期限中成交最活跃、定价基准性最强的国债个券", "MLF": "中期借贷便利，央行向银行投放中期资金的工具，政策利率之一", "LPR": "贷款市场报价利率，银行贷款定价基准", "利差压缩": "信用利差或期限利差缩小，债券相对性价比下降", "利差": "两类债券收益率的差值，常用作估值/风险补偿的度量", "挤仓": "期货近月合约因可交割现货不足导致的逼空行情", "净融资": "新发规模减去到期偿还后的净增量", "止盈": "达到目标收益后卖出锁定利润", "TL": "30年期国债期货合约", "银行间杠杆率": "质押式回购余额/可质押债券托管量，衡量债市杠杆水平", "一致预期": "市场参与者预期的中位数/主流看法，实际偏离时常引发交易", "预期差": "实际情况与市场预期的偏离，超额收益的主要来源", "净值化管理": "资管产品按市价估值、不再刚性兑付的监管要求", "标普500": "美国500家大盘股指数，美股核心宽基", "纳指": "纳斯达克指数，美股科技股代表指数"};
+  const terms = Object.keys(G).sort((a, b) => b.length - a.length);
+  const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const parts = terms.map(t => /^[A-Za-z0-9]+$/.test(t)
+    ? '(?<![A-Za-z0-9])' + esc(t) + '(?![A-Za-z0-9])' : esc(t));
+  const re = new RegExp(parts.join('|'), 'g');
+  function walk(node){
+    if (node.nodeType === 3){
+      const s = node.textContent;
+      re.lastIndex = 0;
+      if (!re.test(s)) return;
+      re.lastIndex = 0;
+      const frag = document.createDocumentFragment();
+      let last = 0, m;
+      while ((m = re.exec(s))){
+        if (m.index > last) frag.appendChild(document.createTextNode(s.slice(last, m.index)));
+        const sp = document.createElement('span');
+        sp.className = 'term'; sp.textContent = m[0];
+        sp.setAttribute('data-tip', G[m[0]] || '');
+        frag.appendChild(sp);
+        last = m.index + m[0].length;
+      }
+      if (last < s.length) frag.appendChild(document.createTextNode(s.slice(last)));
+      node.parentNode.replaceChild(frag, node);
+    } else if (node.nodeType === 1 && !/^(SCRIPT|STYLE|CODE|A|TEXTAREA|INPUT|SELECT|BUTTON)$/.test(node.tagName)){
+      Array.from(node.childNodes).forEach(walk);
+    }
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function(){ walk(document.body); });
+  else walk(document.body);
+})();
+</script>
+</body>
+</html>
