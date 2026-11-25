@@ -1,55 +1,45 @@
 {
- "updated": "2026-11-24",
- "date": "2026-11-24",
- "sentiment_index": 84.0,
+ "updated": "2026-11-25",
+ "date": "2026-11-25",
+ "sentiment_index": 69.0,
  "risk_level": {
   "level": "高",
-  "score": 82,
+  "score": 93,
   "cats": {
-   "宏观流动性": 7.8,
+   "宏观流动性": 10.8,
    "地缘政治": 0.0,
-   "板块情绪": 8.6,
+   "板块情绪": 7.8,
    "估值水平": 0.0
   },
   "advice": "⚠ 风险等级偏高，防御关注：511090（30年国债）、518880（黄金）"
  },
  "scores": [
   {
-   "code": "518880",
-   "name": "黄金",
-   "grade": "强推",
-   "score": 81,
-   "delta": 49,
-   "bull": 3,
-   "bear": 0,
-   "neutral": 0
-  },
-  {
-   "code": "512660",
-   "name": "军工",
+   "code": "512800",
+   "name": "银行",
    "grade": "关注",
-   "score": 80,
+   "score": 82,
    "delta": null,
    "bull": 1,
    "bear": 0,
    "neutral": 0
   },
   {
-   "code": "512690",
-   "name": "酒",
+   "code": "511520",
+   "name": "",
    "grade": "关注",
-   "score": 79,
+   "score": 76,
    "delta": null,
    "bull": 2,
    "bear": 0,
    "neutral": 0
   },
   {
-   "code": "511090",
-   "name": "30年国债",
+   "code": "512480",
+   "name": "半导体",
    "grade": "关注",
-   "score": 61,
-   "delta": -10,
+   "score": 66,
+   "delta": null,
    "bull": 1,
    "bear": 0,
    "neutral": 2
@@ -57,12 +47,62 @@
   {
    "code": "513100",
    "name": "纳指",
+   "grade": "观望",
+   "score": 64,
+   "delta": 6,
+   "bull": 0,
+   "bear": 0,
+   "neutral": 2
+  },
+  {
+   "code": "511090",
+   "name": "30年国债",
+   "grade": "关注",
+   "score": 63,
+   "delta": 2,
+   "bull": 2,
+   "bear": 1,
+   "neutral": 0
+  },
+  {
+   "code": "518880",
+   "name": "黄金",
    "grade": "规避",
-   "score": 58,
-   "delta": 12,
+   "score": 52,
+   "delta": -29,
+   "bull": 0,
+   "bear": 2,
+   "neutral": 1
+  },
+  {
+   "code": "510300",
+   "name": "沪深300",
+   "grade": "规避",
+   "score": 50,
+   "delta": null,
    "bull": 0,
    "bear": 1,
    "neutral": 2
+  },
+  {
+   "code": "512400",
+   "name": "有色/铜",
+   "grade": "规避",
+   "score": 45,
+   "delta": null,
+   "bull": 0,
+   "bear": 2,
+   "neutral": 0
+  },
+  {
+   "code": "513180",
+   "name": "恒生科技",
+   "grade": "规避",
+   "score": 42,
+   "delta": null,
+   "bull": 0,
+   "bear": 1,
+   "neutral": 0
   }
  ]
 }
