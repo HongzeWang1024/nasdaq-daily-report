@@ -1,6 +1,374 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "articles": [
+  {
+   "date": "2026-11-27",
+   "title": "AI债务风险几何？——结构性而非系统性，关注表外债务隐忧",
+   "author": "中金固定收益研究",
+   "url": "https://mp.weixin.qq.com/s/p533KeSScLu-jRR7Mn3Mpg",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "AI产业链风险",
+    "信用债"
+   ],
+   "themes_norm": {
+    "main": "AI 产业链",
+    "subs": [
+     "算力与芯片",
+     "信用债"
+    ],
+    "cats": [
+     "AI 产业链",
+     "信用债与转债"
+    ]
+   },
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 4.6
+   },
+   "summary": "AI债务风险梯度排序：Neocloud＞甲骨文＞大型云厂商＞硬件商；表外义务超2万亿美元是最大隐忧，但系统性传导非基准情景",
+   "page": "research_20261127.html"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "深度 | 高集中带来慢出清，2027权益拥挤度再平衡",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/JQCHzC9T3CEY7sSH8tLqPw",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "权益拥挤度",
+    "机构行为",
+    "2027年配置"
+   ],
+   "themes_norm": {
+    "main": "策略与配置",
+    "subs": [
+     "轮动与择时",
+     "ETF与资金流"
+    ],
+    "cats": [
+     "策略与配置"
+    ]
+   },
+   "etf_sentiment": {
+    "512660": "多",
+    "512170": "多",
+    "512800": "多",
+    "515220": "多",
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 4.5
+   },
+   "summary": "内资机构高胜率考核致电子通信慢出清，2027权益核心是拥挤度再平衡，关注机器人/AI应用/电网设备/创新药/军工及红利方向",
+   "page": "research_20261127.html"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "债市赎回扰动平息了吗？",
+   "author": "固收亮话",
+   "url": "https://mp.weixin.qq.com/s/Uoeund7k3yUQVD5Jcjn_cQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "债市赎回",
+    "信用债",
+    "理财"
+   ],
+   "themes_norm": {
+    "main": "信用债与转债",
+    "subs": [
+     "固收产品",
+     "信用债"
+    ],
+    "cats": [
+     "信用债与转债"
+    ]
+   },
+   "etf_sentiment": {
+    "511090": "中性"
+   },
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "赎回集中在基金端属结构性调仓而非系统性负反馈，负反馈减弱仅完成止跌一部分，信用组合宜2-3年中久期子弹型防守",
+   "page": "research_20261127.html"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "深度 | 2027，准财政或超预期",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/V3yD3KRoHi7zli9P8tL3Jg",
+   "level": "detail",
+   "viewpoint": "多",
+   "themes": [
+    "准财政",
+    "基建",
+    "2027年配置"
+   ],
+   "themes_norm": {
+    "main": "宏观经济",
+    "subs": [
+     "财政政策",
+     "增长与景气"
+    ],
+    "cats": [
+     "宏观经济",
+     "策略与配置"
+    ]
+   },
+   "etf_sentiment": {},
+   "scores": {
+    "total": 4.4
+   },
+   "summary": "传统财政拉动减弱，2027准财政或成发力点：PSL具备加量条件（余额仅0.63万亿+利率1.50%+六张网载体），投资持平需PSL净投放0.9-2.5万亿元",
+   "page": "research_20261127.html"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "中金 | 资产配置：如何应对市场动荡",
+   "author": "中金点睛",
+   "url": "https://mp.weixin.qq.com/s/G8VjysrPqnTaeYWeIzegLQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "资产配置",
+    "美联储",
+    "美债"
+   ],
+   "themes_norm": {
+    "main": "策略与配置",
+    "subs": [
+     "大类资产",
+     "美联储"
+    ],
+    "cats": [
+     "策略与配置",
+     "货币政策与流动性",
+     "利率债"
+    ]
+   },
+   "etf_sentiment": {
+    "518880": "多",
+    "513100": "多"
+   },
+   "scores": {
+    "total": 4.2
+   },
+   "summary": "美联储看跌期权失效下先增配防御资产（现金/中美债券/高股息）再增配流动性资产，美债对冲价值上升，黄金2027Q2是流动性拐点关键窗口",
+   "page": "research_20261127.html"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "雨露均沾",
+   "author": "郁见投资",
+   "url": "https://mp.weixin.qq.com/s/OiC_1axSV3UjJqxXZ_AwfQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "权益复盘",
+    "债市赎回",
+    "红利风格"
+   ],
+   "themes_norm": {
+    "main": "策略与配置",
+    "subs": [
+     "市场情绪",
+     "固收产品"
+    ],
+    "cats": [
+     "策略与配置",
+     "信用债与转债",
+     "权益与行业"
+    ]
+   },
+   "etf_sentiment": {
+    "512800": "多",
+    "511090": "多",
+    "512480": "中性"
+   },
+   "scores": {
+    "total": 3.9
+   },
+   "summary": "三类交易思路并存（银行红利/科技反弹博弈/题材轮动），主线不明宜雨露均沾；信用担忧未出清，利率债每调买机占优",
+   "page": "research_20261127.html"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "逆流：2027年AI融资和全球货币展望",
+   "author": "CSC研究 宏观团队",
+   "url": "https://mp.weixin.qq.com/s/tWS28LlHWrr3_jOkAv2bHQ",
+   "level": "detail",
+   "viewpoint": "中性",
+   "themes": [
+    "全球流动性",
+    "AI融资",
+    "2027年展望"
+   ],
+   "themes_norm": {
+    "main": "货币政策与流动性",
+    "subs": [
+     "流动性",
+     "AI基建"
+    ],
+    "cats": [
+     "货币政策与流动性",
+     "AI 产业链",
+     "策略与配置"
+    ]
+   },
+   "etf_sentiment": {
+    "513100": "中性"
+   },
+   "scores": {
+    "total": 3.6
+   },
+   "summary": "2027年美元潮汐方向性转折：AI信用扩张放缓+欧日债市压力+中国流动性边际改善三力拉扯，全球流动性先紧后松，美元先强后弱",
+   "page": "research_20261127.html"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "美国中期选举之后的变局",
+   "author": "泽平宏观展望",
+   "url": "https://mp.weixin.qq.com/s/9ZeaCXVrf7kgz1xET-UfzQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "美国中期选举",
+    "AI监管",
+    "中美科技博弈"
+   ],
+   "themes_norm": {
+    "main": "宏观经济",
+    "subs": [
+     "海外宏观",
+     "算力与芯片"
+    ],
+    "cats": [
+     "宏观经济",
+     "AI 产业链",
+     "权益与行业"
+    ]
+   },
+   "etf_sentiment": {
+    "512480": "多"
+   },
+   "scores": {
+    "total": 3.4
+   },
+   "summary": "民主党横扫两院开启党争，AI监管四类措施中调查+电网收费最可能落地，利好国产算力替代与电网设备出海，短期加息长期降息",
+   "page": "research_20261127.html"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "人民币：27年出口的展望",
+   "author": "早安汇市",
+   "url": "https://mp.weixin.qq.com/s/iSsmwWxpIS0g5gy7xDj3OQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [
+    "人民币汇率",
+    "出口"
+   ],
+   "themes_norm": {
+    "main": "商品与外汇",
+    "subs": [
+     "汇率与美元",
+     "海外宏观"
+    ],
+    "cats": [
+     "商品与外汇",
+     "宏观经济"
+    ]
+   },
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.7
+   },
+   "summary": "2027出口增速预期约9%温和放缓，CNY有效汇率指数或筑顶，明年掉期行情机遇大于即期",
+   "page": "research_20261127.html"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "深度 | 高集中带来慢出清，2027权益拥挤度再平衡（郁言债市号转发）",
+   "author": "郁言债市",
+   "url": "https://mp.weixin.qq.com/s/gPPmw0mTw0pTjy5rEHRuPQ",
+   "level": "brief",
+   "viewpoint": "中性",
+   "themes": [],
+   "themes_norm": {
+    "main": "其他",
+    "subs": [],
+    "cats": [
+     "其他"
+    ]
+   },
+   "etf_sentiment": {},
+   "scores": {
+    "total": 2.7
+   },
+   "summary": "与《郁见投资》保留篇同源（兴业证券刘郁团队报告双号发布），内容一致，详见详读篇",
+   "page": "research_20261127.html"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "【瞎扯】信用债没有信用，利率债倒有利率",
+   "author": "吐槽吖",
+   "url": "https://mp.weixin.qq.com/s/HVeGs9HCJVbXLBpdL1Orxw",
+   "level": "brief",
+   "viewpoint": "多",
+   "themes": [
+    "信用债",
+    "利率债"
+   ],
+   "themes_norm": {
+    "main": "信用债与转债",
+    "subs": [
+     "信用债",
+     "国债与利率"
+    ],
+    "cats": [
+     "信用债与转债",
+     "利率债"
+    ]
+   },
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 2.6
+   },
+   "summary": "万科年内已展期8只债、HF筹1200亿+只保标债，信用债承压；传存款利率即将下调，利率债确定性更强",
+   "page": "research_20261127.html"
+  },
+  {
+   "date": "2026-11-27",
+   "title": "通俗的聊两个债市热门观点",
+   "author": "虎投虎脑Tips",
+   "url": "https://mp.weixin.qq.com/s/Ma-IHn9PCEefmsJobBt08w",
+   "level": "archived",
+   "viewpoint": "多",
+   "themes": [],
+   "themes_norm": {
+    "main": "其他",
+    "subs": [],
+    "cats": [
+     "其他"
+    ]
+   },
+   "etf_sentiment": {
+    "511090": "多"
+   },
+   "scores": {
+    "total": 2.5
+   },
+   "summary": "城投化债与国债确定性的通俗化复读，无增量信息",
+   "page": "research_20261127.html"
+  },
   {
    "date": "2026-11-26",
    "title": "2027转债，总有一种策略脱颖而出",
