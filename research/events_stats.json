@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "events": [
   {
    "event": "美国中期选举",
@@ -170,6 +170,23 @@
    "avg_ret_7d": null
   },
   {
+   "event": "10000亿MLF到期",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-25",
+     "r1": -0.0,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
    "event": "10月CPI/PPI数据（华创预测PPI 5.4%/CPI 0.7%，预计发布日）",
    "target": "512400",
    "name": "有色/铜",
@@ -269,6 +286,23 @@
    ],
    "avg_ret_1d": -0.0015,
    "avg_ret_3d": -0.0042,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "11月MLF续作公告（到期1万亿）",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-25",
+     "r1": -0.0,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0,
+   "avg_ret_3d": null,
    "avg_ret_7d": null
   },
   {
@@ -637,12 +671,12 @@
     {
      "date": "2026-11-21",
      "r1": 0.0147,
-     "r3": null,
+     "r3": -0.0695,
      "r7": null
     }
    ],
    "avg_ret_1d": 0.0147,
-   "avg_ret_3d": null,
+   "avg_ret_3d": -0.0695,
    "avg_ret_7d": null
   },
   {
@@ -729,6 +763,40 @@
    "avg_ret_1d": 0.0067,
    "avg_ret_3d": -0.0201,
    "avg_ret_7d": -0.1245
+  },
+  {
+   "event": "MLF到期1万亿元（11月16日另有6M买断式逆回购到期3000亿元）",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-25",
+     "r1": -0.0,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
+  },
+  {
+   "event": "MLF到期1万亿续作公告（央行态度关键窗口）",
+   "target": "511090",
+   "name": "30年国债",
+   "samples": 1,
+   "history": [
+    {
+     "date": "2026-11-25",
+     "r1": -0.0,
+     "r3": null,
+     "r7": null
+    }
+   ],
+   "avg_ret_1d": 0.0,
+   "avg_ret_3d": null,
+   "avg_ret_7d": null
   },
   {
    "event": "三季报业绩预告期",
@@ -1845,12 +1913,12 @@
      "date": "2026-11-17",
      "r1": 0.0005,
      "r3": -0.0425,
-     "r7": null
+     "r7": -0.0429
     }
    ],
    "avg_ret_1d": 0.0005,
    "avg_ret_3d": -0.0425,
-   "avg_ret_7d": null
+   "avg_ret_7d": -0.0429
   },
   {
    "event": "美联储生产率与就业工作组听证会",
