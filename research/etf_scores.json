@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-26",
- "date": "2026-11-26",
- "sentiment_index": 22.0,
+ "updated": "2026-11-27",
+ "date": "2026-11-27",
+ "sentiment_index": 86.0,
  "risk_level": {
-  "level": "高",
-  "score": 100,
+  "level": "中",
+  "score": 58,
   "cats": {
-   "宏观流动性": 8.1,
-   "地缘政治": 3.6,
-   "板块情绪": 9.4,
+   "宏观流动性": 4.0,
+   "地缘政治": 2.0,
+   "板块情绪": 5.5,
    "估值水平": 0.0
   },
-  "advice": "⚠ 风险等级偏高，防御关注：511090（30年国债）、518880（黄金）"
+  "advice": "⚠ 风险等级中等，防御关注：511090（30年国债）、518880（黄金）"
  },
  "scores": [
   {
-   "code": "511380",
-   "name": "可转债",
+   "code": "512660",
+   "name": "军工",
    "grade": "关注",
-   "score": 82,
+   "score": 79,
    "delta": null,
    "bull": 1,
    "bear": 0,
    "neutral": 0
   },
   {
-   "code": "512800",
-   "name": "银行",
+   "code": "512170",
+   "name": "医疗",
    "grade": "关注",
-   "score": 73,
-   "delta": -9,
+   "score": 79,
+   "delta": null,
    "bull": 1,
    "bear": 0,
    "neutral": 0
@@ -38,51 +38,61 @@
    "code": "515220",
    "name": "煤炭",
    "grade": "关注",
-   "score": 73,
+   "score": 79,
+   "delta": 6,
+   "bull": 1,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "512800",
+   "name": "银行",
+   "grade": "关注",
+   "score": 77,
+   "delta": 4,
+   "bull": 2,
+   "bear": 0,
+   "neutral": 0
+  },
+  {
+   "code": "518880",
+   "name": "黄金",
+   "grade": "关注",
+   "score": 74,
    "delta": null,
    "bull": 1,
    "bear": 0,
    "neutral": 0
   },
   {
-   "code": "512200",
-   "name": "",
-   "grade": "关注",
-   "score": 66,
-   "delta": null,
-   "bull": 1,
-   "bear": 0,
-   "neutral": 1
-  },
-  {
    "code": "511090",
    "name": "30年国债",
    "grade": "关注",
-   "score": 62,
-   "delta": -1,
-   "bull": 1,
+   "score": 71,
+   "delta": 9,
+   "bull": 2,
    "bear": 0,
    "neutral": 1
   },
   {
    "code": "513100",
    "name": "纳指",
-   "grade": "观望",
-   "score": 54,
-   "delta": -10,
-   "bull": 0,
+   "grade": "关注",
+   "score": 68,
+   "delta": 14,
+   "bull": 1,
    "bear": 0,
    "neutral": 2
   },
   {
    "code": "512480",
    "name": "半导体",
-   "grade": "规避",
-   "score": 33,
-   "delta": -33,
-   "bull": 0,
-   "bear": 1,
-   "neutral": 0
+   "grade": "关注",
+   "score": 62,
+   "delta": 29,
+   "bull": 1,
+   "bear": 0,
+   "neutral": 2
   }
  ]
 }
